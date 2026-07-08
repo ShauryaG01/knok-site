@@ -29,14 +29,16 @@ from __future__ import annotations
 import argparse
 import json
 import os
-import re
 import secrets
 import sys
 import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
-from datetime import UTC, datetime
+from datetime import datetime, timezone
+
 from pathlib import Path
+
+UTC = timezone.utc
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 OUTPUT_DIR = PROJECT_ROOT / "output"
