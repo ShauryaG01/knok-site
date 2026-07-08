@@ -1,0 +1,28 @@
+# .github/workflows/indexing.yml  (in the knok-site repo)
+name: Search-engine indexing drip
+on:
+  schedule:
+    - cron: "47 3 * * *"    # 09:17 IST
+    - cron: "23 11 * * *"   # 16:53 IST — uneven times, Flash pattern
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install google-auth
+      - name: Submit newly-published URLs (IndexNow + Google, 200/day cap)
+        env:
+          GOOGLE_INDEXING_KEY_JSON: ${{ secrets.GOOGLE_INDEXING_KEY_JSON }}
+        run: python scripts/submit_indexing.py --newly-published
+      - name: Commit submit log
+        run: |
+          git config user.name "knok-bot"
+          git config user.email "bot@knok.work"
+          git add data/indexing_submit_log.json data/indexnow_key.txt || true
+          git diff --cached --quiet || git commit -m "indexing: drip $(date -u +%F)"
+          git push
