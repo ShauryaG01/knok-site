@@ -11,6 +11,19 @@
    ],
    "total": 4,
    "remaining": 52
+  },
+  {
+   "date": "2026-07-08T16:41:38+00:00",
+   "count": 5,
+   "slugs": [
+    "razorpay-product-manager-interview",
+    "razorpay-software-engineer-interview",
+    "swiggy-product-manager-interview",
+    "swiggy-software-engineer-interview",
+    "cred-product-manager-interview"
+   ],
+   "total": 9,
+   "remaining": 47
   }
  ]
 }
