@@ -73,6 +73,18 @@
    ],
    "total": 26,
    "remaining": 30
+  },
+  {
+   "date": "2026-07-09T10:44:30+00:00",
+   "count": 4,
+   "slugs": [
+    "data-scientist-jobs-hyderabad",
+    "data-scientist-jobs-mumbai",
+    "data-scientist-jobs-pune",
+    "how-to-become-product-manager-india"
+   ],
+   "total": 30,
+   "remaining": 26
   }
  ]
 }
