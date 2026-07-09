@@ -1,10 +1,5 @@
 {
  "queue": [
-  "buying-guide",
-  "career-guide",
-  "collection",
-  "collection_page2",
-  "company-guide",
   "comparison-hub",
   "data-scientist-interview-questions-india",
   "data-scientist-jobs-chennai",
@@ -57,7 +52,12 @@
   "product-manager-jobs-bangalore",
   "software-engineer-jobs-hyderabad",
   "software-engineer-jobs-pune",
-  "data-scientist-jobs-bangalore"
+  "data-scientist-jobs-bangalore",
+  "buying-guide",
+  "career-guide",
+  "collection",
+  "collection_page2",
+  "company-guide"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
