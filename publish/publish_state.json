@@ -1,9 +1,5 @@
 {
  "queue": [
-  "comparison-hub",
-  "data-scientist-interview-questions-india",
-  "data-scientist-jobs-chennai",
-  "data-scientist-jobs-delhi",
   "data-scientist-jobs-hyderabad",
   "data-scientist-jobs-mumbai",
   "data-scientist-jobs-pune",
@@ -57,7 +53,11 @@
   "career-guide",
   "collection",
   "collection_page2",
-  "company-guide"
+  "company-guide",
+  "comparison-hub",
+  "data-scientist-interview-questions-india",
+  "data-scientist-jobs-chennai",
+  "data-scientist-jobs-delhi"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
