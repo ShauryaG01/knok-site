@@ -36,6 +36,18 @@
    ],
    "total": 13,
    "remaining": 43
+  },
+  {
+   "date": "2026-07-09T05:17:27+00:00",
+   "count": 4,
+   "slugs": [
+    "product-manager-jobs-bangalore",
+    "software-engineer-jobs-hyderabad",
+    "software-engineer-jobs-pune",
+    "data-scientist-jobs-bangalore"
+   ],
+   "total": 17,
+   "remaining": 39
   }
  ]
 }

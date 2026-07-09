@@ -1,9 +1,5 @@
 {
  "queue": [
-  "product-manager-jobs-bangalore",
-  "software-engineer-jobs-hyderabad",
-  "software-engineer-jobs-pune",
-  "data-scientist-jobs-bangalore",
   "buying-guide",
   "career-guide",
   "collection",
@@ -57,7 +53,11 @@
   "cred-software-engineer-interview",
   "top-companies-hiring-product-managers-bangalore",
   "top-companies-hiring-software-engineers-bangalore",
-  "software-engineer-jobs-bangalore"
+  "software-engineer-jobs-bangalore",
+  "product-manager-jobs-bangalore",
+  "software-engineer-jobs-hyderabad",
+  "software-engineer-jobs-pune",
+  "data-scientist-jobs-bangalore"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
