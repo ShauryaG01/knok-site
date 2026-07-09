@@ -1,9 +1,5 @@
 {
  "queue": [
-  "interview-prep",
-  "product-designer-interview-questions-india",
-  "product-designer-jobs-bangalore",
-  "product-designer-jobs-chennai",
   "product-designer-jobs-delhi",
   "product-designer-jobs-hyderabad",
   "product-designer-jobs-mumbai",
@@ -57,7 +53,11 @@
   "data-scientist-jobs-hyderabad",
   "data-scientist-jobs-mumbai",
   "data-scientist-jobs-pune",
-  "how-to-become-product-manager-india"
+  "how-to-become-product-manager-india",
+  "interview-prep",
+  "product-designer-interview-questions-india",
+  "product-designer-jobs-bangalore",
+  "product-designer-jobs-chennai"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
