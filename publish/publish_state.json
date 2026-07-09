@@ -1,9 +1,5 @@
 {
  "queue": [
-  "product-designer-jobs-delhi",
-  "product-designer-jobs-hyderabad",
-  "product-designer-jobs-mumbai",
-  "product-designer-jobs-pune",
   "product-manager-interview-questions-india",
   "product-manager-jobs-chennai",
   "product-manager-jobs-delhi",
@@ -57,7 +53,11 @@
   "interview-prep",
   "product-designer-interview-questions-india",
   "product-designer-jobs-bangalore",
-  "product-designer-jobs-chennai"
+  "product-designer-jobs-chennai",
+  "product-designer-jobs-delhi",
+  "product-designer-jobs-hyderabad",
+  "product-designer-jobs-mumbai",
+  "product-designer-jobs-pune"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
