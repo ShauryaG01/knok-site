@@ -927,3 +927,27 @@ h1.hero-title{font-size:clamp(34px,4.2vw,52px);max-width:16ch}
 .rail-steps{gap:14px;margin-top:14px}
 .rail-card h4{margin-top:8px}
 .rail-price{font-size:11.5px;white-space:nowrap;text-align:center}
+
+/* ================================================================
+   MOBILE FIXES (2026-07-09) — must stay LAST in the file.
+   Earlier appended sections (e.g. the "editorial restraint" hero-grid
+   at L744) redefine two-column grids AFTER their own mobile media
+   queries, so those queries lose the cascade. These rules come last,
+   so they win by source order — no !important needed.
+   ================================================================ */
+@media (max-width: 960px) {
+  /* hero: collapse the content|table-of-contents grid to one column */
+  .hero-grid { grid-template-columns: 1fr; gap: 28px; align-items: start; }
+  .hero-toc { position: static; top: auto; }
+  /* let the big display heading use the full width instead of wrapping
+     one word per line inside a narrow column */
+  .hero-left h1, h1.hero-title, .pagehead h1 { max-width: none; }
+  /* body content|rail grid to one column (defensive; also collapses the rail) */
+  .layout { grid-template-columns: 1fr; gap: 0; }
+  .rail { position: static; }
+}
+@media (max-width: 720px) {
+  /* header: show only the short CTA, hide the long "Find jobs for me →" */
+  .nav-right .btn-primary:not(.mobile-cta) { display: none; }
+  .nav-right { gap: 10px; }
+}
