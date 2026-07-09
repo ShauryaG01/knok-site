@@ -1,9 +1,5 @@
 {
  "queue": [
-  "cred-software-engineer-interview",
-  "top-companies-hiring-product-managers-bangalore",
-  "top-companies-hiring-software-engineers-bangalore",
-  "software-engineer-jobs-bangalore",
   "product-manager-jobs-bangalore",
   "software-engineer-jobs-hyderabad",
   "software-engineer-jobs-pune",
@@ -57,7 +53,11 @@
   "razorpay-software-engineer-interview",
   "swiggy-product-manager-interview",
   "swiggy-software-engineer-interview",
-  "cred-product-manager-interview"
+  "cred-product-manager-interview",
+  "cred-software-engineer-interview",
+  "top-companies-hiring-product-managers-bangalore",
+  "top-companies-hiring-software-engineers-bangalore",
+  "software-engineer-jobs-bangalore"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
