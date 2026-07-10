@@ -1,10 +1,5 @@
 {
  "queue": [
-  "software-engineer-jobs-chennai",
-  "software-engineer-jobs-delhi",
-  "software-engineer-jobs-mumbai",
-  "software-engineer-salary-india-2026",
-  "work-from-home-jobs-india",
   "ai-job-search-agent",
   "airwallex-software-engineer-interview",
   "automated-job-application-india",
@@ -124,7 +119,12 @@
   "remote-software-engineer-jobs-india",
   "resume-template",
   "salary-report",
-  "software-engineer-interview-questions-india"
+  "software-engineer-interview-questions-india",
+  "software-engineer-jobs-chennai",
+  "software-engineer-jobs-delhi",
+  "software-engineer-jobs-mumbai",
+  "software-engineer-salary-india-2026",
+  "work-from-home-jobs-india"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
