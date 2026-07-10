@@ -1,10 +1,5 @@
 {
  "queue": [
-  "ai-job-search-agent",
-  "airwallex-software-engineer-interview",
-  "automated-job-application-india",
-  "clickhouse-software-engineer-interview",
-  "data-analyst-salary-india-2026",
   "data-engineer-salary-india-2026",
   "data-scientist-resume-template-india",
   "data-scientist-salary-bangalore",
@@ -124,7 +119,12 @@
   "software-engineer-jobs-delhi",
   "software-engineer-jobs-mumbai",
   "software-engineer-salary-india-2026",
-  "work-from-home-jobs-india"
+  "work-from-home-jobs-india",
+  "ai-job-search-agent",
+  "airwallex-software-engineer-interview",
+  "automated-job-application-india",
+  "clickhouse-software-engineer-interview",
+  "data-analyst-salary-india-2026"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
