@@ -1,10 +1,5 @@
 {
  "queue": [
-  "remote-product-manager-jobs-india",
-  "remote-software-engineer-jobs-india",
-  "resume-template",
-  "salary-report",
-  "software-engineer-interview-questions-india",
   "software-engineer-jobs-chennai",
   "software-engineer-jobs-delhi",
   "software-engineer-jobs-mumbai",
@@ -124,7 +119,12 @@
   "product-manager-jobs-mumbai",
   "product-manager-jobs-pune",
   "remote-data-scientist-jobs-india",
-  "remote-product-designer-jobs-india"
+  "remote-product-designer-jobs-india",
+  "remote-product-manager-jobs-india",
+  "remote-software-engineer-jobs-india",
+  "resume-template",
+  "salary-report",
+  "software-engineer-interview-questions-india"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
