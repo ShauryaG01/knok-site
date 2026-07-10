@@ -1,9 +1,5 @@
 {
  "queue": [
-  "product-manager-jobs-mumbai",
-  "product-manager-jobs-pune",
-  "remote-data-scientist-jobs-india",
-  "remote-product-designer-jobs-india",
   "remote-product-manager-jobs-india",
   "remote-software-engineer-jobs-india",
   "resume-template",
@@ -124,7 +120,11 @@
   "product-manager-interview-questions-india",
   "product-manager-jobs-chennai",
   "product-manager-jobs-delhi",
-  "product-manager-jobs-hyderabad"
+  "product-manager-jobs-hyderabad",
+  "product-manager-jobs-mumbai",
+  "product-manager-jobs-pune",
+  "remote-data-scientist-jobs-india",
+  "remote-product-designer-jobs-india"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }

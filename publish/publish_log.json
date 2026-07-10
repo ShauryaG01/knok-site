@@ -121,6 +121,18 @@
    ],
    "total": 42,
    "remaining": 81
+  },
+  {
+   "date": "2026-07-10T05:12:23+00:00",
+   "count": 4,
+   "slugs": [
+    "product-manager-jobs-mumbai",
+    "product-manager-jobs-pune",
+    "remote-data-scientist-jobs-india",
+    "remote-product-designer-jobs-india"
+   ],
+   "total": 46,
+   "remaining": 77
   }
  ]
 }
