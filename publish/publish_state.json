@@ -1,9 +1,5 @@
 {
  "queue": [
-  "databricks-software-engineer-interview",
-  "devops-engineer-salary-india-2026",
-  "engineering-manager-salary-india-2026",
-  "frontend-engineer-salary-india-2026",
   "grab-software-engineer-interview",
   "how-to-become-data-scientist-india",
   "how-to-become-product-designer-india",
@@ -124,7 +120,11 @@
   "data-engineer-salary-india-2026",
   "data-scientist-resume-template-india",
   "data-scientist-salary-bangalore",
-  "data-scientist-salary-india-2026"
+  "data-scientist-salary-india-2026",
+  "databricks-software-engineer-interview",
+  "devops-engineer-salary-india-2026",
+  "engineering-manager-salary-india-2026",
+  "frontend-engineer-salary-india-2026"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
