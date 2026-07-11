@@ -1,10 +1,5 @@
 {
  "queue": [
-  "how-to-get-hired-at-ola",
-  "how-to-get-hired-at-openai",
-  "how-to-get-hired-at-phonepe",
-  "how-to-get-hired-at-razorpay",
-  "how-to-get-hired-at-snowflake",
   "how-to-get-hired-at-stripe",
   "how-to-get-hired-at-swiggy",
   "how-to-get-hired-at-zomato",
@@ -176,7 +171,12 @@
   "how-to-get-hired-at-mastercard",
   "how-to-get-hired-at-meesho",
   "how-to-get-hired-at-okta",
-  "how-to-get-hired-at-okx"
+  "how-to-get-hired-at-okx",
+  "how-to-get-hired-at-ola",
+  "how-to-get-hired-at-openai",
+  "how-to-get-hired-at-phonepe",
+  "how-to-get-hired-at-razorpay",
+  "how-to-get-hired-at-snowflake"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
