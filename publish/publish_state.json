@@ -1,9 +1,5 @@
 {
  "queue": [
-  "product-designer-salary-india-2026",
-  "product-manager-resume-template-india",
-  "product-manager-salary-bangalore",
-  "product-manager-salary-delhi",
   "product-manager-salary-india-2026",
   "product-manager-salary-mumbai",
   "qa-engineer-salary-india-2026",
@@ -176,7 +172,11 @@
   "linkedin-hiring-manager-outreach-india",
   "okta-software-engineer-interview",
   "openai-software-engineer-interview",
-  "product-designer-resume-template-india"
+  "product-designer-resume-template-india",
+  "product-designer-salary-india-2026",
+  "product-manager-resume-template-india",
+  "product-manager-salary-bangalore",
+  "product-manager-salary-delhi"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
