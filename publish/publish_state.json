@@ -1,9 +1,5 @@
 {
  "queue": [
-  "how-to-get-hired-at-stripe",
-  "how-to-get-hired-at-swiggy",
-  "how-to-get-hired-at-zomato",
-  "jpmorgan-chase-software-engineer-interview",
   "linkedin-hiring-manager-outreach-india",
   "okta-software-engineer-interview",
   "openai-software-engineer-interview",
@@ -176,7 +172,11 @@
   "how-to-get-hired-at-openai",
   "how-to-get-hired-at-phonepe",
   "how-to-get-hired-at-razorpay",
-  "how-to-get-hired-at-snowflake"
+  "how-to-get-hired-at-snowflake",
+  "how-to-get-hired-at-stripe",
+  "how-to-get-hired-at-swiggy",
+  "how-to-get-hired-at-zomato",
+  "jpmorgan-chase-software-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
