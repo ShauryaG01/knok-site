@@ -1,10 +1,5 @@
 {
  "queue": [
-  "how-to-get-hired-at-airwallex",
-  "how-to-get-hired-at-boschgroup",
-  "how-to-get-hired-at-databricks",
-  "how-to-get-hired-at-flipkart",
-  "how-to-get-hired-at-grab",
   "how-to-get-hired-at-jpmorgan-chase",
   "how-to-get-hired-at-mastercard",
   "how-to-get-hired-at-meesho",
@@ -82,7 +77,25 @@
   "top-companies-hiring-product-designers-bangalore",
   "top-companies-hiring-qa-engineers-bangalore",
   "top-companies-hiring-qa-engineers-delhi",
-  "top-companies-hiring-software-engineers-mumbai"
+  "top-companies-hiring-software-engineers-mumbai",
+  "affirm-software-engineer-interview",
+  "anthropic-software-engineer-interview",
+  "how-to-get-hired-at-affirm",
+  "how-to-get-hired-at-anthropic",
+  "how-to-get-hired-at-binance",
+  "how-to-get-hired-at-brex",
+  "how-to-get-hired-at-mongodb",
+  "how-to-get-hired-at-palantir",
+  "how-to-get-hired-at-pinterest",
+  "how-to-get-hired-at-riot-games",
+  "how-to-get-hired-at-roku",
+  "how-to-get-hired-at-veeva",
+  "how-to-get-hired-at-zscaler",
+  "mongodb-software-engineer-interview",
+  "palantir-software-engineer-interview",
+  "roku-software-engineer-interview",
+  "toast-software-engineer-interview",
+  "veeva-product-manager-interview"
  ],
  "published": [
   "knok-vs-naukri",
@@ -158,7 +171,12 @@
   "how-to-become-data-scientist-india",
   "how-to-become-product-designer-india",
   "how-to-become-software-engineer-india",
-  "how-to-get-hired-at-airbnb"
+  "how-to-get-hired-at-airbnb",
+  "how-to-get-hired-at-airwallex",
+  "how-to-get-hired-at-boschgroup",
+  "how-to-get-hired-at-databricks",
+  "how-to-get-hired-at-flipkart",
+  "how-to-get-hired-at-grab"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
