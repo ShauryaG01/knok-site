@@ -1,9 +1,5 @@
 {
  "queue": [
-  "engineering-manager-jobs-bangalore",
-  "engineering-manager-salary-bangalore",
-  "frontend-engineer-jobs-bangalore",
-  "frontend-engineer-salary-bangalore",
   "harvey-software-engineer-interview",
   "how-to-get-hired-at-clickhouse",
   "how-to-get-hired-at-deutsche-telekom-digital-labs",
@@ -176,7 +172,11 @@
   "delta-software-engineer-interview",
   "dev-software-engineer-interview",
   "devops-engineer-jobs-bangalore",
-  "devops-engineer-salary-bangalore"
+  "devops-engineer-salary-bangalore",
+  "engineering-manager-jobs-bangalore",
+  "engineering-manager-salary-bangalore",
+  "frontend-engineer-jobs-bangalore",
+  "frontend-engineer-salary-bangalore"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
