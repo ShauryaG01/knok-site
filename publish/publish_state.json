@@ -1,10 +1,5 @@
 {
  "queue": [
-  "product-manager-salary-india-2026",
-  "product-manager-salary-mumbai",
-  "qa-engineer-salary-india-2026",
-  "snowflake-software-engineer-interview",
-  "software-engineer-resume-template-india",
   "software-engineer-salary-bangalore",
   "software-engineer-salary-delhi",
   "software-engineer-salary-hyderabad",
@@ -176,7 +171,12 @@
   "product-designer-salary-india-2026",
   "product-manager-resume-template-india",
   "product-manager-salary-bangalore",
-  "product-manager-salary-delhi"
+  "product-manager-salary-delhi",
+  "product-manager-salary-india-2026",
+  "product-manager-salary-mumbai",
+  "qa-engineer-salary-india-2026",
+  "snowflake-software-engineer-interview",
+  "software-engineer-resume-template-india"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
