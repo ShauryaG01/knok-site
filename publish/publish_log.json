@@ -310,6 +310,19 @@
    ],
    "total": 111,
    "remaining": 64
+  },
+  {
+   "date": "2026-07-12T06:55:39+00:00",
+   "count": 5,
+   "slugs": [
+    "tech-jobs-chennai",
+    "tech-jobs-delhi",
+    "tech-jobs-hyderabad",
+    "tech-jobs-mumbai",
+    "tech-jobs-pune"
+   ],
+   "total": 116,
+   "remaining": 59
   }
  ]
 }

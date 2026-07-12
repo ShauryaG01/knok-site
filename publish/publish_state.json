@@ -1,10 +1,5 @@
 {
  "queue": [
-  "tech-jobs-chennai",
-  "tech-jobs-delhi",
-  "tech-jobs-hyderabad",
-  "tech-jobs-mumbai",
-  "tech-jobs-pune",
   "top-companies-hiring-data-scientists-bangalore",
   "top-companies-hiring-engineering-managers-bangalore",
   "top-companies-hiring-product-managers-delhi",
@@ -176,7 +171,12 @@
   "software-engineer-salary-delhi",
   "software-engineer-salary-hyderabad",
   "software-engineer-salary-pune",
-  "tech-jobs-bangalore"
+  "tech-jobs-bangalore",
+  "tech-jobs-chennai",
+  "tech-jobs-delhi",
+  "tech-jobs-hyderabad",
+  "tech-jobs-mumbai",
+  "tech-jobs-pune"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
