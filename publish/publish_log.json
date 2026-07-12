@@ -323,6 +323,18 @@
    ],
    "total": 116,
    "remaining": 59
+  },
+  {
+   "date": "2026-07-12T08:28:02+00:00",
+   "count": 4,
+   "slugs": [
+    "top-companies-hiring-data-scientists-bangalore",
+    "top-companies-hiring-engineering-managers-bangalore",
+    "top-companies-hiring-product-managers-delhi",
+    "top-companies-hiring-product-managers-mumbai"
+   ],
+   "total": 120,
+   "remaining": 55
   }
  ]
 }

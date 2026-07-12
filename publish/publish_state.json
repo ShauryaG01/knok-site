@@ -1,9 +1,5 @@
 {
  "queue": [
-  "top-companies-hiring-data-scientists-bangalore",
-  "top-companies-hiring-engineering-managers-bangalore",
-  "top-companies-hiring-product-managers-delhi",
-  "top-companies-hiring-product-managers-mumbai",
   "top-companies-hiring-software-engineers-delhi",
   "top-companies-hiring-software-engineers-hyderabad",
   "top-companies-hiring-software-engineers-pune",
@@ -176,7 +172,11 @@
   "tech-jobs-delhi",
   "tech-jobs-hyderabad",
   "tech-jobs-mumbai",
-  "tech-jobs-pune"
+  "tech-jobs-pune",
+  "top-companies-hiring-data-scientists-bangalore",
+  "top-companies-hiring-engineering-managers-bangalore",
+  "top-companies-hiring-product-managers-delhi",
+  "top-companies-hiring-product-managers-mumbai"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
