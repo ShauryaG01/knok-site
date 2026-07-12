@@ -297,6 +297,19 @@
    ],
    "total": 106,
    "remaining": 69
+  },
+  {
+   "date": "2026-07-12T05:19:13+00:00",
+   "count": 5,
+   "slugs": [
+    "software-engineer-salary-bangalore",
+    "software-engineer-salary-delhi",
+    "software-engineer-salary-hyderabad",
+    "software-engineer-salary-pune",
+    "tech-jobs-bangalore"
+   ],
+   "total": 111,
+   "remaining": 64
   }
  ]
 }
