@@ -1,10 +1,5 @@
 {
  "queue": [
-  "boschgroup-devops-engineer-interview",
-  "delta-software-engineer-interview",
-  "dev-software-engineer-interview",
-  "devops-engineer-jobs-bangalore",
-  "devops-engineer-salary-bangalore",
   "engineering-manager-jobs-bangalore",
   "engineering-manager-salary-bangalore",
   "frontend-engineer-jobs-bangalore",
@@ -176,7 +171,12 @@
   "top-companies-hiring-software-engineers-delhi",
   "top-companies-hiring-software-engineers-hyderabad",
   "top-companies-hiring-software-engineers-pune",
-  "airwallex-product-manager-interview"
+  "airwallex-product-manager-interview",
+  "boschgroup-devops-engineer-interview",
+  "delta-software-engineer-interview",
+  "dev-software-engineer-interview",
+  "devops-engineer-jobs-bangalore",
+  "devops-engineer-salary-bangalore"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
