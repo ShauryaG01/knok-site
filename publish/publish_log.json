@@ -410,6 +410,19 @@
    ],
    "total": 147,
    "remaining": 28
+  },
+  {
+   "date": "2026-07-13T08:29:16+00:00",
+   "count": 5,
+   "slugs": [
+    "software-engineer-salary-mumbai",
+    "stripe-software-engineer-interview",
+    "top-companies-hiring-data-engineers-bangalore",
+    "top-companies-hiring-data-engineers-delhi",
+    "top-companies-hiring-devops-engineers-bangalore"
+   ],
+   "total": 152,
+   "remaining": 23
   }
  ]
 }

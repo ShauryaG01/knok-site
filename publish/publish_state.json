@@ -1,10 +1,5 @@
 {
  "queue": [
-  "software-engineer-salary-mumbai",
-  "stripe-software-engineer-interview",
-  "top-companies-hiring-data-engineers-bangalore",
-  "top-companies-hiring-data-engineers-delhi",
-  "top-companies-hiring-devops-engineers-bangalore",
   "top-companies-hiring-frontend-engineers-bangalore",
   "top-companies-hiring-product-designers-bangalore",
   "top-companies-hiring-qa-engineers-bangalore",
@@ -176,7 +171,12 @@
   "mastercard-software-engineer-interview",
   "okx-product-manager-interview",
   "qa-engineer-salary-bangalore",
-  "riotgames-software-engineer-interview"
+  "riotgames-software-engineer-interview",
+  "software-engineer-salary-mumbai",
+  "stripe-software-engineer-interview",
+  "top-companies-hiring-data-engineers-bangalore",
+  "top-companies-hiring-data-engineers-delhi",
+  "top-companies-hiring-devops-engineers-bangalore"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
