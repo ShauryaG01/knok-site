@@ -1,10 +1,5 @@
 {
  "queue": [
-  "how-to-get-hired-at-harvey",
-  "how-to-get-hired-at-riotgames",
-  "how-to-get-hired-at-samsara",
-  "how-to-get-hired-at-scaleai",
-  "how-to-get-hired-at-sierra",
   "how-to-get-hired-at-tech-aalto-pte-ltd",
   "mastercard-software-engineer-interview",
   "okx-product-manager-interview",
@@ -176,7 +171,12 @@
   "harvey-software-engineer-interview",
   "how-to-get-hired-at-clickhouse",
   "how-to-get-hired-at-deutsche-telekom-digital-labs",
-  "how-to-get-hired-at-dev"
+  "how-to-get-hired-at-dev",
+  "how-to-get-hired-at-harvey",
+  "how-to-get-hired-at-riotgames",
+  "how-to-get-hired-at-samsara",
+  "how-to-get-hired-at-scaleai",
+  "how-to-get-hired-at-sierra"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
