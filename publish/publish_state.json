@@ -1,10 +1,5 @@
 {
  "queue": [
-  "top-companies-hiring-frontend-engineers-bangalore",
-  "top-companies-hiring-product-designers-bangalore",
-  "top-companies-hiring-qa-engineers-bangalore",
-  "top-companies-hiring-qa-engineers-delhi",
-  "top-companies-hiring-software-engineers-mumbai",
   "affirm-software-engineer-interview",
   "anthropic-software-engineer-interview",
   "how-to-get-hired-at-affirm",
@@ -176,7 +171,12 @@
   "stripe-software-engineer-interview",
   "top-companies-hiring-data-engineers-bangalore",
   "top-companies-hiring-data-engineers-delhi",
-  "top-companies-hiring-devops-engineers-bangalore"
+  "top-companies-hiring-devops-engineers-bangalore",
+  "top-companies-hiring-frontend-engineers-bangalore",
+  "top-companies-hiring-product-designers-bangalore",
+  "top-companies-hiring-qa-engineers-bangalore",
+  "top-companies-hiring-qa-engineers-delhi",
+  "top-companies-hiring-software-engineers-mumbai"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }

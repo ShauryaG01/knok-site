@@ -423,6 +423,19 @@
    ],
    "total": 152,
    "remaining": 23
+  },
+  {
+   "date": "2026-07-13T10:46:35+00:00",
+   "count": 5,
+   "slugs": [
+    "top-companies-hiring-frontend-engineers-bangalore",
+    "top-companies-hiring-product-designers-bangalore",
+    "top-companies-hiring-qa-engineers-bangalore",
+    "top-companies-hiring-qa-engineers-delhi",
+    "top-companies-hiring-software-engineers-mumbai"
+   ],
+   "total": 157,
+   "remaining": 18
   }
  ]
 }
