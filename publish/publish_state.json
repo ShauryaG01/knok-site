@@ -1,9 +1,5 @@
 {
  "queue": [
-  "harvey-software-engineer-interview",
-  "how-to-get-hired-at-clickhouse",
-  "how-to-get-hired-at-deutsche-telekom-digital-labs",
-  "how-to-get-hired-at-dev",
   "how-to-get-hired-at-harvey",
   "how-to-get-hired-at-riotgames",
   "how-to-get-hired-at-samsara",
@@ -176,7 +172,11 @@
   "engineering-manager-jobs-bangalore",
   "engineering-manager-salary-bangalore",
   "frontend-engineer-jobs-bangalore",
-  "frontend-engineer-salary-bangalore"
+  "frontend-engineer-salary-bangalore",
+  "harvey-software-engineer-interview",
+  "how-to-get-hired-at-clickhouse",
+  "how-to-get-hired-at-deutsche-telekom-digital-labs",
+  "how-to-get-hired-at-dev"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
