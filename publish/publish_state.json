@@ -1,10 +1,5 @@
 {
  "queue": [
-  "how-to-get-hired-at-tech-aalto-pte-ltd",
-  "mastercard-software-engineer-interview",
-  "okx-product-manager-interview",
-  "qa-engineer-salary-bangalore",
-  "riotgames-software-engineer-interview",
   "software-engineer-salary-mumbai",
   "stripe-software-engineer-interview",
   "top-companies-hiring-data-engineers-bangalore",
@@ -176,7 +171,12 @@
   "how-to-get-hired-at-riotgames",
   "how-to-get-hired-at-samsara",
   "how-to-get-hired-at-scaleai",
-  "how-to-get-hired-at-sierra"
+  "how-to-get-hired-at-sierra",
+  "how-to-get-hired-at-tech-aalto-pte-ltd",
+  "mastercard-software-engineer-interview",
+  "okx-product-manager-interview",
+  "qa-engineer-salary-bangalore",
+  "riotgames-software-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
