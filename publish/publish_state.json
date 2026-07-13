@@ -1,9 +1,5 @@
 {
  "queue": [
-  "how-to-get-hired-at-brex",
-  "how-to-get-hired-at-mongodb",
-  "how-to-get-hired-at-palantir",
-  "how-to-get-hired-at-pinterest",
   "how-to-get-hired-at-riot-games",
   "how-to-get-hired-at-roku",
   "how-to-get-hired-at-veeva",
@@ -176,7 +172,11 @@
   "anthropic-software-engineer-interview",
   "how-to-get-hired-at-affirm",
   "how-to-get-hired-at-anthropic",
-  "how-to-get-hired-at-binance"
+  "how-to-get-hired-at-binance",
+  "how-to-get-hired-at-brex",
+  "how-to-get-hired-at-mongodb",
+  "how-to-get-hired-at-palantir",
+  "how-to-get-hired-at-pinterest"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }

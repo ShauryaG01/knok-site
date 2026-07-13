@@ -449,6 +449,18 @@
    ],
    "total": 162,
    "remaining": 13
+  },
+  {
+   "date": "2026-07-13T15:52:54+00:00",
+   "count": 4,
+   "slugs": [
+    "how-to-get-hired-at-brex",
+    "how-to-get-hired-at-mongodb",
+    "how-to-get-hired-at-palantir",
+    "how-to-get-hired-at-pinterest"
+   ],
+   "total": 166,
+   "remaining": 9
   }
  ]
 }
