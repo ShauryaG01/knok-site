@@ -1,9 +1,5 @@
 {
  "queue": [
-  "how-to-get-hired-at-riot-games",
-  "how-to-get-hired-at-roku",
-  "how-to-get-hired-at-veeva",
-  "how-to-get-hired-at-zscaler",
   "mongodb-software-engineer-interview",
   "palantir-software-engineer-interview",
   "roku-software-engineer-interview",
@@ -176,7 +172,11 @@
   "how-to-get-hired-at-brex",
   "how-to-get-hired-at-mongodb",
   "how-to-get-hired-at-palantir",
-  "how-to-get-hired-at-pinterest"
+  "how-to-get-hired-at-pinterest",
+  "how-to-get-hired-at-riot-games",
+  "how-to-get-hired-at-roku",
+  "how-to-get-hired-at-veeva",
+  "how-to-get-hired-at-zscaler"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
