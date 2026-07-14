@@ -1,11 +1,5 @@
 {
- "queue": [
-  "mongodb-software-engineer-interview",
-  "palantir-software-engineer-interview",
-  "roku-software-engineer-interview",
-  "toast-software-engineer-interview",
-  "veeva-product-manager-interview"
- ],
+ "queue": [],
  "published": [
   "knok-vs-naukri",
   "best-job-search-tools-india-2026",
@@ -176,7 +170,12 @@
   "how-to-get-hired-at-riot-games",
   "how-to-get-hired-at-roku",
   "how-to-get-hired-at-veeva",
-  "how-to-get-hired-at-zscaler"
+  "how-to-get-hired-at-zscaler",
+  "mongodb-software-engineer-interview",
+  "palantir-software-engineer-interview",
+  "roku-software-engineer-interview",
+  "toast-software-engineer-interview",
+  "veeva-product-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
