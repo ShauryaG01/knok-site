@@ -1,10 +1,5 @@
 {
  "queue": [
-  "data-engineer-salary-delhi",
-  "data-scientist-salary-delhi",
-  "datadog-product-manager-interview",
-  "datadog-software-engineer-interview",
-  "decagon-software-engineer-interview",
   "deutsche-telekom-digital-labs-product-manager-interview",
   "deutsche-telekom-digital-labs-qa-engineer-interview",
   "deutsche-telekom-digital-labs-software-engineer-interview",
@@ -340,7 +335,12 @@
   "data-engineer-jobs-delhi",
   "qa-engineer-jobs-delhi",
   "top-companies-hiring-devops-engineers-pune",
-  "top-companies-hiring-frontend-engineers-delhi"
+  "top-companies-hiring-frontend-engineers-delhi",
+  "data-engineer-salary-delhi",
+  "data-scientist-salary-delhi",
+  "datadog-product-manager-interview",
+  "datadog-software-engineer-interview",
+  "decagon-software-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
