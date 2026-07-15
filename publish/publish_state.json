@@ -1,9 +1,5 @@
 {
  "queue": [
-  "goldman-sachs-software-engineer-interview",
-  "hcl-technologies-engineering-manager-interview",
-  "how-to-get-hired-at-adyen",
-  "how-to-get-hired-at-agoda",
   "how-to-get-hired-at-asana",
   "how-to-get-hired-at-braze",
   "how-to-get-hired-at-cisco",
@@ -429,7 +425,11 @@
   "figma-software-engineer-interview",
   "flexport-software-engineer-interview",
   "ford-motor-company-software-engineer-interview",
-  "glean-software-engineer-interview"
+  "glean-software-engineer-interview",
+  "goldman-sachs-software-engineer-interview",
+  "hcl-technologies-engineering-manager-interview",
+  "how-to-get-hired-at-adyen",
+  "how-to-get-hired-at-agoda"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
