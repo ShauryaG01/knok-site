@@ -1,10 +1,5 @@
 {
  "queue": [
-  "exl-service-data-engineer-interview",
-  "figma-software-engineer-interview",
-  "flexport-software-engineer-interview",
-  "ford-motor-company-software-engineer-interview",
-  "glean-software-engineer-interview",
   "goldman-sachs-software-engineer-interview",
   "hcl-technologies-engineering-manager-interview",
   "how-to-get-hired-at-adyen",
@@ -429,7 +424,12 @@
   "deutsche-telekom-digital-labs-qa-engineer-interview",
   "deutsche-telekom-digital-labs-software-engineer-interview",
   "elastic-software-engineer-interview",
-  "engineering-manager-salary-delhi"
+  "engineering-manager-salary-delhi",
+  "exl-service-data-engineer-interview",
+  "figma-software-engineer-interview",
+  "flexport-software-engineer-interview",
+  "ford-motor-company-software-engineer-interview",
+  "glean-software-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
