@@ -696,6 +696,19 @@
    ],
    "total": 225,
    "remaining": 203
+  },
+  {
+   "date": "2026-07-15T15:58:57+00:00",
+   "count": 5,
+   "slugs": [
+    "how-to-get-hired-at-confluent",
+    "how-to-get-hired-at-coreweave",
+    "how-to-get-hired-at-crusoe",
+    "how-to-get-hired-at-datadog",
+    "how-to-get-hired-at-decagon"
+   ],
+   "total": 230,
+   "remaining": 198
   }
  ]
 }

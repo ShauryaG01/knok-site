@@ -1,10 +1,5 @@
 {
  "queue": [
-  "how-to-get-hired-at-confluent",
-  "how-to-get-hired-at-coreweave",
-  "how-to-get-hired-at-crusoe",
-  "how-to-get-hired-at-datadog",
-  "how-to-get-hired-at-decagon",
   "how-to-get-hired-at-elastic",
   "how-to-get-hired-at-exl-service",
   "how-to-get-hired-at-figma",
@@ -429,7 +424,12 @@
   "how-to-get-hired-at-braze",
   "how-to-get-hired-at-cisco",
   "how-to-get-hired-at-coinbase",
-  "how-to-get-hired-at-commit"
+  "how-to-get-hired-at-commit",
+  "how-to-get-hired-at-confluent",
+  "how-to-get-hired-at-coreweave",
+  "how-to-get-hired-at-crusoe",
+  "how-to-get-hired-at-datadog",
+  "how-to-get-hired-at-decagon"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
