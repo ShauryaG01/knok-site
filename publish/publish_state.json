@@ -1,10 +1,5 @@
 {
  "queue": [
-  "how-to-get-hired-at-flexport",
-  "how-to-get-hired-at-ford-motor-company",
-  "how-to-get-hired-at-gitlab",
-  "how-to-get-hired-at-glean",
-  "how-to-get-hired-at-instacart",
   "how-to-get-hired-at-lyft",
   "how-to-get-hired-at-mistral",
   "how-to-get-hired-at-nice",
@@ -429,7 +424,12 @@
   "how-to-get-hired-at-elastic",
   "how-to-get-hired-at-exl-service",
   "how-to-get-hired-at-figma",
-  "how-to-get-hired-at-five9"
+  "how-to-get-hired-at-five9",
+  "how-to-get-hired-at-flexport",
+  "how-to-get-hired-at-ford-motor-company",
+  "how-to-get-hired-at-gitlab",
+  "how-to-get-hired-at-glean",
+  "how-to-get-hired-at-instacart"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
