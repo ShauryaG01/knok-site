@@ -1,9 +1,5 @@
 {
  "queue": [
-  "how-to-get-hired-at-elastic",
-  "how-to-get-hired-at-exl-service",
-  "how-to-get-hired-at-figma",
-  "how-to-get-hired-at-five9",
   "how-to-get-hired-at-flexport",
   "how-to-get-hired-at-ford-motor-company",
   "how-to-get-hired-at-gitlab",
@@ -429,7 +425,11 @@
   "how-to-get-hired-at-coreweave",
   "how-to-get-hired-at-crusoe",
   "how-to-get-hired-at-datadog",
-  "how-to-get-hired-at-decagon"
+  "how-to-get-hired-at-decagon",
+  "how-to-get-hired-at-elastic",
+  "how-to-get-hired-at-exl-service",
+  "how-to-get-hired-at-figma",
+  "how-to-get-hired-at-five9"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
