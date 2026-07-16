@@ -1,9 +1,5 @@
 {
  "queue": [
-  "how-to-get-hired-at-paytm",
-  "how-to-get-hired-at-plaid",
-  "how-to-get-hired-at-professional-recruiters",
-  "how-to-get-hired-at-pure-storage",
   "how-to-get-hired-at-ripple",
   "how-to-get-hired-at-robinhood",
   "how-to-get-hired-at-scale-ai",
@@ -429,7 +425,11 @@
   "how-to-get-hired-at-lyft",
   "how-to-get-hired-at-mistral",
   "how-to-get-hired-at-nice",
-  "how-to-get-hired-at-oracle"
+  "how-to-get-hired-at-oracle",
+  "how-to-get-hired-at-paytm",
+  "how-to-get-hired-at-plaid",
+  "how-to-get-hired-at-professional-recruiters",
+  "how-to-get-hired-at-pure-storage"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
