@@ -734,6 +734,18 @@
    ],
    "total": 239,
    "remaining": 189
+  },
+  {
+   "date": "2026-07-16T06:54:24+00:00",
+   "count": 4,
+   "slugs": [
+    "how-to-get-hired-at-lyft",
+    "how-to-get-hired-at-mistral",
+    "how-to-get-hired-at-nice",
+    "how-to-get-hired-at-oracle"
+   ],
+   "total": 243,
+   "remaining": 185
   }
  ]
 }
