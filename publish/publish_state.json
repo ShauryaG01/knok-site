@@ -1,9 +1,5 @@
 {
  "queue": [
-  "paytm-product-manager-interview",
-  "perplexity-software-engineer-interview",
-  "pinterest-data-scientist-interview",
-  "pinterest-software-engineer-interview",
   "plaid-software-engineer-interview",
   "product-designer-salary-bangalore",
   "professional-recruiters-software-engineer-interview",
@@ -429,7 +425,11 @@
   "okta-product-manager-interview",
   "okx-software-engineer-interview",
   "openai-engineering-manager-interview",
-  "oracle-software-engineer-interview"
+  "oracle-software-engineer-interview",
+  "paytm-product-manager-interview",
+  "perplexity-software-engineer-interview",
+  "pinterest-data-scientist-interview",
+  "pinterest-software-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
