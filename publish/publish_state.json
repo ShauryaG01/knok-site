@@ -1,9 +1,5 @@
 {
  "queue": [
-  "plaid-software-engineer-interview",
-  "product-designer-salary-bangalore",
-  "professional-recruiters-software-engineer-interview",
-  "pure-storage-software-engineer-interview",
   "qa-engineer-jobs-bangalore",
   "qa-engineer-salary-delhi",
   "ramp-software-engineer-interview",
@@ -429,7 +425,11 @@
   "paytm-product-manager-interview",
   "perplexity-software-engineer-interview",
   "pinterest-data-scientist-interview",
-  "pinterest-software-engineer-interview"
+  "pinterest-software-engineer-interview",
+  "plaid-software-engineer-interview",
+  "product-designer-salary-bangalore",
+  "professional-recruiters-software-engineer-interview",
+  "pure-storage-software-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
