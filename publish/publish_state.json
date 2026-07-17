@@ -1,9 +1,5 @@
 {
  "queue": [
-  "okta-product-manager-interview",
-  "okx-software-engineer-interview",
-  "openai-engineering-manager-interview",
-  "oracle-software-engineer-interview",
   "paytm-product-manager-interview",
   "perplexity-software-engineer-interview",
   "pinterest-data-scientist-interview",
@@ -429,7 +425,11 @@
   "lyft-software-engineer-interview",
   "mastercard-product-manager-interview",
   "nice-software-engineer-interview",
-  "okta-devops-engineer-interview"
+  "okta-devops-engineer-interview",
+  "okta-product-manager-interview",
+  "okx-software-engineer-interview",
+  "openai-engineering-manager-interview",
+  "oracle-software-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
