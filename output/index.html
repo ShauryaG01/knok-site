@@ -1,1008 +1,838 @@
-<!DOCTYPE html>
-<html lang="en"><head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Knok — Your next job, found while you sleep</title>
-<meta name="description" content="Knok scans 150+ job boards and company career pages every night, scores the best roles against your profile, and helps you apply — so you wake up to interviews.">
-<meta name="keywords" content="job search automation, job boards, career search, apply to jobs automatically, hiring manager outreach">
-<meta name="author" content="Knok">
-<meta name="robots" content="index, follow">
-<link rel="canonical" href="https://knok.work/">
+<!doctype html>
+<html lang="en-IN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Knok: Find Jobs and Reach Hiring Managers Directly</title>
+  <meta name="description" content="Search 150+ job sources, find roles that match your experience, identify hiring managers, and send approved outreach through Gmail with Knok.">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="theme-color" content="#103c2d">
+  <link rel="canonical" href="https://knok.work/">
+  <link rel="preload" href="/965e8bbd-0f66-4124-a15b-60553dd06788.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/f89138f7-2c51-487d-8dbd-70f561e73e79.woff2" as="font" type="font/woff2" crossorigin>
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Knok">
+  <meta property="og:locale" content="en_IN">
+  <meta property="og:title" content="Knok: Find Jobs and Reach Hiring Managers Directly">
+  <meta property="og:description" content="Search 150+ job sources, find matching roles, identify hiring managers, and send approved outreach through Gmail.">
+  <meta property="og:url" content="https://knok.work/">
+  <meta property="og:image" content="https://knok.work/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Knok job search and direct outreach">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Knok: Find Jobs and Reach Hiring Managers Directly">
+  <meta name="twitter:description" content="Search 150+ job sources, find matching roles, identify hiring managers, and send approved outreach through Gmail.">
+  <meta name="twitter:image" content="https://knok.work/og-image.png">
+  <meta name="twitter:image:alt" content="Knok job search and direct outreach">
+  <script>
+    window.knokLoadAnalytics=()=>{
+      if(window.knokAnalyticsLoaded)return;window.knokAnalyticsLoaded=true;
+      (function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y)})(window,document,'clarity','script','xjnqobcrqk');
+      window.dataLayer=window.dataLayer||[];window.gtag=function(){dataLayer.push(arguments)};gtag('js',new Date());gtag('config','G-PPJ6D8NBTQ');
+      const ga=document.createElement('script');ga.async=true;ga.src='https://www.googletagmanager.com/gtag/js?id=G-PPJ6D8NBTQ';document.head.appendChild(ga);
+    };
+    try{if(localStorage.getItem('knok_cookie_consent')==='accepted')window.knokLoadAnalytics()}catch(e){}
+  </script>
+  <style>
+    @font-face{font-family:Instrument Serif;font-style:normal;font-weight:400;font-display:swap;src:url('/965e8bbd-0f66-4124-a15b-60553dd06788.woff2') format('woff2')}
+    @font-face{font-family:Instrument Serif;font-style:italic;font-weight:400;font-display:swap;src:url('/f89138f7-2c51-487d-8dbd-70f561e73e79.woff2') format('woff2')}
+    @font-face{font-family:DM Sans;font-style:normal;font-weight:400 700;font-display:swap;src:url('/dm-sans-latin.woff2') format('woff2')}
 
-<!-- Favicon -->
-<link rel="icon" type="image/svg+xml" href="/favicon.svg">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="shortcut icon" href="/favicon.ico">
+    :root{--ink:#171a15;--muted:#62685f;--paper:#fff;--wash:#f5f6f1;--warm:#f6f1e7;--line:#d9ddd5;--forest:#103c2d;--forest-2:#18513d;--mint:#e6f2ea;--green:#1f8b5c;--gold:#dcb246;--gold-soft:#f6e9bd;--red:#a24a3f;--ease:cubic-bezier(.2,.75,.25,1)}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth;background:var(--paper)}
+    body{margin:0;overflow-x:hidden;background:var(--paper);color:var(--ink);font-family:DM Sans,Arial,sans-serif;font-size:16px;line-height:1.55;letter-spacing:0;-webkit-tap-highlight-color:transparent}
+    body.menu-open{overflow:hidden}
+    button,input,select{font:inherit;letter-spacing:0}
+    button,a{touch-action:manipulation}
+    a{color:inherit}
+    img{max-width:100%;display:block}
+    section{scroll-margin-top:84px}
+    :focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+    .shell{width:min(1200px,calc(100% - 48px));margin-inline:auto}
+    .sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}.skip-link{position:fixed;top:10px;left:10px;z-index:2000;padding:11px 16px;border-radius:6px;background:var(--forest);color:#fff;font-weight:700;text-decoration:none;transform:translateY(-160%);transition:transform .18s var(--ease)}.skip-link:focus{transform:none}
+    .eyebrow{display:block;margin:0 0 18px;color:#1d714d;font:700 11px/1.3 DM Sans,sans-serif;letter-spacing:.16em;text-transform:uppercase}
+    .display{margin:0;font:400 clamp(48px,5.6vw,78px)/.97 Instrument Serif,Georgia,serif;letter-spacing:-.015em}
+    .display em{color:#a8801f;font-style:italic;font-weight:400}
+    .section-copy{max-width:590px;margin:22px 0 0;color:var(--muted);font-size:17px;line-height:1.7}
+    .button{position:relative;overflow:hidden;isolation:isolate;min-height:48px;padding:0 20px;border:1px solid transparent;border-radius:6px;display:inline-flex;align-items:center;justify-content:center;gap:9px;background:linear-gradient(135deg,rgba(24,81,61,.94),rgba(16,60,45,.99));color:#fff;text-decoration:none;font-size:14px;font-weight:700;cursor:pointer;border-color:rgba(220,178,70,.28);box-shadow:0 8px 22px -12px rgba(16,60,45,.55),inset 0 1px 0 rgba(255,255,255,.22),inset 0 -1px 0 rgba(0,0,0,.15);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);transition:transform .2s var(--ease),box-shadow .2s var(--ease),background .18s var(--ease),border-color .18s var(--ease)}
+    .button:after{content:'';position:absolute;z-index:1;top:-25%;bottom:-25%;left:-60%;width:40%;background:linear-gradient(105deg,rgba(255,255,255,0),rgba(255,255,255,.5),rgba(255,255,255,0));transform:skewX(-18deg) translateX(-160%);pointer-events:none}
+    .button:hover:after{transition:transform .7s var(--ease);transform:skewX(-18deg) translateX(520%)}
+    .button>*{position:relative;z-index:2}
+    .button:hover{transform:translateY(-2px);box-shadow:0 18px 40px -16px rgba(16,60,45,.6),inset 0 1px 0 rgba(255,255,255,.3),inset 0 -1px 0 rgba(0,0,0,.15)}
+    .button-forest{background:linear-gradient(135deg,rgba(24,81,61,.94),rgba(16,60,45,.99))}
+    .button-gold{background:var(--gold);color:#302509;box-shadow:0 8px 22px -12px rgba(214,166,60,.55)}
+    .button-outline{border-color:var(--line);background:#fff;color:var(--ink);box-shadow:none}
+    .button-outline:after{display:none}
 
-<!-- Open Graph -->
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://knok.work/">
-<meta property="og:title" content="Knok — Your next job, found while you sleep">
-<meta property="og:description" content="Knok scans 150+ job boards and company career pages every night, scores the best roles against your profile, and helps you apply.">
-<meta property="og:image" content="https://knok.work/og-image.png">
-<meta property="og:site_name" content="Knok">
+    .inline-link:after{content:'\2192';transition:transform .18s var(--ease)}
+    .inline-link:hover:after{transform:translateX(4px)}
+    [data-reveal]{opacity:0;transform:translateY(18px);transition:opacity .7s var(--ease),transform .75s var(--ease)}
+    [data-reveal].revealed{opacity:1;transform:none}
 
-<!-- Twitter -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:url" content="https://knok.work/">
-<meta name="twitter:title" content="Knok — Your next job, found while you sleep">
-<meta name="twitter:description" content="Knok scans 150+ job boards and company career pages every night, scores the best roles against your profile, and helps you apply.">
-<meta name="twitter:image" content="https://knok.work/og-image.png">
+    .site-header{position:fixed;z-index:1000;inset:0 0 auto;height:72px;border-bottom:1px solid transparent;transition:background .2s,border-color .2s}
+    .site-header.scrolled,.site-header.menu-open{border-color:var(--line);background:rgba(255,255,255,.94);-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px)}
+    .nav{height:72px;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:28px}
+    .brand{width:max-content;display:inline-flex;align-items:center;gap:10px;color:var(--ink);font-size:20px;font-weight:700;text-decoration:none}
+    .brand svg{width:30px;height:30px}
+    .nav-links{display:flex;align-items:center;gap:28px}
+    .nav-links a,.sign-in{color:#464b44;font-size:14px;font-weight:600;text-decoration:none}
+    .nav-actions{display:flex;align-items:center;justify-content:flex-end;gap:16px}
+    .nav .button{min-height:44px;padding-inline:19px}
+    .nav-cta-mobile{display:none}
+    .menu-button,.mobile-panel{display:none}
 
-<!-- Google tag (gtag.js) -->
-<script type="text/javascript">(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","xjnqobcrqk");</script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-PPJ6D8NBTQ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-PPJ6D8NBTQ');
-</script>
-<script src="a6b31a2c-c404-4e51-ba29-e6907fc15043.js"></script>
+    .hero{position:relative;min-height:820px;padding:126px 0 64px;overflow:hidden;display:flex;flex-direction:column;justify-content:center}
+    .hero-field{position:absolute;inset:0;overflow:hidden;pointer-events:none}
+    .hb{position:absolute;border-radius:50%;will-change:transform}
+    .hb3{width:52vmax;height:52vmax;top:-20vmax;right:-16vmax;background:radial-gradient(circle,rgba(214,166,60,.07),rgba(214,166,60,0) 62%);animation:hDrift2 64s ease-in-out infinite alternate}
+    @keyframes hDrift1{from{transform:translate(0,0) scale(1)}to{transform:translate(8vw,6vh) scale(1.1)}}
+    @keyframes hDrift2{from{transform:translate(0,0) scale(1.04)}to{transform:translate(-7vw,-5vh) scale(1)}}
+    .hero .shell{position:relative}
+    .hero-grid{display:grid;grid-template-columns:minmax(640px,1.18fr) minmax(430px,.82fr);align-items:center;gap:26px}
+    .hero-copy{padding-left:24px}
+    .hero h1{margin:0;font:400 clamp(42px,4.6vw,64px)/1.04 Instrument Serif,Georgia,serif;letter-spacing:-.02em;white-space:normal}
+    .hero h1 em{display:block;color:var(--forest);font-style:italic;font-weight:400}
+    @media(max-width:1240px){.hero h1{white-space:normal}}
+    .hero-lede{max-width:560px;margin:34px 0 0;color:var(--muted);font-size:18px;line-height:1.7}
+    .search-picker{width:min(620px,calc(100% + 44px));margin-top:46px;padding:7px;display:grid;grid-template-columns:1.25fr 1fr auto;align-items:stretch;border:1px solid #e0dbc9;border-radius:16px;background:#fff;box-shadow:0 24px 55px -38px rgba(60,60,40,.4)}
+    .search-picker .dd{position:relative;min-width:0;display:flex;align-items:center;border-right:1px solid #ece7d8}
+        .dd-btn{width:100%;height:44px;padding:0 14px 0 18px;display:flex;align-items:center;justify-content:space-between;gap:10px;border:0;border-radius:999px;background:transparent;color:#2c322b;font-size:13.5px;font-weight:650;cursor:pointer}
+    .dd-btn span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+    .dd-btn svg{flex:0 0 auto;width:13px;height:13px;color:#b8862b;transition:transform .25s var(--ease)}
+    .dd.open .dd-btn svg{transform:rotate(180deg)}
+    .dd-list{position:absolute;z-index:80;top:calc(100% + 14px);left:6px;min-width:238px;margin:0;padding:8px;list-style:none;border:1px solid #e4e7e0;border-radius:14px;background:#fff;box-shadow:0 30px 60px -28px rgba(9,28,20,.4)}
+    .dd-list li{padding:11px 13px;border-radius:8px;color:#2c322b;font-size:13.5px;font-weight:600;cursor:pointer}
+    .dd-list li:hover{background:#f1f6f2}
+    .dd-list li[aria-selected="true"]{color:var(--forest);font-weight:700}
+    .dd-list li[aria-selected="true"]:after{content:' \2713';color:#1f8b5c}
+    .search-picker .dd:focus-within{background:#faf8f0;border-radius:12px 0 0 12px}
+    .search-picker .button{height:auto;min-height:52px;margin-left:8px;padding:0 24px;border-radius:6px;color:#fff;white-space:nowrap}
+    .keyline{position:relative;isolation:isolate}
+    .keyline:before{content:'';position:absolute;inset:-1.5px;z-index:0;border-radius:inherit;padding:1.5px;background:conic-gradient(from var(--kl,0deg),transparent 0deg,transparent 250deg,rgba(240,206,122,.9) 300deg,rgba(31,139,92,.6) 330deg,transparent 360deg);-webkit-mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);-webkit-mask-composite:xor;mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);mask-composite:exclude;pointer-events:none;opacity:0;transition:opacity .3s var(--ease)}
+    .keyline:hover:before,.keyline:focus-visible:before{opacity:1;animation:klspin 3.4s linear infinite}
+    @property --kl{syntax:'<angle>';inherits:false;initial-value:0deg}
+    @keyframes klspin{to{--kl:360deg}}
+    @media(prefers-reduced-motion:reduce){.keyline:hover:before{animation:none}}
+    .search-picker .button:hover{transform:translateY(-1px)}
+    .picker-result{grid-column:1/-1;min-height:0;padding:0 18px;display:grid;grid-template-rows:0fr;overflow:hidden;color:#8a681f;font-size:11px;font-weight:650;transition:grid-template-rows .35s var(--ease),padding .35s}
+    .picker-result>span{min-height:0;overflow:hidden}
+    .search-picker.done .picker-result{grid-template-rows:1fr;padding-block:6px 3px}
+    .picker-result b{color:var(--forest);font-weight:700}
+    .picker-result a{color:var(--forest);font-weight:700;text-decoration:underline;text-underline-offset:2px}
 
+
+    .radar{position:relative;height:620px;isolation:isolate;display:flex;align-items:center;justify-content:center}
+    @media(min-width:1280px){.radar{margin-right:-84px}.scope-field{width:min(560px,100%)}}
+    .scope-field{position:relative;width:min(520px,100%);aspect-ratio:1}
+    .scope-rings{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+    .scope-sweep{position:absolute;inset:3.5%;border-radius:50%;overflow:hidden;-webkit-mask-image:radial-gradient(circle at 50% 50%,#000 56%,transparent 100%);mask-image:radial-gradient(circle at 50% 50%,#000 56%,transparent 100%)}
+    .scope-sweep:before{content:'';position:absolute;inset:0;background:conic-gradient(from 0deg,rgba(214,166,60,.55) 0deg,rgba(214,166,60,.22) 12deg,rgba(214,166,60,.07) 48deg,rgba(214,166,60,0) 94deg,transparent 360deg);animation:scopeSpin 6.5s linear infinite}
+    .scope-node{position:absolute;z-index:6;display:flex;align-items:center;gap:7px;padding:6px 11px 6px 6px;border:1px solid #e3e6de;border-radius:999px;background:#fff;color:#33382f;font-size:11px;font-weight:700;white-space:nowrap;box-shadow:0 10px 22px -12px rgba(22,42,33,.32);animation:scopeFloat 5s ease-in-out infinite}
+    .scope-node img{width:24px;height:24px;border-radius:50%;object-fit:contain}
+    .node-a{left:50%;top:13%}.node-b{left:78%;top:29%;animation-delay:.8s}.node-c{left:78%;top:71%;animation-delay:1.6s}.node-d{left:50%;top:87%;animation-delay:2.4s}.node-e{left:22%;top:71%;animation-delay:3.2s}.node-f{left:22%;top:29%;animation-delay:4s}
+    .node-more{left:20%;top:50%;padding:6px 11px;border-color:#ead9ae;background:#fcf6e7;color:#745815;animation-delay:2s}
+    .scope-target{position:absolute;z-index:4;width:8px;height:8px;border-radius:50%;background:#cc9a2e;box-shadow:0 0 9px rgba(214,166,60,.55);animation:targetIn 6.5s ease-in-out infinite}
+    .scope-target:after{content:'';position:absolute;left:50%;top:50%;width:9px;height:9px;border-radius:50%;border:1px solid #cc9a2e;transform:translate(-50%,-50%);animation:targetLock 6.5s ease-out infinite;animation-delay:inherit}
+    .scope-target.gold{background:#cc9a2e;box-shadow:0 0 9px rgba(214,166,60,.5)}.scope-target.gold:after{border-color:#cc9a2e}
+    .t1{left:63%;top:33%;animation-delay:.9s}.t2{left:41%;top:64%;animation-delay:3.4s}.t3{left:66%;top:59%;animation-delay:4.6s}
+    .scope-reticle{position:absolute;z-index:2;left:50%;top:50%;width:150px;height:150px;transform:translate(-50%,-50%);animation:reticleSpin 11s linear infinite}
+    .scope-core{position:absolute;z-index:7;left:50%;top:50%;width:96px;height:96px;display:grid;place-items:center;border-radius:22px;border:1px solid rgba(220,178,70,.5);background:var(--forest);box-shadow:0 24px 50px -20px rgba(16,60,45,.55);transform:translate(-50%,-50%);animation:coreBreathe 4.4s ease-in-out infinite}
+    .scope-core>svg{width:56px;height:56px}
+    .core-ripple{position:absolute;inset:0;border-radius:22px;border:1px solid rgba(220,178,70,.55);animation:coreRipple 2.6s ease-out infinite}
+    .scope-node,.scope-target{transform:translate(-50%,-50%)}
+    @keyframes scopeSpin{to{transform:rotate(360deg)}}
+    @keyframes scopeFloat{0%,100%{transform:translate(-50%,-50%) translateY(0)}50%{transform:translate(-50%,-50%) translateY(-6px)}}
+    @keyframes targetIn{0%,56%{opacity:.2;transform:translate(-50%,-50%) scale(.6)}70%,92%{opacity:1;transform:translate(-50%,-50%) scale(1)}100%{opacity:.2;transform:translate(-50%,-50%) scale(.6)}}
+    @keyframes targetLock{0%,58%{opacity:0;transform:translate(-50%,-50%) scale(.5)}66%{opacity:.9}100%{opacity:0;transform:translate(-50%,-50%) scale(2.4)}}
+    @keyframes reticleSpin{to{transform:translate(-50%,-50%) rotate(360deg)}}
+    @keyframes coreBreathe{0%,100%{transform:translate(-50%,-50%) scale(1)}50%{transform:translate(-50%,-50%) scale(1.03)}}
+    @keyframes coreRipple{0%{transform:scale(1);opacity:.6}100%{transform:scale(2.3);opacity:0}}
+    @keyframes blip{50%{opacity:.35;transform:scale(.75)}}
+
+    .product-proof{padding:64px 0 70px;background:#fff}
+    .proof-head{display:block}
+    .proof-head .display{font-size:clamp(38px,3.9vw,54px)}
+    .dashboard-shot{margin-top:26px;padding:10px 10px 0;border:1px solid #dbdfd7;border-radius:12px;background:#fff;box-shadow:0 35px 80px -50px rgba(16,60,45,.5)}
+    .shot-bar{height:38px;padding:0 4px 10px;display:flex;align-items:center;justify-content:space-between;color:#757b73;font:700 10px/1 DM Sans,sans-serif;letter-spacing:.09em;text-transform:uppercase}
+    .shot-dots{display:flex;gap:5px}.shot-dots i{width:7px;height:7px;border-radius:50%;background:#d3d7d0}.shot-dots i:first-child{background:#e2b650}
+    .dashboard-shot img{width:100%;max-height:46vh;object-fit:cover;object-position:top;border:1px solid #d8dcd5;border-radius:6px 6px 0 0}
+    .proof-footer{padding:14px 4px 10px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+    .proof-footer p{max-width:650px;margin:0;color:#62685f;font-size:13px}
+
+    .queue-demo{position:relative;overflow:hidden;border:1px solid #d3d8d0;border-radius:10px;background:#f8f8f5;box-shadow:0 34px 70px -48px rgba(20,45,33,.5)}
+    .queue-top{height:58px;padding:0 18px;display:flex;align-items:center;justify-content:space-between;background:var(--forest);color:#fff}
+    .queue-top>span{font:700 10px/1 DM Sans,sans-serif;letter-spacing:.09em;text-transform:uppercase;color:#b6cbbf}.queue-top strong{font-size:12px}
+    .queue-logos{height:76px;padding:0 18px;display:flex;align-items:center;gap:12px;border-bottom:1px solid var(--line);background:#fff}
+    .queue-logos span{width:48px;height:48px;padding:9px;display:grid;place-items:center;border:1px solid #e0e3dd;border-radius:6px;background:#fff}.queue-logos img{width:100%;height:100%;object-fit:contain}
+    .queue-logos em{margin-left:auto;color:#8a681f;font:700 11.2px/1 DM Sans,sans-serif;letter-spacing:.09em;font-style:normal}
+    .queue-verdict{padding:20px 22px;display:flex;align-items:end;justify-content:space-between;gap:20px;border-bottom:1px solid var(--line);background:#fffaf0}
+    .queue-verdict strong{font:400 30px/1 Instrument Serif,serif}.queue-verdict span{max-width:250px;color:#a24a3f;font-size:12px;font-weight:700;text-align:right}
+    .queue-stats{display:grid;grid-template-columns:1fr 1fr;border-bottom:1px solid var(--line)}
+    .queue-stats div{min-height:105px;padding:18px 22px;background:#fff}.queue-stats div+div{border-left:1px solid var(--line)}
+    .queue-stats small,.queue-stats strong{display:block}.queue-stats small{color:#5f655d;font-size:9px}.queue-stats strong{margin-top:7px;font:400 39px/.9 Instrument Serif,serif}.queue-stats strong b{font:inherit;color:var(--red)}
+    .queue-window{position:relative;height:280px;overflow:hidden;background:#f5f6f2}
+    .queue-list{will-change:transform;transform:translateY(calc(var(--problem-progress,0) * -760px))}
+    .queue-row{height:68px;padding:0 18px;display:grid;grid-template-columns:35px 1fr auto;align-items:center;gap:12px;border-bottom:1px solid #e0e2dc;background:#fff;color:#4c514a}
+    .queue-row i,.queue-row b{width:32px;height:32px;display:grid;place-items:center;border-radius:50%;background:#ebede8;color:#5f655d;font-style:normal;font-size:8px}.queue-row span strong,.queue-row span small{display:block}.queue-row span strong{font-size:11px}.queue-row span small{margin-top:3px;color:#5f655d;font-size:8px}.queue-row time{color:#5f655d;font-size:8px}
+    .queue-row.you{position:relative;z-index:3;border:1px solid #d4a839;background:#fff8e7;box-shadow:0 10px 24px rgba(113,82,16,.12)}.queue-row.you b{background:var(--gold);color:#3b2d0b}.queue-row.you time{color:#8a671c;font-weight:700}
+    .queue-position{position:absolute;z-index:5;left:50%;bottom:14px;transform:translateX(-50%);padding:10px 16px;border-radius:999px;background:var(--forest);color:#f2ead3;font:700 10px/1 DM Sans,sans-serif;letter-spacing:.07em;text-transform:uppercase;white-space:nowrap;box-shadow:0 14px 30px rgba(9,28,20,.35)}.queue-position:before{content:'\2193';margin-right:8px;color:#efc65d}
+    .problem-progress{position:absolute;left:0;right:0;bottom:0;height:3px;background:#e3e6e0}.problem-progress i{display:block;width:100%;height:100%;background:var(--gold);transform:scaleX(var(--problem-progress,0));transform-origin:left}
+
+    .workflow{padding:0;background:#f8f7f2}
+    .workflow .display em{color:var(--forest)}
+    .workflow .eyebrow{color:#1d714d}
+    .chapter-intro{position:absolute;inset:0;z-index:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;opacity:0;transform:translateY(30px);visibility:hidden;pointer-events:none;transition:opacity .55s var(--ease),transform .6s var(--ease),visibility 0s .55s}
+    .chapter-intro .display{max-width:900px}
+    .chapter-intro .section-copy{margin:22px auto 0}
+    .il-rail{position:relative;width:min(1020px,100%);margin-top:clamp(48px,7vh,88px);--lblh:88px}
+    .il-line{position:absolute;left:0;right:0;top:calc(var(--lblh) + 11.5px);height:1px;background:linear-gradient(to right,transparent,rgba(23,26,21,.22) 7%,rgba(23,26,21,.22) 93%,transparent);transform-origin:left center;transform:scaleX(0)}
+    .il-stages{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,1fr)}
+    .il-stage{display:grid;grid-template-rows:var(--lblh) 24px var(--lblh);justify-items:center}
+    .il-dot{grid-row:2;align-self:center;width:8px;height:8px;border-radius:50%;background:var(--forest);opacity:0}
+    .il-stage.reach .il-dot{background:#a8801f}
+    .il-lbl{position:relative;display:flex;flex-direction:column;align-items:center;gap:7px;text-align:center;max-width:200px;opacity:0}
+    .il-stage.above .il-lbl{grid-row:1;align-self:end;margin-bottom:24px}
+    .il-stage.below .il-lbl{grid-row:3;align-self:start;margin-top:24px}
+    .il-stage.above .il-lbl:after,.il-stage.below .il-lbl:before{content:'';position:absolute;left:50%;width:1px;height:12px;background:var(--line)}
+    .il-stage.above .il-lbl:after{top:calc(100% + 6px)}
+    .il-stage.below .il-lbl:before{bottom:calc(100% + 6px)}
+    .il-num{color:#1a7a50;font-size:11px;font-weight:700;letter-spacing:.2em}
+    .il-name{font:400 24px/1 Instrument Serif,serif;color:var(--ink)}
+    .il-desc{color:var(--muted);font-size:13.5px;line-height:1.45}
+    .il-stage:nth-child(1){--dd:.5s;--dl:.65s}.il-stage:nth-child(2){--dd:.72s;--dl:.87s}.il-stage:nth-child(3){--dd:.94s;--dl:1.09s}.il-stage:nth-child(4){--dd:1.16s;--dl:1.31s}
+    .chapter-intro.lit .il-line{animation:ilDrawX 1.4s cubic-bezier(.65,0,.35,1) .2s forwards}
+    .chapter-intro.lit .il-dot{animation:ilPop .45s cubic-bezier(.34,1.56,.64,1) forwards;animation-delay:var(--dd)}
+    .chapter-intro.lit .il-lbl{animation:ilRise .7s cubic-bezier(.22,1,.36,1) forwards;animation-delay:var(--dl)}
+    @keyframes ilDrawX{to{transform:scaleX(1)}}
+    @keyframes ilDrawY{to{transform:scaleY(1)}}
+    @keyframes ilPop{0%{opacity:0;transform:scale(0)}70%{opacity:1;transform:scale(1.35)}100%{opacity:1;transform:scale(1)}}
+    @keyframes ilRise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+    @media(max-width:680px){
+      .il-rail{max-width:420px;margin-top:40px}
+      .il-line{top:6px;bottom:6px;left:3.5px;right:auto;height:auto;width:1px;background:linear-gradient(to bottom,transparent,rgba(23,26,21,.22) 6%,rgba(23,26,21,.22) 94%,transparent);transform-origin:center top;transform:scaleY(0)}
+      .chapter-intro.lit .il-line{animation-name:ilDrawY}
+      .il-stages{grid-template-columns:1fr;row-gap:32px}
+      .il-stage,.il-stage.above,.il-stage.below{grid-template-rows:none;grid-template-columns:8px 1fr;column-gap:20px;justify-items:start}
+      .il-dot{grid-row:1;grid-column:1;align-self:start;margin-top:5px}
+      .il-stage.above .il-lbl,.il-stage.below .il-lbl{grid-row:1;grid-column:2;margin:0;align-self:start;align-items:flex-start;text-align:left;max-width:none;gap:6px}
+      .il-stage.above .il-lbl:after,.il-stage.below .il-lbl:before{content:none}
+      .il-name{font-size:21px}
+    }
+    .intro-hint{margin-top:40px;display:inline-flex;align-items:center;gap:9px;color:#8b877a;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+    .intro-hint b{animation:hintBob 1.6s ease-in-out infinite}
+    @keyframes hintBob{50%{transform:translateY(4px)}}
+    .chapter-scroll[data-step="0"] .chapter-intro{opacity:1;transform:none;visibility:visible;pointer-events:auto;transition-delay:.28s,.12s,0s}
+    .chapter-scroll{height:330vh}
+    .chapter-sticky{position:sticky;top:0;height:100vh;height:100svh;min-height:680px;overflow:hidden}
+    .chapter-frame{position:relative}
+    .chapter-frame{width:min(1200px,calc(100% - 48px));height:100%;margin-inline:auto;display:flex;flex-direction:column;padding-top:58px}
+    .chapter-stages{position:relative;flex:1;min-height:0}
+    .chapter-stage{position:absolute;inset:14px 0 16px;display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);align-items:center;gap:54px;opacity:0;transform:translateY(30px);visibility:hidden;pointer-events:none;transition:opacity .55s var(--ease),transform .6s var(--ease),visibility 0s .55s}
+    .chapter-scroll[data-step="1"] .chapter-stage[data-stage="0"],.chapter-scroll[data-step="2"] .chapter-stage[data-stage="1"],.chapter-scroll[data-step="3"] .chapter-stage[data-stage="2"],.chapter-scroll[data-step="4"] .chapter-stage[data-stage="3"]{opacity:1;transform:none;visibility:visible;pointer-events:auto;transition-delay:.28s,.12s,0s}
+    .stage-copy small{color:#1d714d;font:700 11.2px/1 DM Sans,sans-serif;letter-spacing:.09em;text-transform:uppercase}
+    .stage-copy h3{margin:16px 0 0;font:400 clamp(28px,2.5vw,40px)/1.03 Instrument Serif,serif;color:var(--ink)}
+    .stage-copy p:not(.sub-lite){max-width:430px}
+    .stage-copy h3 em{display:block;color:var(--forest);font-style:italic;font-weight:400}
+    .stage-copy p{margin:18px 0 0;color:var(--muted);font-size:15px;line-height:1.7}
+    .stage-cta{margin-top:28px;min-height:46px}
+    .chapter-steps{flex:0 0 auto;display:grid;grid-template-columns:repeat(4,1fr);gap:12px;padding:6px 0 30px;transition:opacity .45s var(--ease)}
+    .chapter-scroll[data-step="0"] .chapter-steps{opacity:0;pointer-events:none}
+    .chapter-step{position:relative;margin:0;padding:14px 2px 0;display:flex;align-items:baseline;gap:9px;border:0;border-top:2px solid #dfe1da;background:none;color:#6c726a;font:700 12.5px/1 DM Sans,sans-serif;letter-spacing:.09em;text-transform:uppercase;text-align:left;cursor:pointer;transition:color .3s var(--ease),border-color .3s var(--ease)}
+    .chapter-step:hover{color:var(--ink)}
+    .chapter-scroll[data-step="1"] .chapter-step:nth-child(1),.chapter-scroll[data-step="2"] .chapter-step:nth-child(2),.chapter-scroll[data-step="3"] .chapter-step:nth-child(3),.chapter-scroll[data-step="4"] .chapter-step:nth-child(4){color:var(--ink);border-top-color:var(--forest)}
+    .chapter-stage .surface-bar b{color:#1d714d}
+
+    .chapter-stage .queue-window{height:238px}
+    .chapter-stage .queue-stats div{min-height:92px}
+    @media(max-height:840px) and (min-width:901px){.stage-copy h3{font-size:clamp(32px,3.2vw,44px)}.stage-copy p{font-size:14px}.chapter-stage .queue-window{height:180px}.chapter-stage .queue-stats div{min-height:80px}.chapter-stage .queue-stats strong{font-size:31px}.chapter-stage .queue-verdict{padding:14px 22px}.chapter-stage .queue-verdict strong{font-size:24px}.chapter-stage .reach-layout{min-height:430px}.chapter-stage .sequence-flow span{min-height:74px}.chapter-stage .contact{min-height:112px}.chapter-stage .job-row{min-height:76px}.chapter-steps{padding-bottom:20px}}
+    .product-surface{overflow:hidden;border:1px solid #d3d8d0;border-radius:10px;background:#fff;box-shadow:0 28px 60px -46px rgba(20,55,40,.5)}
+    .surface-bar{height:48px;padding:0 16px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);background:#fff;color:#71776f;font:700 10px/1 DM Sans,sans-serif;letter-spacing:.09em;text-transform:uppercase}.surface-bar b{color:#1d714d}
+    .source-row{padding:14px 16px;display:flex;flex-wrap:wrap;align-items:center;gap:8px;background:#f6f7f3}.source-row span{padding:7px 13px 7px 8px;display:inline-flex;align-items:center;gap:8px;border:1px solid #e3e6de;border-radius:999px;background:#fff;color:#3f453e;font-size:11px;font-weight:700}.source-row img{width:20px;height:20px;border-radius:50%;object-fit:contain}.source-row .source-more{padding:7px 13px;border-color:#ead9ae;background:#fcf6e7;color:#745815}
+    .jobs-list{padding:13px;display:grid;gap:8px}.job-row{min-height:92px;padding:12px;display:grid;grid-template-columns:42px 1fr auto;align-items:center;gap:12px;border:1px solid #e0e3dd;border-radius:5px}.job-row:first-child{border-color:#6aa080;background:#f6fbf7}.job-row:first-child b{border-color:var(--forest);background:var(--forest);color:#fff}.job-row img{width:40px;height:40px;padding:6px;border:1px solid #e0e2dd;border-radius:5px;background:#fff;object-fit:contain}.job-row strong,.job-row small{display:block}.job-row strong{font-size:12px}.job-row small{margin-top:4px;color:#5d635b;font-size:9px}.job-row b{padding:7px 12px;border-radius:999px;border:1px solid #d9ddd5;background:#fff;color:#5c6259;font-size:9.5px;font-weight:700}
+    .discover-summary{padding:15px 17px;display:flex;align-items:center;justify-content:space-between;background:var(--forest);color:#fff}.discover-summary strong{font:400 25px/1 Instrument Serif,serif}.discover-summary span{color:#b5c9be;font-size:9px}
+    .map-layout{padding:16px;display:block;background:#f7f8f4}.role-anchor{margin-bottom:12px;padding:12px 16px;display:flex;align-items:center;gap:13px;border:1px solid #e8dcb8;border-radius:6px;background:#fcf6e7}.role-anchor img{width:40px;height:40px;padding:6px;border:1px solid #e8dcb8;border-radius:6px;background:#fff;object-fit:contain}.role-anchor small{display:none}.role-anchor strong,.role-anchor span{display:block}.role-anchor strong{margin:0;font:400 21px/1 Instrument Serif,serif}
+    .contact-table{width:100%;border-collapse:collapse;background:#fff;border:1px solid #dfe3dc;font-size:13px}
+    .contact-table thead th{padding:12px 16px;text-align:left;color:#8b9086;font-size:10px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;border-bottom:1px solid var(--line)}
+    .contact-table td{padding:14px 16px;border-top:1px solid #eceee9;vertical-align:middle;color:#4c524a}
+    .contact-table td strong{display:block;color:var(--ink);font-size:13.5px}
+    .contact-table td small{color:#5d635b;font-size:11px}
+    .contact-table code{font-family:DM Sans,sans-serif;color:#1d714d;font-weight:700}
+    .contact-table tr.primary{background:#f4faf6;box-shadow:inset 3px 0 0 var(--forest)}.role-anchor span{margin:0 0 0 auto;color:#6a6559;font-size:11px;text-align:right}
+    .map-more-toggle,.reach-tabs{display:none}
+    .reach-layout{display:grid;grid-template-columns:minmax(0,1fr) 235px;min-height:500px}.gmail-compose{border-right:1px solid var(--line)}.gmail-head{height:56px;padding:0 16px;display:flex;align-items:center;gap:9px;border-bottom:1px solid var(--line)}.gmail-head img{width:28px;height:28px}.gmail-head strong{font-size:12px}.gmail-head span{margin-left:auto;color:#1a7750;font-size:8px;font-weight:700}.mail-field{min-height:50px;padding:0 17px;display:grid;grid-template-columns:70px 1fr;align-items:center;border-bottom:1px solid #e3e5df;font-size:10px}.mail-field span{color:#5d635b}.mail-body{padding:18px;color:#4b514a;font-size:11px;line-height:1.65}.mail-body p{margin:0 0 10px}.mail-body mark{padding:1px 3px;background:#e7f2e9;color:#255b43}.attachment{width:max-content;margin-top:15px;padding:8px 10px;display:flex;align-items:center;gap:8px;border:1px solid #dadeda;border-radius:4px}.attachment b{width:28px;height:31px;display:grid;place-items:center;border-radius:3px;background:#b83b35;color:#fff;font-size:7px}.attachment strong,.attachment small{display:block}.attachment strong{font-size:9px}.attachment small{margin-top:2px;color:#5d635b;font-size:7px}.sequence{padding:20px;background:var(--forest);color:#fff}.sequence>small{color:#e2b952;font:700 10px/1 DM Sans,sans-serif;letter-spacing:.09em;text-transform:uppercase}.sequence>strong{display:block;margin-top:12px;font:400 26px/1 Instrument Serif,serif}.sequence-flow{margin-top:23px}.sequence-flow span{position:relative;min-height:76px;padding-left:36px;display:block}.sequence-flow span:not(:last-child):before{content:'';position:absolute;left:12px;top:26px;bottom:0;border-left:1px solid rgba(255,255,255,.22)}.sequence-flow i{position:absolute;left:0;top:0;width:25px;height:25px;display:grid;place-items:center;border-radius:50%;background:#e0b142;color:#34270b;font-style:normal;font-size:8px}.sequence-flow b,.sequence-flow small{display:block}.sequence-flow b{font-size:9px}.sequence-flow small{margin-top:4px;color:#a9bdb2;font-size:7px}.sequence .button{width:100%;min-height:42px;padding:0 10px;background:var(--gold);color:#34270b;font-size:10px}.sequence-flow span{opacity:.5;animation:seqRow 7.5s var(--ease) infinite}.sequence-flow span:nth-child(1){animation-delay:.2s}.sequence-flow span:nth-child(2){animation-delay:2s}.sequence-flow span:nth-child(3){animation-delay:3.8s}@keyframes seqRow{0%,2%{opacity:.5}5%,24%{opacity:1}30%,100%{opacity:.55}}.sequence-flow i{animation:seqStep 7.5s var(--ease) infinite}.sequence-flow span:nth-child(1) i{animation-delay:.2s}.sequence-flow span:nth-child(2) i{animation-delay:2s}.sequence-flow span:nth-child(3) i{animation-delay:3.8s}@keyframes seqStep{0%,12%{transform:scale(1);box-shadow:0 0 0 0 rgba(224,177,66,0)}3%{transform:scale(1.35);box-shadow:0 0 0 10px rgba(224,177,66,.32)}9%{transform:scale(1);box-shadow:0 0 0 0 rgba(224,177,66,0)}100%{transform:scale(1)}}.sequence-reply{margin:2px 0 14px;padding:11px 12px;display:flex;align-items:center;gap:9px;border-radius:6px;background:rgba(255,255,255,.1);color:#f2ead3;font-size:10.5px;font-weight:600;opacity:0;animation:seqReply 7.5s var(--ease) infinite}.sequence-reply b{flex:0 0 auto;width:20px;height:20px;display:grid;place-items:center;border-radius:50%;background:var(--gold);color:#34270b;font-size:9px}@keyframes seqReply{0%,68%{opacity:0;transform:translateY(10px) scale(.96)}76%,95%{opacity:1;transform:none}100%{opacity:0}}.reach-trust{padding:15px 20px;display:flex;flex-wrap:wrap;gap:10px 14px;border-top:1px solid var(--line);background:#fbfcfa}
+    .reach-trust span{display:inline-flex;align-items:center;gap:8px;color:#3c423a;font-size:12px;font-weight:600}.reach-trust span:before{content:'\2713';display:grid;place-items:center;width:18px;height:18px;border-radius:50%;background:var(--mint);color:#1f8b5c;font-size:10px;font-weight:700}
+
+    .tracking{padding:60px 0;background:#fff}
+    .tracking-head{display:block}.tracking-head .section-copy{margin-top:20px}
+    .stat-row{margin-top:54px;display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid #d9ddd5}
+    .stat-row div{padding:30px 24px 0;border-right:1px solid #d9ddd5}.stat-row div:last-child{border-right:0}
+    .stat-row strong{display:block;font:400 clamp(56px,6vw,88px)/.95 Instrument Serif,serif;font-variant-numeric:tabular-nums;letter-spacing:-.01em}
+    .stat-row small{display:block;margin-top:12px;color:#7c8279;font-size:12px;font-weight:650;letter-spacing:.05em;text-transform:uppercase}
+    .stat-row b{display:block;margin-top:5px;color:#1d714d;font-size:12px;font-weight:700}
+    .f1{margin-top:28px}
+    .f1-track{display:flex;align-items:stretch;gap:6px}
+    .f1-seg{position:relative;min-width:0;display:flex;flex-direction:column;justify-content:center;padding:18px 24px;border-radius:12px;color:#fff;overflow:hidden}
+    .f1-seg.reached{flex:23 1 0;background:linear-gradient(135deg,var(--forest-2),var(--forest))}
+    .f1-seg.opened{flex:14 1 0;background:linear-gradient(135deg,#2e7d58,#236b4b)}
+    .f1-seg.replied{flex:6 1 0;background:linear-gradient(135deg,#e7c25f,var(--gold));color:#3a2c06}
+    .f1-seg .n{font:400 clamp(34px,3.6vw,44px)/.9 Instrument Serif,serif;font-variant-numeric:tabular-nums;letter-spacing:-.01em}
+    .f1-seg .l{margin-top:7px;font-size:11.5px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;opacity:.88;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .f1-conv{position:relative;z-index:2;align-self:center;flex:0 0 auto;margin:0 -13px;padding:6px 11px;border-radius:999px;background:#fff;border:1px solid var(--line);box-shadow:0 6px 14px -8px rgba(20,55,40,.4);font-size:12px;font-weight:700;color:var(--forest);white-space:nowrap}
+    .f1-conv small{color:#8a8f86;font-weight:600}
+    .f1-foot{margin-top:14px;display:flex;align-items:center;gap:9px;color:var(--muted);font-size:13.5px;flex-wrap:wrap}
+    .f1-foot .pill{padding:5px 11px;border-radius:6px;background:var(--gold-soft);color:#6f5410;font-size:12px;font-weight:700}
+    .conv-list{margin-top:30px;border-top:1px solid #d9ddd5}
+    .conv-row{display:grid;grid-template-columns:46px minmax(190px,1.05fr) minmax(150px,1fr) 168px;gap:18px;align-items:center;padding:15px 6px;border-bottom:1px solid #e8eae4;transition:background .2s var(--ease)}
+    .conv-row:hover{background:#fafbf8}
+    .conv-row img{width:42px;height:42px;padding:6px;border:1px solid #e0e3dd;border-radius:8px;background:#fff;object-fit:contain}
+    .conv-row>span>strong{display:block;font-size:15.5px}.conv-row>span>small{color:#7a8077;font-size:12px}
+    .conv-signal{justify-self:start;text-align:left}.conv-signal b{display:block;color:#1d714d;font-size:13.5px}.conv-signal small{color:#7a8077;font-size:12px}
+    .conv-row.replied .conv-signal small{font:italic 400 14px/1.4 Instrument Serif,serif;color:#3c423a}
+    .conv-row em{justify-self:end;padding:9px 14px;border-radius:999px;background:var(--mint);color:#176b48;font-size:12px;font-style:normal;font-weight:700;white-space:nowrap}
+    .conv-row em.waiting{background:#edebe2;color:#6c726a}
+    .conv-row.replied{position:relative;background:#f3f9f4;border-radius:10px;border-bottom-color:transparent}
+    .conv-row.replied:before{content:'';position:absolute;left:0;top:0;bottom:0;width:3px;border-radius:3px;background:#1f8b5c}
+    .tracking-cta{margin-top:24px;padding-top:22px;border-top:1px solid #e8eae4;display:flex;align-items:center;justify-content:space-between;gap:24px}.tracking-cta p{margin:0;color:#6e746c;font-size:13.5px}
+
+    .pricing{padding:118px 0;background:var(--wash)}
+    .pricing-head{text-align:center}.pricing-head .display{max-width:850px;margin-inline:auto;font-size:clamp(40px,4.4vw,58px)}.pricing-head .section-copy{margin:14px auto 0}
+    .plans{margin-top:38px;display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+    .plan{position:relative;min-height:0;padding:26px 24px;display:flex;flex-direction:column;border:1px solid #dbdfd7;border-radius:10px;background:#fff;transition:transform .25s var(--ease),box-shadow .25s var(--ease)}
+    .plan:not(.featured):hover{transform:translateY(-4px);box-shadow:0 24px 45px -34px rgba(20,45,33,.4)}.plan.featured{position:relative;z-index:1;isolation:isolate;border-color:transparent;background:var(--forest);color:#fff;box-shadow:0 34px 64px -36px rgba(16,60,45,.7);transform:scale(1.055)}
+    .plan.featured:before{content:'';position:absolute;z-index:-1;inset:-1.5px;border-radius:inherit;padding:1.5px;background:conic-gradient(from var(--kl,0deg),rgba(220,178,70,.28) 0deg,rgba(220,178,70,.28) 190deg,#f0ce7a 285deg,#dcb246 320deg,rgba(220,178,70,.28) 360deg);-webkit-mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);-webkit-mask-composite:xor;mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);mask-composite:exclude;animation:klspin 6s linear infinite;pointer-events:none}
+    @media(prefers-reduced-motion:reduce){.plan.featured:before{animation:none;background:#dcb246}}
+    .plan-label{font-size:13.5px;font-weight:700;letter-spacing:.02em}.plan-badge{position:absolute;right:18px;top:18px;padding:7px 10px;border-radius:4px;background:var(--gold);color:#312509;font:700 10px/1 DM Sans,sans-serif;letter-spacing:.08em;text-transform:uppercase}.price{margin-top:20px;font:400 50px/.9 Instrument Serif,serif}.price small{font:500 13px/1 DM Sans,sans-serif;color:#777d75}.featured .price{color:#f0c759}.featured .price small{color:#aec4b8}.plan>p{min-height:56px;margin:16px 0 0;color:#5f655d;font-size:13px;line-height:1.5}.featured>p{color:#bdd0c6}.plan .button{width:100%;margin-top:14px}.plan ul{margin:22px 0 0;padding:22px 0 0;border-top:1px solid #e0e3dd;display:grid;gap:13px;list-style:none}.featured ul{border-color:rgba(255,255,255,.18)}.plan li{display:flex;gap:9px;color:#4c524a;font-size:13px;line-height:1.4}.featured li{color:#dce8e1}.plan li:before{content:'\2713';color:#21875a;font-weight:800}.featured li:before{color:#67d49b}
+    .compare{margin-top:28px;overflow:hidden;border:1px solid #cfd4cc;border-radius:8px;background:#fff}
+    .compare-head{padding:23px 25px;display:flex;align-items:end;justify-content:space-between;gap:25px;border-bottom:1px solid var(--line)}.compare-head span,.compare-head strong{display:block}.compare-head span{color:#1d714d;font:700 10px/1 DM Sans,sans-serif;letter-spacing:.09em;text-transform:uppercase}.compare-head strong{margin-top:8px;font:400 28px/1 Instrument Serif,serif}.compare-head em{display:none;color:#7c8279;font-size:9px;font-style:normal}
+    .compare-scroll{overflow-x:auto}.compare table{width:100%;min-width:820px;border-collapse:collapse}.compare th,.compare td{height:58px;padding:0 18px;border-bottom:1px solid #e1e3de;font-size:12.5px;text-align:center}.compare thead th{color:#747a71;font-size:11px}.compare tbody th{text-align:left;font-weight:700}.compare thead th:first-child,.compare tbody th{position:sticky;z-index:2;left:0;background:#fff;box-shadow:1px 0 0 #e1e3de}.compare .popular{background:#edf5ef;color:#176b48;font-weight:700}.compare tbody tr:last-child th,.compare tbody tr:last-child td{border-bottom:0}
+
+    .faq{padding:96px 0;background:#fff}.faq-layout{display:grid;grid-template-columns:minmax(300px,.65fr) minmax(520px,1.35fr);gap:90px;align-items:start}.faq-list{border-top:1px solid var(--line)}.faq details{border-bottom:1px solid var(--line)}.faq summary{min-height:63px;display:flex;align-items:center;justify-content:space-between;gap:20px;cursor:pointer;font-size:13px;font-weight:700;list-style:none}.faq summary::-webkit-details-marker{display:none}.faq summary:after{content:'+';font-size:18px;font-weight:400}.faq details[open] summary:after{content:'\2212'}.faq details p{max-width:650px;margin:-3px 0 20px;color:var(--muted);font-size:13px;line-height:1.65}
+    .final-cta{position:relative;padding:104px 0 120px;background:#fff;overflow:hidden}
+    .final-cta:before{content:'';position:absolute;inset:0;background:radial-gradient(50% 58% at 50% 40%,rgba(240,206,122,.24),transparent 72%);pointer-events:none}
+    .knock-cta{position:relative;text-align:center}
+    .knock-icon{display:flex;flex-direction:column;align-items:center;gap:15px}
+    .knock-tile{width:96px;height:96px;display:grid;place-items:center;border:1px solid #eee0bd;border-radius:26px;background:rgba(255,253,247,.75);box-shadow:0 20px 45px -28px rgba(97,74,22,.45)}
+    .knock-tile svg{width:60px;height:60px;transform-origin:50% 88%;animation:knock 3.4s ease-in-out infinite}
+    @keyframes knock{0%,18%,100%{transform:rotate(0)}5%{transform:rotate(-8deg)}10%{transform:rotate(6deg)}15%{transform:rotate(-3deg)}}
+    .knock-icon small{color:#8a651f;font:700 11.2px/1 DM Sans,sans-serif;letter-spacing:.34em;text-transform:uppercase}
+    .knock-cta h2{max-width:820px;margin:28px auto 0;font:400 clamp(46px,4.8vw,70px)/.97 Instrument Serif,serif}
+    .knock-cta h2 em{color:#a8801f;font-style:italic;font-weight:400}
+    .knock-cta p{max-width:540px;margin:22px auto 0;color:var(--muted);font-size:16px;line-height:1.65}
+    .knock-cta .button{margin-top:32px}
+    .site-footer{padding:34px 0 46px;border-top:1px solid var(--line);background:#fff}
+    .footer-row{display:flex;align-items:center;justify-content:space-between;gap:18px 24px;flex-wrap:wrap}
+    .site-footer .brand{font-size:15px;gap:10px}.site-footer .brand svg{width:24px;height:24px}
+    .footer-links{display:flex;gap:10px 24px;flex-wrap:wrap}
+    .footer-links a{color:#74736b;font-size:13.5px;text-decoration:none;transition:color .18s var(--ease)}
+    .footer-links a:hover{color:var(--ink)}
+    .footer-note{color:#75746c;font:400 15px/1 DM Sans,sans-serif;letter-spacing:.09em}
+    .cookie-banner{position:fixed;z-index:2000;right:20px;bottom:20px;left:20px;width:min(560px,calc(100% - 40px));margin-inline:auto;padding:17px 18px 17px 20px;border:1px solid rgba(255,255,255,.13);border-radius:8px;display:flex;align-items:center;justify-content:space-between;gap:18px;background:var(--forest);color:#fff;box-shadow:0 18px 44px rgba(9,28,20,.3);font-size:13px;line-height:1.45}
+    .cookie-banner[hidden]{display:none}.cookie-banner p{margin:0}.cookie-actions{flex:0 0 auto;display:flex;gap:8px}.cookie-actions button{min-height:40px;padding:0 13px;border:1px solid rgba(255,255,255,.45);border-radius:5px;background:transparent;color:#fff;font-size:12px;font-weight:700;cursor:pointer}.cookie-actions .cookie-accept{border-color:#fff;background:#fff;color:var(--forest)}
+
+    /* V15 review refinements */
+    .hero .eyebrow{display:none}
+    .hero-trust{margin-top:34px;display:flex;align-items:center;flex-wrap:wrap;gap:10px 18px}
+    .trust-point{display:inline-flex;align-items:center;gap:8px;color:#3c423a;font-size:13.5px;font-weight:650}
+    .trust-point:before{content:'';width:8px;height:8px;border-radius:50%;background:var(--green);box-shadow:0 0 0 4px var(--mint)}
+    .hero-proof{width:min(1200px,calc(100% - 48px));margin:66px auto 0;padding-top:40px;border-top:1px solid var(--line)}
+    .hp-grid{display:grid;grid-template-columns:minmax(0,.92fr) minmax(0,1.08fr);align-items:center;gap:44px}
+    .hp-title{margin:0;font:400 clamp(26px,2.4vw,34px)/1.18 Instrument Serif,serif}
+    .hp-title em{color:var(--forest);font-style:italic}
+    .hp-row{display:flex;flex-wrap:wrap;align-items:center;gap:22px 32px}
+    .hp-row img{height:23px;width:auto;object-fit:contain;filter:grayscale(1);opacity:.55;transition:filter .25s var(--ease),opacity .25s var(--ease)}
+    .hp-row img:hover{filter:none;opacity:1}
+    .hp-more{color:var(--forest);font-size:13px;font-weight:700}
+    @media(max-width:820px){.hp-grid{grid-template-columns:1fr;gap:22px}.hp-row{gap:18px 26px}}
+    .hero-jobs:hover .jobs-track{animation-play-state:paused}
+    .job-card small{color:#8b9086;font-size:10.5px;white-space:nowrap}
+
+    .proof-head{display:block}.proof-head .display{max-width:none;white-space:nowrap}.proof-head .section-copy{max-width:660px;margin-top:16px}
+    .queue-top{justify-content:flex-start}.queue-top>span,.queue-logos em{display:none}
+    .never-reviewed{position:absolute;z-index:7;left:0;right:0;bottom:0;padding:30px 22px 20px;display:flex;align-items:center;justify-content:space-between;gap:22px;background:linear-gradient(180deg,rgba(16,60,45,0),rgba(16,60,45,.97) 30%,var(--forest));color:#fff;opacity:0;transform:translateY(14px);pointer-events:none;transition:opacity .45s var(--ease),transform .5s var(--ease)}.never-reviewed strong{font:400 30px/1 Instrument Serif,serif;font-style:italic;color:#efc65d}.never-reviewed span{max-width:300px;color:#c2d2c9;font-size:11.5px;line-height:1.5;text-align:right}.queue-demo.final .never-reviewed{opacity:1;transform:none}.queue-demo.final .queue-position{opacity:0}
+    .compare-head{align-items:center;cursor:pointer}.compare-toggle{width:38px;height:38px;border:1px solid #cfd5cd;border-radius:50%;display:grid;place-items:center;background:#fff;color:var(--forest);font-size:20px;line-height:1;cursor:pointer}.compare-scroll[hidden]{display:none}.compare.open .compare-head{border-bottom:1px solid var(--line)}
+
+    /* Chapter rhythm */
+    .product-proof{position:relative;border-top:1px solid var(--line);border-bottom:1px solid #d5d9d1}
+    .tracking{position:relative;padding:60px 0 64px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:#fff}
+    .tracking .display{font-size:clamp(34px,3.6vw,52px)}
+    .tracking .section-copy{margin-top:16px;font-size:15.5px;line-height:1.6}
+    .pricing{position:relative;padding:84px 0 90px;border-bottom:1px solid var(--line);background:#fff}
+    .faq{border-bottom:1px solid var(--line)}
+
+    @media(max-width:1120px){
+      .hero-grid{grid-template-columns:minmax(380px,.86fr) minmax(480px,1.14fr);gap:38px}.hero h1{font-size:70px}.radar{height:560px}.tracking-head{grid-template-columns:1fr;gap:20px}.chapter-stage{grid-template-columns:300px minmax(0,1fr);gap:40px}.plans{grid-template-columns:1fr 1fr}.plan.featured{transform:none}.stat-row strong{font-size:56px}.faq-layout{gap:55px}
+    }
+    @media(max-width:1050px){.hero-grid{grid-template-columns:1fr;gap:30px}.hero-copy{padding-left:0}.hero h1{max-width:780px;font-size:64px}.radar{width:min(100%,620px);height:auto;margin-inline:auto;padding:26px 0}}
+    @media(max-width:900px){
+      .nav-links,.sign-in{display:none}.nav{grid-template-columns:1fr auto}.menu-button{width:44px;height:44px;border:1px solid var(--line);border-radius:5px;display:grid;place-items:center;background:#fff;color:var(--ink);font-size:21px;cursor:pointer}.nav-actions{gap:9px}.mobile-panel{position:fixed;z-index:999;inset:72px 0 0;padding:24px;background:#fff;overflow-y:auto;overscroll-behavior:contain}.site-header.menu-open+.mobile-panel{display:flex;flex-direction:column;gap:2px}.mobile-panel a{padding:15px 6px;text-decoration:none;font-size:16px;font-weight:650;border-bottom:1px solid #eef0ea}.mobile-panel .button{margin-top:auto}
+      .hero{padding-top:112px}.hero-grid{grid-template-columns:1fr;gap:30px}.hero h1{max-width:760px;font-size:60px}.radar{width:min(100%,650px);height:auto;margin-inline:auto;padding:24px 0}.queue-list{animation:mobileQueue 8s var(--ease) infinite alternate}.problem-progress{display:none}@keyframes mobileQueue{to{transform:translateY(-640px)}}@keyframes mobileNever{0%,70%{opacity:0;transform:translateY(10px)}90%,100%{opacity:1;transform:none}}
+
+      .chapter-scroll{height:auto}.chapter-sticky{position:relative;height:auto;min-height:0;overflow:visible}.chapter-intro{position:relative;inset:auto;padding:72px 0 26px;opacity:1;transform:none;visibility:visible;pointer-events:auto}.chapter-frame{height:auto}.chapter-stages{min-height:0}.chapter-stage{position:relative;inset:auto;grid-template-columns:1fr;gap:36px;padding:46px 0;opacity:1;transform:none;visibility:visible;pointer-events:auto}.chapter-stage+.chapter-stage{border-top:1px solid #e2e4dc}.stage-copy{max-width:640px}.chapter-steps{display:none}.stat-row{grid-template-columns:1fr 1fr}
+    .f1-track{flex-direction:column}
+    .f1-seg{flex:none!important}
+    .f1-seg .l{white-space:normal}
+    .f1-conv{margin:-13px auto}.stat-row div:nth-child(2){border-right:0}.stat-row div:nth-child(-n+2){padding-bottom:22px;border-bottom:1px solid #d8d2c6}.conv-row{grid-template-columns:40px 1fr;gap:12px}.conv-signal{grid-column:2}.conv-row em{grid-column:2;justify-self:start}.faq-layout{grid-template-columns:1fr;gap:35px}.footer-row{justify-content:flex-start}
+      .brand{min-height:44px}.dashboard-shot{margin-left:0;margin-right:0}.sequence .button,.compare-toggle{min-height:44px}.compare-toggle{width:44px;height:44px}.footer-links a{min-height:44px;display:inline-flex;align-items:center}
+    }
+    @media(max-width:650px){
+      .shell{width:min(100% - 36px,1200px)}.display{font-size:49px}.section-copy{font-size:15px}.site-header,.nav{height:66px}.site-header.menu-open+.mobile-panel{top:66px}.nav .button{display:none}.hero{min-height:0;padding:94px 0 48px}.hero h1{font-size:43px;line-height:1.06}.hero-lede{font-size:15px;line-height:1.65}.search-picker{width:100%;grid-template-columns:1fr 1fr;padding:9px}.dd-list{left:0;min-width:200px}.search-picker .button{grid-column:1/-1;width:100%;margin-left:0}.hero-trust{flex-wrap:wrap}.radar{height:auto;padding:16px 0 8px}.scope-field{width:min(400px,94vw)}.scope-node{gap:5px;padding:5px 9px 5px 5px;font-size:9px}.scope-node img{width:18px;height:18px}.scope-core{width:72px;height:72px;border-radius:17px}.core-ripple{border-radius:17px}.scope-core>svg{width:43px;height:43px}.scope-reticle{width:110px;height:110px}.node-more{display:inline-flex}.proof-head .display{white-space:normal}.never-reviewed{left:9px;right:9px;bottom:9px;padding:16px 16px 15px;border-radius:11px;gap:5px;align-items:flex-start;flex-direction:column;background:var(--forest);box-shadow:0 -18px 26px -12px rgba(246,241,231,.9);transition:opacity .16s var(--ease),transform .16s var(--ease)}.never-reviewed strong{font-size:23px}.queue-position{display:none}.never-reviewed span{text-align:left}
+      .product-proof,.tracking,.pricing,.faq{padding:76px 0}.workflow{padding:0}.chapter-frame{width:min(100% - 36px,1200px)}.dashboard-shot{margin-top:30px;padding:7px 7px 0}.dashboard-shot img{min-width:740px}.dashboard-shot{overflow-x:auto}.shot-bar,.proof-footer{position:sticky;left:0;width:calc(100vw - 50px)}.shot-bar>span:last-child{font-size:0}.shot-bar>span:last-child:after{content:'Swipe to explore the dashboard \2192';font-size:7px}.proof-footer{align-items:flex-start;flex-direction:column}.proof-footer .button{width:100%}
+      .queue-logos span{width:42px;height:42px}.queue-verdict{align-items:flex-start;flex-direction:column}.queue-verdict span{text-align:left}.queue-stats strong{font-size:33px}.chapter-stage .queue-window{height:255px}
+      .chapter-stage{padding:36px 0}.stage-copy h3{font-size:44px}.stage-copy p{font-size:14px}.hero-jobs{margin-top:44px}.search-picker{border-radius:24px}.search-picker .dd{border-right:0;border-bottom:1px solid #ece7d8}.source-row span{font-size:9.5px}.job-row{grid-template-columns:38px 1fr}.job-row b{grid-column:2;width:max-content}.map-layout{grid-template-columns:1fr}.role-anchor{min-height:180px}.contact{grid-template-columns:36px 1fr}
+        .plans{grid-template-columns:1fr}.plan{min-height:0}.compare-head{align-items:flex-start;flex-direction:column}.compare-head em{display:block}.compare-scroll{background:linear-gradient(90deg,transparent 85%,rgba(16,60,45,.08))}.faq summary{font-size:12px}.knock-cta h2{font-size:42px}.knock-tile{width:80px;height:80px;border-radius:21px}.knock-tile svg{width:50px;height:50px}.footer-row{gap:16px}
+    }
+
+    /* Mobile product surfaces are recomposed, not scaled-down desktop layouts. */
+    @media(max-width:650px){
+      .brand{min-height:44px}
+      .search-picker{position:relative;overflow:visible}
+      .search-picker .dd{position:static}
+      .search-picker .dd-list{z-index:30;top:calc(100% + 8px);left:0;right:0;width:100%;min-width:0;max-height:min(360px,52vh);overflow-y:auto;border-radius:12px;box-shadow:0 22px 50px -22px rgba(16,60,45,.45)}
+      .search-picker .dd-list li{min-height:48px;padding:12px 18px;display:flex;align-items:center}
+
+      .dashboard-shot{width:100%;margin:30px 0 0}
+      .shot-bar,.proof-footer{width:calc(100vw - 50px)}
+      .shot-bar>span:last-child:after{font-size:9px}
+
+      .chapter-intro{padding-bottom:40px}
+      .il-stage:nth-child(1){--dd:.08s;--dl:.14s}.il-stage:nth-child(2){--dd:.2s;--dl:.26s}.il-stage:nth-child(3){--dd:.32s;--dl:.38s}.il-stage:nth-child(4){--dd:.44s;--dl:.5s}
+      .chapter-stage{gap:32px}
+      .stage-copy h3{font-size:clamp(39px,11vw,44px)}
+      .stage-cta{width:100%;min-height:48px}
+      .product-surface{width:100%;min-width:0}
+      .surface-bar{height:auto;min-height:54px;padding:11px 14px;align-items:flex-start;gap:6px 12px;flex-wrap:wrap;font-size:9.5px;line-height:1.35}
+      .surface-bar span{flex:1 1 190px;min-width:0}
+      .surface-bar b{flex:0 1 auto;margin-left:auto;text-align:right}
+      .source-row{padding:12px;gap:7px}
+      .source-row span{font-size:10px}
+      .job-row{min-height:0;padding:13px}
+      .job-row strong{font-size:12.5px}.job-row small{font-size:10px;line-height:1.45}
+
+      .map-layout{padding:14px}
+      .role-anchor{min-height:0;margin-bottom:12px;padding:15px;display:grid;grid-template-columns:42px minmax(0,1fr);gap:5px 12px;align-items:center}
+      .role-anchor img{grid-row:1/3;width:42px;height:42px}
+      .role-anchor strong{font-size:22px}
+      .role-anchor span{margin:0;text-align:left;font-size:11px}
+      .contact-table,.contact-table tbody,.contact-table tr,.contact-table td{display:block;width:100%}
+      .contact-table{border:0;background:transparent}
+      .contact-table thead{display:none}
+      .contact-table tr{padding:16px;border:1px solid #dfe3dc;border-radius:7px;background:#fff}
+      .contact-table tr+tr{margin-top:9px}
+      .contact-table tr.primary{border-color:#8db59d;box-shadow:inset 3px 0 0 var(--forest)}
+      .contact-table td{padding:0;border:0}
+      .contact-table td strong{font-size:14px}.contact-table td small{font-size:11px}
+      .contact-table td:nth-child(2){margin-top:13px;padding-top:12px;border-top:1px solid #eceee9;color:#555c53;font-size:12px;line-height:1.5}
+      .contact-table td:nth-child(2):before{content:'Why this person';display:block;margin-bottom:4px;color:#8b9086;font-size:9px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+      .contact-table td:nth-child(3){margin-top:12px}
+      .contact-table code{display:block;width:100%;padding:9px 10px;border-radius:5px;background:var(--mint);font-size:12px;overflow-wrap:anywhere}
+
+      .reach-layout{grid-template-columns:1fr;min-height:0}
+      .gmail-compose{min-width:0;border-right:0;border-bottom:1px solid var(--line)}
+      .gmail-head{height:auto;min-height:58px;padding:12px 15px;flex-wrap:wrap}.gmail-head strong{font-size:13px}.gmail-head span{font-size:10px}
+      .mail-field{min-height:58px;padding:10px 15px;grid-template-columns:54px minmax(0,1fr);font-size:12px;line-height:1.45}
+      .mail-field strong{overflow-wrap:anywhere}
+      .mail-body{padding:17px 15px;font-size:13px;line-height:1.65}
+      .attachment{max-width:100%;width:auto}.attachment strong{font-size:11px}.attachment small{font-size:9px}
+      .sequence{min-height:0;padding:22px 18px}
+      .sequence>strong{font-size:29px}
+      .sequence-flow b{font-size:11px}.sequence-flow small{font-size:9px}
+      .sequence-reply{font-size:11px}
+      .sequence .button{min-height:48px;font-size:13px}
+      .reach-trust{padding:15px;display:grid;grid-template-columns:1fr;gap:10px}
+      .reach-trust span{font-size:12px}
+
+      .tracking-cta{align-items:stretch;flex-direction:column}
+      .tracking-cta .button{width:100%;min-height:48px}
+      .compare-toggle{width:44px;height:44px}
+      .faq summary{min-height:70px;font-size:13px;line-height:1.45}
+      .site-footer{padding-bottom:28px}
+      .footer-row{display:grid;grid-template-columns:1fr;gap:14px}
+      .footer-links{width:100%;display:grid;grid-template-columns:1fr 1fr;gap:0 18px}
+      .footer-links a{min-height:44px;display:flex;align-items:center;border-bottom:1px solid #eceee9}
+      .footer-note{margin-top:8px}
+
+      /* Phone hierarchy: one action and one product decision per viewport. */
+      .nav{gap:8px}
+      .nav-actions{gap:7px}
+      .nav .button{display:inline-flex;min-height:42px;padding:0 12px;border-radius:7px;font-size:12px;box-shadow:none}
+      .nav-cta-desktop{display:none}
+      .nav-cta-mobile{display:inline}
+      .menu-button{width:42px;height:42px}
+
+      .hero{padding-top:88px}
+      .hero-grid{gap:22px}
+      .hero-lede{margin-top:24px}
+      .search-picker{margin-top:30px}
+      .hero-trust{margin-top:26px;gap:11px}
+      .hero-proof{width:calc(100% - 36px);margin-top:36px;padding-top:28px}
+      .hp-grid{gap:16px}
+      .hp-title{font-size:31px;line-height:1.04}
+
+      .product-proof{padding:58px 0 64px}
+      .proof-head .display{font-size:42px;line-height:1}
+      .dashboard-shot{overflow:hidden;padding:6px 6px 0}
+      .dashboard-shot img{width:100%;min-width:0;height:auto;max-height:none;aspect-ratio:auto;object-fit:contain}
+      .shot-bar,.proof-footer{position:static;width:auto}
+      .shot-bar>span:last-child:after{content:'Product preview';font-size:9px}
+      .proof-footer{padding:14px 5px 8px}
+      .proof-footer p{font-size:12px;line-height:1.55}
+
+      .chapter-intro{padding:58px 0 26px;text-align:left;align-items:flex-start}
+      .chapter-intro .display{font-size:44px;line-height:.98}
+      .chapter-intro .section-copy{margin:18px 0 0}
+      .il-rail{display:block;width:100%;max-width:none;margin-top:26px}
+      .il-line,.il-dot,.il-desc{display:none}
+      .il-stages{grid-template-columns:repeat(4,minmax(0,1fr));gap:0;border-top:1px solid #d5d8d0;border-bottom:1px solid #d5d8d0}
+      .il-stage,.il-stage.above,.il-stage.below{min-width:0;padding:12px 6px;display:block;border-right:1px solid #e1e3dc}
+      .il-stage:last-child{border-right:0}
+      .il-stage.above .il-lbl,.il-stage.below .il-lbl{display:flex;grid-row:auto;grid-column:auto;margin:0;align-items:flex-start;gap:3px;text-align:left;opacity:1;animation:none;transform:none}
+      .il-num{font-size:9px;letter-spacing:.08em}
+      .il-name{font-family:DM Sans,sans-serif;font-size:11px;font-weight:700}
+      .intro-hint{display:none}
+      .chapter-frame{width:100%;padding-top:0}
+      .chapter-intro,.chapter-stages{width:min(100% - 36px,1200px);margin-inline:auto}
+      .chapter-intro{order:0}
+      .chapter-steps{position:static;z-index:40;order:1;margin:0;padding:0 18px;display:grid;grid-template-columns:repeat(4,1fr);gap:0;border-top:1px solid #dfe2da;border-bottom:1px solid #d4d8d0;background:#f8f7f2}
+      .chapter-step{min-height:50px;padding:0 3px;justify-content:center;gap:4px;border:0;border-bottom:3px solid transparent;font-size:9px;text-align:center}
+      .chapter-step b{font-size:8px;color:#899087}
+      .chapter-scroll[data-step="1"] .chapter-step:nth-child(1),.chapter-scroll[data-step="2"] .chapter-step:nth-child(2),.chapter-scroll[data-step="3"] .chapter-step:nth-child(3),.chapter-scroll[data-step="4"] .chapter-step:nth-child(4){border-bottom-color:var(--forest);background:#fff;color:var(--forest)}
+      .chapter-stages{order:2}
+      .chapter-stage{padding:26px 0 34px;gap:22px;scroll-margin-top:78px}
+      .stage-copy h3{font-size:41px;line-height:.98}
+      .stage-copy p{margin-top:16px;font-size:14px;line-height:1.65}
+      .stage-cta{margin-top:22px}
+
+      .map-layout{padding-bottom:13px}
+      .contact-table tr:nth-child(n+2){display:none}
+      .map-layout.contacts-open .contact-table tr:nth-child(n+2){display:block}
+      .map-more-toggle{width:100%;min-height:46px;margin-top:10px;border:1px solid #d8ddd6;border-radius:6px;display:block;background:#fff;color:var(--forest);font-size:11px;font-weight:700;cursor:pointer}
+      .map-more-toggle span{display:inline-block;margin-left:5px;transition:transform .2s var(--ease)}
+      .map-layout.contacts-open .map-more-toggle span{transform:rotate(180deg)}
+
+      .reach-tabs{padding:8px;display:grid;grid-template-columns:1fr 1fr;gap:4px;border-bottom:1px solid var(--line);background:#f3f5f0}
+      .reach-tabs button{min-height:44px;border:0;border-radius:5px;background:transparent;color:#525851;font-size:12px;font-weight:700;cursor:pointer}
+      .reach-tabs button[aria-selected="true"]{background:#fff;color:var(--forest);box-shadow:0 1px 5px rgba(16,60,45,.12)}
+      .reach-layout[data-reach-view="mail"] .sequence{display:none}
+      .reach-layout[data-reach-view="sequence"] .gmail-compose{display:none}
+      .reach-layout[data-reach-view="sequence"] .sequence{display:block;min-height:420px}
+      .reach-layout[data-reach-view="mail"] .gmail-compose{border-bottom:0}
+
+      .tracking{padding:64px 0}
+      .tracking .display{font-size:43px;line-height:1}
+      .f1{margin-top:24px}
+      .f1-track{display:grid;grid-template-columns:repeat(3,1fr);gap:5px;align-items:stretch}
+      .f1-seg{min-height:96px;padding:16px 11px;border-radius:10px;justify-content:center;gap:6px}
+      .f1-seg .n{font-size:40px}
+      .f1-seg .l{font-size:9.5px;line-height:1.3;letter-spacing:.03em;white-space:normal}
+      .f1-conv{display:none}
+      .f1-foot{margin-top:12px;font-size:12px;line-height:1.5}
+      .conv-list{margin-top:24px}
+      .conv-row{padding:15px 5px}
+
+      .pricing{padding:68px 0 74px}
+      .pricing .display{font-size:44px;line-height:1}
+      .plans{margin:28px 0 0;padding:0;display:flex;flex-direction:column;gap:14px}
+      .plan{flex:0 0 auto;width:100%;max-width:none;padding:24px 22px}
+      .plan.featured{order:-1;transform:none}
+      .compare{margin-top:18px}
+      .compare-head em{display:none}
+      .faq{padding:68px 0}
+      .faq .display{font-size:43px;line-height:1}
+      .final-cta{padding:78px 0}
+      .knock-cta{min-height:0}
+      .knock-cta h2{font-size:43px;line-height:1}
+    }
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}.il-line{transform:none!important}.il-dot,.il-lbl{opacity:1!important}}
+    @media(min-width:651px) and (max-width:900px){
+      .compare-head em{display:block}
+      .compare-scroll{background:linear-gradient(90deg,transparent 85%,rgba(16,60,45,.08))}
+    }
+    /* medium mobile widget trims */
+    @media(max-width:650px){
+      .source-row span:nth-child(4),.source-row span:nth-child(5){display:none}
+      .jobs-list .job-row:nth-child(3){display:none}
+      .chapter-stage[data-stage="3"] .surface-bar{display:none}
+    }
+    /* perf: pause off-screen animations + skip off-screen paint */
+    .anim-off,.anim-off *{animation-play-state:paused!important}
+    .faq{content-visibility:auto;contain-intrinsic-size:auto 780px}
+    .final-cta{content-visibility:auto;contain-intrinsic-size:auto 560px}
+    .site-footer{content-visibility:auto;contain-intrinsic-size:auto 280px}
+    /* tighter mobile layout */
+    @media(max-width:650px){
+      .hero{padding:78px 0 32px}
+      .product-proof{padding:44px 0 48px}
+      .tracking{padding:46px 0}
+      .pricing{padding:50px 0 54px}
+      .faq{padding:50px 0}
+      .final-cta{padding:54px 0 60px}
+      .site-footer{padding:24px 0 30px}
+      .chapter-intro{padding:44px 0 18px}
+      .hero-lede{margin-top:20px}
+      .search-picker{margin-top:24px}
+      .hero-trust{margin-top:22px}
+    }
+    /* mobile: let heading + widget carry it, drop redundant supporting paragraphs */
+    @media(max-width:650px){
+      .product-proof .section-copy,
+      .chapter-intro .section-copy,
+      .tracking .section-copy,
+      .stage-copy p:not(.sub-lite),
+      .proof-footer p{display:none}
+      .stage-copy h3{margin-bottom:4px}
+    }
+    /* mobile: chapter-steps duplicates the intro roadmap -> hide the redundant one */
+    @media(max-width:650px){.chapter-steps{display:none}}
+    /* review fixes: mobile */
+    @media(max-width:650px){
+      .chapter-intro{width:100%}
+      .compare-head em{display:block}
+      .hp-row img{filter:grayscale(1);opacity:.58}
+      .nav .button{min-height:44px;border-radius:6px}
+      .menu-button{width:44px;height:44px}
+    }
+    .sub-lite{display:none}
+    @media(max-width:650px){.sub-lite{display:block;margin:9px 0 0;color:var(--muted);font-size:15px;line-height:1.5;max-width:34ch}.stage-copy .sub-lite{margin-top:8px}}
+    @media(max-width:520px){.cookie-banner{right:12px;bottom:12px;left:12px;width:calc(100% - 24px);padding:15px;align-items:flex-start;flex-direction:column}.cookie-actions{width:100%}.cookie-actions button{flex:1}}
+    /* Option A (calm): no decorative widget motion on mobile */
+    @media(max-width:650px){.hb3,.plan.featured:before,.sequence-flow span,.sequence-flow i,.sequence-reply,.knock-tile svg,.intro-hint b{animation:none!important}}
+    @media(max-width:650px){.attachment small{display:none}}
+    @media(max-width:650px){article.chapter-stage[data-stage="0"]{min-height:138vh}}
+  </style>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@graph":[
+  {"@type":"Organization","name":"Knok","url":"https://knok.work/","logo":"https://knok.work/apple-touch-icon.png","description":"Knok searches 150+ job sources, finds matching roles and hiring managers, and prepares direct Gmail outreach for you to approve."},
+  {"@type":"WebSite","name":"Knok","url":"https://knok.work/"}
+  ]}
+  </script>
 </head>
 <body>
-<x-dc>
-<helmet>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<style>/* latin-ext */
-@font-face {
-  font-family: 'Instrument Serif';
-  font-style: italic;
-  font-weight: 400;
-  font-display: swap;
-  src: url("5425fe88-3d4d-4986-8b81-f56c4dd71690.woff2") format('woff2');
-  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Instrument Serif';
-  font-style: italic;
-  font-weight: 400;
-  font-display: swap;
-  src: url("f89138f7-2c51-487d-8dbd-70f561e73e79.woff2") format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Instrument Serif';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("0194a563-4b93-48b8-8b7e-8bc09f1e9c21.woff2") format('woff2');
-  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Instrument Serif';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("965e8bbd-0f66-4124-a15b-60553dd06788.woff2") format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* cyrillic-ext */
-@font-face {
-  font-family: 'JetBrains Mono';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("8928ec73-2eb1-49fd-87d1-beb83bd3dd96.woff2") format('woff2');
-  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-}
-/* cyrillic */
-@font-face {
-  font-family: 'JetBrains Mono';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("2a9511a7-17af-4121-9eb5-36efc6236743.woff2") format('woff2');
-  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-}
-/* greek */
-@font-face {
-  font-family: 'JetBrains Mono';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("53cd7bbe-0cbd-4253-a448-bdc5e88758b7.woff2") format('woff2');
-  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
-}
-/* vietnamese */
-@font-face {
-  font-family: 'JetBrains Mono';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("2427313b-897b-4a4e-99e3-4aa27217c1e0.woff2") format('woff2');
-  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'JetBrains Mono';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("fd4e191a-9eb0-4277-a547-19d41ccc0c11.woff2") format('woff2');
-  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'JetBrains Mono';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("28e915ed-0664-44ef-9354-8e12bd025a6c.woff2") format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* cyrillic-ext */
-@font-face {
-  font-family: 'JetBrains Mono';
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url("8928ec73-2eb1-49fd-87d1-beb83bd3dd96.woff2") format('woff2');
-  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-}
-/* cyrillic */
-@font-face {
-  font-family: 'JetBrains Mono';
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url("2a9511a7-17af-4121-9eb5-36efc6236743.woff2") format('woff2');
-  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-}
-/* greek */
-@font-face {
-  font-family: 'JetBrains Mono';
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url("53cd7bbe-0cbd-4253-a448-bdc5e88758b7.woff2") format('woff2');
-  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
-}
-/* vietnamese */
-@font-face {
-  font-family: 'JetBrains Mono';
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url("2427313b-897b-4a4e-99e3-4aa27217c1e0.woff2") format('woff2');
-  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'JetBrains Mono';
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url("fd4e191a-9eb0-4277-a547-19d41ccc0c11.woff2") format('woff2');
-  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'JetBrains Mono';
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url("28e915ed-0664-44ef-9354-8e12bd025a6c.woff2") format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* cyrillic-ext */
-@font-face {
-  font-family: 'JetBrains Mono';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url("8928ec73-2eb1-49fd-87d1-beb83bd3dd96.woff2") format('woff2');
-  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-}
-/* cyrillic */
-@font-face {
-  font-family: 'JetBrains Mono';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url("2a9511a7-17af-4121-9eb5-36efc6236743.woff2") format('woff2');
-  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-}
-/* greek */
-@font-face {
-  font-family: 'JetBrains Mono';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url("53cd7bbe-0cbd-4253-a448-bdc5e88758b7.woff2") format('woff2');
-  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
-}
-/* vietnamese */
-@font-face {
-  font-family: 'JetBrains Mono';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url("2427313b-897b-4a4e-99e3-4aa27217c1e0.woff2") format('woff2');
-  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'JetBrains Mono';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url("fd4e191a-9eb0-4277-a547-19d41ccc0c11.woff2") format('woff2');
-  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'JetBrains Mono';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url("28e915ed-0664-44ef-9354-8e12bd025a6c.woff2") format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* vietnamese */
-@font-face {
-  font-family: 'Space Grotesk';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("855c8c1f-4a50-49f3-8eec-426a036505e2.woff2") format('woff2');
-  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Space Grotesk';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("541c363e-9027-4517-8033-0a23eafffe8f.woff2") format('woff2');
-  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Space Grotesk';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("b09232f7-8b07-410e-ac46-a79cfcd8f3d5.woff2") format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* vietnamese */
-@font-face {
-  font-family: 'Space Grotesk';
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url("855c8c1f-4a50-49f3-8eec-426a036505e2.woff2") format('woff2');
-  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Space Grotesk';
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url("541c363e-9027-4517-8033-0a23eafffe8f.woff2") format('woff2');
-  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Space Grotesk';
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url("b09232f7-8b07-410e-ac46-a79cfcd8f3d5.woff2") format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* vietnamese */
-@font-face {
-  font-family: 'Space Grotesk';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url("855c8c1f-4a50-49f3-8eec-426a036505e2.woff2") format('woff2');
-  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Space Grotesk';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url("541c363e-9027-4517-8033-0a23eafffe8f.woff2") format('woff2');
-  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Space Grotesk';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url("b09232f7-8b07-410e-ac46-a79cfcd8f3d5.woff2") format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* vietnamese */
-@font-face {
-  font-family: 'Space Grotesk';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url("855c8c1f-4a50-49f3-8eec-426a036505e2.woff2") format('woff2');
-  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Space Grotesk';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url("541c363e-9027-4517-8033-0a23eafffe8f.woff2") format('woff2');
-  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Space Grotesk';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url("b09232f7-8b07-410e-ac46-a79cfcd8f3d5.woff2") format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-</style>
-<style>
-  *{box-sizing:border-box}
-  html{scroll-behavior:smooth}
-  body{margin:0;background:#FFFFFF;color:#16160F;font-family:'Space Grotesk',sans-serif;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
-  ::selection{background:#1C3A2E;color:#F2F1E9}
-  @keyframes floatY{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}
-  @keyframes floatY2{0%,100%{transform:translateY(0)}50%{transform:translateY(7px)}}
-  @keyframes pulseDot{0%,100%{opacity:1}50%{opacity:.3}}
-  @keyframes flowDash{to{stroke-dashoffset:-120}}
-  @keyframes ringPulse{0%{transform:scale(1);opacity:.5}100%{transform:scale(1.8);opacity:0}}
-  @keyframes marquee{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
-  @keyframes marqueeR{0%{transform:translateX(-50%)}100%{transform:translateX(0)}}
-  @keyframes tickA{0%{opacity:0;transform:translateY(8px)}100%{opacity:1;transform:none}}
-  @keyframes tickB{0%{opacity:0;transform:translateY(8px)}100%{opacity:1;transform:none}}
-  @keyframes rowIn{0%{opacity:0;transform:translateY(10px)}100%{opacity:1;transform:none}}
-</style>
-</helmet>
-
-<div style="max-width:100vw;overflow-x:hidden;position:relative;">
-
-  <div aria-hidden="true" style="position:fixed;inset:0;z-index:1;pointer-events:none;opacity:.035;mix-blend-mode:multiply;"><svg width="100%" height="100%" style="display:block;"><filter id="grainF"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"></feTurbulence></filter><rect width="100%" height="100%" filter="url(#grainF)"></rect></svg></div>
-
-  <!-- NAV -->
-  <div style="position:fixed;top:0;left:0;right:0;z-index:100;background:{{ navBg }};border-bottom:1px solid {{ navBorder }};backdrop-filter:saturate(140%) blur(14px);transition:background .35s,border-color .35s;">
-    <div style="max-width:1200px;margin:0 auto;padding:0 32px;height:70px;display:flex;align-items:center;justify-content:space-between;gap:24px;">
-      <a href="#top" style="display:flex;align-items:center;gap:11px;text-decoration:none;color:#16160F;">
-        <svg width="30" height="30" viewBox="0 0 48 48" fill="none"><defs><linearGradient id="nlg" x1="24" y1="10" x2="34" y2="40" gradientUnits="userSpaceOnUse"><stop stop-color="#F0CE7A"></stop><stop offset="1" stop-color="#BC8A2C"></stop></linearGradient></defs><rect width="48" height="48" rx="13" fill="#1C3A2E"></rect><path d="M24 40V10A10 10 0 0 1 34 20V40Z" fill="url(#nlg)"></path><path d="M14 40V20A10 10 0 0 1 34 20V40" fill="none" stroke="#F2F1E9" stroke-width="2.6" stroke-linejoin="round"></path><circle cx="19.5" cy="29" r="1.9" fill="#F2F1E9"></circle></svg>
-        <span style="font-weight:700;font-size:19px;letter-spacing:-.03em;">knok</span>
-      </a>
-      <div style="display:flex;align-items:center;gap:32px;">
-        <a href="#coverage" style="text-decoration:none;color:#46463C;font-size:14.5px;font-weight:500;">Coverage</a>
-        <a href="#morning" style="text-decoration:none;color:#46463C;font-size:14.5px;font-weight:500;">Product</a>
-        <a href="#pricing" style="text-decoration:none;color:#46463C;font-size:14.5px;font-weight:500;">Pricing</a>
-        <a href="/blog/" style="text-decoration:none;color:#46463C;font-size:14.5px;font-weight:500;">Blog</a>
-      </div>
-      <div style="display:flex;align-items:center;gap:16px;">
-        <a href="https://app.knok.work" style="text-decoration:none;color:#46463C;font-size:14.5px;font-weight:600;">Sign in</a>
-        <a href="https://app.knok.work" style="text-decoration:none;background:#16160F;color:#fff;font-size:14px;font-weight:600;padding:11px 20px;border-radius:999px;">Start free</a>
-      </div>
+  <a class="skip-link" href="#top">Skip to content</a>
+  <header class="site-header" id="site-header">
+    <div class="shell nav">
+      <a class="brand" href="#top" aria-label="Knok home"><svg viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="10" fill="#103c2d"/><path d="M24 40V10A10 10 0 0 1 34 20V40Z" fill="#dcb246"/><path d="M14 40V20A10 10 0 0 1 34 20V40" fill="none" stroke="#fff" stroke-width="2.6"/><circle cx="19.5" cy="29" r="1.9" fill="#fff"/></svg><span>knok</span></a>
+      <nav class="nav-links" aria-label="Primary"><a href="#product">Product</a><a href="#how-it-works">How it works</a><a href="#tracking">Tracking</a><a href="#pricing">Pricing</a></nav>
+      <div class="nav-actions"><a class="sign-in" href="https://hey.knok.work?intent=login&amp;source=v15_nav">Sign in</a><a class="button keyline" href="https://hey.knok.work?intent=signup&amp;source=v15_nav"><span class="nav-cta-desktop">Find roles for me</span><span class="nav-cta-mobile">Find a job</span><span aria-hidden="true">&rarr;</span></a><button class="menu-button" id="menu-button" type="button" aria-label="Open menu" aria-expanded="false">&#9776;</button></div>
     </div>
-  </div>
+  </header>
+  <nav class="mobile-panel" id="mobile-panel" aria-label="Mobile navigation"><a href="#product">Product</a><a href="#how-it-works">How it works</a><a href="#tracking">Tracking</a><a href="#pricing">Pricing</a><a href="https://hey.knok.work?intent=login&amp;source=v15_mobile">Sign in</a><a class="button" href="https://hey.knok.work?intent=signup&amp;source=v15_mobile">Find roles for me</a></nav>
 
-  <!-- HERO -->
-  <div id="top" style="padding:150px 32px 0;">
-    <div style="max-width:1200px;margin:0 auto;text-align:center;">
-      <div data-reveal="" style="display:inline-flex;align-items:center;gap:9px;font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:#56564B;background:#F6F5F0;border:1px solid #E9E8E1;padding:7px 14px;border-radius:999px;margin-bottom:30px;">
-        <span style="width:6px;height:6px;border-radius:50%;background:#1C8A4E;animation:pulseDot 1.8s infinite;"></span>Scanning 150+ boards · 4,182 roles tonight
-      </div>
-      <h1 data-reveal="" style="margin:0 auto;max-width:900px;font-family:'Instrument Serif',serif;font-weight:400;font-size:86px;line-height:1;letter-spacing:-.018em;color:#16160F;">
-        Your next job, found <span style="font-style:italic;color:#1C3A2E;">while you sleep.</span>
-      </h1>
-      <p data-reveal="" style="margin:26px auto 0;max-width:520px;font-size:18.5px;line-height:1.6;color:#56564B;">
-        knok scans every board overnight, applies to the roles worth your time, and warms up the hiring manager — so you wake up to interviews.
-      </p>
-      <div data-reveal="" style="margin:34px auto 0;display:flex;gap:10px;max-width:440px;">
-        <input type="email" placeholder="you@email.com" style="flex:1;height:54px;border:1px solid #DEDDD4;border-radius:13px;padding:0 16px;font-size:15px;font-family:inherit;color:#16160F;outline:none;background:#fff;">
-        <a href="#cta" style="height:54px;display:inline-flex;align-items:center;background:#16160F;color:#fff;font-size:15px;font-weight:600;padding:0 24px;border-radius:13px;text-decoration:none;white-space:nowrap;">Start free →</a>
-      </div>
-      <div data-reveal="" style="margin-top:18px;display:flex;align-items:center;justify-content:center;gap:13px;">
-        <div style="display:flex;">
-          <img src="813822a8-e99e-42c5-927f-03aec616ab9a.png" style="width:28px;height:28px;border-radius:50%;border:2px solid #fff;object-fit:cover;">
-          <img src="23c1e9ed-cf02-437f-b474-21b2f2ddef39.png" style="width:28px;height:28px;border-radius:50%;border:2px solid #fff;object-fit:cover;margin-left:-9px;">
-          <img src="ebcb5d3c-c8ca-4491-b557-f6162e44cf8a.png" style="width:28px;height:28px;border-radius:50%;border:2px solid #fff;object-fit:cover;margin-left:-9px;">
+  <main>
+    <section class="hero" id="top">
+      <div class="hero-field" aria-hidden="true"><i class="hb hb3"></i></div>
+      <div class="shell hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">A job search that keeps moving</span>
+          <h1>Find your dream job. <em>And email the people behind it.</em></h1>
+          <p class="hero-lede">Knok searches 150+ job sources, shortlists roles that fit, finds the people hiring, from HR to your future manager, and drafts the emails. You just approve.</p>
+          <form class="search-picker" id="search-picker">
+            <div class="dd" id="role-dd"><button type="button" class="dd-btn" aria-haspopup="listbox" aria-controls="role-dd-list" aria-expanded="false"><span>I&rsquo;m looking for&hellip;</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
+              <ul class="dd-list" role="listbox" hidden id="role-dd-list" aria-label="Role"><li role="option">Engineering &amp; Data</li><li role="option">Product &amp; Design</li><li role="option">Sales, Marketing &amp; Growth</li><li role="option">Operations &amp; Customer Support</li><li role="option">Finance, Legal &amp; Consulting</li><li role="option">People, HR &amp; Admin</li><li role="option">Open to all functions</li></ul></div>
+            <div class="dd" id="location-dd"><button type="button" class="dd-btn" aria-haspopup="listbox" aria-controls="location-dd-list" aria-expanded="false"><span>Anywhere in India</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
+              <ul class="dd-list" role="listbox" hidden id="location-dd-list" aria-label="Location"><li role="option">Anywhere in India</li><li role="option">Bengaluru</li><li role="option">Mumbai</li><li role="option">Delhi NCR</li><li role="option">Hyderabad</li><li role="option">Pune</li><li role="option">Remote</li></ul></div>
+            <button class="button button-forest keyline" type="submit">Find me a job <span aria-hidden="true">&rarr;</span></button>
+            <div class="picker-result" aria-live="polite"><span id="picker-result">Ready to search across 150+ sources.</span></div>
+          </form>
+          <div class="hero-trust" aria-label="Knok product assurances"><span class="trust-point">Search free</span><span class="trust-point">Verified work emails</span><span class="trust-point">You approve every send</span></div>
         </div>
-        <span style="font-size:13.5px;color:#74736B;">Trusted by <strong style="color:#16160F;font-weight:700;">14,000+</strong> job seekers · Free to start</span>
+        <div class="radar" role="img" aria-label="Knok continuously searches LinkedIn, Naukri, Indeed, iimjobs, Instahyre, Cutshort, and 150+ other job sources" data-reveal>
+          <div class="scope-field">
+            <svg class="scope-rings" viewBox="0 0 400 400" aria-hidden="true">
+              <circle cx="200" cy="200" r="193" fill="none" stroke="#e6e8e2" stroke-width="1"/>
+              <circle cx="200" cy="200" r="186" fill="none" stroke="#d9cba4" stroke-width="4.5" stroke-dasharray="1.2 12" stroke-linecap="round" opacity=".42"/>
+              <circle cx="200" cy="200" r="150" fill="none" stroke="#eceee8" stroke-width="1"/>
+              <circle cx="200" cy="200" r="104" fill="none" stroke="#eff0ea" stroke-width="1"/>
+              <circle cx="200" cy="200" r="56" fill="none" stroke="#dbe5dd" stroke-width="1"/>
+              <line x1="200" y1="14" x2="200" y2="386" stroke="#eff0ea" stroke-width="1"/>
+              <line x1="14" y1="200" x2="386" y2="200" stroke="#eff0ea" stroke-width="1"/>
+              <g stroke="#dfe5dd" stroke-width="1" stroke-dasharray="2 6" opacity=".9"><line x1="200" y1="200" x2="200" y2="22"/><line x1="200" y1="200" x2="354" y2="111"/><line x1="200" y1="200" x2="354" y2="289"/><line x1="200" y1="200" x2="200" y2="378"/><line x1="200" y1="200" x2="46" y2="289"/><line x1="200" y1="200" x2="46" y2="111"/></g>
+            </svg>
+            <i class="scope-sweep" aria-hidden="true"></i>
+            <span class="scope-node node-a"><img src="/logos/linkedin.png" alt="">LinkedIn</span><span class="scope-node node-b"><img src="/logos/indeed.png" alt="">Indeed</span><span class="scope-node node-c"><img src="/logos/naukri.png" alt="">Naukri</span><span class="scope-node node-d"><img src="/logos/instahyre.ico" alt="">Instahyre</span><span class="scope-node node-e"><img src="/logos/iimjobs.ico" alt="">iimjobs</span><span class="scope-node node-f"><img src="/logos/cutshort.png" alt="">Cutshort</span><span class="scope-node node-more">+144 more</span>
+            <i class="scope-target t1" aria-hidden="true"></i><i class="scope-target t2" aria-hidden="true"></i><i class="scope-target t3 gold" aria-hidden="true"></i>
+            <svg class="scope-reticle" viewBox="0 0 100 100" fill="none" aria-hidden="true"><circle cx="50" cy="50" r="48" stroke="#d9be7e" stroke-width="1.2" stroke-dasharray="22 14" opacity=".7"/></svg>
+            <div class="scope-core"><span class="core-ripple" aria-hidden="true"></span><svg viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="10" fill="#103c2d"/><path d="M24 40V10A10 10 0 0 1 34 20V40Z" fill="#dcb246"/><path d="M14 40V20A10 10 0 0 1 34 20V40" fill="none" stroke="#fff" stroke-width="2.6"/><circle cx="19.5" cy="29" r="1.9" fill="#fff"/></svg></div>
+          </div>
+        </div>
       </div>
+      <div class="hero-proof">
+        <div class="hp-grid">
+          <h2 class="hp-title">Search roles across <em>India&rsquo;s leading teams.</em></h2>
+          <div class="hp-row"><img src="/logos/companies/google.png" alt="Google" loading="lazy" decoding="async" width="48" height="48"><img src="/logos/companies/microsoft.png" alt="Microsoft" loading="lazy" decoding="async" width="48" height="48"><img src="/logos/companies/amazon.png" alt="Amazon" loading="lazy" decoding="async" width="48" height="48"><img src="/logos/companies/flipkart.png" alt="Flipkart" loading="lazy" decoding="async" width="48" height="48"><img src="/logos/companies/razorpay.png" alt="Razorpay" loading="lazy" decoding="async" width="48" height="48"><img src="/logos/companies/swiggy.png" alt="Swiggy" loading="lazy" decoding="async" width="48" height="48"><img src="/logos/companies/cred.png" alt="CRED" loading="lazy" decoding="async" width="48" height="48"><img src="/logos/companies/phonepe.png" alt="PhonePe" loading="lazy" decoding="async" width="48" height="48"><img src="/logos/companies/zerodha.png" alt="Zerodha" loading="lazy" decoding="async" width="48" height="48"><span class="hp-more">+ many more</span></div>
+        </div>
+      </div>
+    </section>
 
-      <!-- product stage -->
-      <div data-reveal="" style="position:relative;margin-top:70px;">
-        <div aria-hidden="true" style="position:absolute;inset:-10% -8% 0;background:radial-gradient(60% 90% at 50% 20%,#EDF3EC 0%,rgba(237,243,236,0) 70%);z-index:0;"></div>
-        <div aria-hidden="true" style="position:absolute;left:20%;right:20%;top:30%;height:40%;background:radial-gradient(50% 100% at 50% 50%,rgba(214,166,60,.14),transparent);z-index:0;"></div>
-        <div style="position:relative;z-index:1;max-width:980px;margin:0 auto;transform:perspective(1600px) rotateX(5deg);transform-origin:50% 0;">
-          <div style="background:linear-gradient(180deg,#FDFDFB,#F6F5F0);border:1px solid #E4E3DB;border-radius:22px;padding:8px;box-shadow:0 60px 110px -50px rgba(22,42,33,.45),0 24px 44px -28px rgba(22,42,33,.28);">
-            <div style="background:#fff;border:1px solid #EDECE5;border-radius:15px;overflow:hidden;text-align:left;">
-              <div style="display:flex;align-items:center;gap:12px;padding:13px 18px;border-bottom:1px solid #F0EFE9;background:#FBFAF7;">
-                <span style="display:flex;gap:6px;"><span style="width:10px;height:10px;border-radius:50%;background:#E8E7DF;"></span><span style="width:10px;height:10px;border-radius:50%;background:#E8E7DF;"></span><span style="width:10px;height:10px;border-radius:50%;background:#E8E7DF;"></span></span>
-                <span style="flex:1;max-width:280px;margin:0 auto;text-align:center;font-family:'JetBrains Mono',monospace;font-size:11px;color:#9A998F;background:#F1F0EA;border-radius:8px;padding:5px 0;">app.knok.co/tonight</span>
-                <span style="width:52px;"></span>
-              </div>
-              <div style="display:grid;grid-template-columns:2.2fr 1.2fr 1fr .9fr;padding:12px 22px;border-bottom:1px solid #F0EFE9;">
-                <span style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#B3B3AB;">Role</span>
-                <span style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#B3B3AB;">Comp</span>
-                <span style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#B3B3AB;">Score</span>
-                <span style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#B3B3AB;text-align:right;">Status</span>
-              </div>
-              <sc-for list="{{ heroRows }}" as="h" hint-placeholder-count="4">
-                <div style="display:grid;grid-template-columns:2.2fr 1.2fr 1fr .9fr;align-items:center;padding:13px 22px;border-bottom:1px solid #F6F5F0;background:{{ h.bg }};animation:rowIn .7s cubic-bezier(.22,.7,.3,1) both;animation-delay:{{ h.delay }};">
-                  <span style="display:flex;align-items:center;gap:11px;"><span style="width:32px;height:32px;border-radius:9px;background:{{ h.logoBg }};color:{{ h.logoFg }};display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;flex:none;">{{ h.initial }}</span><span><span style="display:block;font-size:14px;font-weight:600;letter-spacing:-.01em;">{{ h.role }}</span><span style="display:block;font-size:11.5px;color:#8B8B84;">{{ h.company }}</span></span></span>
-                  <span style="font-size:13px;color:#56564B;">{{ h.comp }}</span>
-                  <span style="display:flex;align-items:center;gap:9px;"><span style="width:52px;height:5px;border-radius:3px;background:#F0EFE9;overflow:hidden;display:inline-block;"><span style="display:block;height:100%;width:{{ h.barW }};background:{{ h.barBg }};border-radius:3px;"></span></span><span style="font-family:'JetBrains Mono',monospace;font-size:12.5px;font-weight:600;color:#33332A;">{{ h.score }}</span></span>
-                  <span style="text-align:right;"><span style="display:inline-flex;align-items:center;gap:6px;font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.04em;text-transform:uppercase;color:{{ h.tagFg }};background:{{ h.tagBg }};padding:5px 9px;border-radius:999px;">{{ h.tag }}</span></span>
-                </div>
-              </sc-for>
-              <div style="display:flex;align-items:center;gap:10px;padding:12px 22px;background:#FBFAF7;border-top:1px solid #F0EFE9;">
-                <span style="width:7px;height:7px;border-radius:50%;background:#1C8A4E;animation:pulseDot 1.4s infinite;flex:none;"></span>
-                <span style="flex:1;font-size:12.5px;color:#56564B;text-align:left;animation:{{ tickAnim }} .5s ease;">{{ tickerText }}</span>
-                <span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.05em;text-transform:uppercase;color:#B8862B;">4 applied tonight</span>
-              </div>
+    <section class="product-proof" id="product">
+      <div class="shell">
+        <div class="proof-head" data-reveal><div><span class="eyebrow">The product</span><h2 class="display">Every job and application, <em>in one view.</em></h2><p class="sub-lite">Roles, people, and outreach in one calm view.</p></div><p class="section-copy">See the roles worth your time, the people Knok found for you, and every email that&rsquo;s gone out.</p></div>
+        <figure class="dashboard-shot" data-reveal><div class="shot-bar"><span class="shot-dots"><i></i><i></i><i></i></span><span>Illustrative product preview</span></div><img loading="lazy" decoding="async" width="1200" height="625" src="/product-dashboard-placeholder.webp" alt="Illustrative Knok dashboard showing outreach conversations, replies, and scheduled follow-ups"><figcaption class="proof-footer"><p>This temporary preview shows the direction of the Knok dashboard. Product screens will replace it as the interface is finalised.</p><a class="button" href="https://hey.knok.work?intent=signup&amp;source=v15_product">Build my shortlist <span aria-hidden="true">&rarr;</span></a></figcaption></figure>
+      </div>
+    </section>
+
+    <section class="workflow" id="how-it-works">
+      <div class="chapter-scroll" id="chapter-scroll" data-step="0">
+        <div class="chapter-sticky"><div class="chapter-frame">
+          <div class="chapter-stages">
+          <div class="chapter-intro">
+            <span class="eyebrow">How Knok works</span>
+            <h2 class="display">Stop easy-applying. <em>Start reaching out.</em></h2><p class="sub-lite">Four stages, from buried to introduced.</p>
+            <p class="section-copy">Four steps: why your applications never get seen, and how Knok finds the role, the person, and a real introduction.</p>
+            <div class="il-rail" aria-label="The four stages">
+              <div class="il-line" aria-hidden="true"></div>
+              <ol class="il-stages">
+                <li class="il-stage above"><div class="il-lbl"><span class="il-num">01</span><span class="il-name">Buried</span><span class="il-desc">why you&rsquo;re not seen</span></div><span class="il-dot" aria-hidden="true"></span></li>
+                <li class="il-stage below"><div class="il-lbl"><span class="il-num">02</span><span class="il-name">Discover</span><span class="il-desc">roles worth your time</span></div><span class="il-dot" aria-hidden="true"></span></li>
+                <li class="il-stage above"><div class="il-lbl"><span class="il-num">03</span><span class="il-name">Map</span><span class="il-desc">the people behind them</span></div><span class="il-dot" aria-hidden="true"></span></li>
+                <li class="il-stage below reach"><div class="il-lbl"><span class="il-num">04</span><span class="il-name">Reach</span><span class="il-desc">outreach you approve</span></div><span class="il-dot" aria-hidden="true"></span></li>
+              </ol>
             </div>
+            <span class="intro-hint">Scroll to begin <b>&darr;</b></span>
           </div>
-        </div>
-      </div>
-      <div data-reveal="" style="max-width:1200px;margin:74px auto 0;">
-        <div style="text-align:center;font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:#B3B3AB;margin-bottom:24px;">Scans 150+ boards &amp; company career pages directly</div>
-        <div style="overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent);mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent);">
-          <div style="display:flex;width:max-content;gap:52px;align-items:center;animation:marquee 44s linear infinite;">
-            <sc-for list="{{ boardWall }}" as="b" hint-placeholder-count="20">
-              <span style="flex:none;font-size:17px;font-weight:700;color:#B9B8AF;letter-spacing:-.02em;white-space:nowrap;">{{ b }}</span>
-            </sc-for>
+          <article class="chapter-stage" data-stage="0">
+            <div class="stage-copy"><small>01 / Buried</small><h3>You send a good application. <em>It&rsquo;s already behind hundreds more.</em></h3><p class="sub-lite">Public boards bury you under newer applications.</p><p>It isn&rsquo;t you. Public job boards stack your resume behind everyone else&rsquo;s, and every new applicant pushes it further down until no one reads it.</p><a class="button stage-cta" href="https://hey.knok.work?intent=signup&amp;source=v15_buried">Find a better way <span aria-hidden="true">&rarr;</span></a></div>
+            <div class="queue-demo" aria-label="Illustrative recruiter queue"><div class="queue-top"><span>Recruiter inbox / one open role</span><strong>Product Manager</strong></div><div class="queue-logos"><span><img src="/logos/linkedin.png" alt="LinkedIn"></span><span><img src="/logos/naukri.png" alt="Naukri"></span><span><img src="/logos/indeed.png" alt="Indeed"></span><span><img src="/logos/instahyre.ico" alt="Instahyre"></span><em>Applications keep arriving</em></div><div class="queue-verdict"><strong>Good application.</strong><span>Buried before it was opened.</span></div><div class="queue-stats"><div><small>Applications received</small><strong id="application-count">238</strong></div><div><small>Your place in the queue</small><strong><b id="queue-position-number">#1</b></strong></div></div><div class="queue-window"><div class="queue-list" id="queue-list"><div class="queue-row you"><b>YOU</b><span><strong>Your application</strong><small>Relevant experience attached</small></span><time>Received</time></div><div class="queue-row"><i>01</i><span><strong>New application</strong><small>Resume attached</small></span><time>Now</time></div><div class="queue-row"><i>02</i><span><strong>New application</strong><small>Profile submitted</small></span><time>Now</time></div><div class="queue-row"><i>03</i><span><strong>New application</strong><small>Resume attached</small></span><time>Now</time></div><div class="queue-row"><i>04</i><span><strong>New application</strong><small>Profile submitted</small></span><time>Now</time></div><div class="queue-row"><i>05</i><span><strong>New application</strong><small>Resume attached</small></span><time>Now</time></div><div class="queue-row"><i>06</i><span><strong>New application</strong><small>Profile submitted</small></span><time>Now</time></div><div class="queue-row"><i>07</i><span><strong>New application</strong><small>Resume attached</small></span><time>Now</time></div><div class="queue-row"><i>08</i><span><strong>New application</strong><small>Profile submitted</small></span><time>Now</time></div><div class="queue-row"><i>09</i><span><strong>New application</strong><small>Resume attached</small></span><time>Now</time></div><div class="queue-row"><i>10</i><span><strong>New application</strong><small>Profile submitted</small></span><time>Now</time></div><div class="queue-row"><i>11</i><span><strong>New application</strong><small>Resume attached</small></span><time>Now</time></div></div><div class="queue-position">Your application moves down</div></div><div class="problem-progress"><i></i></div></div>
+          </article>
+          <article class="chapter-stage" data-stage="1">
+            <div class="stage-copy"><small>02 / Discover</small><h3>See the roles you&rsquo;d <em>otherwise miss.</em></h3><p class="sub-lite">One shortlist, pulled from 150+ sources.</p><p>Knok scans LinkedIn, Naukri, Indeed, iimjobs, Instahyre and 5,000+ career pages, then hands you one shortlist built around the work you actually want.</p><a class="button stage-cta" href="https://hey.knok.work?intent=signup&amp;source=v15_discover">Show my shortlist <span aria-hidden="true">&rarr;</span></a></div>
+            <div class="product-surface"><div class="surface-bar"><span>Search / Across every function</span><b>126 roles found</b></div><div class="source-row"><span><img src="/logos/linkedin.png" alt="">LinkedIn</span><span><img src="/logos/naukri.png" alt="">Naukri</span><span><img src="/logos/indeed.png" alt="">Indeed</span><span><img src="/logos/iimjobs.ico" alt="">iimjobs</span><span><img src="/logos/instahyre.ico" alt="">Instahyre</span><span class="source-more">150+ sources</span></div><div class="jobs-list"><div class="job-row"><img src="/logos/companies/cred.png" alt=""><span><strong>Senior Product Marketing Manager</strong><small>CRED / Bengaluru / Growth</small></span><b>Strong fit</b></div><div class="job-row"><img src="/logos/companies/meesho.png" alt=""><span><strong>Backend Engineer</strong><small>Meesho / Bengaluru / Marketplace</small></span><b>Worth reviewing</b></div><div class="job-row"><img src="/logos/companies/phonepe.png" alt=""><span><strong>Product Designer</strong><small>PhonePe / Bengaluru / Design</small></span><b>Worth reviewing</b></div></div><div class="discover-summary"><strong>New matching roles, every morning.</strong></div></div>
+          </article>
+          <article class="chapter-stage" data-stage="2">
+            <div class="stage-copy"><small>03 / Map</small><h3>Meet the people <em>actually behind the role.</em></h3><p class="sub-lite">The right people, with verified work emails.</p><p>For each role, Knok looks up the people most likely to be hiring, the manager and the team, and quietly fetches their work emails.</p><a class="button stage-cta" href="https://hey.knok.work?intent=signup&amp;source=v15_map">Find my next manager <span aria-hidden="true">&rarr;</span></a></div>
+            <div class="product-surface"><div class="surface-bar"><span>People behind this role</span><b>3 verified work emails</b></div><div class="map-layout"><aside class="role-anchor"><img src="/logos/companies/cred.png" alt=""><small>Target role</small><strong>Senior Product Marketing Manager</strong><span>CRED / Growth</span></aside><table class="contact-table"><thead><tr><th>Person</th><th>Why them</th><th>Verified email</th></tr></thead><tbody>
+<tr class="primary"><td><strong>Ananya Iyer</strong><small>Head of Marketing</small></td><td>Best first contact &middot; likely role owner</td><td><code>ananya.i&bull;&bull;&bull;@cred.club</code></td></tr>
+<tr><td><strong>Rohan Desai</strong><small>Senior PMM</small></td><td>Team context &middot; same team</td><td><code>rohan.d&bull;&bull;&bull;@cred.club</code></td></tr>
+<tr><td><strong>Riya Kapoor</strong><small>Talent Partner</small></td><td>Hiring context &middot; marketing</td><td><code>riya.k&bull;&bull;&bull;@cred.club</code></td></tr>
+</tbody></table><button class="map-more-toggle" type="button" aria-expanded="false">Show 2 more verified contacts <span aria-hidden="true">&darr;</span></button></div></div>
+          </article>
+          <article class="chapter-stage" data-stage="3">
+            <div class="stage-copy"><small>04 / Reach</small><h3>Connect your Gmail. <em>Reach out from your dashboard.</em></h3><p class="sub-lite">Approve once. Knok sends and follows up.</p><p>AI drafts each email. You check the message and approve, then Knok sends, follows up on time, and stops the moment someone replies.</p><a class="button stage-cta" href="https://hey.knok.work?intent=signup&amp;source=v15_reach">Draft my first cold email <span aria-hidden="true">&rarr;</span></a></div>
+            <div class="product-surface"><div class="surface-bar"><span>Direct outreach, from your own Gmail</span><b>Waiting for your approval</b></div><div class="reach-tabs" role="tablist" aria-label="Outreach preview"><button type="button" role="tab" id="reach-tab-mail" aria-controls="reach-panel-mail" aria-selected="true" data-reach-tab="mail">Email</button><button type="button" role="tab" id="reach-tab-seq" aria-controls="reach-panel-seq" aria-selected="false" data-reach-tab="sequence">Follow-ups</button></div><div class="reach-layout" data-reach-view="mail"><div class="gmail-compose" id="reach-panel-mail" role="tabpanel" aria-labelledby="reach-tab-mail"><div class="gmail-head"><img src="/logos/gmail.webp" alt=""><strong>Gmail connected</strong><span>Outbound only</span></div><div class="mail-field"><span>To</span><strong>Ananya Iyer</strong></div><div class="mail-field"><span>Subject</span><strong>Product marketing for your open role</strong></div><div class="mail-body"><p>Hi Ananya,</p><p>I saw CRED is hiring a Senior PMM. In my last role I ran a rewards launch to 1.2M users and <mark>lifted activation 40%</mark> in a quarter.</p><p>Worth a quick call this week?</p><div class="attachment"><b>PDF</b><span><strong>Your_Name_Resume.pdf</strong><small>Attached to this email</small></span></div></div></div><aside class="sequence" id="reach-panel-seq" role="tabpanel" aria-labelledby="reach-tab-seq"><small>Your sequence</small><strong>Approve once. Knok runs it.</strong><div class="sequence-flow"><span><i>&check;</i><b>First email</b><small>Send today</small></span><span><i>2</i><b>Follow-up</b><small>After 2 days</small></span><span><i>3</i><b>Final follow-up</b><small>After 4 days</small></span></div><div class="sequence-reply"><b>&#10003;</b><span>Reply received &middot; follow-ups stop</span></div><a class="button" href="https://hey.knok.work?intent=signup&amp;source=v15_approve">Approve &amp; start</a></aside></div><div class="reach-trust"><span>Does not read your inbox</span><span>Pause at any time</span><span>Stops when a reply arrives</span></div></div>
+          </article>
           </div>
-        </div>
-        <div style="overflow:hidden;margin-top:18px;-webkit-mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent);mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent);">
-          <div style="display:flex;width:max-content;gap:52px;align-items:center;animation:marqueeR 52s linear infinite;">
-            <sc-for list="{{ companyWall }}" as="c" hint-placeholder-count="20">
-              <span style="flex:none;font-size:15px;font-weight:600;color:#C6C5BC;letter-spacing:-.01em;white-space:nowrap;">{{ c }}</span>
-            </sc-for>
-          </div>
-        </div>
+          <nav class="chapter-steps" aria-label="How Knok works stages">
+            <button class="chapter-step" type="button" data-step-target="0" aria-current="false"><b>01</b><span>Buried</span></button>
+            <button class="chapter-step" type="button" data-step-target="1" aria-current="false"><b>02</b><span>Discover</span></button>
+            <button class="chapter-step" type="button" data-step-target="2" aria-current="false"><b>03</b><span>Map</span></button>
+            <button class="chapter-step" type="button" data-step-target="3" aria-current="false"><b>04</b><span>Reach</span></button>
+          </nav>
+        </div></div>
       </div>
-    </div>
-  </div>
+    </section>
 
-  <!-- COVERAGE CONSTELLATION (dark panel) -->
-  <div id="coverage" style="padding:130px 32px 0;">
-    <div style="max-width:1200px;margin:0 auto;">
-      <div data-reveal="" style="display:flex;align-items:flex-end;justify-content:space-between;gap:40px;flex-wrap:wrap;margin-bottom:44px;">
-        <div style="max-width:560px;">
-          <div style="font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:#B8862B;margin-bottom:16px;">/ 01 — Coverage</div>
-          <h2 style="margin:0;font-family:'Instrument Serif',serif;font-weight:400;font-size:52px;line-height:1.02;letter-spacing:-.01em;">150+ boards. One search. <span style="font-style:italic;color:#1C3A2E;">Every night.</span></h2>
+        <section class="tracking" id="tracking"><div class="shell">
+      <div class="tracking-head" data-reveal><span class="eyebrow">After the first email</span><h2 class="display">Your job search, <em>in numbers.</em></h2><p class="sub-lite">What sent, what worked, and what&rsquo;s waiting.</p><p class="section-copy">See who you&rsquo;ve reached, who&rsquo;s opened, who&rsquo;s written back, and what Knok has lined up next, all in one calm view.</p></div>
+      <div class="f1" data-reveal>
+        <div class="f1-track">
+          <div class="f1-seg reached"><span class="n">23</span><span class="l">Companies reached</span></div>
+          <span class="f1-conv">61% <small>opened</small></span>
+          <div class="f1-seg opened"><span class="n">14</span><span class="l">Emails opened</span></div>
+          <span class="f1-conv">36% <small>replied</small></span>
+          <div class="f1-seg replied"><span class="n">5</span><span class="l">Replies</span></div>
         </div>
-        <p style="font-size:15.5px;line-height:1.6;color:#56564B;max-width:320px;margin:0 0 6px;">Recruiters check one board. knok checks 150+ — plus company career pages directly, from Stripe to PhonePe — and keeps only what fits you.</p>
+        <div class="f1-foot"><span class="pill">7 follow-ups queued</span> Knok follows up with people who opened but have not replied.</div>
       </div>
-      <div data-reveal="" style="background:#122B21;border-radius:26px;padding:44px 24px 36px;position:relative;overflow:hidden;">
-        <div aria-hidden="true" style="position:absolute;inset:0;background:radial-gradient(60% 80% at 50% 45%,rgba(47,106,78,.35),transparent 70%);"></div>
-        <div ref="{{ stageWrapRef }}" style="position:relative;height:{{ stageH }};">
-        <div style="position:absolute;left:50%;top:0;width:900px;height:400px;transform:translateX(-50%) scale({{ stageScale }});transform-origin:top center;">
-          <svg width="900" height="400" viewBox="0 0 900 400" fill="none" style="position:absolute;inset:0;">
-            <path d="M195 48 C320 48, 330 200, 385 200" stroke="rgba(240,206,122,.22)" stroke-width="1.5"></path>
-            <path d="M195 124 C310 124, 330 200, 385 200" stroke="rgba(240,206,122,.22)" stroke-width="1.5"></path>
-            <path d="M195 200 L 385 200" stroke="rgba(240,206,122,.22)" stroke-width="1.5"></path>
-            <path d="M195 276 C310 276, 330 200, 385 200" stroke="rgba(240,206,122,.22)" stroke-width="1.5"></path>
-            <path d="M195 352 C320 352, 330 200, 385 200" stroke="rgba(240,206,122,.22)" stroke-width="1.5"></path>
-            <path d="M705 86 C590 86, 570 200, 515 200" stroke="rgba(240,206,122,.22)" stroke-width="1.5"></path>
-            <path d="M705 162 C600 162, 570 200, 515 200" stroke="rgba(240,206,122,.22)" stroke-width="1.5"></path>
-            <path d="M705 238 C600 238, 570 200, 515 200" stroke="rgba(240,206,122,.22)" stroke-width="1.5"></path>
-            <path d="M705 314 C590 314, 570 200, 515 200" stroke="rgba(240,206,122,.22)" stroke-width="1.5"></path>
-            <path d="M195 48 C320 48, 330 200, 385 200" stroke="#F0CE7A" stroke-width="1.5" stroke-dasharray="4 26" style="animation:flowDash 2.6s linear infinite;"></path>
-            <path d="M195 200 L 385 200" stroke="#7BE0A6" stroke-width="1.5" stroke-dasharray="4 26" style="animation:flowDash 2.2s linear infinite;"></path>
-            <path d="M195 352 C320 352, 330 200, 385 200" stroke="#F0CE7A" stroke-width="1.5" stroke-dasharray="4 26" style="animation:flowDash 3s linear infinite;"></path>
-            <path d="M705 86 C590 86, 570 200, 515 200" stroke="#7BE0A6" stroke-width="1.5" stroke-dasharray="4 26" style="animation:flowDash 2.4s linear infinite;"></path>
-            <path d="M705 238 C600 238, 570 200, 515 200" stroke="#F0CE7A" stroke-width="1.5" stroke-dasharray="4 26" style="animation:flowDash 2.8s linear infinite;"></path>
-          </svg>
-          <sc-for list="{{ leftBoards }}" as="b" hint-placeholder-count="5">
-            <div style="position:absolute;left:120px;top:{{ b.y }};transform:translate(-50%,-50%);display:flex;align-items:center;justify-content:space-between;gap:12px;width:150px;padding:10px 14px;border:1px solid rgba(255,255,255,.12);border-radius:12px;background:rgba(255,255,255,.05);backdrop-filter:blur(4px);">
-              <span style="font-size:13px;font-weight:600;color:#E8EFE9;">{{ b.name }}</span><span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;color:#D6A63C;">{{ b.count }}</span>
-            </div>
-          </sc-for>
-          <sc-for list="{{ rightBoards }}" as="b" hint-placeholder-count="4">
-            <div style="position:absolute;left:780px;top:{{ b.y }};transform:translate(-50%,-50%);display:flex;align-items:center;justify-content:space-between;gap:12px;width:150px;padding:10px 14px;border:1px solid rgba(255,255,255,.12);border-radius:12px;background:rgba(255,255,255,.05);backdrop-filter:blur(4px);">
-              <span style="font-size:13px;font-weight:600;color:#E8EFE9;">{{ b.name }}</span><span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;color:#D6A63C;">{{ b.count }}</span>
-            </div>
-          </sc-for>
-          <div style="position:absolute;left:450px;top:200px;transform:translate(-50%,-50%);">
-            <span aria-hidden="true" style="position:absolute;inset:-6px;border-radius:22px;border:1.5px solid rgba(240,206,122,.5);animation:ringPulse 2.4s ease-out infinite;"></span>
-            <svg width="60" height="60" viewBox="0 0 48 48" fill="none" style="display:block;filter:drop-shadow(0 10px 24px rgba(0,0,0,.45));"><defs><linearGradient id="clg" x1="24" y1="10" x2="34" y2="40" gradientUnits="userSpaceOnUse"><stop stop-color="#F0CE7A"></stop><stop offset="1" stop-color="#BC8A2C"></stop></linearGradient></defs><rect width="48" height="48" rx="13" fill="#1C3A2E" stroke="rgba(240,206,122,.4)" stroke-width="1"></rect><path d="M24 40V10A10 10 0 0 1 34 20V40Z" fill="url(#clg)"></path><path d="M14 40V20A10 10 0 0 1 34 20V40" fill="none" stroke="#F2F1E9" stroke-width="2.6" stroke-linejoin="round"></path><circle cx="19.5" cy="29" r="1.9" fill="#F2F1E9"></circle></svg>
-          </div>
-        </div>
-        </div>
-        <div style="position:relative;max-width:760px;margin:26px auto 0;display:grid;grid-template-columns:1fr auto 1fr auto 1fr;gap:10px;align-items:center;border-top:1px solid rgba(255,255,255,.1);padding-top:26px;">
-          <div style="text-align:center;"><div data-count="4182" style="font-family:'Instrument Serif',serif;font-size:34px;color:#F4F1E8;line-height:1;">4,182</div><div style="font-size:12px;color:#8FA89A;margin-top:5px;">roles found tonight</div></div>
-          <span style="color:#5E7568;font-size:17px;">→</span>
-          <div style="text-align:center;"><div data-count="12" style="font-family:'Instrument Serif',serif;font-size:34px;color:#7BE0A6;line-height:1;">12</div><div style="font-size:12px;color:#8FA89A;margin-top:5px;">match what you want</div></div>
-          <span style="color:#5E7568;font-size:17px;">→</span>
-          <div style="text-align:center;"><div data-count="4" style="font-family:'Instrument Serif',serif;font-size:34px;color:#F0CE7A;line-height:1;">4</div><div style="font-size:12px;color:#8FA89A;margin-top:5px;">applied for you</div></div>
-        </div>
+      <div class="conv-list" data-reveal aria-label="Illustrative conversations">
+        <div class="conv-row"><img src="/logos/companies/cred.png" alt=""><span><strong>Ananya Iyer</strong><small>CRED &middot; Head of Marketing</small></span><span class="conv-signal"><b>Opened twice</b><small>12 minutes ago</small></span><em>Follow-up tomorrow</em></div>
+        <div class="conv-row replied"><img src="/logos/companies/swiggy.png" alt=""><span><strong>Aditi Sharma</strong><small>Swiggy &middot; Director of Product</small></span><span class="conv-signal"><b>Reply received</b><small>&ldquo;Happy to chat next week.&rdquo;</small></span><em>Follow-ups stopped</em></div>
+        <div class="conv-row"><img src="/logos/companies/phonepe.png" alt=""><span><strong>Neha Rao</strong><small>PhonePe &middot; Head of Marketing</small></span><span class="conv-signal"><b>First email sent</b><small>2 hours ago</small></span><em class="waiting">Waiting</em></div>
       </div>
-    </div>
-  </div>
+      <div class="tracking-cta" data-reveal><p>You always know what sent, what worked, and what is waiting.</p><a class="button" href="https://hey.knok.work?intent=signup&amp;source=v15_tracking">Run my outreach <span aria-hidden="true">&rarr;</span></a></div>
+    </div></section>
 
-  <!-- MORNING (phone lock-screen) -->
-  <div id="morning" style="padding:130px 32px 0;">
-    <div style="max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1fr .95fr;gap:70px;align-items:center;">
-      <div data-reveal="">
-        <div style="font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:#B8862B;margin-bottom:16px;">/ 02 — Your morning</div>
-        <h2 style="margin:0;font-family:'Instrument Serif',serif;font-weight:400;font-size:52px;line-height:1.02;letter-spacing:-.01em;">You sleep. It works. You wake up <span style="font-style:italic;color:#1C3A2E;">to this.</span></h2>
-        <p style="margin:22px 0 0;font-size:16.5px;line-height:1.6;color:#56564B;max-width:440px;">Every morning at 7, one calm digest: what was found, what was applied to on your behalf, and who wrote back. No tabs, no forms, no spreadsheet.</p>
-        <div style="margin-top:26px;display:flex;flex-direction:column;gap:13px;">
-          <div style="display:flex;align-items:center;gap:11px;font-size:14.5px;color:#33332A;"><span style="width:19px;height:19px;border-radius:50%;border:1.5px solid #1C8A4E;color:#1C8A4E;display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:700;">✓</span>Nothing sent outside your rules</div>
-          <div style="display:flex;align-items:center;gap:11px;font-size:14.5px;color:#33332A;"><span style="width:19px;height:19px;border-radius:50%;border:1.5px solid #1C8A4E;color:#1C8A4E;display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:700;">✓</span>One tap to approve, undo, or pause</div>
-        </div>
-      </div>
-      <div data-reveal="" style="position:relative;display:flex;justify-content:center;">
-        <div aria-hidden="true" style="position:absolute;inset:-8% 6%;background:radial-gradient(60% 70% at 50% 45%,#EDF3EC,transparent 75%);"></div>
-        <div style="position:relative;width:340px;border-radius:46px;background:linear-gradient(180deg,#17342A,#0E241C);padding:20px 16px 22px;box-shadow:0 50px 90px -40px rgba(14,36,28,.6),inset 0 0 0 1.5px rgba(255,255,255,.09);">
-          <div style="width:110px;height:26px;border-radius:14px;background:#0B1D16;margin:0 auto 18px;"></div>
-          <div style="text-align:center;margin-bottom:20px;">
-            <div style="font-size:13px;color:#8FA89A;font-weight:500;">Wednesday, June 24</div>
-            <div style="font-family:'Instrument Serif',serif;font-size:64px;line-height:1;color:#F4F1E8;margin-top:4px;">7:04</div>
-          </div>
-          <div style="display:flex;flex-direction:column;gap:9px;">
-            <div data-notif="" style="background:rgba(252,252,250,.97);border-radius:17px;padding:13px 15px;box-shadow:0 8px 20px -10px rgba(0,0,0,.4);">
-              <div style="display:flex;align-items:center;gap:9px;margin-bottom:5px;"><svg width="17" height="17" viewBox="0 0 48 48" fill="none"><rect width="48" height="48" rx="13" fill="#1C3A2E"></rect><path d="M24 40V10A10 10 0 0 1 34 20V40Z" fill="#D6A63C"></path><path d="M14 40V20A10 10 0 0 1 34 20V40" fill="none" stroke="#F2F1E9" stroke-width="2.6" stroke-linejoin="round"></path></svg><span style="font-size:12px;font-weight:700;color:#16160F;flex:1;">knok</span><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:#9A998F;">7:00 AM</span></div>
-              <div style="font-size:13px;font-weight:700;color:#16160F;">Overnight report</div>
-              <div style="font-size:12.5px;color:#56564B;line-height:1.45;margin-top:1px;">4,182 roles scanned · 12 matched you · 4 applications submitted</div>
-            </div>
-            <div data-notif="" style="background:rgba(252,252,250,.97);border-radius:17px;padding:13px 15px;box-shadow:0 8px 20px -10px rgba(0,0,0,.4);">
-              <div style="display:flex;align-items:center;gap:9px;margin-bottom:5px;"><span style="width:17px;height:17px;border-radius:5px;background:#1C3A2E;display:flex;align-items:center;justify-content:center;"><svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="#7BE0A6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 6"></path></svg></span><span style="font-size:12px;font-weight:700;color:#16160F;flex:1;">knok · Applied</span><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:#9A998F;">2:14 AM</span></div>
-              <div style="font-size:13px;font-weight:700;color:#16160F;">Stripe — Senior Product Manager</div>
-              <div style="font-size:12.5px;color:#56564B;line-height:1.45;margin-top:1px;">Tailored resume + cover submitted. Score 4.7.</div>
-            </div>
-            <div data-notif="" style="background:linear-gradient(135deg,#FBF1D6,#F1DFAE);border-radius:17px;padding:13px 15px;box-shadow:0 10px 24px -10px rgba(184,133,42,.5);">
-              <div style="display:flex;align-items:center;gap:9px;margin-bottom:5px;"><span style="width:17px;height:17px;border-radius:5px;background:#3A2A08;color:#F0CE7A;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:8.5px;">JM</span><span style="font-size:12px;font-weight:700;color:#3A2A08;flex:1;">Jordan Mehta · Stripe</span><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:#8A6A22;">6:57 AM</span></div>
-              <div style="font-size:13px;font-weight:700;color:#3A2A08;">Re: Senior PM role</div>
-              <div style="font-size:12.5px;color:#5C4813;line-height:1.45;margin-top:1px;">"Thanks for the note — do you have time Thursday at 2?"</div>
-            </div>
-          </div>
-          <div style="width:120px;height:4px;border-radius:2px;background:rgba(255,255,255,.3);margin:20px auto 0;"></div>
-        </div>
+    <section class="pricing" id="pricing"><div class="shell"><div class="pricing-head" data-reveal><span class="eyebrow">Pricing</span><h2 class="display">Search for free. <em>Upgrade to reach out.</em></h2><p class="section-copy">Choose how many companies you want Knok to research and contact each month.</p></div><div class="plans" data-reveal><article class="plan"><span class="plan-label">Free</span><div class="price">&#8377;0</div><p>See the roles worth chasing, before you reach out.</p><a class="button button-outline" href="https://hey.knok.work?intent=signup&amp;plan=free&amp;source=v15_pricing">Try Knok free</a><ul><li>Up to 20 job postings</li><li>Role discovery across job sources</li><li>Plain-language fit summary</li></ul></article><article class="plan"><span class="plan-label">Early Bird</span><div class="price">&#8377;1,999 <small>/ month</small></div><p>Pick 15 companies. Reach out directly.</p><a class="button" href="https://hey.knok.work?intent=signup&amp;plan=early_bird&amp;source=v15_pricing">Reach 15 companies</a><ul><li>Unlimited job board access</li><li>Verified contacts and emails</li><li>Initial email through Gmail</li></ul></article><article class="plan featured"><span class="plan-label">Growth</span><span class="plan-badge">Recommended</span><div class="price">&#8377;2,999 <small>/ month</small></div><p>A full search, auto follow-ups and tracking, done for you.</p><a class="button button-gold" href="https://hey.knok.work?intent=signup&amp;plan=growth&amp;source=v15_pricing">Choose Growth</a><ul><li>30 company reachouts</li><li>Automated Gmail sequences</li><li>Open and reply tracking</li><li>Follow-ups stop on reply</li></ul></article><article class="plan"><span class="plan-label">Pro</span><div class="price">&#8377;4,999 <small>/ month</small></div><p>Reach more companies. Same personal touch.</p><a class="button" href="https://hey.knok.work?intent=signup&amp;plan=pro&amp;source=v15_pricing">Reach 50 companies</a><ul><li>50 company reachouts</li><li>Automated Gmail sequences</li><li>Open and reply tracking</li><li>Priority contact research</li></ul></article></div><div class="compare" data-reveal><div class="compare-head"><div><span>Compare plans</span><strong>What changes when you upgrade</strong></div><em>Swipe to compare every plan &rarr;</em></div><div class="compare-scroll"><table><thead><tr><th scope="col">Included</th><th scope="col">Free</th><th scope="col">Early Bird</th><th class="popular" scope="col">Growth</th><th scope="col">Pro</th></tr></thead><tbody><tr><th scope="row">Roles available to review</th><td>20</td><td>Unlimited</td><td class="popular">Unlimited</td><td>Unlimited</td></tr><tr><th scope="row">Companies contacted each month</th><td>&ndash;</td><td>15</td><td class="popular">30</td><td>50</td></tr><tr><th scope="row">Verified work emails</th><td>&ndash;</td><td>&check;</td><td class="popular">&check;</td><td>&check;</td></tr><tr><th scope="row">Send through Gmail</th><td>&ndash;</td><td>First email</td><td class="popular">Full sequence</td><td>Full sequence</td></tr><tr><th scope="row">Automatic follow-ups</th><td>&ndash;</td><td>&ndash;</td><td class="popular">&check;</td><td>&check;</td></tr><tr><th scope="row">Open and reply tracking</th><td>&ndash;</td><td>Sent status</td><td class="popular">Full activity</td><td>Full activity</td></tr><tr><th scope="row">Priority contact research</th><td>&ndash;</td><td>&ndash;</td><td class="popular">&ndash;</td><td>&check;</td></tr></tbody></table></div></div></div></section>
 
-      </div>
-    </div>
-  </div>
+    <section class="faq" id="faq"><div class="shell faq-layout"><div data-reveal><span class="eyebrow">Questions</span><h2 class="display">Anything you&rsquo;re wondering, <em>answered.</em></h2><p class="section-copy">Honest answers about where we search, how outreach works, your Gmail, and staying in control.</p></div><div class="faq-list" data-reveal><details><summary>Where does Knok find roles?</summary><p>Knok searches more than 150 job boards and company career pages, including LinkedIn, Naukri, Indeed, iimjobs, Instahyre, Cutshort, and specialist sources.</p></details><details><summary>Does it work outside software and product roles?</summary><p>Yes. You can search across technology, product, design, sales, marketing, operations, finance, consulting, legal, customer support, people, HR, administration, and other functions.</p></details><details><summary>How does Knok choose who I should contact?</summary><p>Knok looks for likely role owners, relevant teammates, and hiring contacts. It verifies available work emails and explains why each person may be useful to contact.</p></details><details><summary>Will anything send before I approve it?</summary><p>No. You review the recipient, message, resume, and follow-up schedule before a sequence starts. You can pause it at any time.</p></details><details><summary>Does Knok read my Gmail inbox?</summary><p>No. Knok requests permission to send approved emails from your account. It does not request permission to read or modify your inbox.</p></details><details><summary>What happens when someone replies?</summary><p>The remaining follow-ups stop automatically, and the reply is attached to the right conversation in your Knok activity view.</p></details><details><summary>What counts as one company reachout?</summary><p>One company reachout covers the approved email sequence for one company, including the first email and any follow-ups included in your plan.</p></details></div></div></section>
 
-  <!-- SET YOUR BAR -->
-  <div style="padding:130px 32px 0;">
-    <div style="max-width:1200px;margin:0 auto;display:grid;grid-template-columns:.95fr 1fr;gap:70px;align-items:center;">
-      <div data-reveal="" style="position:relative;">
-        <div aria-hidden="true" style="position:absolute;inset:-8%;background:radial-gradient(60% 70% at 50% 45%,#F7F2E3,transparent 75%);"></div>
-        <div style="position:relative;background:#fff;border:1px solid #E7E6DF;border-radius:24px;box-shadow:0 40px 80px -44px rgba(22,42,33,.4);padding:28px;">
-          <div style="display:flex;align-items:baseline;justify-content:space-between;gap:14px;margin-bottom:6px;">
-            <span style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:#9A998F;">Apply threshold</span>
-            <span style="display:inline-flex;align-items:center;gap:7px;font-size:12px;font-weight:600;color:#1C8A4E;"><span style="width:6px;height:6px;border-radius:50%;background:#1C8A4E;animation:pulseDot 1.8s infinite;"></span>Autopilot on</span>
-          </div>
-          <div style="font-family:'Instrument Serif',serif;font-size:74px;line-height:1;color:#1C3A2E;margin-bottom:14px;">≥ {{ thrDisplay }}</div>
-          <div ref="{{ thrTrackRef }}" onclick="{{ trackClick }}" style="position:relative;height:10px;border-radius:6px;background:#EFEEE8;margin-bottom:10px;cursor:pointer;">
-            <div style="position:absolute;left:0;top:0;bottom:0;width:{{ thrPct }};background:linear-gradient(90deg,#1C3A2E,#2F6A4E 60%,#D6A63C);border-radius:6px;transition:width .12s;"></div>
-            <div onmousedown="{{ startDrag }}" style="position:absolute;left:{{ thrPct }};top:50%;transform:translate(-50%,-50%);width:26px;height:26px;border-radius:50%;background:radial-gradient(circle at 36% 30%,#F6E0A0,#D6A63C 58%,#B8852A);border:2.5px solid #fff;box-shadow:0 4px 14px rgba(184,133,42,.5);cursor:grab;transition:left .12s;"></div>
-          </div>
-          <div style="display:flex;justify-content:space-between;margin-bottom:20px;"><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:#B3B3AB;">3.0 — everything</span><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:#B3B3AB;">5.0 — only perfect</span></div>
-          <div style="display:flex;flex-direction:column;gap:6px;margin-bottom:14px;">
-            <sc-for list="{{ apRoles }}" as="r" hint-placeholder-count="5">
-              <div style="display:flex;align-items:center;gap:11px;padding:10px 13px;border-radius:12px;border:1px solid {{ r.border }};background:{{ r.bg }};opacity:{{ r.op }};transition:opacity .35s,background .35s,border-color .35s;">
-                <span style="width:29px;height:29px;border-radius:8px;background:#F4F3EE;color:#1C3A2E;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:11.5px;flex:none;">{{ r.initial }}</span>
-                <div style="flex:1;min-width:0;"><div style="font-size:13px;font-weight:600;letter-spacing:-.01em;">{{ r.role }}</div><div style="font-size:11px;color:#74736B;">{{ r.company }}</div></div>
-                <span style="font-family:'JetBrains Mono',monospace;font-size:12.5px;font-weight:600;color:{{ r.scoreColor }};flex:none;">{{ r.score }}</span>
-                <span style="flex:none;font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.04em;text-transform:uppercase;color:{{ r.tagColor }};background:{{ r.tagBg }};padding:4px 8px;border-radius:999px;">{{ r.tag }}</span>
-              </div>
-            </sc-for>
-          </div>
-          <div style="display:flex;align-items:center;gap:10px;background:#E6F2EA;border:1px solid #CDE7D7;border-radius:12px;padding:12px 14px;">
-            <span style="width:7px;height:7px;border-radius:50%;background:#1C8A4E;animation:pulseDot 1.4s infinite;flex:none;"></span><span style="font-size:13px;color:#1C3A2E;"><strong style="font-weight:700;">{{ qualCount }} roles</strong> will be applied to tonight — tailored resume + cover for each</span>
-          </div>
-        </div>
-      </div>
-      <div data-reveal="">
-        <div style="font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:#B8862B;margin-bottom:16px;">/ 03 — Your rules</div>
-        <h2 style="margin:0;font-family:'Instrument Serif',serif;font-weight:400;font-size:52px;line-height:1.02;letter-spacing:-.01em;">Set a bar once. It only acts <span style="font-style:italic;color:#1C3A2E;">above it.</span></h2>
-        <p style="margin:22px 0 0;font-size:16.5px;line-height:1.6;color:#56564B;max-width:420px;">Drag the bar — watch which roles make the cut. Anything above it gets a tailored application, submitted overnight. Anything below never wastes your attention.</p>
-      </div>
-    </div>
-  </div>
+    <section class="final-cta"><div class="shell knock-cta" data-reveal>
+      <div class="knock-icon"><span class="knock-tile"><svg viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="13" fill="#103c2d"/><path d="M24 40V10A10 10 0 0 1 34 20V40Z" fill="#dcb246"/><path d="M14 40V20A10 10 0 0 1 34 20V40" fill="none" stroke="#fff" stroke-width="2.6"/><circle cx="19.5" cy="29" r="1.9" fill="#fff"/></svg></span><small>Knok, knok.</small></div>
+      <h2>Stop getting buried. <em>Start meeting your next team.</em></h2>
+      <p>Start today. Reach the right people &ndash; and find your next role with Knok.</p>
+      <a class="button" href="https://hey.knok.work?intent=signup&amp;source=v15_final">Find my dream job <span aria-hidden="true">&rarr;</span></a>
+    </div></section>
+  </main>
 
-  <!-- OUTREACH -->
-  <div style="padding:130px 32px 0;">
-    <div style="max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1fr .95fr;gap:70px;align-items:center;">
-      <div data-reveal="">
-        <div style="font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:#B8862B;margin-bottom:16px;">/ 04 — Outreach</div>
-        <h2 style="margin:0;font-family:'Instrument Serif',serif;font-weight:400;font-size:52px;line-height:1.02;letter-spacing:-.01em;">Applications get filed. <span style="font-style:italic;color:#1C3A2E;">Messages get answered.</span></h2>
-        <p style="margin:22px 0 0;font-size:16.5px;line-height:1.6;color:#56564B;max-width:440px;">For every application, knok finds the hiring manager and drafts a note that sounds like you — not a template. You approve, it sends, replies land in your digest.</p>
-        <div style="margin-top:28px;display:flex;align-items:center;gap:26px;">
-          <div><div style="font-family:'Instrument Serif',serif;font-size:44px;color:#1C3A2E;line-height:1;">28%</div><div style="font-size:12.5px;color:#74736B;margin-top:4px;">reply rate</div></div>
-          <div style="width:1px;height:40px;background:#E7E6DF;"></div>
-          <div><div style="font-family:'Instrument Serif',serif;font-size:44px;color:#1C3A2E;line-height:1;">3.4×</div><div style="font-size:12.5px;color:#74736B;margin-top:4px;">vs. cold applying</div></div>
-        </div>
-      </div>
-      <div data-reveal="" style="position:relative;">
-        <div aria-hidden="true" style="position:absolute;inset:-8%;background:radial-gradient(60% 70% at 50% 45%,#EDF3EC,transparent 75%);"></div>
-        <div style="position:relative;background:#fff;border:1px solid #E7E6DF;border-radius:24px;box-shadow:0 40px 80px -44px rgba(22,42,33,.4);padding:24px;">
-          <div style="display:flex;align-items:center;gap:11px;padding-bottom:16px;border-bottom:1px solid #F0EFE9;margin-bottom:16px;">
-            <span style="width:38px;height:38px;border-radius:12px;background:#1C3A2E;color:#F2F1E9;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;">JM</span>
-            <div style="flex:1;"><div style="font-size:14px;font-weight:700;">Jordan Mehta</div><div style="font-size:11.5px;color:#74736B;">Head of Product · Stripe</div></div>
-            <span style="display:inline-flex;align-items:center;gap:6px;font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.04em;text-transform:uppercase;color:#1C8A4E;background:#E6F2EA;padding:5px 10px;border-radius:999px;">Replied</span>
-          </div>
-          <div style="display:flex;flex-direction:column;gap:10px;">
-            <div style="align-self:flex-end;max-width:85%;background:#1C3A2E;color:#EBF3EE;border-radius:16px 16px 4px 16px;padding:12px 15px;font-size:13.5px;line-height:1.5;">Hi Jordan — saw the Sr. PM opening. I shipped two 0→1 payments products at my last role and knok flagged this as a 4.7 fit. Would love 15 minutes if you're open to it.</div>
-            <div style="align-self:flex-end;display:flex;align-items:center;gap:6px;font-family:'JetBrains Mono',monospace;font-size:10px;color:#B3B3AB;"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#1C8A4E" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 6"></path></svg>Drafted by knok · approved by you · 9:12 PM</div>
-            <div style="align-self:flex-start;max-width:85%;background:#F4F3EE;color:#33332A;border-radius:16px 16px 16px 4px;padding:12px 15px;font-size:13.5px;line-height:1.5;">Thanks for the note — this is a strong background for what we need. Do you have time Thursday at 2?</div>
-            <div style="align-self:flex-start;font-family:'JetBrains Mono',monospace;font-size:10px;color:#B3B3AB;">6:57 AM</div>
-          </div>
-          <div style="margin-top:16px;display:flex;gap:8px;">
-            <span style="flex:1;border:1px solid #E7E6DF;border-radius:11px;padding:11px 14px;font-size:13px;color:#B3B3AB;">Reply…</span>
-            <span style="width:42px;height:42px;border-radius:11px;background:#1C3A2E;display:flex;align-items:center;justify-content:center;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#F2F1E9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13"></path><path d="M22 2l-7 20-4-9-9-4z"></path></svg></span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  <footer class="site-footer"><div class="shell footer-row">
+    <a class="brand" href="#top"><svg viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="13" fill="#103c2d"/><path d="M24 40V10A10 10 0 0 1 34 20V40Z" fill="#dcb246"/><path d="M14 40V20A10 10 0 0 1 34 20V40" fill="none" stroke="#fff" stroke-width="2.6"/><circle cx="19.5" cy="29" r="1.9" fill="#fff"/></svg><span>knok</span></a>
+    <nav class="footer-links" aria-label="Footer"><a href="#product">Product</a><a href="#how-it-works">How it works</a><a href="#tracking">Tracking</a><a href="#pricing">Pricing</a><a href="/privacy">Privacy</a><a href="/terms">Terms</a><a href="mailto:shaurya29.works@gmail.com">Contact</a></nav>
+    <span class="footer-note">&copy; 2026 knok</span>
+  </div></footer>
 
-  <!-- CONTROL / TRUST -->
-  <div style="padding:130px 32px 0;">
-    <div style="max-width:1200px;margin:0 auto;display:grid;grid-template-columns:.95fr 1fr;gap:70px;align-items:center;">
-      <div data-reveal="">
-        <div style="font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:#B8862B;margin-bottom:16px;">/ 05 — In control</div>
-        <h2 style="margin:0;font-family:'Instrument Serif',serif;font-weight:400;font-size:52px;line-height:1.02;letter-spacing:-.01em;">Autonomous. Never <span style="font-style:italic;color:#1C3A2E;">out of your hands.</span></h2>
-        <p style="margin:22px 0 0;font-size:16.5px;line-height:1.6;color:#56564B;max-width:430px;">Every action knok takes is logged, reversible, and inside rules you set. Start in approve-first mode; go hands-free once you trust it.</p>
-        <div style="margin-top:26px;display:flex;flex-direction:column;gap:13px;">
-          <div style="display:flex;align-items:center;gap:11px;font-size:14.5px;color:#33332A;"><span style="width:19px;height:19px;border-radius:50%;border:1.5px solid #1C8A4E;color:#1C8A4E;display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:700;">✓</span>Approve-first mode is the default</div>
-          <div style="display:flex;align-items:center;gap:11px;font-size:14.5px;color:#33332A;"><span style="width:19px;height:19px;border-radius:50%;border:1.5px solid #1C8A4E;color:#1C8A4E;display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:700;">✓</span>Pause or undo anything, instantly</div>
-          <div style="display:flex;align-items:center;gap:11px;font-size:14.5px;color:#33332A;"><span style="width:19px;height:19px;border-radius:50%;border:1.5px solid #1C8A4E;color:#1C8A4E;display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:700;">✓</span>Your data is yours — export or delete anytime</div>
-        </div>
-      </div>
-      <div data-reveal="" style="position:relative;">
-        <div aria-hidden="true" style="position:absolute;inset:-8%;background:radial-gradient(60% 70% at 50% 45%,#EDF3EC,transparent 75%);"></div>
-        <div style="position:relative;background:#fff;border:1px solid #E7E6DF;border-radius:24px;box-shadow:0 40px 80px -44px rgba(22,42,33,.4);padding:24px;">
-          <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;padding-bottom:15px;border-bottom:1px solid #F0EFE9;margin-bottom:6px;">
-            <span style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:#9A998F;">Tonight's log</span>
-            <span style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.05em;text-transform:uppercase;color:#1C8A4E;background:#E6F2EA;padding:5px 10px;border-radius:999px;">Every action · reversible</span>
-          </div>
-          <div style="display:flex;align-items:baseline;gap:14px;padding:11px 0;border-bottom:1px solid #F6F5F0;"><span style="font-family:'JetBrains Mono',monospace;font-size:11px;color:#B3B3AB;flex:none;width:40px;">02:04</span><span style="font-size:13.5px;color:#56564B;">Scanned LinkedIn — <strong style="color:#33332A;font-weight:600;">1,204 roles</strong></span></div>
-          <div style="display:flex;align-items:baseline;gap:14px;padding:11px 0;border-bottom:1px solid #F6F5F0;"><span style="font-family:'JetBrains Mono',monospace;font-size:11px;color:#B3B3AB;flex:none;width:40px;">02:09</span><span style="font-size:13.5px;color:#56564B;">Scored <strong style="color:#33332A;font-weight:600;">38 new roles</strong> against your profile</span></div>
-          <div style="display:flex;align-items:baseline;gap:14px;padding:11px 0;border-bottom:1px solid #F6F5F0;"><span style="font-family:'JetBrains Mono',monospace;font-size:11px;color:#B3B3AB;flex:none;width:40px;">02:14</span><span style="font-size:13.5px;color:#56564B;"><span style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.04em;text-transform:uppercase;color:#1C8A4E;background:#E6F2EA;padding:3px 8px;border-radius:999px;margin-right:8px;">Applied</span>Stripe · Senior PM (4.7) — tailored CV + cover</span></div>
-          <div style="display:flex;align-items:baseline;gap:14px;padding:11px 0;border-bottom:1px solid #F6F5F0;"><span style="font-family:'JetBrains Mono',monospace;font-size:11px;color:#B3B3AB;flex:none;width:40px;">02:16</span><span style="font-size:13.5px;color:#9A998F;"><span style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.04em;text-transform:uppercase;color:#9A998F;background:#F1F0EB;padding:3px 8px;border-radius:999px;margin-right:8px;">Skipped</span>Meta · PMM (3.2 — below your bar)</span></div>
-          <div style="display:flex;align-items:baseline;gap:14px;padding:11px 0;border-bottom:1px solid #F6F5F0;"><span style="font-family:'JetBrains Mono',monospace;font-size:11px;color:#B3B3AB;flex:none;width:40px;">02:31</span><span style="font-size:13.5px;color:#56564B;"><span style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.04em;text-transform:uppercase;color:#B8862B;background:#F7EFDA;padding:3px 8px;border-radius:999px;margin-right:8px;">Drafted</span>Outreach to Jordan M. — awaiting your approval</span></div>
-          <div style="display:flex;align-items:baseline;gap:14px;padding:11px 0;"><span style="font-family:'JetBrains Mono',monospace;font-size:11px;color:#B3B3AB;flex:none;width:40px;">07:00</span><span style="font-size:13.5px;color:#56564B;">Morning digest delivered</span></div>
-          <div style="display:flex;gap:8px;margin-top:12px;">
-            <span style="flex:1;text-align:center;border:1px solid #DEDDD4;border-radius:11px;padding:11px;font-size:13px;font-weight:600;color:#56564B;">Undo last action</span>
-            <span style="flex:1;text-align:center;background:#1C3A2E;border-radius:11px;padding:11px;font-size:13px;font-weight:600;color:#fff;">Approve draft</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  <aside class="cookie-banner" id="cookie-banner" aria-label="Analytics preferences" hidden>
+    <p>Allow anonymous analytics to help us improve Knok?</p>
+    <div class="cookie-actions"><button id="cookie-decline" type="button">Decline</button><button class="cookie-accept" id="cookie-accept" type="button">Allow</button></div>
+  </aside>
 
-  <!-- STATS -->
-  <div style="padding:130px 32px 0;">
-    <div data-reveal="" style="max-width:1200px;margin:0 auto;background:#122B21;border-radius:26px;padding:70px 60px;display:grid;grid-template-columns:repeat(4,1fr);gap:28px;position:relative;overflow:hidden;">
-      <div aria-hidden="true" style="position:absolute;inset:0;background:radial-gradient(70% 100% at 50% 0%,rgba(214,166,60,.12),transparent 60%);"></div>
-      <sc-for list="{{ stats }}" as="st" hint-placeholder-count="4">
-        <div style="position:relative;">
-          <div data-count="{{ st.target }}" data-suffix="{{ st.suffix }}" style="font-family:'Instrument Serif',serif;font-size:60px;line-height:1;color:#F4F1E8;letter-spacing:-.01em;">{{ st.display }}</div>
-          <div style="margin-top:14px;height:3px;width:44px;border-radius:2px;background:linear-gradient(90deg,#F0CE7A,#BC8A2C);"></div>
-          <div style="margin-top:14px;font-size:14px;color:#9DBBA9;font-weight:500;">{{ st.label }}</div>
-        </div>
-      </sc-for>
-    </div>
-  </div>
+  <script>
+    (()=>{
+      const header=document.getElementById('site-header');const menuButton=document.getElementById('menu-button');const mobilePanel=document.getElementById('mobile-panel');
+      const setHeader=()=>header.classList.toggle('scrolled',scrollY>16);setHeader();addEventListener('scroll',setHeader,{passive:true});
+      const closeMenu=()=>{header.classList.remove('menu-open');document.body.classList.remove('menu-open');menuButton.setAttribute('aria-expanded','false');menuButton.innerHTML='&#9776;'};
+      menuButton.addEventListener('click',()=>{const open=!header.classList.contains('menu-open');header.classList.toggle('menu-open',open);document.body.classList.toggle('menu-open',open);menuButton.setAttribute('aria-expanded',String(open));menuButton.setAttribute('aria-label',open?'Close menu':'Open menu');menuButton.textContent=open?'\u00d7':'\u2630'});mobilePanel.querySelectorAll('a').forEach(a=>a.addEventListener('click',closeMenu));addEventListener('keydown',e=>{if(e.key==='Escape')closeMenu()});
+      const dds=[...document.querySelectorAll('.dd')];
+      dds.forEach(dd=>{const btn=dd.querySelector('.dd-btn');const list=dd.querySelector('.dd-list');
+        btn.addEventListener('click',e=>{e.stopPropagation();const open=list.hidden;dds.forEach(o=>{o.querySelector('.dd-list').hidden=true;o.classList.remove('open');o.querySelector('.dd-btn').setAttribute('aria-expanded','false')});list.hidden=!open;dd.classList.toggle('open',open);btn.setAttribute('aria-expanded',String(open))});
+        const options=[...list.querySelectorAll('li')];options.forEach((li,index)=>{li.tabIndex=-1;li.addEventListener('click',()=>{options.forEach(o=>o.removeAttribute('aria-selected'));li.setAttribute('aria-selected','true');btn.querySelector('span').textContent=li.textContent;dd.dataset.value=li.textContent;list.hidden=true;dd.classList.remove('open');btn.setAttribute('aria-expanded','false');btn.focus()});li.addEventListener('keydown',e=>{if(e.key==='ArrowDown'||e.key==='ArrowUp'){e.preventDefault();options[(index+(e.key==='ArrowDown'?1:-1)+options.length)%options.length].focus()}else if(e.key==='Enter'||e.key===' '){e.preventDefault();li.click()}else if(e.key==='Escape'){list.hidden=true;dd.classList.remove('open');btn.setAttribute('aria-expanded','false');btn.focus()}})});
+        btn.addEventListener('keydown',e=>{if(e.key==='ArrowDown'||e.key==='ArrowUp'){e.preventDefault();if(list.hidden)btn.click();options[e.key==='ArrowDown'?0:options.length-1].focus()}});
+      });
+      const closeDropdowns=()=>dds.forEach(dd=>{dd.querySelector('.dd-list').hidden=true;dd.classList.remove('open');dd.querySelector('.dd-btn').setAttribute('aria-expanded','false')});
+      addEventListener('click',closeDropdowns);
+      addEventListener('keydown',e=>{if(e.key==='Escape')closeDropdowns()});
+      const picker=document.getElementById('search-picker');picker.addEventListener('submit',e=>{e.preventDefault();const role=document.getElementById('role-dd').dataset.value||'';const location=document.getElementById('location-dd').dataset.value||'Anywhere in India';picker.classList.add('done');const roleTxt=role&&role.indexOf('looking')===-1?role.toLowerCase():'matching';const locTxt=location==='Anywhere in India'?'across India':'in '+location;const count=90+((role.length*13+location.length*7)%150);document.getElementById('picker-result').innerHTML=`<b>${count}</b> ${roleTxt} roles ${locTxt} match right now. <a href="https://hey.knok.work?intent=signup&source=v15_picker">See them free &rarr;</a>`;picker.querySelector('button[type="submit"]').textContent='Search ready \u2192'});
+      const chapter=document.getElementById('chapter-scroll');
+      const appCount=document.getElementById('application-count');
+      const queuePosition=document.getElementById('queue-position-number');
+      const queueDemo=chapter.querySelector('.queue-demo');
+      const queueList=document.getElementById('queue-list');
+      const queueSeeds=[...queueList.querySelectorAll('.queue-row:not(.you)')];
+      for(let index=12;index<=40;index++){const row=queueSeeds[index%queueSeeds.length].cloneNode(true);row.querySelector('i').textContent=String(index).padStart(2,'0');queueList.appendChild(row)}
+      const neverReviewed=document.createElement('div');neverReviewed.className='never-reviewed';neverReviewed.innerHTML='<strong>Never reviewed.</strong><span>Your application kept moving down while the queue kept growing.</span>';queueDemo.querySelector('.queue-window').appendChild(neverReviewed);
+      const stepButtons=[...chapter.querySelectorAll('.chapter-step')];
+      const stageEls=[...chapter.querySelectorAll('.chapter-stage')];
+      const compactChapter=()=>innerWidth<=900;
+      const setStep=step=>{if(chapter.dataset.step!==String(step)){chapter.dataset.step=String(step);stepButtons.forEach((b,i)=>b.setAttribute('aria-current',i===step-1?'step':'false'))}};
+      const driveQueue=progress=>{const p=Math.max(0,Math.min(1,progress));chapter.style.setProperty('--problem-progress',p.toFixed(4));appCount.textContent=Math.round(238+p*946).toLocaleString();queuePosition.textContent='#'+Math.round(1+p*846).toLocaleString();queueDemo.classList.toggle('final',p>.82)};
+      let ticking=false;
+      const updateChapter=()=>{ticking=false;
+        if(compactChapter()){const focusY=Math.min(innerHeight*.45,380);let best=0,bestDistance=Infinity;stageEls.forEach((el,i)=>{const r=el.getBoundingClientRect();const d=Math.abs(r.top+Math.min(r.height*.35,240)-focusY);if(d<bestDistance){bestDistance=d;best=i}});setStep(best+1);const b0=stageEls[0];const b0top=b0.getBoundingClientRect().top+scrollY;const bp=(scrollY+innerHeight*.35-b0top)/Math.max(1,b0.offsetHeight);driveQueue(Math.max(0,Math.min(1,bp)));var _nr=queueDemo.querySelector('.never-reviewed');if(_nr){queueDemo.classList.toggle('final',_nr.getBoundingClientRect().top<innerHeight*.66);}return}
+        const rect=chapter.getBoundingClientRect();const max=Math.max(1,chapter.offsetHeight-innerHeight);const p=Math.max(0,Math.min(1,-rect.top/max));const timeline=Math.min(4.999,p*5);const step=Math.floor(timeline);setStep(step);driveQueue(step===1?(timeline-1)/.92:step>1?1:0)};
+      const requestChapter=()=>{if(!ticking){ticking=true;requestAnimationFrame(updateChapter)}};
+      addEventListener('scroll',requestChapter,{passive:true});addEventListener('resize',requestChapter);updateChapter();
+      stepButtons.forEach(button=>button.addEventListener('click',()=>{const step=Number(button.dataset.stepTarget);
+        if(compactChapter()){stageEls[step].scrollIntoView({behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'auto':'smooth',block:'start'});return}
+        const top=scrollY+chapter.getBoundingClientRect().top;const max=Math.max(1,chapter.offsetHeight-innerHeight);scrollTo({top:Math.round(top+max*((step+1.55)/5)),behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'auto':'smooth'})}));
 
-  <!-- TESTIMONIALS -->
-  <div style="padding:130px 32px 0;">
-    <div style="max-width:1200px;margin:0 auto;">
-      <div data-reveal="" style="max-width:640px;margin-bottom:48px;">
-        <div style="font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:#B8862B;margin-bottom:16px;">/ 06 — Outcomes</div>
-        <h2 style="margin:0;font-family:'Instrument Serif',serif;font-weight:400;font-size:52px;line-height:1.02;letter-spacing:-.01em;">People who got the <span style="font-style:italic;color:#1C3A2E;">interview.</span></h2>
-      </div>
-      <div data-reveal="" style="display:grid;grid-template-columns:repeat(3,1fr);gap:20px;">
-        <div style="background:#FAF9F5;border:1px solid #E9E8E1;border-radius:22px;padding:28px;display:flex;flex-direction:column;">
-          <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;"><img src="1bb0e2d9-745d-4fe7-9a35-55fcafe5311f.png" style="width:48px;height:48px;border-radius:14px;object-fit:cover;"><div><div style="font-size:14.5px;font-weight:700;">Maya Okonkwo</div><div style="font-size:12px;color:#74736B;">Sr. Product Marketer</div></div></div>
-          <span style="align-self:flex-start;font-size:11px;font-weight:700;color:#1C8A4E;background:#E6F2EA;padding:5px 11px;border-radius:999px;margin-bottom:16px;">Hired at Figma · 12 days</span>
-          <p style="margin:0;font-size:15.5px;line-height:1.55;color:#26261D;">"I set my threshold at 4.0 and forgot about it. Two weeks later I had four interviews booked — none I found myself."</p>
-        </div>
-        <div style="background:#FAF9F5;border:1px solid #E9E8E1;border-radius:22px;padding:28px;display:flex;flex-direction:column;">
-          <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;"><img src="f5fd803f-a137-4663-ab17-352cc9ccc7f7.png" style="width:48px;height:48px;border-radius:14px;object-fit:cover;"><div><div style="font-size:14.5px;font-weight:700;">Daniel Reyes</div><div style="font-size:12px;color:#74736B;">Staff Engineer</div></div></div>
-          <span style="align-self:flex-start;font-size:11px;font-weight:700;color:#1C8A4E;background:#E6F2EA;padding:5px 11px;border-radius:999px;margin-bottom:16px;">3 offers · 1 month</span>
-          <p style="margin:0;font-size:15.5px;line-height:1.55;color:#26261D;">"The scoring is brutally honest. It talked me out of three roles that would have wasted a month and pushed two I almost skipped."</p>
-        </div>
-        <div style="background:#FAF9F5;border:1px solid #E9E8E1;border-radius:22px;padding:28px;display:flex;flex-direction:column;">
-          <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;"><img src="8ffc9baf-f653-4aa8-9fc8-c14c66fe9e4a.png" style="width:48px;height:48px;border-radius:14px;object-fit:cover;"><div><div style="font-size:14.5px;font-weight:700;">Priya Sharma</div><div style="font-size:12px;color:#74736B;">GTM Lead</div></div></div>
-          <span style="align-self:flex-start;font-size:11px;font-weight:700;color:#1C8A4E;background:#E6F2EA;padding:5px 11px;border-radius:999px;margin-bottom:16px;">28% reply rate</span>
-          <p style="margin:0;font-size:15.5px;line-height:1.55;color:#26261D;">"Outreach drafts that actually sound like me. My reply rate went from screaming into the void to one in three."</p>
-        </div>
-      </div>
-    </div>
-  </div>
+      const mapLayout=document.querySelector('.map-layout');const mapToggle=document.querySelector('.map-more-toggle');
+      if(mapLayout&&mapToggle){mapToggle.addEventListener('click',()=>{const open=mapLayout.classList.toggle('contacts-open');mapToggle.setAttribute('aria-expanded',String(open));mapToggle.innerHTML=(open?'Show fewer contacts <span aria-hidden="true">&darr;</span>':'Show 2 more verified contacts <span aria-hidden="true">&darr;</span>')})}
 
-  <!-- THE MATH -->
-  <div style="padding:130px 32px 0;">
-    <div style="max-width:1200px;margin:0 auto;">
-      <div data-reveal="" style="max-width:640px;margin:0 auto 48px;text-align:center;">
-        <div style="font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:#B8862B;margin-bottom:16px;">/ 07 — The math</div>
-        <h2 style="margin:0;font-family:'Instrument Serif',serif;font-weight:400;font-size:52px;line-height:1.02;letter-spacing:-.01em;">Every other option <span style="font-style:italic;color:#1C3A2E;">costs more.</span></h2>
-      </div>
-      <div data-reveal="" style="display:grid;grid-template-columns:repeat(3,1fr);gap:20px;align-items:stretch;">
-        <div style="background:#FAF9F5;border:1px solid #E9E8E1;border-radius:22px;padding:34px;display:flex;flex-direction:column;">
-          <div style="font-size:14px;font-weight:700;color:#74736B;margin-bottom:18px;">A recruiter</div>
-          <div style="font-family:'Instrument Serif',serif;font-size:58px;line-height:1;color:#16160F;">20%</div>
-          <div style="font-size:13px;color:#9A998F;margin-top:6px;">of your first-year salary</div>
-          <div style="margin-top:auto;padding-top:22px;font-size:14px;line-height:1.55;color:#56564B;">And they work for the employer — not for you.</div>
-        </div>
-        <div style="background:#FAF9F5;border:1px solid #E9E8E1;border-radius:22px;padding:34px;display:flex;flex-direction:column;">
-          <div style="font-size:14px;font-weight:700;color:#74736B;margin-bottom:18px;">Doing it yourself</div>
-          <div style="font-family:'Instrument Serif',serif;font-size:58px;line-height:1;color:#16160F;">11 hrs</div>
-          <div style="font-size:13px;color:#9A998F;margin-top:6px;">every single week</div>
-          <div style="margin-top:auto;padding-top:22px;font-size:14px;line-height:1.55;color:#56564B;">Tabs, forms, follow-ups, spreadsheets — after work.</div>
-        </div>
-        <div style="background:#122B21;border:1px solid #122B21;border-radius:22px;padding:34px;display:flex;flex-direction:column;box-shadow:0 34px 66px -32px rgba(18,43,33,.55);position:relative;overflow:hidden;">
-          <div aria-hidden="true" style="position:absolute;inset:0;background:radial-gradient(70% 100% at 50% 0%,rgba(214,166,60,.16),transparent 60%);"></div>
-          <div style="position:relative;font-size:14px;font-weight:700;color:#EBE7DC;margin-bottom:18px;">knok</div>
-          <div style="position:relative;font-family:'Instrument Serif',serif;font-size:58px;line-height:1;background:linear-gradient(100deg,#F0CE7A,#D6A63C);-webkit-background-clip:text;background-clip:text;color:transparent;">$29</div>
-          <div style="position:relative;font-size:13px;color:#9DBBA9;margin-top:6px;">per month · cancel anytime</div>
-          <div style="position:relative;margin-top:auto;padding-top:22px;font-size:14px;line-height:1.55;color:#CFE0D6;">Works only for you. All night, every night.</div>
-        </div>
-      </div>
-    </div>
-  </div>
+      const reachLayout=document.querySelector('.reach-layout');const reachTabs=[...document.querySelectorAll('[data-reach-tab]')];
+      reachTabs.forEach((tab,index)=>{tab.tabIndex=index? -1:0;tab.addEventListener('click',()=>{const view=tab.dataset.reachTab;reachLayout.dataset.reachView=view;reachTabs.forEach(item=>{const active=item===tab;item.setAttribute('aria-selected',String(active));item.tabIndex=active?0:-1})});tab.addEventListener('keydown',event=>{if(event.key==='ArrowLeft'||event.key==='ArrowRight'){event.preventDefault();const next=reachTabs[(index+(event.key==='ArrowRight'?1:-1)+reachTabs.length)%reachTabs.length];next.click();next.focus()}})});
 
-  <!-- PRICING -->
-  <div id="pricing" style="padding:130px 32px 0;">
-    <div style="max-width:1200px;margin:0 auto;">
-      <div data-reveal="" style="max-width:640px;margin:0 auto 48px;text-align:center;">
-        <div style="font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:#B8862B;margin-bottom:16px;">/ 08 — Pricing</div>
-        <h2 style="margin:0;font-family:'Instrument Serif',serif;font-weight:400;font-size:52px;line-height:1.02;letter-spacing:-.01em;">Cheaper than one missed <span style="font-style:italic;color:#1C3A2E;">paycheck.</span></h2>
-      </div>
-      <div data-reveal="" style="display:grid;grid-template-columns:repeat(3,1fr);gap:20px;align-items:start;">
-        <sc-for list="{{ plans }}" as="p" hint-placeholder-count="3">
-          <div style="position:relative;background:{{ p.cardBg }};border:1px solid {{ p.cardBorder }};border-radius:22px;padding:32px;box-shadow:{{ p.shadow }};">
-            <sc-if value="{{ p.hot }}" hint-placeholder-val="{{ true }}"><span style="position:absolute;top:20px;right:20px;font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:#3A2A08;background:linear-gradient(100deg,#F0CE7A,#D6A63C);padding:4px 10px;border-radius:999px;">Most popular</span></sc-if>
-            <div style="font-size:15px;font-weight:700;color:{{ p.nameColor }};">{{ p.name }}</div>
-            <div style="margin:16px 0 4px;display:flex;align-items:flex-end;gap:4px;"><span style="font-family:'Instrument Serif',serif;font-size:56px;line-height:.9;color:{{ p.priceColor }};">${{ p.price }}</span><span style="font-size:14px;color:{{ p.cadenceColor }};margin-bottom:9px;">{{ p.cadence }}</span></div>
-            <div style="font-size:13.5px;color:{{ p.taglineColor }};margin-bottom:24px;">{{ p.tagline }}</div>
-            <a href="#cta" style="display:block;text-align:center;font-size:14px;font-weight:600;padding:14px;border-radius:13px;text-decoration:none;background:{{ p.btnBg }};color:{{ p.btnFg }};border:1px solid {{ p.btnBorder }};margin-bottom:24px;">{{ p.cta }}</a>
-            <div style="height:1px;background:{{ p.divider }};margin-bottom:22px;"></div>
-            <div style="display:flex;flex-direction:column;gap:14px;">
-              <sc-for list="{{ p.features }}" as="f" hint-placeholder-count="4">
-                <div style="display:flex;align-items:flex-start;gap:11px;"><span style="flex:none;width:17px;height:17px;border-radius:50%;border:1.5px solid {{ p.check }};color:{{ p.check }};display:flex;align-items:center;justify-content:center;font-size:8px;font-weight:700;margin-top:1px;">✓</span><span style="font-size:13.5px;line-height:1.45;color:{{ p.featColor }};">{{ f }}</span></div>
-              </sc-for>
-            </div>
-          </div>
-        </sc-for>
-      </div>
-    </div>
-  </div>
-
-  <!-- FAQ -->
-  <div style="padding:130px 32px 0;">
-    <div style="max-width:820px;margin:0 auto;">
-      <div data-reveal="" style="text-align:center;margin-bottom:44px;">
-        <div style="font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:#B8862B;margin-bottom:16px;">/ 09 — FAQ</div>
-        <h2 style="margin:0;font-family:'Instrument Serif',serif;font-weight:400;font-size:50px;line-height:1.02;letter-spacing:-.01em;">Questions, <span style="font-style:italic;color:#1C3A2E;">answered.</span></h2>
-      </div>
-      <div data-reveal="">
-        <sc-for list="{{ faqs }}" as="f" hint-placeholder-count="5">
-          <div style="border-bottom:1px solid #ECEBE4;">
-            <div onclick="{{ f.toggle }}" style="display:flex;align-items:center;justify-content:space-between;gap:20px;padding:22px 4px;cursor:pointer;">
-              <span style="font-size:17px;font-weight:600;letter-spacing:-.01em;color:#16160F;">{{ f.q }}</span>
-              <span style="flex:none;font-size:22px;color:#1C3A2E;line-height:1;transform:{{ f.iconRot }};transition:transform .25s;">+</span>
-            </div>
-            <div style="max-height:{{ f.maxH }};overflow:hidden;transition:max-height .3s ease;"><p style="margin:0;padding:0 4px 22px;font-size:15px;line-height:1.6;color:#56564B;max-width:640px;">{{ f.a }}</p></div>
-          </div>
-        </sc-for>
-      </div>
-    </div>
-  </div>
-
-  <!-- CTA -->
-  <div id="cta" style="padding:130px 32px 0;">
-    <div data-reveal="" style="max-width:1200px;margin:0 auto;background:#122B21;border-radius:30px;padding:92px 56px;text-align:center;position:relative;overflow:hidden;">
-      <div aria-hidden="true" style="position:absolute;inset:0;background:radial-gradient(70% 120% at 50% 0%,rgba(214,166,60,.16),transparent 60%);"></div>
-      <div style="position:relative;">
-        <h2 style="margin:0 auto;max-width:720px;font-family:'Instrument Serif',serif;font-weight:400;font-size:62px;line-height:1.02;color:#F4F1E8;letter-spacing:-.01em;">Stop applying. Start <span style="font-style:italic;background:linear-gradient(100deg,#F0CE7A,#D6A63C);-webkit-background-clip:text;background-clip:text;color:transparent;">interviewing.</span></h2>
-        <p style="margin:22px auto 0;max-width:460px;font-size:17px;line-height:1.6;color:#B8CBBF;">Turn it on tonight. Wake up to a pipeline that's already moving.</p>
-        <div style="margin:34px auto 0;display:flex;gap:10px;max-width:450px;">
-          <input type="email" placeholder="you@email.com" style="flex:1;height:54px;border:1px solid rgba(255,255,255,.18);border-radius:13px;padding:0 16px;font-size:15px;font-family:inherit;color:#fff;outline:none;background:rgba(255,255,255,.06);">
-          <a href="#top" style="height:54px;display:inline-flex;align-items:center;background:linear-gradient(100deg,#F0CE7A,#D6A63C);color:#3A2A08;font-size:15px;font-weight:700;padding:0 24px;border-radius:13px;text-decoration:none;white-space:nowrap;">Start free →</a>
-        </div>
-        <div style="margin-top:16px;font-size:13px;color:#6E8578;">No card required · 7-day full-access trial</div>
-      </div>
-    </div>
-  </div>
-
-  <!-- FOOTER -->
-  <div style="padding:80px 32px 52px;">
-    <div style="max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;border-top:1px solid #ECEBE4;padding-top:34px;">
-      <div style="display:flex;align-items:center;gap:10px;">
-        <svg width="24" height="24" viewBox="0 0 48 48" fill="none"><rect width="48" height="48" rx="13" fill="#1C3A2E"></rect><path d="M24 40V10A10 10 0 0 1 34 20V40Z" fill="#D6A63C"></path><path d="M14 40V20A10 10 0 0 1 34 20V40" fill="none" stroke="#F2F1E9" stroke-width="2.6" stroke-linejoin="round"></path><circle cx="19.5" cy="29" r="1.9" fill="#F2F1E9"></circle></svg>
-        <span style="font-weight:700;font-size:15px;letter-spacing:-.02em;">knok</span>
-      </div>
-      <div style="display:flex;gap:26px;"><a href="#coverage" style="text-decoration:none;color:#74736B;font-size:13.5px;">Coverage</a><a href="#morning" style="text-decoration:none;color:#74736B;font-size:13.5px;">Product</a><a href="#pricing" style="text-decoration:none;color:#74736B;font-size:13.5px;">Pricing</a><a href="/blog/" style="text-decoration:none;color:#74736B;font-size:13.5px;">Blog</a><a href="/privacy" style="text-decoration:none;color:#74736B;font-size:13.5px;">Privacy</a><a href="/terms" style="text-decoration:none;color:#74736B;font-size:13.5px;">Terms</a></div>
-      <div style="font-family:'JetBrains Mono',monospace;font-size:12px;color:#9A998F;">© 2026 knok</div>
-    </div>
-  </div>
-
-</div>
-</x-dc>
-<script type="text/x-dc" data-dc-script="" data-props="{&quot;$preview&quot;:{&quot;width&quot;:1280,&quot;height&quot;:900}}">
-class Component extends DCLogic {
-  state = { scrolled:false, thr:4.0, stageScale:1, tick:0, openFaq:0 };
-
-  _measureStage(){
-    if(!this._stageWrap) return;
-    const s = Math.min(1, this._stageWrap.clientWidth / 900);
-    if (Math.abs(s - this.state.stageScale) > 0.005) this.setState({ stageScale:s });
-  }
-
-  componentDidMount(){
-    const onScroll = ()=>{ const s = window.scrollY > 8; if(s!==this.state.scrolled) this.setState({scrolled:s}); };
-    window.addEventListener('scroll', onScroll, {passive:true}); this._onScroll = onScroll;
-
-    this._onMove = (e)=>{ if(!this._dragging||!this._thrTrack) return; const r=this._thrTrack.getBoundingClientRect(); this._setThr(3.0+(e.clientX-r.left)/r.width*2.0); };
-    this._onUp = ()=>{ this._dragging=false; };
-    window.addEventListener('mousemove', this._onMove); window.addEventListener('mouseup', this._onUp);
-    this._onResize = ()=> this._measureStage();
-    window.addEventListener('resize', this._onResize);
-
-    requestAnimationFrame(()=>{
-      const els = Array.from(document.querySelectorAll('[data-reveal]'));
-      els.forEach(el=>{ el.style.opacity='0'; el.style.transform='translateY(24px)'; el.style.transition='opacity .8s cubic-bezier(.22,.7,.3,1),transform .8s cubic-bezier(.22,.7,.3,1)'; });
-      const io = new IntersectionObserver((ents)=>{ ents.forEach(e=>{ if(e.isIntersecting){ e.target.style.opacity='1'; e.target.style.transform='none'; io.unobserve(e.target); } }); },{threshold:0.1});
-      els.forEach(el=>io.observe(el));
-      const nums = Array.from(document.querySelectorAll('[data-count]'));
-      const cio = new IntersectionObserver((ents)=>{ ents.forEach(e=>{ if(e.isIntersecting){ this._animateCount(e.target); cio.unobserve(e.target); } }); },{threshold:0.5});
-      nums.forEach(el=>cio.observe(el));
-
-      const notifs = Array.from(document.querySelectorAll('[data-notif]'));
-      notifs.forEach(el=>{ el.style.opacity='0'; el.style.transform='translateY(18px)'; });
-      const nio = new IntersectionObserver((ents)=>{ ents.forEach(e=>{ if(e.isIntersecting){ const idx=notifs.indexOf(e.target); setTimeout(()=>{ e.target.style.transition='opacity .65s cubic-bezier(.22,.7,.3,1),transform .65s cubic-bezier(.22,.7,.3,1)'; e.target.style.opacity='1'; e.target.style.transform='none'; }, 200+idx*220); nio.unobserve(e.target); } }); },{threshold:0.4});
-      notifs.forEach(el=>nio.observe(el));
-    });
-    this._tickInt = setInterval(()=>{ this.setState(s=>({ tick:s.tick+1 })); }, 3200);
-  }
-  componentWillUnmount(){ if(this._onScroll) window.removeEventListener('scroll',this._onScroll); if(this._onMove){ window.removeEventListener('mousemove',this._onMove); window.removeEventListener('mouseup',this._onUp);} if(this._onResize) window.removeEventListener('resize',this._onResize); if(this._tickInt) clearInterval(this._tickInt); }
-
-  _setThr(v){ v=Math.max(3.0,Math.min(5.0,v)); v=Math.round(v*10)/10; if(v!==this.state.thr) this.setState({thr:v}); }
-  _animateCount(el){
-    const target=parseFloat(el.getAttribute('data-count')); const suffix=el.getAttribute('data-suffix')||'';
-    const dec=(String(target).split('.')[1]||'').length; const dur=1400, start=performance.now();
-    const tick=(now)=>{ const p=Math.min(1,(now-start)/dur); const e=1-Math.pow(1-p,3); const v=target*e;
-      el.textContent=(dec?v.toFixed(dec):Math.round(v).toLocaleString())+suffix; if(p<1) requestAnimationFrame(tick); };
-    requestAnimationFrame(tick);
-  }
-
-  renderVals(){
-    const thr = this.state.thr;
-    const roleData = [
-      { initial:'S', company:'Stripe · Remote (US)', role:'Senior Product Manager', score:4.7 },
-      { initial:'F', company:'Figma · Hybrid NYC', role:'Staff Product Designer', score:4.4 },
-      { initial:'N', company:'Notion · Remote', role:'Lead UX Researcher', score:4.1 },
-      { initial:'L', company:'Linear · Remote', role:'Product Marketing Lead', score:3.8 },
-      { initial:'R', company:'Ramp · NYC', role:'Growth Product Manager', score:3.4 },
-    ];
-    const apRoles = roleData.map(r=>{
-      const on = r.score >= thr;
-      return { initial:r.initial, company:r.company, role:r.role, score:r.score.toFixed(1),
-        op: on ? '1' : '.45', border: on ? '#CDE7D7' : '#ECEBE4', bg: on ? '#F4FAF6' : '#FAFAF7',
-        scoreColor: on ? '#1C8A4E' : '#9A998F',
-        tag: on ? 'Will apply' : 'Skipped', tagColor: on ? '#1C8A4E' : '#9A998F', tagBg: on ? '#E6F2EA' : '#F1F0EB' };
-    });
-    const qualCount = apRoles.filter(r=>r.tag==='Will apply').length;
-
-    const faqData = [
-      { q:'Does it apply without me seeing the jobs first?', a:'Only if you want it to. Approve-first mode is the default — knok drafts, you tap approve. Set a score threshold and it can go hands-free; every action is logged and reversible either way.' },
-      { q:'Which boards does it actually scan?', a:'150+ sources: LinkedIn, Indeed, Naukri, Wellfound, Glassdoor, Instahyre, Y Combinator, RemoteOK and more — plus the career pages of companies like Stripe, Figma, CRED and PhonePe directly. Everything is deduplicated into one list.' },
-      { q:'Will employers know I used a tool?', a:'No. Every application and message is tailored to read like you wrote it — your voice, your history, your words. You keep final approval over anything that goes out.' },
-      { q:'What happens to my data?', a:'Your profile, resume, and history are yours. Export everything or delete your account — and all of it — with one click, any time. We never sell or share your data with employers or recruiters.' },
-      { q:'Can I cancel anytime?', a:'Yes — one click, no questions. The trial is 7 days of full access and doesn\'t require a card to start.' },
-    ];
-    const faqs = faqData.map((f,i)=>({
-      q:f.q, a:f.a,
-      toggle:()=> this.setState(s=>({ openFaq: s.openFaq===i ? -1 : i })),
-      maxH: this.state.openFaq===i ? '220px' : '0px',
-      iconRot: this.state.openFaq===i ? 'rotate(45deg)' : 'rotate(0deg)',
-    }));
-
-    return {
-      faqs,
-      navBg: this.state.scrolled ? 'rgba(255,255,255,.85)' : 'rgba(255,255,255,0)',
-      navBorder: this.state.scrolled ? '#ECEBE4' : 'rgba(236,235,228,0)',
-
-      heroRows: [
-        { initial:'S', company:'Stripe · Remote (US)', role:'Senior Product Manager', comp:'$180–210k', score:'4.7', barW:'94%', barBg:'#1C3A2E', tag:'Applied', tagFg:'#1C8A4E', tagBg:'#E6F2EA', logoBg:'#1C3A2E', logoFg:'#F2F1E9', bg:'#FBFDF9', delay:'.05s' },
-        { initial:'F', company:'Figma · Hybrid NYC', role:'Staff Product Designer', comp:'$190–220k', score:'4.4', barW:'88%', barBg:'#2F6A4E', tag:'Review', tagFg:'#B8862B', tagBg:'#F7EFDA', logoBg:'#F4F3EE', logoFg:'#1C3A2E', bg:'#fff', delay:'.18s' },
-        { initial:'N', company:'Notion · Remote', role:'Lead UX Researcher', comp:'$170–195k', score:'4.1', barW:'82%', barBg:'#2F6A4E', tag:'Queued', tagFg:'#74736B', tagBg:'#F1F0EB', logoBg:'#F4F3EE', logoFg:'#1C3A2E', bg:'#fff', delay:'.31s' },
-        { initial:'L', company:'Linear · Remote', role:'Product Marketing Lead', comp:'$160–185k', score:'3.8', barW:'76%', barBg:'#B3B3AB', tag:'Watching', tagFg:'#9A998F', tagBg:'#F6F5F0', logoBg:'#F4F3EE', logoFg:'#1C3A2E', bg:'#fff', delay:'.44s' },
-      ],
-      tickerText: ['Scanning Naukri — 743 fresh roles…','Applying to Figma · Staff Designer…','Drafting outreach to Jordan at Stripe…','Reply received — Figma · 2m ago','Scanning PhonePe careers — 12 new roles…'][this.state.tick % 5],
-      tickAnim: this.state.tick % 2 ? 'tickA' : 'tickB',
-      boardWall: (()=>{ const b=['LinkedIn','Indeed','Naukri','Wellfound','Glassdoor','Instahyre','Y Combinator','Built In','RemoteOK','Remotive','Himalayas','SimplyHired','Dice','Hirist','FoundIt','Shine','TimesJobs','WeWorkRemotely','Working Nomads']; return b.concat(b); })(),
-      companyWall: (()=>{ const c=['Stripe','Figma','Notion','Duolingo','CRED','PhonePe','Razorpay','Spotify','Netflix','Coinbase','Linear','Ramp','Brex','Rippling','Deel','Zerodha','Groww','Meesho','Postman','Plaid','Supabase','ElevenLabs','Mistral AI']; return c.concat(c); })(),
-
-      stageWrapRef: (el)=>{ this._stageWrap = el; if(el) requestAnimationFrame(()=>this._measureStage()); },
-      stageScale: this.state.stageScale,
-      stageH: Math.round(400 * this.state.stageScale) + 'px',
-
-      leftBoards: [
-        { name:'LinkedIn', count:'1,204', y:'48px' },
-        { name:'Indeed', count:'862', y:'124px' },
-        { name:'Naukri', count:'743', y:'200px' },
-        { name:'Wellfound', count:'388', y:'276px' },
-        { name:'Glassdoor', count:'296', y:'352px' },
-      ],
-      rightBoards: [
-        { name:'Instahyre', count:'274', y:'86px' },
-        { name:'Y Combinator', count:'148', y:'162px' },
-        { name:'RemoteOK', count:'122', y:'238px' },
-        { name:'+ 142 boards', count:'…', y:'314px' },
-      ],
-
-      apRoles, qualCount,
-      thrDisplay: thr.toFixed(1), thrPct: ((thr-3.0)/2.0*100)+'%',
-      thrTrackRef: (el)=>{ this._thrTrack = el; },
-      trackClick: (e)=>{ if(!this._thrTrack) return; const r=this._thrTrack.getBoundingClientRect(); this._setThr(3.0+(e.clientX-r.left)/r.width*2.0); },
-      startDrag: (e)=>{ e.preventDefault(); this._dragging = true; },
-
-      stats: [
-        { target:150, suffix:'+', display:'150+', label:'Boards scanned nightly' },
-        { target:3.2, suffix:'M', display:'3.2M', label:'Roles scored to date' },
-        { target:28, suffix:'%', display:'28%', label:'Average reply rate' },
-        { target:6, suffix:'×', display:'6×', label:'More interviews booked' },
-      ],
-      plans: [
-        { name:'Starter', price:'0', cadence:'forever', tagline:'See your matches, scored.', cta:'Start free', hot:false,
-          cardBg:'#fff', cardBorder:'#E7E6DF', shadow:'none', nameColor:'#16160F', priceColor:'#16160F', cadenceColor:'#74736B', taglineColor:'#74736B',
-          btnBg:'#fff', btnFg:'#16160F', btnBorder:'#DEDDD4', divider:'#ECEBE4', check:'#9A998F', featColor:'#46463C',
-          features:['Nightly scan of 150+ boards','Up to 20 scored matches / day','Manual apply','Basic tracker'] },
-        { name:'Autopilot', price:'29', cadence:'/mo', tagline:'The full hands-off search.', cta:'Start free trial', hot:true,
-          cardBg:'#122B21', cardBorder:'#122B21', shadow:'0 34px 66px -32px rgba(18,43,33,.55)', nameColor:'#EBE7DC', priceColor:'#fff', cadenceColor:'#9DBBA9', taglineColor:'#CFE0D6',
-          btnBg:'linear-gradient(100deg,#F0CE7A,#D6A63C)', btnFg:'#3A2A08', btnBorder:'transparent', divider:'rgba(255,255,255,.14)', check:'#7BE0A6', featColor:'#DDE7E0',
-          features:['Everything in Starter','Unlimited scored matches','Auto-apply with your threshold','Hiring-manager outreach','Smart follow-up reminders'] },
-        { name:'Pro', price:'59', cadence:'/mo', tagline:'For a serious, fast search.', cta:'Start free trial', hot:false,
-          cardBg:'#fff', cardBorder:'#E7E6DF', shadow:'none', nameColor:'#16160F', priceColor:'#16160F', cadenceColor:'#74736B', taglineColor:'#74736B',
-          btnBg:'#16160F', btnFg:'#fff', btnBorder:'#16160F', divider:'#ECEBE4', check:'#1C8A4E', featColor:'#46463C',
-          features:['Everything in Autopilot','Priority overnight scanning','1:1 resume + positioning review','Salary-negotiation playbook'] },
-      ],
-    };
-  }
-}
-</script>
-
-<!-- Cookie consent -->
-<div id="cookie-banner" style="position:fixed;bottom:20px;left:20px;right:20px;max-width:520px;margin:0 auto;background:#1C3A2E;color:#F2F1E9;padding:18px 22px;border-radius:16px;box-shadow:0 12px 40px rgba(0,0,0,.25);display:flex;align-items:center;justify-content:space-between;gap:18px;z-index:9999;font-family:'Space Grotesk',sans-serif;font-size:14px;line-height:1.5;">
-  <span>We use cookies to analyze site traffic and improve your experience.</span>
-  <div style="display:flex;gap:10px;flex-shrink:0;">
-    <button id="cookie-decline" style="background:transparent;color:#F2F1E9;border:1px solid rgba(242,241,233,.35);padding:8px 14px;border-radius:999px;cursor:pointer;font-weight:500;">Decline</button>
-    <button id="cookie-accept" style="background:#F2F1E9;color:#1C3A2E;border:none;padding:8px 16px;border-radius:999px;cursor:pointer;font-weight:600;">Accept</button>
-  </div>
-</div>
-<script>
-(function(){
-  var banner = document.getElementById('cookie-banner');
-  var accept = document.getElementById('cookie-accept');
-  var decline = document.getElementById('cookie-decline');
-  if (localStorage.getItem('knok_cookie_consent')) {
-    banner.style.display = 'none';
-    return;
-  }
-  function hide(){ banner.style.display = 'none'; }
-  accept.addEventListener('click', function(){ localStorage.setItem('knok_cookie_consent', 'accepted'); hide(); });
-  decline.addEventListener('click', function(){ localStorage.setItem('knok_cookie_consent', 'declined'); hide(); window['ga-disable-G-PPJ6D8NBTQ'] = true; });
-})();
-</script>
-
-</body></html>
+      const compare=document.querySelector('.compare');const compareHead=compare.querySelector('.compare-head');const compareScroll=compare.querySelector('.compare-scroll');compareScroll.hidden=true;const compareToggle=document.createElement('button');compareToggle.className='compare-toggle';compareToggle.type='button';compareToggle.setAttribute('aria-expanded','false');compareToggle.setAttribute('aria-label','Open plan comparison');compareToggle.textContent='+';compareHead.appendChild(compareToggle);const toggleCompare=()=>{const open=compareScroll.hidden;compareScroll.hidden=!open;compare.classList.toggle('open',open);compareToggle.textContent=open?'\u2212':'+';compareToggle.setAttribute('aria-expanded',String(open));compareToggle.setAttribute('aria-label',open?'Close plan comparison':'Open plan comparison')};compareHead.addEventListener('click',event=>{if(event.target.closest('button')||event.currentTarget===event.target||event.target.closest('.compare-head'))toggleCompare()});
+      const chapterIntro=document.querySelector('.chapter-intro');
+      if(chapterIntro){if(matchMedia('(prefers-reduced-motion:reduce)').matches){chapterIntro.classList.add('lit')}else{const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){chapterIntro.classList.add('lit');io.disconnect()}}),{threshold:.35});io.observe(chapterIntro)}}
+      const reveals=[...document.querySelectorAll('[data-reveal]')];if(matchMedia('(prefers-reduced-motion:reduce)').matches){reveals.forEach(el=>el.classList.add('revealed'))}else{const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('revealed');observer.unobserve(entry.target)}}),{threshold:.12});reveals.forEach(el=>observer.observe(el))}
+    })();
+  </script>
+  <script>
+  (()=>{
+    if(!('IntersectionObserver'in window))return;
+    const io=new IntersectionObserver((es)=>{es.forEach(e=>{e.target.classList.toggle('anim-off',e.intersectionRatio===0)})},{threshold:0});
+    ['.hero','#chapter-scroll','.tracking','.product-proof'].forEach(s=>{const el=document.querySelector(s);if(el)io.observe(el)});
+  })();
+  </script>
+  <script>
+    (()=>{
+      const banner=document.getElementById('cookie-banner');
+      let consent=null;try{consent=localStorage.getItem('knok_cookie_consent')}catch(e){}
+      if(!consent)banner.hidden=false;
+      document.getElementById('cookie-accept').addEventListener('click',()=>{try{localStorage.setItem('knok_cookie_consent','accepted')}catch(e){}banner.hidden=true;window.knokLoadAnalytics()});
+      document.getElementById('cookie-decline').addEventListener('click',()=>{try{localStorage.setItem('knok_cookie_consent','declined')}catch(e){}banner.hidden=true});
+    })();
+  </script>
+</body>
+</html>
