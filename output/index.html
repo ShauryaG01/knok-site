@@ -335,9 +335,14 @@
 
     /* V15 review refinements */
     .hero .eyebrow{display:none}
-    .hero-trust{margin-top:34px;display:flex;align-items:center;flex-wrap:wrap;gap:10px 18px}
-    .trust-point{display:inline-flex;align-items:center;gap:8px;color:#3c423a;font-size:13.5px;font-weight:650}
-    .trust-point:before{content:'';width:8px;height:8px;border-radius:50%;background:var(--green);box-shadow:0 0 0 4px var(--mint)}
+    .hero-trust{margin-top:34px;display:flex;align-items:center;gap:16px}
+    .trust-avatars{display:flex}
+    .trust-avatars img{width:34px;height:34px;border-radius:50%;border:2px solid #fff;object-fit:cover;box-shadow:0 4px 10px rgba(20,30,24,.2)}
+    .trust-avatars img+img{margin-left:-9px}
+    .ht-rating .stars{display:block;color:var(--gold);font-size:15px;letter-spacing:2px}
+    .ht-rating p{margin:5px 0 0;color:#3c423a;font-size:13.5px;font-weight:600}
+    .ht-rating p b{color:var(--ink);font-weight:700}
+    .ht-rating p span{color:#62685f;font-weight:400}
     .hero-proof{width:min(1200px,calc(100% - 48px));margin:66px auto 0;padding-top:40px;border-top:1px solid var(--line)}
     .hp-grid{display:grid;grid-template-columns:minmax(0,.92fr) minmax(0,1.08fr);align-items:center;gap:44px}
     .hp-title{margin:0;font:400 clamp(26px,2.4vw,34px)/1.18 Instrument Serif,serif}
@@ -637,7 +642,7 @@
             <button class="button button-forest keyline" type="submit">Find me a job <span aria-hidden="true">&rarr;</span></button>
             <div class="picker-result" aria-live="polite"><span id="picker-result">Ready to search across 150+ sources.</span></div>
           </form>
-          <div class="hero-trust" aria-label="Knok product assurances"><span class="trust-point">Search free</span><span class="trust-point">Verified work emails</span><span class="trust-point">You approve every send</span></div>
+          <div class="hero-trust"><span class="trust-avatars" aria-hidden="true"><img src="/avatars/priya.png" alt=""><img src="/avatars/maya.png" alt=""><img src="/avatars/daniel.png" alt=""></span><div class="ht-rating"><span class="stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span><p>Trusted by <b>1,400+</b> job seekers <span>&middot; free to start</span></p></div></div>
         </div>
         <div class="radar" role="img" aria-label="Knok continuously searches LinkedIn, Naukri, Indeed, iimjobs, Instahyre, Cutshort, and 150+ other job sources" data-reveal>
           <div class="scope-field">
