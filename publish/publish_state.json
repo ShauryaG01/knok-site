@@ -1,9 +1,5 @@
 {
  "queue": [
-  "anthropic-engineering-manager-interview",
-  "block-software-engineer-interview",
-  "boschgroup-engineering-manager-interview",
-  "box-software-engineer-interview",
   "brex-product-manager-interview",
   "chime-software-engineer-interview",
   "cisco-engineering-manager-interview",
@@ -429,7 +425,11 @@
   "worldquant-software-engineer-interview",
   "zoominfo-software-engineer-interview",
   "zscaler-software-engineer-interview",
-  "adyen-software-engineer-interview"
+  "adyen-software-engineer-interview",
+  "anthropic-engineering-manager-interview",
+  "block-software-engineer-interview",
+  "boschgroup-engineering-manager-interview",
+  "box-software-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
