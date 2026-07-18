@@ -1,9 +1,5 @@
 {
  "queue": [
-  "software-engineer-salary-chennai",
-  "stripe-product-manager-interview",
-  "team8-software-engineer-interview",
-  "tech-aalto-pte-ltd-software-engineer-interview",
   "top-companies-hiring-data-analysts-bangalore",
   "top-companies-hiring-data-scientists-delhi",
   "top-companies-hiring-devops-engineers-delhi",
@@ -429,7 +425,11 @@
   "scale-ai-software-engineer-interview",
   "sentry-software-engineer-interview",
   "sierra-software-engineer-interview",
-  "snowflake-product-manager-interview"
+  "snowflake-product-manager-interview",
+  "software-engineer-salary-chennai",
+  "stripe-product-manager-interview",
+  "team8-software-engineer-interview",
+  "tech-aalto-pte-ltd-software-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
