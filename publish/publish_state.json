@@ -1,8 +1,5 @@
 {
  "queue": [
-  "brex-product-manager-interview",
-  "chime-software-engineer-interview",
-  "cisco-engineering-manager-interview",
   "docker-software-engineer-interview",
   "five9-devops-engineer-interview",
   "five9-software-engineer-interview",
@@ -429,7 +426,10 @@
   "anthropic-engineering-manager-interview",
   "block-software-engineer-interview",
   "boschgroup-engineering-manager-interview",
-  "box-software-engineer-interview"
+  "box-software-engineer-interview",
+  "brex-product-manager-interview",
+  "chime-software-engineer-interview",
+  "cisco-engineering-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
