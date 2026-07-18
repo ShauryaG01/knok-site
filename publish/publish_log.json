@@ -892,6 +892,18 @@
    ],
    "total": 293,
    "remaining": 135
+  },
+  {
+   "date": "2026-07-18T05:14:14+00:00",
+   "count": 4,
+   "slugs": [
+    "top-companies-hiring-data-analysts-bangalore",
+    "top-companies-hiring-data-scientists-delhi",
+    "top-companies-hiring-devops-engineers-delhi",
+    "top-companies-hiring-engineering-managers-delhi"
+   ],
+   "total": 297,
+   "remaining": 131
   }
  ]
 }

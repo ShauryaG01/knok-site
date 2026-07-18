@@ -1,9 +1,5 @@
 {
  "queue": [
-  "top-companies-hiring-data-analysts-bangalore",
-  "top-companies-hiring-data-scientists-delhi",
-  "top-companies-hiring-devops-engineers-delhi",
-  "top-companies-hiring-engineering-managers-delhi",
   "top-companies-hiring-software-engineers-chennai",
   "twilio-software-engineer-interview",
   "uipath-software-engineer-interview",
@@ -429,7 +425,11 @@
   "software-engineer-salary-chennai",
   "stripe-product-manager-interview",
   "team8-software-engineer-interview",
-  "tech-aalto-pte-ltd-software-engineer-interview"
+  "tech-aalto-pte-ltd-software-engineer-interview",
+  "top-companies-hiring-data-analysts-bangalore",
+  "top-companies-hiring-data-scientists-delhi",
+  "top-companies-hiring-devops-engineers-delhi",
+  "top-companies-hiring-engineering-managers-delhi"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
