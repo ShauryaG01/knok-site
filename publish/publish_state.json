@@ -1,9 +1,5 @@
 {
  "queue": [
-  "top-companies-hiring-software-engineers-chennai",
-  "twilio-software-engineer-interview",
-  "uipath-software-engineer-interview",
-  "vast-data-software-engineer-interview",
   "worldquant-software-engineer-interview",
   "zoominfo-software-engineer-interview",
   "zscaler-software-engineer-interview",
@@ -429,7 +425,11 @@
   "top-companies-hiring-data-analysts-bangalore",
   "top-companies-hiring-data-scientists-delhi",
   "top-companies-hiring-devops-engineers-delhi",
-  "top-companies-hiring-engineering-managers-delhi"
+  "top-companies-hiring-engineering-managers-delhi",
+  "top-companies-hiring-software-engineers-chennai",
+  "twilio-software-engineer-interview",
+  "uipath-software-engineer-interview",
+  "vast-data-software-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
