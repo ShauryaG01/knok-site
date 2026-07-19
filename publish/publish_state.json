@@ -1,9 +1,5 @@
 {
  "queue": [
-  "openai-data-scientist-interview",
-  "openai-product-manager-interview",
-  "pure-storage-engineering-manager-interview",
-  "pure-storage-product-manager-interview",
   "roku-product-manager-interview",
   "sierra-product-manager-interview",
   "spotify-data-scientist-interview",
@@ -429,7 +425,11 @@
   "how-to-get-hired-at-talent-r",
   "how-to-get-hired-at-zensar",
   "mongodb-devops-engineer-interview",
-  "nvidia-software-engineer-interview"
+  "nvidia-software-engineer-interview",
+  "openai-data-scientist-interview",
+  "openai-product-manager-interview",
+  "pure-storage-engineering-manager-interview",
+  "pure-storage-product-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
