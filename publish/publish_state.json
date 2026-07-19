@@ -1,9 +1,5 @@
 {
  "queue": [
-  "how-to-get-hired-at-talent-r",
-  "how-to-get-hired-at-zensar",
-  "mongodb-devops-engineer-interview",
-  "nvidia-software-engineer-interview",
   "openai-data-scientist-interview",
   "openai-product-manager-interview",
   "pure-storage-engineering-manager-interview",
@@ -429,7 +425,11 @@
   "how-to-get-hired-at-gusto",
   "how-to-get-hired-at-nokia",
   "how-to-get-hired-at-perplexity",
-  "how-to-get-hired-at-saviynt"
+  "how-to-get-hired-at-saviynt",
+  "how-to-get-hired-at-talent-r",
+  "how-to-get-hired-at-zensar",
+  "mongodb-devops-engineer-interview",
+  "nvidia-software-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
