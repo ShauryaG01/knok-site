@@ -1,9 +1,5 @@
 {
  "queue": [
-  "affirm-data-scientist-interview",
-  "airwallex-data-scientist-interview",
-  "airwallex-engineering-manager-interview",
-  "anthropic-product-manager-interview",
   "arcana-software-engineer-interview",
   "asana-engineering-manager-interview",
   "attentive-software-engineer-interview",
@@ -429,7 +425,11 @@
   "tripadvisor-software-engineer-interview",
   "ukg-software-engineer-interview",
   "visa-software-engineer-interview",
-  "accenture-llp-software-engineer-interview"
+  "accenture-llp-software-engineer-interview",
+  "affirm-data-scientist-interview",
+  "airwallex-data-scientist-interview",
+  "airwallex-engineering-manager-interview",
+  "anthropic-product-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
