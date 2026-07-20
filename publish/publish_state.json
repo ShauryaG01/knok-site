@@ -1,10 +1,5 @@
 {
  "queue": [
-  "binance-frontend-engineer-interview",
-  "binance-qa-engineer-interview",
-  "bloomberg-product-manager-interview",
-  "bloomberg-software-engineer-interview",
-  "boschgroup-data-analyst-interview",
   "boschgroup-data-scientist-interview",
   "braze-software-engineer-interview",
   "brex-engineering-manager-interview",
@@ -429,7 +424,12 @@
   "asana-engineering-manager-interview",
   "attentive-software-engineer-interview",
   "baseten-software-engineer-interview",
-  "binance-data-scientist-interview"
+  "binance-data-scientist-interview",
+  "binance-frontend-engineer-interview",
+  "binance-qa-engineer-interview",
+  "bloomberg-product-manager-interview",
+  "bloomberg-software-engineer-interview",
+  "boschgroup-data-analyst-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
