@@ -1,10 +1,5 @@
 {
  "queue": [
-  "devops-engineer-salary-delhi",
-  "devops-engineer-salary-pune",
-  "dropbox-software-engineer-interview",
-  "elastic-product-manager-interview",
-  "exl-service-data-scientist-interview",
   "freshworks-software-engineer-interview",
   "frontend-engineer-salary-delhi",
   "gitlab-software-engineer-interview",
@@ -429,7 +424,12 @@
   "cohere-software-engineer-interview",
   "commit-devops-engineer-interview",
   "coupa-software-engineer-interview",
-  "deutsche-telekom-digital-labs-engineering-manager-interview"
+  "deutsche-telekom-digital-labs-engineering-manager-interview",
+  "devops-engineer-salary-delhi",
+  "devops-engineer-salary-pune",
+  "dropbox-software-engineer-interview",
+  "elastic-product-manager-interview",
+  "exl-service-data-scientist-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
