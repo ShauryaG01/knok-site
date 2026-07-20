@@ -1,10 +1,5 @@
 {
  "queue": [
-  "how-to-get-hired-at-box",
-  "how-to-get-hired-at-chime",
-  "how-to-get-hired-at-cloudflare",
-  "how-to-get-hired-at-cresta",
-  "how-to-get-hired-at-cursor",
   "how-to-get-hired-at-goldman-sachs",
   "how-to-get-hired-at-hcl-technologies",
   "how-to-get-hired-at-imc",
@@ -429,7 +424,12 @@
   "frontend-engineer-salary-delhi",
   "gitlab-software-engineer-interview",
   "harvey-engineering-manager-interview",
-  "how-to-get-hired-at-block"
+  "how-to-get-hired-at-block",
+  "how-to-get-hired-at-box",
+  "how-to-get-hired-at-chime",
+  "how-to-get-hired-at-cloudflare",
+  "how-to-get-hired-at-cresta",
+  "how-to-get-hired-at-cursor"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }

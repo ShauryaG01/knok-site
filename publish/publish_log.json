@@ -1125,6 +1125,19 @@
    ],
    "total": 374,
    "remaining": 54
+  },
+  {
+   "date": "2026-07-20T15:52:21+00:00",
+   "count": 5,
+   "slugs": [
+    "how-to-get-hired-at-box",
+    "how-to-get-hired-at-chime",
+    "how-to-get-hired-at-cloudflare",
+    "how-to-get-hired-at-cresta",
+    "how-to-get-hired-at-cursor"
+   ],
+   "total": 379,
+   "remaining": 49
   }
  ]
 }
