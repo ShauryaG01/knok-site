@@ -1,10 +1,5 @@
 {
  "queue": [
-  "how-to-get-hired-at-goldman-sachs",
-  "how-to-get-hired-at-hcl-technologies",
-  "how-to-get-hired-at-imc",
-  "how-to-get-hired-at-krazybee",
-  "how-to-get-hired-at-lendingkart",
   "how-to-get-hired-at-ramp",
   "how-to-get-hired-at-replit",
   "how-to-get-hired-at-sentry",
@@ -429,7 +424,12 @@
   "how-to-get-hired-at-chime",
   "how-to-get-hired-at-cloudflare",
   "how-to-get-hired-at-cresta",
-  "how-to-get-hired-at-cursor"
+  "how-to-get-hired-at-cursor",
+  "how-to-get-hired-at-goldman-sachs",
+  "how-to-get-hired-at-hcl-technologies",
+  "how-to-get-hired-at-imc",
+  "how-to-get-hired-at-krazybee",
+  "how-to-get-hired-at-lendingkart"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
