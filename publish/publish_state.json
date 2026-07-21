@@ -1,9 +1,5 @@
 {
  "queue": [
-  "how-to-get-hired-at-ramp",
-  "how-to-get-hired-at-replit",
-  "how-to-get-hired-at-sentry",
-  "how-to-get-hired-at-team8",
   "how-to-get-hired-at-uipath",
   "how-to-get-hired-at-visa",
   "how-to-get-hired-at-warner-bros-discovery",
@@ -429,7 +425,11 @@
   "how-to-get-hired-at-hcl-technologies",
   "how-to-get-hired-at-imc",
   "how-to-get-hired-at-krazybee",
-  "how-to-get-hired-at-lendingkart"
+  "how-to-get-hired-at-lendingkart",
+  "how-to-get-hired-at-ramp",
+  "how-to-get-hired-at-replit",
+  "how-to-get-hired-at-sentry",
+  "how-to-get-hired-at-team8"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }

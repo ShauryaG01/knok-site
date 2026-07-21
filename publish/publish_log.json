@@ -1151,6 +1151,18 @@
    ],
    "total": 384,
    "remaining": 44
+  },
+  {
+   "date": "2026-07-21T05:12:33+00:00",
+   "count": 4,
+   "slugs": [
+    "how-to-get-hired-at-ramp",
+    "how-to-get-hired-at-replit",
+    "how-to-get-hired-at-sentry",
+    "how-to-get-hired-at-team8"
+   ],
+   "total": 388,
+   "remaining": 40
   }
  ]
 }
