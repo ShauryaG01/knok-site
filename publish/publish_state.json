@@ -1,9 +1,5 @@
 {
  "queue": [
-  "talent-r-software-engineer-interview",
-  "tech-aalto-pte-ltd-devops-engineer-interview",
-  "the-walt-disney-company-software-engineer-interview",
-  "top-companies-hiring-product-designers-delhi",
   "top-companies-hiring-product-managers-pune",
   "tripleten-product-manager-interview",
   "vercel-software-engineer-interview",
@@ -429,7 +425,11 @@
   "sofi-software-engineer-interview",
   "stripe-product-designer-interview",
   "suno-software-engineer-interview",
-  "talent-r-devops-engineer-interview"
+  "talent-r-devops-engineer-interview",
+  "talent-r-software-engineer-interview",
+  "tech-aalto-pte-ltd-devops-engineer-interview",
+  "the-walt-disney-company-software-engineer-interview",
+  "top-companies-hiring-product-designers-delhi"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
