@@ -1,11 +1,5 @@
 {
  "queue": [
-  "ab-inbev-product-manager-interview",
-  "abhibus-software-engineer-interview",
-  "acceldata-software-engineer-interview",
-  "adyen-engineering-manager-interview",
-  "adyen-product-manager-interview",
-  "agoda-data-scientist-interview",
   "agoda-engineering-manager-interview",
   "agoda-frontend-engineer-interview",
   "agoda-product-manager-interview",
@@ -774,7 +768,13 @@
   "zensar-data-engineer-interview",
   "zensar-devops-engineer-interview",
   "index",
-  "ab-inbev-data-engineer-interview"
+  "ab-inbev-data-engineer-interview",
+  "ab-inbev-product-manager-interview",
+  "abhibus-software-engineer-interview",
+  "acceldata-software-engineer-interview",
+  "adyen-engineering-manager-interview",
+  "adyen-product-manager-interview",
+  "agoda-data-scientist-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
