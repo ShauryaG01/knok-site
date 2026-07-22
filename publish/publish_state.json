@@ -1,12 +1,5 @@
 {
  "queue": [
-  "airwallex-frontend-engineer-interview",
-  "airwallex-product-designer-interview",
-  "algolia-software-engineer-interview",
-  "allianz-engineering-manager-interview",
-  "ally-financial-software-engineer-interview",
-  "amazon-software-engineer-interview",
-  "amgen-inc-data-scientist-interview",
   "amplitude-software-engineer-interview",
   "anaplan-data-engineer-interview",
   "anaplan-product-manager-interview",
@@ -774,7 +767,14 @@
   "agoda-product-manager-interview",
   "aidoc-software-engineer-interview",
   "airbnb-engineering-manager-interview",
-  "airtable-software-engineer-interview"
+  "airtable-software-engineer-interview",
+  "airwallex-frontend-engineer-interview",
+  "airwallex-product-designer-interview",
+  "algolia-software-engineer-interview",
+  "allianz-engineering-manager-interview",
+  "ally-financial-software-engineer-interview",
+  "amazon-software-engineer-interview",
+  "amgen-inc-data-scientist-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
