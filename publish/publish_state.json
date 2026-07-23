@@ -1,11 +1,5 @@
 {
  "queue": [
-  "amplitude-software-engineer-interview",
-  "anaplan-data-engineer-interview",
-  "anaplan-product-manager-interview",
-  "ansrsource-data-scientist-interview",
-  "anthropic-data-scientist-interview",
-  "appsflyer-software-engineer-interview",
   "arcana-frontend-engineer-interview",
   "arintra-product-manager-interview",
   "artech-llc-software-engineer-interview",
@@ -774,7 +768,13 @@
   "allianz-engineering-manager-interview",
   "ally-financial-software-engineer-interview",
   "amazon-software-engineer-interview",
-  "amgen-inc-data-scientist-interview"
+  "amgen-inc-data-scientist-interview",
+  "amplitude-software-engineer-interview",
+  "anaplan-data-engineer-interview",
+  "anaplan-product-manager-interview",
+  "ansrsource-data-scientist-interview",
+  "anthropic-data-scientist-interview",
+  "appsflyer-software-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
