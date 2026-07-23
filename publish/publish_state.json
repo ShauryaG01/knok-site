@@ -1,11 +1,5 @@
 {
  "queue": [
-  "braze-data-scientist-interview",
-  "braze-engineering-manager-interview",
-  "braze-product-manager-interview",
-  "brex-data-analyst-interview",
-  "career-maker-consultant-bpc-data-engineer-interview",
-  "cendyn-software-engineer-interview",
   "cerebras-devops-engineer-interview",
   "cerebras-software-engineer-interview",
   "ceva-software-engineer-interview",
@@ -824,7 +818,13 @@
   "bmw-techworks-india-software-engineer-interview",
   "boomi-software-engineer-interview",
   "boschgroup-frontend-engineer-interview",
-  "box-product-manager-interview"
+  "box-product-manager-interview",
+  "braze-data-scientist-interview",
+  "braze-engineering-manager-interview",
+  "braze-product-manager-interview",
+  "brex-data-analyst-interview",
+  "career-maker-consultant-bpc-data-engineer-interview",
+  "cendyn-software-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
