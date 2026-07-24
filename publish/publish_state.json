@@ -1,10 +1,5 @@
 {
  "queue": [
-  "exl-service-data-analyst-interview",
-  "figma-product-manager-interview",
-  "fis-global-devops-engineer-interview",
-  "five9-product-manager-interview",
-  "flexport-product-manager-interview",
   "ford-motor-company-data-scientist-interview",
   "ford-motor-company-engineering-manager-interview",
   "ford-motor-company-product-manager-interview",
@@ -874,7 +869,12 @@
   "elastic-data-scientist-interview",
   "engineering-manager-jobs-delhi",
   "epicgames-data-scientist-interview",
-  "epsilon-software-engineer-interview"
+  "epsilon-software-engineer-interview",
+  "exl-service-data-analyst-interview",
+  "figma-product-manager-interview",
+  "fis-global-devops-engineer-interview",
+  "five9-product-manager-interview",
+  "flexport-product-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
