@@ -1,10 +1,5 @@
 {
  "queue": [
-  "duolingo-software-engineer-interview",
-  "elastic-data-scientist-interview",
-  "engineering-manager-jobs-delhi",
-  "epicgames-data-scientist-interview",
-  "epsilon-software-engineer-interview",
   "exl-service-data-analyst-interview",
   "figma-product-manager-interview",
   "fis-global-devops-engineer-interview",
@@ -874,7 +869,12 @@
   "drivetrain-software-engineer-interview",
   "druva-software-engineer-interview",
   "duolingo-engineering-manager-interview",
-  "duolingo-product-manager-interview"
+  "duolingo-product-manager-interview",
+  "duolingo-software-engineer-interview",
+  "elastic-data-scientist-interview",
+  "engineering-manager-jobs-delhi",
+  "epicgames-data-scientist-interview",
+  "epsilon-software-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
