@@ -1,12 +1,5 @@
 {
  "queue": [
-  "how-to-get-hired-at-baseten",
-  "how-to-get-hired-at-career-maker-consultant-bpc",
-  "how-to-get-hired-at-cerebras",
-  "how-to-get-hired-at-cigna",
-  "how-to-get-hired-at-coralogix",
-  "how-to-get-hired-at-docker",
-  "how-to-get-hired-at-dropbox",
   "how-to-get-hired-at-duolingo",
   "how-to-get-hired-at-freshworks",
   "how-to-get-hired-at-hexaware-technologies",
@@ -924,7 +917,14 @@
   "housing-data-scientist-interview",
   "housing-product-manager-interview",
   "housing-software-engineer-interview",
-  "how-to-get-hired-at-arcana"
+  "how-to-get-hired-at-arcana",
+  "how-to-get-hired-at-baseten",
+  "how-to-get-hired-at-career-maker-consultant-bpc",
+  "how-to-get-hired-at-cerebras",
+  "how-to-get-hired-at-cigna",
+  "how-to-get-hired-at-coralogix",
+  "how-to-get-hired-at-docker",
+  "how-to-get-hired-at-dropbox"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
