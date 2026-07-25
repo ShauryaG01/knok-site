@@ -1,11 +1,5 @@
 {
  "queue": [
-  "how-to-get-hired-at-duolingo",
-  "how-to-get-hired-at-freshworks",
-  "how-to-get-hired-at-hexaware-technologies",
-  "how-to-get-hired-at-housing",
-  "how-to-get-hired-at-intercom",
-  "how-to-get-hired-at-jane-street",
   "how-to-get-hired-at-lovable",
   "how-to-get-hired-at-lseg",
   "how-to-get-hired-at-notion",
@@ -924,7 +918,13 @@
   "how-to-get-hired-at-cigna",
   "how-to-get-hired-at-coralogix",
   "how-to-get-hired-at-docker",
-  "how-to-get-hired-at-dropbox"
+  "how-to-get-hired-at-dropbox",
+  "how-to-get-hired-at-duolingo",
+  "how-to-get-hired-at-freshworks",
+  "how-to-get-hired-at-hexaware-technologies",
+  "how-to-get-hired-at-housing",
+  "how-to-get-hired-at-intercom",
+  "how-to-get-hired-at-jane-street"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
