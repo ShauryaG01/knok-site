@@ -1,12 +1,5 @@
 {
  "queue": [
-  "global-e-software-engineer-interview",
-  "goldman-sachs-product-manager-interview",
-  "grab-data-analyst-interview",
-  "grab-data-engineer-interview",
-  "grab-engineering-manager-interview",
-  "grab-product-manager-interview",
-  "greyorange-product-designer-interview",
   "greyorange-product-manager-interview",
   "greyorange-qa-engineer-interview",
   "greyorange-software-engineer-interview",
@@ -874,7 +867,14 @@
   "gitlab-devops-engineer-interview",
   "gitlab-engineering-manager-interview",
   "gitlab-product-manager-interview",
-  "glean-engineering-manager-interview"
+  "glean-engineering-manager-interview",
+  "global-e-software-engineer-interview",
+  "goldman-sachs-product-manager-interview",
+  "grab-data-analyst-interview",
+  "grab-data-engineer-interview",
+  "grab-engineering-manager-interview",
+  "grab-product-manager-interview",
+  "greyorange-product-designer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
