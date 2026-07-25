@@ -1545,6 +1545,20 @@
    ],
    "total": 546,
    "remaining": 327
+  },
+  {
+   "date": "2026-07-25T06:49:48+00:00",
+   "count": 6,
+   "slugs": [
+    "harappa-software-engineer-interview",
+    "harvey-product-designer-interview",
+    "harvey-product-manager-interview",
+    "heartbeat-ai-gmbh-product-manager-interview",
+    "hexaware-technologies-devops-engineer-interview",
+    "hexaware-technologies-software-engineer-interview"
+   ],
+   "total": 552,
+   "remaining": 371
   }
  ]
 }
