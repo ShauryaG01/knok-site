@@ -1,12 +1,5 @@
 {
  "queue": [
-  "higher-people-software-engineer-interview",
-  "highlevel-software-engineer-interview",
-  "honeywell-software-engineer-interview",
-  "housing-data-scientist-interview",
-  "housing-product-manager-interview",
-  "housing-software-engineer-interview",
-  "how-to-get-hired-at-arcana",
   "how-to-get-hired-at-baseten",
   "how-to-get-hired-at-career-maker-consultant-bpc",
   "how-to-get-hired-at-cerebras",
@@ -924,7 +917,14 @@
   "harvey-product-manager-interview",
   "heartbeat-ai-gmbh-product-manager-interview",
   "hexaware-technologies-devops-engineer-interview",
-  "hexaware-technologies-software-engineer-interview"
+  "hexaware-technologies-software-engineer-interview",
+  "higher-people-software-engineer-interview",
+  "highlevel-software-engineer-interview",
+  "honeywell-software-engineer-interview",
+  "housing-data-scientist-interview",
+  "housing-product-manager-interview",
+  "housing-software-engineer-interview",
+  "how-to-get-hired-at-arcana"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
