@@ -1,11 +1,5 @@
 {
  "queue": [
-  "how-to-get-hired-at-thoughtworks",
-  "how-to-get-hired-at-tripadvisor",
-  "how-to-get-hired-at-tripleten",
-  "how-to-get-hired-at-ukg",
-  "how-to-get-hired-at-vast-data",
-  "how-to-get-hired-at-vercel",
   "how-to-get-hired-at-worldquant",
   "hpe-software-engineer-interview",
   "htecgroup-software-engineer-interview",
@@ -924,7 +918,13 @@
   "how-to-get-hired-at-sarvam",
   "how-to-get-hired-at-smartsheet",
   "how-to-get-hired-at-sofi",
-  "how-to-get-hired-at-the-walt-disney-company"
+  "how-to-get-hired-at-the-walt-disney-company",
+  "how-to-get-hired-at-thoughtworks",
+  "how-to-get-hired-at-tripadvisor",
+  "how-to-get-hired-at-tripleten",
+  "how-to-get-hired-at-ukg",
+  "how-to-get-hired-at-vast-data",
+  "how-to-get-hired-at-vercel"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }

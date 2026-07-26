@@ -1630,6 +1630,20 @@
    ],
    "total": 583,
    "remaining": 340
+  },
+  {
+   "date": "2026-07-26T05:16:46+00:00",
+   "count": 6,
+   "slugs": [
+    "how-to-get-hired-at-thoughtworks",
+    "how-to-get-hired-at-tripadvisor",
+    "how-to-get-hired-at-tripleten",
+    "how-to-get-hired-at-ukg",
+    "how-to-get-hired-at-vast-data",
+    "how-to-get-hired-at-vercel"
+   ],
+   "total": 589,
+   "remaining": 334
   }
  ]
 }
