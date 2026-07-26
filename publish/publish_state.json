@@ -1,10 +1,5 @@
 {
  "queue": [
-  "how-to-get-hired-at-rubrik",
-  "how-to-get-hired-at-sarvam",
-  "how-to-get-hired-at-smartsheet",
-  "how-to-get-hired-at-sofi",
-  "how-to-get-hired-at-the-walt-disney-company",
   "how-to-get-hired-at-thoughtworks",
   "how-to-get-hired-at-tripadvisor",
   "how-to-get-hired-at-tripleten",
@@ -924,7 +919,12 @@
   "how-to-get-hired-at-notion",
   "how-to-get-hired-at-nvidia",
   "how-to-get-hired-at-paypal",
-  "how-to-get-hired-at-postman"
+  "how-to-get-hired-at-postman",
+  "how-to-get-hired-at-rubrik",
+  "how-to-get-hired-at-sarvam",
+  "how-to-get-hired-at-smartsheet",
+  "how-to-get-hired-at-sofi",
+  "how-to-get-hired-at-the-walt-disney-company"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
