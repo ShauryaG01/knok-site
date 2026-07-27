@@ -1,11 +1,5 @@
 {
  "queue": [
-  "mastercard-devops-engineer-interview",
-  "medibuddy-frontend-engineer-interview",
-  "mercor-software-engineer-interview",
-  "mercury-software-engineer-interview",
-  "microsoft-software-engineer-interview",
-  "mistral-devops-engineer-interview",
   "mistral-engineering-manager-interview",
   "mistral-product-manager-interview",
   "mixpanel-software-engineer-interview",
@@ -929,7 +923,13 @@
   "lovable-software-engineer-interview",
   "lseg-product-manager-interview",
   "lyft-data-analyst-interview",
-  "marqeta-software-engineer-interview"
+  "marqeta-software-engineer-interview",
+  "mastercard-devops-engineer-interview",
+  "medibuddy-frontend-engineer-interview",
+  "mercor-software-engineer-interview",
+  "mercury-software-engineer-interview",
+  "microsoft-software-engineer-interview",
+  "mistral-devops-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
