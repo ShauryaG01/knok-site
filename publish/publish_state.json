@@ -1,11 +1,5 @@
 {
  "queue": [
-  "name-software-engineer-interview",
-  "navi-data-scientist-interview",
-  "nice-data-scientist-interview",
-  "nice-product-manager-interview",
-  "nielsen-data-scientist-interview",
-  "nokia-engineering-manager-interview",
   "nokia-software-engineer-interview",
   "nutanix-devops-engineer-interview",
   "okta-engineering-manager-interview",
@@ -929,7 +923,13 @@
   "mixpanel-software-engineer-interview",
   "mongodb-engineering-manager-interview",
   "morganstanley-software-engineer-interview",
-  "mvst-software-engineer-interview"
+  "mvst-software-engineer-interview",
+  "name-software-engineer-interview",
+  "navi-data-scientist-interview",
+  "nice-data-scientist-interview",
+  "nice-product-manager-interview",
+  "nielsen-data-scientist-interview",
+  "nokia-engineering-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
