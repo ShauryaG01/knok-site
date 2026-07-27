@@ -1,11 +1,5 @@
 {
  "queue": [
-  "openchip-software-engineer-interview",
-  "openevidence-software-engineer-interview",
-  "optum-product-manager-interview",
-  "oracle-devops-engineer-interview",
-  "oracle-product-manager-interview",
-  "palantir-devops-engineer-interview",
   "papaya-global-product-manager-interview",
   "paypal-data-scientist-interview",
   "paypal-software-engineer-interview",
@@ -929,7 +923,13 @@
   "okx-data-engineer-interview",
   "okx-data-scientist-interview",
   "okx-frontend-engineer-interview",
-  "openai-data-engineer-interview"
+  "openai-data-engineer-interview",
+  "openchip-software-engineer-interview",
+  "openevidence-software-engineer-interview",
+  "optum-product-manager-interview",
+  "oracle-devops-engineer-interview",
+  "oracle-product-manager-interview",
+  "palantir-devops-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
