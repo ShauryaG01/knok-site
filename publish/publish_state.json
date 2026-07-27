@@ -1,12 +1,5 @@
 {
  "queue": [
-  "nokia-software-engineer-interview",
-  "nutanix-devops-engineer-interview",
-  "okta-engineering-manager-interview",
-  "okx-data-engineer-interview",
-  "okx-data-scientist-interview",
-  "okx-frontend-engineer-interview",
-  "openai-data-engineer-interview",
   "openchip-software-engineer-interview",
   "openevidence-software-engineer-interview",
   "optum-product-manager-interview",
@@ -929,7 +922,14 @@
   "nice-data-scientist-interview",
   "nice-product-manager-interview",
   "nielsen-data-scientist-interview",
-  "nokia-engineering-manager-interview"
+  "nokia-engineering-manager-interview",
+  "nokia-software-engineer-interview",
+  "nutanix-devops-engineer-interview",
+  "okta-engineering-manager-interview",
+  "okx-data-engineer-interview",
+  "okx-data-scientist-interview",
+  "okx-frontend-engineer-interview",
+  "openai-data-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
