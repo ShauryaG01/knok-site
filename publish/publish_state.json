@@ -1,11 +1,5 @@
 {
  "queue": [
-  "papaya-global-product-manager-interview",
-  "paypal-data-scientist-interview",
-  "paypal-software-engineer-interview",
-  "paytm-devops-engineer-interview",
-  "paytm-engineering-manager-interview",
-  "paytm-frontend-engineer-interview",
   "perplexity-data-scientist-interview",
   "phonepe-devops-engineer-interview",
   "phonepe-software-engineer-interview",
@@ -929,7 +923,13 @@
   "optum-product-manager-interview",
   "oracle-devops-engineer-interview",
   "oracle-product-manager-interview",
-  "palantir-devops-engineer-interview"
+  "palantir-devops-engineer-interview",
+  "papaya-global-product-manager-interview",
+  "paypal-data-scientist-interview",
+  "paypal-software-engineer-interview",
+  "paytm-devops-engineer-interview",
+  "paytm-engineering-manager-interview",
+  "paytm-frontend-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
