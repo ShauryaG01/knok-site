@@ -1,11 +1,5 @@
 {
  "queue": [
-  "mistral-engineering-manager-interview",
-  "mistral-product-manager-interview",
-  "mixpanel-software-engineer-interview",
-  "mongodb-engineering-manager-interview",
-  "morganstanley-software-engineer-interview",
-  "mvst-software-engineer-interview",
   "name-software-engineer-interview",
   "navi-data-scientist-interview",
   "nice-data-scientist-interview",
@@ -929,7 +923,13 @@
   "mercor-software-engineer-interview",
   "mercury-software-engineer-interview",
   "microsoft-software-engineer-interview",
-  "mistral-devops-engineer-interview"
+  "mistral-devops-engineer-interview",
+  "mistral-engineering-manager-interview",
+  "mistral-product-manager-interview",
+  "mixpanel-software-engineer-interview",
+  "mongodb-engineering-manager-interview",
+  "morganstanley-software-engineer-interview",
+  "mvst-software-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
