@@ -1,11 +1,5 @@
 {
  "queue": [
-  "sarvam-product-manager-interview",
-  "sarvam-software-engineer-interview",
-  "satsure-data-scientist-interview",
-  "saviynt-devops-engineer-interview",
-  "scale-ai-engineering-manager-interview",
-  "sentry-engineering-manager-interview",
   "sigmoid-data-scientist-interview",
   "skd-se-software-engineer-interview",
   "skydo-software-engineer-interview",
@@ -929,7 +923,13 @@
   "samsara-data-engineer-interview",
   "samsara-data-scientist-interview",
   "sanity-software-engineer-interview",
-  "sarvam-data-scientist-interview"
+  "sarvam-data-scientist-interview",
+  "sarvam-product-manager-interview",
+  "sarvam-software-engineer-interview",
+  "satsure-data-scientist-interview",
+  "saviynt-devops-engineer-interview",
+  "scale-ai-engineering-manager-interview",
+  "sentry-engineering-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
