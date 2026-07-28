@@ -1,11 +1,5 @@
 {
  "queue": [
-  "plaid-engineering-manager-interview",
-  "plaid-product-manager-interview",
-  "planetscale-software-engineer-interview",
-  "pocketfm-devops-engineer-interview",
-  "pocketfm-software-engineer-interview",
-  "prediktive-software-engineer-interview",
   "product-designer-salary-delhi",
   "product-manager-salary-pune",
   "professional-recruiters-devops-engineer-interview",
@@ -929,7 +923,13 @@
   "phonepe-software-engineer-interview",
   "pinterest-product-designer-interview",
   "pinterest-product-manager-interview",
-  "plaid-data-scientist-interview"
+  "plaid-data-scientist-interview",
+  "plaid-engineering-manager-interview",
+  "plaid-product-manager-interview",
+  "planetscale-software-engineer-interview",
+  "pocketfm-devops-engineer-interview",
+  "pocketfm-software-engineer-interview",
+  "prediktive-software-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
