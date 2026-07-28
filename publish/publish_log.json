@@ -1840,6 +1840,21 @@
    ],
    "total": 673,
    "remaining": 255
+  },
+  {
+   "date": "2026-07-28T06:53:48+00:00",
+   "count": 7,
+   "slugs": [
+    "product-designer-salary-delhi",
+    "product-manager-salary-pune",
+    "professional-recruiters-devops-engineer-interview",
+    "professional-recruiters-qa-engineer-interview",
+    "pure-storage-qa-engineer-interview",
+    "reddit-devops-engineer-interview",
+    "reddit-engineering-manager-interview"
+   ],
+   "total": 680,
+   "remaining": 248
   }
  ]
 }

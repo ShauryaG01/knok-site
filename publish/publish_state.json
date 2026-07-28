@@ -1,12 +1,5 @@
 {
  "queue": [
-  "product-designer-salary-delhi",
-  "product-manager-salary-pune",
-  "professional-recruiters-devops-engineer-interview",
-  "professional-recruiters-qa-engineer-interview",
-  "pure-storage-qa-engineer-interview",
-  "reddit-devops-engineer-interview",
-  "reddit-engineering-manager-interview",
   "reddit-product-manager-interview",
   "remotestar-team-software-engineer-interview",
   "render-software-engineer-interview",
@@ -929,7 +922,14 @@
   "planetscale-software-engineer-interview",
   "pocketfm-devops-engineer-interview",
   "pocketfm-software-engineer-interview",
-  "prediktive-software-engineer-interview"
+  "prediktive-software-engineer-interview",
+  "product-designer-salary-delhi",
+  "product-manager-salary-pune",
+  "professional-recruiters-devops-engineer-interview",
+  "professional-recruiters-qa-engineer-interview",
+  "pure-storage-qa-engineer-interview",
+  "reddit-devops-engineer-interview",
+  "reddit-engineering-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
