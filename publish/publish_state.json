@@ -1,11 +1,5 @@
 {
  "queue": [
-  "synopsys-software-engineer-interview",
-  "synthesia-software-engineer-interview",
-  "tailscale-software-engineer-interview",
-  "talent-r-frontend-engineer-interview",
-  "tech-aalto-pte-ltd-data-engineer-interview",
-  "tech-aalto-pte-ltd-engineering-manager-interview",
   "techmagic-software-engineer-interview",
   "tekion-software-engineer-interview",
   "tenableinc-software-engineer-interview",
@@ -929,7 +923,13 @@
   "squarespace-software-engineer-interview",
   "strategic-employment-software-engineer-interview",
   "stripe-data-analyst-interview",
-  "stripe-data-scientist-interview"
+  "stripe-data-scientist-interview",
+  "synopsys-software-engineer-interview",
+  "synthesia-software-engineer-interview",
+  "tailscale-software-engineer-interview",
+  "talent-r-frontend-engineer-interview",
+  "tech-aalto-pte-ltd-data-engineer-interview",
+  "tech-aalto-pte-ltd-engineering-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
