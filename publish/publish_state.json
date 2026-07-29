@@ -1,10 +1,5 @@
 {
  "queue": [
-  "spoton-software-engineer-interview",
-  "squarespace-software-engineer-interview",
-  "strategic-employment-software-engineer-interview",
-  "stripe-data-analyst-interview",
-  "stripe-data-scientist-interview",
   "synopsys-software-engineer-interview",
   "synthesia-software-engineer-interview",
   "tailscale-software-engineer-interview",
@@ -929,7 +924,12 @@
   "solaredge-software-engineer-interview",
   "spotify-engineering-manager-interview",
   "spotify-product-manager-interview",
-  "spotify-software-engineer-interview"
+  "spotify-software-engineer-interview",
+  "spoton-software-engineer-interview",
+  "squarespace-software-engineer-interview",
+  "strategic-employment-software-engineer-interview",
+  "stripe-data-analyst-interview",
+  "stripe-data-scientist-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
