@@ -1,10 +1,5 @@
 {
  "queue": [
-  "thoughtworks-data-engineer-interview",
-  "thoughtworks-data-scientist-interview",
-  "thoughtworks-software-engineer-interview",
-  "toast-data-scientist-interview",
-  "toast-product-manager-interview",
   "top-companies-hiring-data-analysts-delhi",
   "top-companies-hiring-data-engineers-hyderabad",
   "top-companies-hiring-data-engineers-pune",
@@ -929,7 +924,12 @@
   "tenableinc-software-engineer-interview",
   "thales-group-devops-engineer-interview",
   "thales-group-engineering-manager-interview",
-  "the-walt-disney-company-engineering-manager-interview"
+  "the-walt-disney-company-engineering-manager-interview",
+  "thoughtworks-data-engineer-interview",
+  "thoughtworks-data-scientist-interview",
+  "thoughtworks-software-engineer-interview",
+  "toast-data-scientist-interview",
+  "toast-product-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
