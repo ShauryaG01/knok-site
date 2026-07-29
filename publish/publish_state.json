@@ -1,11 +1,5 @@
 {
  "queue": [
-  "top-companies-hiring-data-analysts-delhi",
-  "top-companies-hiring-data-engineers-hyderabad",
-  "top-companies-hiring-data-engineers-pune",
-  "top-companies-hiring-data-scientists-hyderabad",
-  "top-companies-hiring-devops-engineers-hyderabad",
-  "top-companies-hiring-product-managers-hyderabad",
   "trane-technologies-engineering-manager-interview",
   "tripadvisor-data-scientist-interview",
   "tripleten-software-engineer-interview",
@@ -929,7 +923,13 @@
   "thoughtworks-data-scientist-interview",
   "thoughtworks-software-engineer-interview",
   "toast-data-scientist-interview",
-  "toast-product-manager-interview"
+  "toast-product-manager-interview",
+  "top-companies-hiring-data-analysts-delhi",
+  "top-companies-hiring-data-engineers-hyderabad",
+  "top-companies-hiring-data-engineers-pune",
+  "top-companies-hiring-data-scientists-hyderabad",
+  "top-companies-hiring-devops-engineers-hyderabad",
+  "top-companies-hiring-product-managers-hyderabad"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }

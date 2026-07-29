@@ -1993,6 +1993,20 @@
    ],
    "total": 738,
    "remaining": 190
+  },
+  {
+   "date": "2026-07-29T15:54:03+00:00",
+   "count": 6,
+   "slugs": [
+    "top-companies-hiring-data-analysts-delhi",
+    "top-companies-hiring-data-engineers-hyderabad",
+    "top-companies-hiring-data-engineers-pune",
+    "top-companies-hiring-data-scientists-hyderabad",
+    "top-companies-hiring-devops-engineers-hyderabad",
+    "top-companies-hiring-product-managers-hyderabad"
+   ],
+   "total": 744,
+   "remaining": 184
   }
  ]
 }
