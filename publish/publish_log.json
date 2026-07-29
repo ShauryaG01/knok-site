@@ -1925,6 +1925,20 @@
    ],
    "total": 710,
    "remaining": 218
+  },
+  {
+   "date": "2026-07-29T05:14:45+00:00",
+   "count": 6,
+   "slugs": [
+    "snowflake-engineering-manager-interview",
+    "sofi-product-manager-interview",
+    "solaredge-software-engineer-interview",
+    "spotify-engineering-manager-interview",
+    "spotify-product-manager-interview",
+    "spotify-software-engineer-interview"
+   ],
+   "total": 716,
+   "remaining": 212
   }
  ]
 }
