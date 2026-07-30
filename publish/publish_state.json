@@ -1,12 +1,5 @@
 {
  "queue": [
-  "data-engineer-salary-pune",
-  "data-scientist-salary-hyderabad",
-  "how-to-get-hired-at-ab-inbev",
-  "how-to-get-hired-at-accenture-llp",
-  "how-to-get-hired-at-amgen-inc",
-  "how-to-get-hired-at-amplitude",
-  "how-to-get-hired-at-anaplan",
   "how-to-get-hired-at-artech-llc",
   "how-to-get-hired-at-attentive",
   "how-to-get-hired-at-bmw-techworks-india",
@@ -929,7 +922,14 @@
   "zscaler-devops-engineer-interview",
   "zscaler-product-manager-interview",
   "data-analyst-salary-delhi",
-  "data-engineer-salary-hyderabad"
+  "data-engineer-salary-hyderabad",
+  "data-engineer-salary-pune",
+  "data-scientist-salary-hyderabad",
+  "how-to-get-hired-at-ab-inbev",
+  "how-to-get-hired-at-accenture-llp",
+  "how-to-get-hired-at-amgen-inc",
+  "how-to-get-hired-at-amplitude",
+  "how-to-get-hired-at-anaplan"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
