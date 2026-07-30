@@ -1,11 +1,5 @@
 {
  "queue": [
-  "visa-product-manager-interview",
-  "warner-bros-discovery-data-scientist-interview",
-  "webmd-product-manager-interview",
-  "whatfix101-software-engineer-interview",
-  "wingify-software-engineer-interview",
-  "wipro-devops-engineer-interview",
   "wipro-engineering-manager-interview",
   "wipro-qa-engineer-interview",
   "wishlink-software-engineer-interview",
@@ -929,7 +923,13 @@
   "upgrad-software-engineer-interview",
   "veeva-data-analyst-interview",
   "veeva-software-engineer-interview",
-  "viber-product-manager-interview"
+  "viber-product-manager-interview",
+  "visa-product-manager-interview",
+  "warner-bros-discovery-data-scientist-interview",
+  "webmd-product-manager-interview",
+  "whatfix101-software-engineer-interview",
+  "wingify-software-engineer-interview",
+  "wipro-devops-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
