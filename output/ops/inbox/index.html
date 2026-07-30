@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex, nofollow, noarchive">
+    <title>Knok Inbox</title>
+    <link rel="stylesheet" href="/ops/inbox/inbox.css">
+  </head>
+  <body>
+    <div id="auth" class="auth-shell">
+      <form id="auth-form" class="auth-card">
+        <span class="eyebrow">Private operations</span>
+        <h1>Knok Inbox</h1>
+        <p>Enter the operator access token. It stays in this browser tab only.</p>
+        <label>
+          Access token
+          <input id="token" type="password" autocomplete="off" required>
+        </label>
+        <button type="submit">Open inbox</button>
+        <p id="auth-error" class="error"></p>
+      </form>
+    </div>
+
+    <main id="app" class="app hidden">
+      <header class="topbar">
+        <div>
+          <span class="eyebrow">Jobs by Knok</span>
+          <h1>Operator Inbox</h1>
+        </div>
+        <div id="sending-state" class="sending-state">Checking reply queue…</div>
+      </header>
+
+      <section class="metrics" aria-label="Inbox summary">
+        <div><span id="needs-count">0</span><small>Needs reply</small></div>
+        <div><span id="confirmed-count">0</span><small>Confirmed</small></div>
+        <div><span id="unread-count">0</span><small>Unread</small></div>
+        <div><span id="suppressed-count">0</span><small>Suppressed</small></div>
+      </section>
+
+      <section class="workspace">
+        <aside class="sidebar">
+          <div class="filters">
+            <input id="search" type="search" placeholder="Search name, email, role…">
+            <select id="status-filter" aria-label="Filter by status">
+              <option value="">All conversations</option>
+              <option value="needs_reply">Needs reply</option>
+              <option value="confirmed">Confirmed</option>
+              <option value="waiting">Waiting</option>
+              <option value="replied">Replied</option>
+              <option value="closed">Closed</option>
+              <option value="suppressed">Suppressed</option>
+              <option value="quarantined">Quarantined</option>
+            </select>
+          </div>
+          <div id="conversation-list" class="conversation-list"></div>
+        </aside>
+
+        <section id="empty" class="empty">
+          <div>
+            <span class="empty-mark">K</span>
+            <h2>Select a conversation</h2>
+            <p>Incoming replies and their delivery state will appear here.</p>
+          </div>
+        </section>
+
+        <section id="thread" class="thread hidden">
+          <header class="thread-head">
+            <div>
+              <h2 id="person-name"></h2>
+              <p id="person-meta"></p>
+            </div>
+            <div class="thread-actions">
+              <button data-status="confirmed" class="secondary">Confirm</button>
+              <button data-status="closed" class="secondary">Close</button>
+              <button data-status="suppressed" class="danger">Suppress</button>
+            </div>
+          </header>
+          <div id="profile" class="profile"></div>
+          <div id="messages" class="messages"></div>
+          <form id="reply-form" class="composer">
+            <label for="reply-body">Reply as Knok Jobs</label>
+            <textarea id="reply-body" rows="6" maxlength="20000" required
+              placeholder="Write a personal response…"></textarea>
+            <div class="composer-foot">
+              <p id="reply-state"></p>
+              <button type="submit">Queue reply</button>
+            </div>
+          </form>
+        </section>
+      </section>
+    </main>
+    <script src="/ops/inbox/inbox.js"></script>
+  </body>
+</html>

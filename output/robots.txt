@@ -1,4 +1,5 @@
 User-agent: *
+Disallow: /ops/
 Allow: /
 
 # AI / GEO crawlers — explicitly allowed for AI-answer citation
