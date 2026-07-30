@@ -1,12 +1,5 @@
 {
  "queue": [
-  "zensar-qa-engineer-interview",
-  "zeta-devops-engineer-interview",
-  "zoominfo-product-manager-interview",
-  "zscaler-devops-engineer-interview",
-  "zscaler-product-manager-interview",
-  "data-analyst-salary-delhi",
-  "data-engineer-salary-hyderabad",
   "data-engineer-salary-pune",
   "data-scientist-salary-hyderabad",
   "how-to-get-hired-at-ab-inbev",
@@ -929,7 +922,14 @@
   "wishlink-software-engineer-interview",
   "writer-software-engineer-interview",
   "yugabyte-software-engineer-interview",
-  "zenoti-product-manager-interview"
+  "zenoti-product-manager-interview",
+  "zensar-qa-engineer-interview",
+  "zeta-devops-engineer-interview",
+  "zoominfo-product-manager-interview",
+  "zscaler-devops-engineer-interview",
+  "zscaler-product-manager-interview",
+  "data-analyst-salary-delhi",
+  "data-engineer-salary-hyderabad"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
