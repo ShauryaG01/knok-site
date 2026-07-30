@@ -1,11 +1,5 @@
 {
  "queue": [
-  "wipro-engineering-manager-interview",
-  "wipro-qa-engineer-interview",
-  "wishlink-software-engineer-interview",
-  "writer-software-engineer-interview",
-  "yugabyte-software-engineer-interview",
-  "zenoti-product-manager-interview",
   "zensar-qa-engineer-interview",
   "zeta-devops-engineer-interview",
   "zoominfo-product-manager-interview",
@@ -929,7 +923,13 @@
   "webmd-product-manager-interview",
   "whatfix101-software-engineer-interview",
   "wingify-software-engineer-interview",
-  "wipro-devops-engineer-interview"
+  "wipro-devops-engineer-interview",
+  "wipro-engineering-manager-interview",
+  "wipro-qa-engineer-interview",
+  "wishlink-software-engineer-interview",
+  "writer-software-engineer-interview",
+  "yugabyte-software-engineer-interview",
+  "zenoti-product-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
