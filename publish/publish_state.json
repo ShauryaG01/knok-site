@@ -1,11 +1,5 @@
 {
  "queue": [
-  "twitch-software-engineer-interview",
-  "uipath-product-manager-interview",
-  "upgrad-software-engineer-interview",
-  "veeva-data-analyst-interview",
-  "veeva-software-engineer-interview",
-  "viber-product-manager-interview",
   "visa-product-manager-interview",
   "warner-bros-discovery-data-scientist-interview",
   "webmd-product-manager-interview",
@@ -929,7 +923,13 @@
   "tripleten-software-engineer-interview",
   "twilio-data-scientist-interview",
   "twilio-product-manager-interview",
-  "twitch-product-manager-interview"
+  "twitch-product-manager-interview",
+  "twitch-software-engineer-interview",
+  "uipath-product-manager-interview",
+  "upgrad-software-engineer-interview",
+  "veeva-data-analyst-interview",
+  "veeva-software-engineer-interview",
+  "viber-product-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
