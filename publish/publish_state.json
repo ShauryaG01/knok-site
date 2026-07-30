@@ -1,11 +1,5 @@
 {
  "queue": [
-  "trane-technologies-engineering-manager-interview",
-  "tripadvisor-data-scientist-interview",
-  "tripleten-software-engineer-interview",
-  "twilio-data-scientist-interview",
-  "twilio-product-manager-interview",
-  "twitch-product-manager-interview",
   "twitch-software-engineer-interview",
   "uipath-product-manager-interview",
   "upgrad-software-engineer-interview",
@@ -929,7 +923,13 @@
   "top-companies-hiring-data-engineers-pune",
   "top-companies-hiring-data-scientists-hyderabad",
   "top-companies-hiring-devops-engineers-hyderabad",
-  "top-companies-hiring-product-managers-hyderabad"
+  "top-companies-hiring-product-managers-hyderabad",
+  "trane-technologies-engineering-manager-interview",
+  "tripadvisor-data-scientist-interview",
+  "tripleten-software-engineer-interview",
+  "twilio-data-scientist-interview",
+  "twilio-product-manager-interview",
+  "twitch-product-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
