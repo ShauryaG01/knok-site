@@ -1,11 +1,5 @@
 {
  "queue": [
-  "top-companies-hiring-engineering-managers-pune",
-  "top-companies-hiring-product-managers-chennai",
-  "data-analyst-salary-mumbai",
-  "engineering-manager-salary-chennai",
-  "engineering-manager-salary-pune",
-  "how-to-get-hired-at-acceldata",
   "how-to-get-hired-at-aidoc",
   "how-to-get-hired-at-airtable",
   "how-to-get-hired-at-algolia",
@@ -929,7 +923,13 @@
   "top-companies-hiring-data-scientists-mumbai",
   "top-companies-hiring-data-scientists-pune",
   "top-companies-hiring-engineering-managers-chennai",
-  "top-companies-hiring-engineering-managers-hyderabad"
+  "top-companies-hiring-engineering-managers-hyderabad",
+  "top-companies-hiring-engineering-managers-pune",
+  "top-companies-hiring-product-managers-chennai",
+  "data-analyst-salary-mumbai",
+  "engineering-manager-salary-chennai",
+  "engineering-manager-salary-pune",
+  "how-to-get-hired-at-acceldata"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
