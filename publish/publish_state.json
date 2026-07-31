@@ -1,12 +1,5 @@
 {
  "queue": [
-  "how-to-get-hired-at-deloitte",
-  "how-to-get-hired-at-ge-healthcare",
-  "how-to-get-hired-at-hpe",
-  "how-to-get-hired-at-island",
-  "how-to-get-hired-at-langchain",
-  "how-to-get-hired-at-launchdarkly",
-  "how-to-get-hired-at-legora",
   "how-to-get-hired-at-mercor",
   "how-to-get-hired-at-microsoft",
   "how-to-get-hired-at-morningstar",
@@ -929,7 +922,14 @@
   "how-to-get-hired-at-bmw-techworks-india",
   "how-to-get-hired-at-cohere",
   "how-to-get-hired-at-cornerstone",
-  "how-to-get-hired-at-coupa"
+  "how-to-get-hired-at-coupa",
+  "how-to-get-hired-at-deloitte",
+  "how-to-get-hired-at-ge-healthcare",
+  "how-to-get-hired-at-hpe",
+  "how-to-get-hired-at-island",
+  "how-to-get-hired-at-langchain",
+  "how-to-get-hired-at-launchdarkly",
+  "how-to-get-hired-at-legora"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
