@@ -1,11 +1,5 @@
 {
  "queue": [
-  "how-to-get-hired-at-aidoc",
-  "how-to-get-hired-at-airtable",
-  "how-to-get-hired-at-algolia",
-  "how-to-get-hired-at-ally-financial",
-  "how-to-get-hired-at-arintra",
-  "how-to-get-hired-at-bill",
   "how-to-get-hired-at-boomi",
   "how-to-get-hired-at-cendyn",
   "how-to-get-hired-at-checkmarx",
@@ -929,7 +923,13 @@
   "data-analyst-salary-mumbai",
   "engineering-manager-salary-chennai",
   "engineering-manager-salary-pune",
-  "how-to-get-hired-at-acceldata"
+  "how-to-get-hired-at-acceldata",
+  "how-to-get-hired-at-aidoc",
+  "how-to-get-hired-at-airtable",
+  "how-to-get-hired-at-algolia",
+  "how-to-get-hired-at-ally-financial",
+  "how-to-get-hired-at-arintra",
+  "how-to-get-hired-at-bill"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
