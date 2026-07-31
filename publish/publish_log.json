@@ -2122,6 +2122,21 @@
    ],
    "total": 795,
    "remaining": 133
+  },
+  {
+   "date": "2026-07-31T05:13:52+00:00",
+   "count": 7,
+   "slugs": [
+    "how-to-get-hired-at-mercor",
+    "how-to-get-hired-at-microsoft",
+    "how-to-get-hired-at-morningstar",
+    "how-to-get-hired-at-new-relic",
+    "how-to-get-hired-at-pocketfm",
+    "how-to-get-hired-at-pubmatic",
+    "how-to-get-hired-at-render"
+   ],
+   "total": 802,
+   "remaining": 126
   }
  ]
 }

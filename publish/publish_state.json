@@ -1,12 +1,5 @@
 {
  "queue": [
-  "how-to-get-hired-at-mercor",
-  "how-to-get-hired-at-microsoft",
-  "how-to-get-hired-at-morningstar",
-  "how-to-get-hired-at-new-relic",
-  "how-to-get-hired-at-pocketfm",
-  "how-to-get-hired-at-pubmatic",
-  "how-to-get-hired-at-render",
   "how-to-get-hired-at-rockstargames",
   "how-to-get-hired-at-solaredge",
   "how-to-get-hired-at-spoton",
@@ -929,7 +922,14 @@
   "how-to-get-hired-at-island",
   "how-to-get-hired-at-langchain",
   "how-to-get-hired-at-launchdarkly",
-  "how-to-get-hired-at-legora"
+  "how-to-get-hired-at-legora",
+  "how-to-get-hired-at-mercor",
+  "how-to-get-hired-at-microsoft",
+  "how-to-get-hired-at-morningstar",
+  "how-to-get-hired-at-new-relic",
+  "how-to-get-hired-at-pocketfm",
+  "how-to-get-hired-at-pubmatic",
+  "how-to-get-hired-at-render"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
