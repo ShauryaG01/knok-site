@@ -1,11 +1,5 @@
 {
  "queue": [
-  "how-to-get-hired-at-rockstargames",
-  "how-to-get-hired-at-solaredge",
-  "how-to-get-hired-at-spoton",
-  "how-to-get-hired-at-suno",
-  "how-to-get-hired-at-tailscale",
-  "how-to-get-hired-at-tenableinc",
   "how-to-get-hired-at-thales-group",
   "how-to-get-hired-at-trane-technologies",
   "how-to-get-hired-at-twitch",
@@ -929,7 +923,13 @@
   "how-to-get-hired-at-new-relic",
   "how-to-get-hired-at-pocketfm",
   "how-to-get-hired-at-pubmatic",
-  "how-to-get-hired-at-render"
+  "how-to-get-hired-at-render",
+  "how-to-get-hired-at-rockstargames",
+  "how-to-get-hired-at-solaredge",
+  "how-to-get-hired-at-spoton",
+  "how-to-get-hired-at-suno",
+  "how-to-get-hired-at-tailscale",
+  "how-to-get-hired-at-tenableinc"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
