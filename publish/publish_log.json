@@ -2166,6 +2166,20 @@
    ],
    "total": 815,
    "remaining": 113
+  },
+  {
+   "date": "2026-07-31T10:42:06+00:00",
+   "count": 6,
+   "slugs": [
+    "product-manager-salary-hyderabad",
+    "top-companies-hiring-data-analysts-mumbai",
+    "top-companies-hiring-data-scientists-mumbai",
+    "top-companies-hiring-data-scientists-pune",
+    "top-companies-hiring-engineering-managers-chennai",
+    "top-companies-hiring-engineering-managers-hyderabad"
+   ],
+   "total": 821,
+   "remaining": 107
   }
  ]
 }
