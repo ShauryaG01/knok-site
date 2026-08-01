@@ -1,12 +1,5 @@
 {
  "queue": [
-  "how-to-get-hired-at-boomi",
-  "how-to-get-hired-at-cendyn",
-  "how-to-get-hired-at-checkmarx",
-  "how-to-get-hired-at-checkr",
-  "how-to-get-hired-at-clear",
-  "how-to-get-hired-at-contentful",
-  "how-to-get-hired-at-cyera",
   "how-to-get-hired-at-deepgram",
   "how-to-get-hired-at-drivenets",
   "how-to-get-hired-at-druva",
@@ -929,7 +922,14 @@
   "how-to-get-hired-at-algolia",
   "how-to-get-hired-at-ally-financial",
   "how-to-get-hired-at-arintra",
-  "how-to-get-hired-at-bill"
+  "how-to-get-hired-at-bill",
+  "how-to-get-hired-at-boomi",
+  "how-to-get-hired-at-cendyn",
+  "how-to-get-hired-at-checkmarx",
+  "how-to-get-hired-at-checkr",
+  "how-to-get-hired-at-clear",
+  "how-to-get-hired-at-contentful",
+  "how-to-get-hired-at-cyera"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
