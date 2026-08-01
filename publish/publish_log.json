@@ -2298,6 +2298,21 @@
    ],
    "total": 875,
    "remaining": 104
+  },
+  {
+   "date": "2026-08-01T15:59:01+00:00",
+   "count": 7,
+   "slugs": [
+    "data-engineer-jobs-pune",
+    "data-scientist-salary-mumbai",
+    "data-scientist-salary-pune",
+    "devops-engineer-jobs-delhi",
+    "devops-engineer-jobs-hyderabad",
+    "devops-engineer-jobs-pune",
+    "engineering-manager-salary-hyderabad"
+   ],
+   "total": 882,
+   "remaining": 97
   }
  ]
 }

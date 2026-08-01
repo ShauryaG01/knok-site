@@ -1,12 +1,5 @@
 {
  "queue": [
-  "data-engineer-jobs-pune",
-  "data-scientist-salary-mumbai",
-  "data-scientist-salary-pune",
-  "devops-engineer-jobs-delhi",
-  "devops-engineer-jobs-hyderabad",
-  "devops-engineer-jobs-pune",
-  "engineering-manager-salary-hyderabad",
   "frontend-engineer-jobs-delhi",
   "how-to-get-hired-at-abhibus",
   "how-to-get-hired-at-allianz",
@@ -980,7 +973,14 @@
   "how-to-get-hired-at-yugabyte",
   "how-to-get-hired-at-zenoti",
   "data-analyst-jobs-bangalore",
-  "data-engineer-jobs-hyderabad"
+  "data-engineer-jobs-hyderabad",
+  "data-engineer-jobs-pune",
+  "data-scientist-salary-mumbai",
+  "data-scientist-salary-pune",
+  "devops-engineer-jobs-delhi",
+  "devops-engineer-jobs-hyderabad",
+  "devops-engineer-jobs-pune",
+  "engineering-manager-salary-hyderabad"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
