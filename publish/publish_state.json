@@ -1,12 +1,5 @@
 {
  "queue": [
-  "how-to-get-hired-at-skd-se",
-  "how-to-get-hired-at-squarespace",
-  "how-to-get-hired-at-webmd",
-  "how-to-get-hired-at-yugabyte",
-  "how-to-get-hired-at-zenoti",
-  "data-analyst-jobs-bangalore",
-  "data-engineer-jobs-hyderabad",
   "data-engineer-jobs-pune",
   "data-scientist-salary-mumbai",
   "data-scientist-salary-pune",
@@ -980,7 +973,14 @@
   "how-to-get-hired-at-planetscale",
   "how-to-get-hired-at-prediktive",
   "how-to-get-hired-at-remotestar-team",
-  "how-to-get-hired-at-sigmoid"
+  "how-to-get-hired-at-sigmoid",
+  "how-to-get-hired-at-skd-se",
+  "how-to-get-hired-at-squarespace",
+  "how-to-get-hired-at-webmd",
+  "how-to-get-hired-at-yugabyte",
+  "how-to-get-hired-at-zenoti",
+  "data-analyst-jobs-bangalore",
+  "data-engineer-jobs-hyderabad"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }

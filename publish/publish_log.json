@@ -2283,6 +2283,21 @@
    ],
    "total": 868,
    "remaining": 111
+  },
+  {
+   "date": "2026-08-01T13:23:11+00:00",
+   "count": 7,
+   "slugs": [
+    "how-to-get-hired-at-skd-se",
+    "how-to-get-hired-at-squarespace",
+    "how-to-get-hired-at-webmd",
+    "how-to-get-hired-at-yugabyte",
+    "how-to-get-hired-at-zenoti",
+    "data-analyst-jobs-bangalore",
+    "data-engineer-jobs-hyderabad"
+   ],
+   "total": 875,
+   "remaining": 104
   }
  ]
 }
