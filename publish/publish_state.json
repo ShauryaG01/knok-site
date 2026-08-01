@@ -1,12 +1,5 @@
 {
  "queue": [
-  "how-to-get-hired-at-openchip",
-  "how-to-get-hired-at-openevidence",
-  "how-to-get-hired-at-papaya-global",
-  "how-to-get-hired-at-planetscale",
-  "how-to-get-hired-at-prediktive",
-  "how-to-get-hired-at-remotestar-team",
-  "how-to-get-hired-at-sigmoid",
   "how-to-get-hired-at-skd-se",
   "how-to-get-hired-at-squarespace",
   "how-to-get-hired-at-webmd",
@@ -980,7 +973,14 @@
   "how-to-get-hired-at-kotak-mahindra-bank",
   "how-to-get-hired-at-marqeta",
   "how-to-get-hired-at-mercury",
-  "how-to-get-hired-at-nutanix"
+  "how-to-get-hired-at-nutanix",
+  "how-to-get-hired-at-openchip",
+  "how-to-get-hired-at-openevidence",
+  "how-to-get-hired-at-papaya-global",
+  "how-to-get-hired-at-planetscale",
+  "how-to-get-hired-at-prediktive",
+  "how-to-get-hired-at-remotestar-team",
+  "how-to-get-hired-at-sigmoid"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }

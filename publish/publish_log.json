@@ -2268,6 +2268,21 @@
    ],
    "total": 861,
    "remaining": 118
+  },
+  {
+   "date": "2026-08-01T10:41:10+00:00",
+   "count": 7,
+   "slugs": [
+    "how-to-get-hired-at-openchip",
+    "how-to-get-hired-at-openevidence",
+    "how-to-get-hired-at-papaya-global",
+    "how-to-get-hired-at-planetscale",
+    "how-to-get-hired-at-prediktive",
+    "how-to-get-hired-at-remotestar-team",
+    "how-to-get-hired-at-sigmoid"
+   ],
+   "total": 868,
+   "remaining": 111
   }
  ]
 }
