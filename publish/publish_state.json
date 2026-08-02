@@ -1,10 +1,5 @@
 {
  "queue": [
-  "how-to-get-hired-at-appsflyer",
-  "how-to-get-hired-at-ceva",
-  "how-to-get-hired-at-concentric",
-  "how-to-get-hired-at-dhl-group",
-  "how-to-get-hired-at-drivetrain",
   "how-to-get-hired-at-epicgames",
   "how-to-get-hired-at-ford",
   "how-to-get-hired-at-harappa",
@@ -980,7 +975,12 @@
   "how-to-get-hired-at-abhibus",
   "how-to-get-hired-at-allianz",
   "how-to-get-hired-at-amazon",
-  "how-to-get-hired-at-ansrsource"
+  "how-to-get-hired-at-ansrsource",
+  "how-to-get-hired-at-appsflyer",
+  "how-to-get-hired-at-ceva",
+  "how-to-get-hired-at-concentric",
+  "how-to-get-hired-at-dhl-group",
+  "how-to-get-hired-at-drivetrain"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
