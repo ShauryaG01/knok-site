@@ -1,11 +1,5 @@
 {
  "queue": [
-  "how-to-get-hired-at-epicgames",
-  "how-to-get-hired-at-ford",
-  "how-to-get-hired-at-harappa",
-  "how-to-get-hired-at-highlevel",
-  "how-to-get-hired-at-hyreo",
-  "how-to-get-hired-at-info-edge",
   "how-to-get-hired-at-kpmg-india",
   "how-to-get-hired-at-lamresearch",
   "how-to-get-hired-at-medibuddy",
@@ -980,7 +974,13 @@
   "how-to-get-hired-at-ceva",
   "how-to-get-hired-at-concentric",
   "how-to-get-hired-at-dhl-group",
-  "how-to-get-hired-at-drivetrain"
+  "how-to-get-hired-at-drivetrain",
+  "how-to-get-hired-at-epicgames",
+  "how-to-get-hired-at-ford",
+  "how-to-get-hired-at-harappa",
+  "how-to-get-hired-at-highlevel",
+  "how-to-get-hired-at-hyreo",
+  "how-to-get-hired-at-info-edge"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
