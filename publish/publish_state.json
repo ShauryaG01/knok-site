@@ -1,10 +1,5 @@
 {
  "queue": [
-  "frontend-engineer-jobs-delhi",
-  "how-to-get-hired-at-abhibus",
-  "how-to-get-hired-at-allianz",
-  "how-to-get-hired-at-amazon",
-  "how-to-get-hired-at-ansrsource",
   "how-to-get-hired-at-appsflyer",
   "how-to-get-hired-at-ceva",
   "how-to-get-hired-at-concentric",
@@ -980,7 +975,12 @@
   "devops-engineer-jobs-delhi",
   "devops-engineer-jobs-hyderabad",
   "devops-engineer-jobs-pune",
-  "engineering-manager-salary-hyderabad"
+  "engineering-manager-salary-hyderabad",
+  "frontend-engineer-jobs-delhi",
+  "how-to-get-hired-at-abhibus",
+  "how-to-get-hired-at-allianz",
+  "how-to-get-hired-at-amazon",
+  "how-to-get-hired-at-ansrsource"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
