@@ -1,11 +1,5 @@
 {
  "queue": [
-  "how-to-get-hired-at-sanity",
-  "how-to-get-hired-at-satsure",
-  "how-to-get-hired-at-skydo",
-  "how-to-get-hired-at-strategic-employment",
-  "how-to-get-hired-at-synopsys",
-  "how-to-get-hired-at-synthesia",
   "how-to-get-hired-at-techmagic",
   "how-to-get-hired-at-tekion",
   "how-to-get-hired-at-upgrad",
@@ -1027,7 +1021,13 @@
   "how-to-get-hired-at-navi",
   "how-to-get-hired-at-nielsen",
   "how-to-get-hired-at-optum",
-  "how-to-get-hired-at-reddit"
+  "how-to-get-hired-at-reddit",
+  "how-to-get-hired-at-sanity",
+  "how-to-get-hired-at-satsure",
+  "how-to-get-hired-at-skydo",
+  "how-to-get-hired-at-strategic-employment",
+  "how-to-get-hired-at-synopsys",
+  "how-to-get-hired-at-synthesia"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
