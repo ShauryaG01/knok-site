@@ -1,11 +1,5 @@
 {
  "queue": [
-  "engineering-manager-jobs-hyderabad",
-  "engineering-manager-jobs-pune",
-  "best-job-portals-in-india-2026",
-  "best-resume-builders-for-india",
-  "business-analyst-interview-questions-india",
-  "cutshort-vs-naukri-for-tech",
   "data-engineer-skills-and-roadmap-india",
   "data-scientist-skills-and-roadmap-india",
   "devops-engineer-interview-questions-india",
@@ -1027,7 +1021,13 @@
   "product-manager-salary-chennai",
   "data-analyst-jobs-delhi",
   "data-analyst-jobs-mumbai",
-  "engineering-manager-jobs-chennai"
+  "engineering-manager-jobs-chennai",
+  "engineering-manager-jobs-hyderabad",
+  "engineering-manager-jobs-pune",
+  "best-job-portals-in-india-2026",
+  "best-resume-builders-for-india",
+  "business-analyst-interview-questions-india",
+  "cutshort-vs-naukri-for-tech"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
