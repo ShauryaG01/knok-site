@@ -1,11 +1,5 @@
 {
  "queue": [
-  "instahyre-vs-naukri",
-  "job-boards-vs-ai-job-agents-in-india",
-  "linkedin-vs-indeed-in-india",
-  "machine-learning-engineer-interview-questions-india",
-  "machine-learning-engineer-salary-india-2026",
-  "machine-learning-engineer-skills-and-roadmap-india",
   "most-in-demand-tech-roles-in-india-2026",
   "naukri-vs-linkedin-for-india",
   "notice-period-negotiation-in-india",
@@ -1076,7 +1070,13 @@
   "how-to-negotiate-a-tech-salary-in-india",
   "how-to-use-ai-for-job-search-in-india",
   "how-to-write-a-tech-resume-for-india",
-  "india-tech-hiring-report-2026"
+  "india-tech-hiring-report-2026",
+  "instahyre-vs-naukri",
+  "job-boards-vs-ai-job-agents-in-india",
+  "linkedin-vs-indeed-in-india",
+  "machine-learning-engineer-interview-questions-india",
+  "machine-learning-engineer-salary-india-2026",
+  "machine-learning-engineer-skills-and-roadmap-india"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
