@@ -2435,6 +2435,20 @@
    ],
    "total": 932,
    "remaining": 94
+  },
+  {
+   "date": "2026-08-03T06:54:42+00:00",
+   "count": 6,
+   "slugs": [
+    "data-engineer-skills-and-roadmap-india",
+    "data-scientist-skills-and-roadmap-india",
+    "devops-engineer-interview-questions-india",
+    "devops-engineer-skills-and-roadmap-india",
+    "engineering-manager-interview-questions-india",
+    "engineering-manager-skills-and-roadmap-india"
+   ],
+   "total": 938,
+   "remaining": 88
   }
  ]
 }
