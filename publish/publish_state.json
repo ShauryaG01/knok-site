@@ -1,11 +1,5 @@
 {
  "queue": [
-  "most-in-demand-tech-roles-in-india-2026",
-  "naukri-vs-linkedin-for-india",
-  "notice-period-negotiation-in-india",
-  "product-manager-skills-and-roadmap-india",
-  "program-manager-interview-questions-india",
-  "program-manager-salary-india-2026",
   "program-manager-skills-and-roadmap-india",
   "qa-engineer-interview-questions-india",
   "qa-engineer-skills-and-roadmap-india",
@@ -1076,7 +1070,13 @@
   "linkedin-vs-indeed-in-india",
   "machine-learning-engineer-interview-questions-india",
   "machine-learning-engineer-salary-india-2026",
-  "machine-learning-engineer-skills-and-roadmap-india"
+  "machine-learning-engineer-skills-and-roadmap-india",
+  "most-in-demand-tech-roles-in-india-2026",
+  "naukri-vs-linkedin-for-india",
+  "notice-period-negotiation-in-india",
+  "product-manager-skills-and-roadmap-india",
+  "program-manager-interview-questions-india",
+  "program-manager-salary-india-2026"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
