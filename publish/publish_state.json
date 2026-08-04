@@ -1,11 +1,5 @@
 {
  "queue": [
-  "cloud-engineer-skills-and-roadmap-india",
-  "cloudflare-solutions-engineer-interview",
-  "data-analyst-interview-questions-india",
-  "data-analyst-skills-and-roadmap-india",
-  "data-architect-interview-questions-india",
-  "data-architect-skills-and-roadmap-india",
   "datadog-solutions-engineer-interview",
   "frontend-engineer-skills-and-roadmap-india",
   "how-to-become-a-android-engineer-in-india",
@@ -1076,7 +1070,13 @@
   "business-analyst-salary-india-2026",
   "business-analyst-skills-and-roadmap-india",
   "cloud-engineer-interview-questions-india",
-  "cloud-engineer-salary-india-2026"
+  "cloud-engineer-salary-india-2026",
+  "cloud-engineer-skills-and-roadmap-india",
+  "cloudflare-solutions-engineer-interview",
+  "data-analyst-interview-questions-india",
+  "data-analyst-skills-and-roadmap-india",
+  "data-architect-interview-questions-india",
+  "data-architect-skills-and-roadmap-india"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }

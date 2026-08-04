@@ -2561,6 +2561,20 @@
    ],
    "total": 986,
    "remaining": 89
+  },
+  {
+   "date": "2026-08-04T10:48:33+00:00",
+   "count": 6,
+   "slugs": [
+    "cloud-engineer-skills-and-roadmap-india",
+    "cloudflare-solutions-engineer-interview",
+    "data-analyst-interview-questions-india",
+    "data-analyst-skills-and-roadmap-india",
+    "data-architect-interview-questions-india",
+    "data-architect-skills-and-roadmap-india"
+   ],
+   "total": 992,
+   "remaining": 83
   }
  ]
 }
