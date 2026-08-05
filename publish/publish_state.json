@@ -1,13 +1,5 @@
 {
  "queue": [
-  "top-companies-hiring-program-managers-bangalore",
-  "top-companies-hiring-security-engineers-bangalore",
-  "top-companies-hiring-solutions-engineers-bangalore",
-  "ui-ux-designer-interview-questions-india",
-  "ui-ux-designer-salary-india-2026",
-  "ui-ux-designer-skills-and-roadmap-india",
-  "zscaler-solutions-engineer-interview",
-  "airbnb-machine-learning-engineer-interview",
   "anthropic-program-manager-interview",
   "anthropic-security-engineer-interview",
   "boschgroup-business-analyst-interview",
@@ -1076,7 +1068,15 @@
   "program-manager-salary-bangalore",
   "security-engineer-salary-bangalore",
   "solutions-engineer-salary-india-2026",
-  "top-companies-hiring-machine-learning-engineers-bangalore"
+  "top-companies-hiring-machine-learning-engineers-bangalore",
+  "top-companies-hiring-program-managers-bangalore",
+  "top-companies-hiring-security-engineers-bangalore",
+  "top-companies-hiring-solutions-engineers-bangalore",
+  "ui-ux-designer-interview-questions-india",
+  "ui-ux-designer-salary-india-2026",
+  "ui-ux-designer-skills-and-roadmap-india",
+  "zscaler-solutions-engineer-interview",
+  "airbnb-machine-learning-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
