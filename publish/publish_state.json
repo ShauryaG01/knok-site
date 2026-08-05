@@ -1,13 +1,5 @@
 {
  "queue": [
-  "anthropic-program-manager-interview",
-  "anthropic-security-engineer-interview",
-  "boschgroup-business-analyst-interview",
-  "boschgroup-machine-learning-engineer-interview",
-  "boschgroup-security-engineer-interview",
-  "boschgroup-solutions-engineer-interview",
-  "business-analyst-salary-bangalore",
-  "business-analyst-salary-delhi",
   "cisco-solutions-engineer-interview",
   "commvault-solutions-engineer-interview",
   "data-architect-salary-india-2026",
@@ -1076,7 +1068,15 @@
   "ui-ux-designer-salary-india-2026",
   "ui-ux-designer-skills-and-roadmap-india",
   "zscaler-solutions-engineer-interview",
-  "airbnb-machine-learning-engineer-interview"
+  "airbnb-machine-learning-engineer-interview",
+  "anthropic-program-manager-interview",
+  "anthropic-security-engineer-interview",
+  "boschgroup-business-analyst-interview",
+  "boschgroup-machine-learning-engineer-interview",
+  "boschgroup-security-engineer-interview",
+  "boschgroup-solutions-engineer-interview",
+  "business-analyst-salary-bangalore",
+  "business-analyst-salary-delhi"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }

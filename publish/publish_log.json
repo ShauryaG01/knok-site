@@ -2650,6 +2650,22 @@
    ],
    "total": 1027,
    "remaining": 48
+  },
+  {
+   "date": "2026-08-05T08:25:54+00:00",
+   "count": 8,
+   "slugs": [
+    "anthropic-program-manager-interview",
+    "anthropic-security-engineer-interview",
+    "boschgroup-business-analyst-interview",
+    "boschgroup-machine-learning-engineer-interview",
+    "boschgroup-security-engineer-interview",
+    "boschgroup-solutions-engineer-interview",
+    "business-analyst-salary-bangalore",
+    "business-analyst-salary-delhi"
+   ],
+   "total": 1035,
+   "remaining": 40
   }
  ]
 }
