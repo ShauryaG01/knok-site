@@ -1,13 +1,5 @@
 {
  "queue": [
-  "mobile-engineer-skills-and-roadmap-india",
-  "platform-engineer-salary-india-2026",
-  "platform-engineer-skills-and-roadmap-india",
-  "product-designer-skills-and-roadmap-india",
-  "program-manager-salary-bangalore",
-  "security-engineer-salary-bangalore",
-  "solutions-engineer-salary-india-2026",
-  "top-companies-hiring-machine-learning-engineers-bangalore",
   "top-companies-hiring-program-managers-bangalore",
   "top-companies-hiring-security-engineers-bangalore",
   "top-companies-hiring-solutions-engineers-bangalore",
@@ -1076,7 +1068,15 @@
   "ios-engineer-skills-and-roadmap-india",
   "machine-learning-engineer-salary-bangalore",
   "mobile-engineer-interview-questions-india",
-  "mobile-engineer-salary-india-2026"
+  "mobile-engineer-salary-india-2026",
+  "mobile-engineer-skills-and-roadmap-india",
+  "platform-engineer-salary-india-2026",
+  "platform-engineer-skills-and-roadmap-india",
+  "product-designer-skills-and-roadmap-india",
+  "program-manager-salary-bangalore",
+  "security-engineer-salary-bangalore",
+  "solutions-engineer-salary-india-2026",
+  "top-companies-hiring-machine-learning-engineers-bangalore"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
