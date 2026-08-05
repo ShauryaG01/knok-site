@@ -1,15 +1,5 @@
 {
  "queue": [
-  "how-to-get-hired-at-resolv-global",
-  "jane-street-security-engineer-interview",
-  "jpmorgan-chase-program-manager-interview",
-  "machine-learning-engineer-salary-delhi",
-  "mistral-machine-learning-engineer-interview",
-  "mongodb-solutions-engineer-interview",
-  "okta-solutions-engineer-interview",
-  "openai-program-manager-interview",
-  "openai-security-engineer-interview",
-  "openai-solutions-engineer-interview",
   "oracle-program-manager-interview",
   "palantir-security-engineer-interview",
   "pinterest-machine-learning-engineer-interview",
@@ -1076,7 +1066,17 @@
   "elastic-solutions-engineer-interview",
   "elevenlabs-solutions-engineer-interview",
   "gitlab-solutions-engineer-interview",
-  "how-to-get-hired-at-dimensional-tech-inc"
+  "how-to-get-hired-at-dimensional-tech-inc",
+  "how-to-get-hired-at-resolv-global",
+  "jane-street-security-engineer-interview",
+  "jpmorgan-chase-program-manager-interview",
+  "machine-learning-engineer-salary-delhi",
+  "mistral-machine-learning-engineer-interview",
+  "mongodb-solutions-engineer-interview",
+  "okta-solutions-engineer-interview",
+  "openai-program-manager-interview",
+  "openai-security-engineer-interview",
+  "openai-solutions-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
