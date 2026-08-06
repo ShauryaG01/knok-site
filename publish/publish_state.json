@@ -1,8 +1,5 @@
 {
- "queue": [
-  "top-companies-hiring-program-managers-delhi",
-  "vast-data-solutions-engineer-interview"
- ],
+ "queue": [],
  "published": [
   "knok-vs-naukri",
   "best-job-search-tools-india-2026",
@@ -1076,7 +1073,9 @@
   "tech-aalto-pte-ltd-business-analyst-interview",
   "top-companies-hiring-business-analysts-bangalore",
   "top-companies-hiring-business-analysts-delhi",
-  "top-companies-hiring-machine-learning-engineers-delhi"
+  "top-companies-hiring-machine-learning-engineers-delhi",
+  "top-companies-hiring-program-managers-delhi",
+  "vast-data-solutions-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
