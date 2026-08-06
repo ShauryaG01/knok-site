@@ -1,14 +1,5 @@
 {
  "queue": [
-  "autodesk-program-manager-interview",
-  "avathon-machine-learning-engineer-interview",
-  "aveva-business-analyst-interview",
-  "binance-security-engineer-interview",
-  "block-machine-learning-engineer-interview",
-  "block-solutions-engineer-interview",
-  "blvdpay-mobile-engineer-interview",
-  "bmw-techworks-india-machine-learning-engineer-interview",
-  "boomi-solutions-engineer-interview",
   "boschgroup-platform-engineer-interview",
   "boschgroup-program-manager-interview",
   "box-solutions-engineer-interview",
@@ -1225,7 +1216,16 @@
   "amazon-machine-learning-engineer-interview",
   "anaplan-machine-learning-engineer-interview",
   "asana-security-engineer-interview",
-  "asana-solutions-engineer-interview"
+  "asana-solutions-engineer-interview",
+  "autodesk-program-manager-interview",
+  "avathon-machine-learning-engineer-interview",
+  "aveva-business-analyst-interview",
+  "binance-security-engineer-interview",
+  "block-machine-learning-engineer-interview",
+  "block-solutions-engineer-interview",
+  "blvdpay-mobile-engineer-interview",
+  "bmw-techworks-india-machine-learning-engineer-interview",
+  "boomi-solutions-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
