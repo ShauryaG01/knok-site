@@ -1,14 +1,5 @@
 {
  "queue": [
-  "snowflake-solutions-engineer-interview",
-  "solutions-engineer-salary-bangalore",
-  "spotify-machine-learning-engineer-interview",
-  "stripe-program-manager-interview",
-  "stripe-solutions-engineer-interview",
-  "tech-aalto-pte-ltd-business-analyst-interview",
-  "top-companies-hiring-business-analysts-bangalore",
-  "top-companies-hiring-business-analysts-delhi",
-  "top-companies-hiring-machine-learning-engineers-delhi",
   "top-companies-hiring-program-managers-delhi",
   "vast-data-solutions-engineer-interview"
  ],
@@ -1076,7 +1067,16 @@
   "resolv-global-solutions-engineer-interview",
   "roku-machine-learning-engineer-interview",
   "samsara-solutions-engineer-interview",
-  "scale-ai-program-manager-interview"
+  "scale-ai-program-manager-interview",
+  "snowflake-solutions-engineer-interview",
+  "solutions-engineer-salary-bangalore",
+  "spotify-machine-learning-engineer-interview",
+  "stripe-program-manager-interview",
+  "stripe-solutions-engineer-interview",
+  "tech-aalto-pte-ltd-business-analyst-interview",
+  "top-companies-hiring-business-analysts-bangalore",
+  "top-companies-hiring-business-analysts-delhi",
+  "top-companies-hiring-machine-learning-engineers-delhi"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
