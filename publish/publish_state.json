@@ -1,14 +1,5 @@
 {
  "queue": [
-  "boschgroup-platform-engineer-interview",
-  "boschgroup-program-manager-interview",
-  "box-solutions-engineer-interview",
-  "braze-solutions-engineer-interview",
-  "career-maker-consultant-bpc-solutions-engineer-interview",
-  "cellebrite-solutions-engineer-interview",
-  "cerebras-program-manager-interview",
-  "checkmarx-security-engineer-interview",
-  "cisco-program-manager-interview",
   "clickhouse-security-engineer-interview",
   "clickhouse-solutions-engineer-interview",
   "cloudbees-solutions-engineer-interview",
@@ -1225,7 +1216,16 @@
   "block-solutions-engineer-interview",
   "blvdpay-mobile-engineer-interview",
   "bmw-techworks-india-machine-learning-engineer-interview",
-  "boomi-solutions-engineer-interview"
+  "boomi-solutions-engineer-interview",
+  "boschgroup-platform-engineer-interview",
+  "boschgroup-program-manager-interview",
+  "box-solutions-engineer-interview",
+  "braze-solutions-engineer-interview",
+  "career-maker-consultant-bpc-solutions-engineer-interview",
+  "cellebrite-solutions-engineer-interview",
+  "cerebras-program-manager-interview",
+  "checkmarx-security-engineer-interview",
+  "cisco-program-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
