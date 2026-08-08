@@ -1,13 +1,5 @@
 {
  "queue": [
-  "twilio-solutions-engineer-interview",
-  "twitch-program-manager-interview",
-  "uipath-solutions-engineer-interview",
-  "veeva-program-manager-interview",
-  "vercel-solutions-engineer-interview",
-  "warner-bros-discovery-machine-learning-engineer-interview",
-  "zensar-machine-learning-engineer-interview",
-  "zscaler-machine-learning-engineer-interview",
   "zscaler-program-manager-interview",
   "ab-inbev-data-scientist-interview",
   "amazon-product-manager-interview",
@@ -1324,7 +1316,15 @@
   "tripleten-security-engineer-interview",
   "turing-machine-learning-engineer-interview",
   "twilio-machine-learning-engineer-interview",
-  "twilio-security-engineer-interview"
+  "twilio-security-engineer-interview",
+  "twilio-solutions-engineer-interview",
+  "twitch-program-manager-interview",
+  "uipath-solutions-engineer-interview",
+  "veeva-program-manager-interview",
+  "vercel-solutions-engineer-interview",
+  "warner-bros-discovery-machine-learning-engineer-interview",
+  "zensar-machine-learning-engineer-interview",
+  "zscaler-machine-learning-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
