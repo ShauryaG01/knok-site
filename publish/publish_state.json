@@ -1,15 +1,5 @@
 {
  "queue": [
-  "talentpro-product-manager-interview",
-  "team8-machine-learning-engineer-interview",
-  "titan-company-product-manager-interview",
-  "vegapay-engineering-manager-interview",
-  "visa-data-engineer-interview",
-  "adyen-business-analyst-interview",
-  "adyen-platform-engineer-interview",
-  "affirm-program-manager-interview",
-  "anaplan-program-manager-interview",
-  "anaplan-qa-engineer-interview",
   "block-security-engineer-interview",
   "chime-product-manager-interview",
   "chime-security-engineer-interview",
@@ -1374,7 +1364,17 @@
   "solarsquare-product-manager-interview",
   "spoton-product-manager-interview",
   "suno-product-manager-interview",
-  "supabase-product-manager-interview"
+  "supabase-product-manager-interview",
+  "talentpro-product-manager-interview",
+  "team8-machine-learning-engineer-interview",
+  "titan-company-product-manager-interview",
+  "vegapay-engineering-manager-interview",
+  "visa-data-engineer-interview",
+  "adyen-business-analyst-interview",
+  "adyen-platform-engineer-interview",
+  "affirm-program-manager-interview",
+  "anaplan-program-manager-interview",
+  "anaplan-qa-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
