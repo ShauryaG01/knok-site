@@ -1,14 +1,5 @@
 {
  "queue": [
-  "housing-ui-ux-designer-interview",
-  "internetbrands-product-manager-interview",
-  "jpmorgan-chase-frontend-engineer-interview",
-  "khatabook-product-manager-interview",
-  "khatabook-program-manager-interview",
-  "legora-devops-engineer-interview",
-  "legora-product-manager-interview",
-  "lendingkart-program-manager-interview",
-  "mastercard-platform-engineer-interview",
   "medison-pharma-product-manager-interview",
   "meesho-data-scientist-interview",
   "meesho-engineering-manager-interview",
@@ -1324,7 +1315,16 @@
   "harvey-devops-engineer-interview",
   "heartbeat-ai-gmbh-software-engineer-interview",
   "highlevel-product-manager-interview",
-  "housing-data-analyst-interview"
+  "housing-data-analyst-interview",
+  "housing-ui-ux-designer-interview",
+  "internetbrands-product-manager-interview",
+  "jpmorgan-chase-frontend-engineer-interview",
+  "khatabook-product-manager-interview",
+  "khatabook-program-manager-interview",
+  "legora-devops-engineer-interview",
+  "legora-product-manager-interview",
+  "lendingkart-program-manager-interview",
+  "mastercard-platform-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
