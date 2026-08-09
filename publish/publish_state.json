@@ -1,14 +1,5 @@
 {
  "queue": [
-  "zscaler-program-manager-interview",
-  "ab-inbev-data-scientist-interview",
-  "amazon-product-manager-interview",
-  "arintra-machine-learning-engineer-interview",
-  "blackstone-product-manager-interview",
-  "boschgroup-product-designer-interview",
-  "cisco-product-manager-interview",
-  "cisco-security-engineer-interview",
-  "coralogix-solutions-engineer-interview",
   "cyera-product-manager-interview",
   "decagon-platform-engineer-interview",
   "drivenets-product-manager-interview",
@@ -1324,7 +1315,16 @@
   "vercel-solutions-engineer-interview",
   "warner-bros-discovery-machine-learning-engineer-interview",
   "zensar-machine-learning-engineer-interview",
-  "zscaler-machine-learning-engineer-interview"
+  "zscaler-machine-learning-engineer-interview",
+  "zscaler-program-manager-interview",
+  "ab-inbev-data-scientist-interview",
+  "amazon-product-manager-interview",
+  "arintra-machine-learning-engineer-interview",
+  "blackstone-product-manager-interview",
+  "boschgroup-product-designer-interview",
+  "cisco-product-manager-interview",
+  "cisco-security-engineer-interview",
+  "coralogix-solutions-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
