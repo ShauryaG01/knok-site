@@ -3090,6 +3090,23 @@
    ],
    "total": 1251,
    "remaining": 72
+  },
+  {
+   "date": "2026-08-09T08:25:03+00:00",
+   "count": 9,
+   "slugs": [
+    "medison-pharma-product-manager-interview",
+    "meesho-data-scientist-interview",
+    "meesho-engineering-manager-interview",
+    "openai-machine-learning-engineer-interview",
+    "paypal-devops-engineer-interview",
+    "pencil-product-manager-interview",
+    "prama-india-product-manager-interview",
+    "professional-recruiters-product-manager-interview",
+    "proteantecs-product-manager-interview"
+   ],
+   "total": 1260,
+   "remaining": 113
   }
  ]
 }
