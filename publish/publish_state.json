@@ -1,13 +1,5 @@
 {
  "queue": [
-  "cendyn-engineering-manager-interview",
-  "commit-qa-engineer-interview",
-  "convegenius-software-engineer-interview",
-  "cornerstone-machine-learning-engineer-interview",
-  "cornerstone-program-manager-interview",
-  "dhl-group-software-engineer-interview",
-  "ecolab-machine-learning-engineer-interview",
-  "emerson-electric-software-engineer-interview",
   "esper-software-engineer-interview",
   "exl-service-qa-engineer-interview",
   "exotel-software-engineer-interview",
@@ -1424,7 +1416,15 @@
   "all-generation-tech-software-engineer-interview",
   "allied-global-its-software-engineer-interview",
   "auditoria-ai-software-engineer-interview",
-  "bmw-techworks-india-data-engineer-interview"
+  "bmw-techworks-india-data-engineer-interview",
+  "cendyn-engineering-manager-interview",
+  "commit-qa-engineer-interview",
+  "convegenius-software-engineer-interview",
+  "cornerstone-machine-learning-engineer-interview",
+  "cornerstone-program-manager-interview",
+  "dhl-group-software-engineer-interview",
+  "ecolab-machine-learning-engineer-interview",
+  "emerson-electric-software-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
