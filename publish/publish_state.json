@@ -1,13 +1,5 @@
 {
  "queue": [
-  "zscaler-data-scientist-interview",
-  "zscaler-security-engineer-interview",
-  "abra-devops-engineer-interview",
-  "abra-software-engineer-interview",
-  "all-generation-tech-software-engineer-interview",
-  "allied-global-its-software-engineer-interview",
-  "auditoria-ai-software-engineer-interview",
-  "bmw-techworks-india-data-engineer-interview",
   "cendyn-engineering-manager-interview",
   "commit-qa-engineer-interview",
   "convegenius-software-engineer-interview",
@@ -1424,7 +1416,15 @@
   "sofi-engineering-manager-interview",
   "sumo-logic-product-manager-interview",
   "typeface-product-manager-interview",
-  "veeva-data-scientist-interview"
+  "veeva-data-scientist-interview",
+  "zscaler-data-scientist-interview",
+  "zscaler-security-engineer-interview",
+  "abra-devops-engineer-interview",
+  "abra-software-engineer-interview",
+  "all-generation-tech-software-engineer-interview",
+  "allied-global-its-software-engineer-interview",
+  "auditoria-ai-software-engineer-interview",
+  "bmw-techworks-india-data-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
