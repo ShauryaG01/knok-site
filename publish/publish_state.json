@@ -1,13 +1,5 @@
 {
  "queue": [
-  "reddit-program-manager-interview",
-  "rockstargames-data-engineer-interview",
-  "rockstargames-data-scientist-interview",
-  "sofi-data-scientist-interview",
-  "sofi-engineering-manager-interview",
-  "sumo-logic-product-manager-interview",
-  "typeface-product-manager-interview",
-  "veeva-data-scientist-interview",
   "zscaler-data-scientist-interview",
   "zscaler-security-engineer-interview",
   "abra-devops-engineer-interview",
@@ -1424,7 +1416,15 @@
   "okta-product-designer-interview",
   "outreach-product-manager-interview",
   "outreach-software-engineer-interview",
-  "pubmatic-product-manager-interview"
+  "pubmatic-product-manager-interview",
+  "reddit-program-manager-interview",
+  "rockstargames-data-engineer-interview",
+  "rockstargames-data-scientist-interview",
+  "sofi-data-scientist-interview",
+  "sofi-engineering-manager-interview",
+  "sumo-logic-product-manager-interview",
+  "typeface-product-manager-interview",
+  "veeva-data-scientist-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
