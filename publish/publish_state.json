@@ -1,13 +1,5 @@
 {
  "queue": [
-  "esper-software-engineer-interview",
-  "exl-service-qa-engineer-interview",
-  "exotel-software-engineer-interview",
-  "firstadvantage-software-engineer-interview",
-  "fiserv-inc-software-engineer-interview",
-  "global-e-devops-engineer-interview",
-  "hexaware-technologies-data-architect-interview",
-  "hr-lobby-product-manager-interview",
   "infosys-software-engineer-interview",
   "neosoft-technologies-software-engineer-interview",
   "netapp-software-engineer-interview",
@@ -1424,7 +1416,15 @@
   "cornerstone-program-manager-interview",
   "dhl-group-software-engineer-interview",
   "ecolab-machine-learning-engineer-interview",
-  "emerson-electric-software-engineer-interview"
+  "emerson-electric-software-engineer-interview",
+  "esper-software-engineer-interview",
+  "exl-service-qa-engineer-interview",
+  "exotel-software-engineer-interview",
+  "firstadvantage-software-engineer-interview",
+  "fiserv-inc-software-engineer-interview",
+  "global-e-devops-engineer-interview",
+  "hexaware-technologies-data-architect-interview",
+  "hr-lobby-product-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
