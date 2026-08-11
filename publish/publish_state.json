@@ -1,13 +1,5 @@
 {
  "queue": [
-  "forbes-advisor-data-engineer-interview",
-  "four-quarters-data-engineer-interview",
-  "hackerrank-machine-learning-engineer-interview",
-  "hcl-technologies-business-analyst-interview",
-  "hcl-technologies-solutions-engineer-interview",
-  "infinidat-software-engineer-interview",
-  "invisibletech-software-engineer-interview",
-  "jane-street-data-scientist-interview",
   "jane-street-machine-learning-engineer-interview",
   "jla-resourcing-software-engineer-interview",
   "jll-program-manager-interview",
@@ -1424,7 +1416,15 @@
   "dropbox-data-engineer-interview",
   "druva-solutions-engineer-interview",
   "dsc-resources-software-engineer-interview",
-  "ducommun-qa-engineer-interview"
+  "ducommun-qa-engineer-interview",
+  "forbes-advisor-data-engineer-interview",
+  "four-quarters-data-engineer-interview",
+  "hackerrank-machine-learning-engineer-interview",
+  "hcl-technologies-business-analyst-interview",
+  "hcl-technologies-solutions-engineer-interview",
+  "infinidat-software-engineer-interview",
+  "invisibletech-software-engineer-interview",
+  "jane-street-data-scientist-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
