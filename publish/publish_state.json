@@ -1,14 +1,5 @@
 {
  "queue": [
-  "capri-global-capital-data-engineer-interview",
-  "circle-k-data-scientist-interview",
-  "cognyte-software-engineer-interview",
-  "coupang-software-engineer-interview",
-  "dimensional-tech-inc-product-designer-interview",
-  "dropbox-data-engineer-interview",
-  "druva-solutions-engineer-interview",
-  "dsc-resources-software-engineer-interview",
-  "ducommun-qa-engineer-interview",
   "forbes-advisor-data-engineer-interview",
   "four-quarters-data-engineer-interview",
   "hackerrank-machine-learning-engineer-interview",
@@ -1424,7 +1415,16 @@
   "ansrsource-machine-learning-engineer-interview",
   "ansrsource-software-engineer-interview",
   "arizeai-devops-engineer-interview",
-  "artech-llc-engineering-manager-interview"
+  "artech-llc-engineering-manager-interview",
+  "capri-global-capital-data-engineer-interview",
+  "circle-k-data-scientist-interview",
+  "cognyte-software-engineer-interview",
+  "coupang-software-engineer-interview",
+  "dimensional-tech-inc-product-designer-interview",
+  "dropbox-data-engineer-interview",
+  "druva-solutions-engineer-interview",
+  "dsc-resources-software-engineer-interview",
+  "ducommun-qa-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
