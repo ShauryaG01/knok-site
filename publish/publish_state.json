@@ -1,13 +1,5 @@
 {
  "queue": [
-  "zensar-software-engineer-interview",
-  "aivarinnovations-data-scientist-interview",
-  "allianz-devops-engineer-interview",
-  "amplitude-data-scientist-interview",
-  "ansrsource-machine-learning-engineer-interview",
-  "ansrsource-software-engineer-interview",
-  "arizeai-devops-engineer-interview",
-  "artech-llc-engineering-manager-interview",
   "capri-global-capital-data-engineer-interview",
   "circle-k-data-scientist-interview",
   "cognyte-software-engineer-interview",
@@ -1424,7 +1416,15 @@
   "werken-bij-belsimpel-software-engineer-interview",
   "writer-security-engineer-interview",
   "writer-solutions-engineer-interview",
-  "zendev-software-engineer-interview"
+  "zendev-software-engineer-interview",
+  "zensar-software-engineer-interview",
+  "aivarinnovations-data-scientist-interview",
+  "allianz-devops-engineer-interview",
+  "amplitude-data-scientist-interview",
+  "ansrsource-machine-learning-engineer-interview",
+  "ansrsource-software-engineer-interview",
+  "arizeai-devops-engineer-interview",
+  "artech-llc-engineering-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
