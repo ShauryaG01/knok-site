@@ -1,14 +1,5 @@
 {
  "queue": [
-  "clickpost-product-manager-interview",
-  "coderabbit-devops-engineer-interview",
-  "coderabbit-product-manager-interview",
-  "coderabbit-software-engineer-interview",
-  "cohere-program-manager-interview",
-  "cohere-security-engineer-interview",
-  "coralogix-product-manager-interview",
-  "deutsche-telekom-digital-labs-data-architect-interview",
-  "deutsche-telekom-digital-labs-frontend-engineer-interview",
   "eclerx-services-machine-learning-engineer-interview",
   "eclerx-services-product-manager-interview",
   "elixirrdigital-machine-learning-engineer-interview",
@@ -1523,7 +1514,16 @@
   "boschgroup-android-engineer-interview",
   "boschgroup-ui-ux-designer-interview",
   "checkmarx-qa-engineer-interview",
-  "cisco-devops-engineer-interview"
+  "cisco-devops-engineer-interview",
+  "clickpost-product-manager-interview",
+  "coderabbit-devops-engineer-interview",
+  "coderabbit-product-manager-interview",
+  "coderabbit-software-engineer-interview",
+  "cohere-program-manager-interview",
+  "cohere-security-engineer-interview",
+  "coralogix-product-manager-interview",
+  "deutsche-telekom-digital-labs-data-architect-interview",
+  "deutsche-telekom-digital-labs-frontend-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
