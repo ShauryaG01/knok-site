@@ -1,14 +1,5 @@
 {
  "queue": [
-  "sustainiam-product-manager-interview",
-  "synthesia-product-designer-interview",
-  "synthesia-product-manager-interview",
-  "team8-frontend-engineer-interview",
-  "team8-product-manager-interview",
-  "the-convergence-foundation-program-manager-interview",
-  "uipath-devops-engineer-interview",
-  "unboxrobotics-product-manager-interview",
-  "vapi-solutions-engineer-interview",
   "vegapay-product-manager-interview",
   "viber-data-analyst-interview",
   "viber-software-engineer-interview",
@@ -1523,7 +1514,16 @@
   "speak-product-designer-interview",
   "speak-product-manager-interview",
   "spoton-engineering-manager-interview",
-  "suno-data-scientist-interview"
+  "suno-data-scientist-interview",
+  "sustainiam-product-manager-interview",
+  "synthesia-product-designer-interview",
+  "synthesia-product-manager-interview",
+  "team8-frontend-engineer-interview",
+  "team8-product-manager-interview",
+  "the-convergence-foundation-program-manager-interview",
+  "uipath-devops-engineer-interview",
+  "unboxrobotics-product-manager-interview",
+  "vapi-solutions-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
