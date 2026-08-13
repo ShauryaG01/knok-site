@@ -1,13 +1,5 @@
 {
  "queue": [
-  "imanage-product-manager-interview",
-  "internetbrands-software-engineer-interview",
-  "jpmorgan-chase-platform-engineer-interview",
-  "khatabook-product-designer-interview",
-  "legora-platform-engineer-interview",
-  "legora-solutions-engineer-interview",
-  "lenskart-program-manager-interview",
-  "lseg-devops-engineer-interview",
   "mastercard-data-scientist-interview",
   "matrix42-gmbh-product-manager-interview",
   "medtronic-business-analyst-interview",
@@ -1523,7 +1515,15 @@
   "housing-android-engineer-interview",
   "housing-frontend-engineer-interview",
   "housing-product-designer-interview",
-  "imanage-machine-learning-engineer-interview"
+  "imanage-machine-learning-engineer-interview",
+  "imanage-product-manager-interview",
+  "internetbrands-software-engineer-interview",
+  "jpmorgan-chase-platform-engineer-interview",
+  "khatabook-product-designer-interview",
+  "legora-platform-engineer-interview",
+  "legora-solutions-engineer-interview",
+  "lenskart-program-manager-interview",
+  "lseg-devops-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
