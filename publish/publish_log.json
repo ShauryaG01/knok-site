@@ -3539,6 +3539,22 @@
    ],
    "total": 1484,
    "remaining": 38
+  },
+  {
+   "date": "2026-08-13T08:31:08+00:00",
+   "count": 8,
+   "slugs": [
+    "openai-frontend-engineer-interview",
+    "openai-ios-engineer-interview",
+    "openai-platform-engineer-interview",
+    "paypal-machine-learning-engineer-interview",
+    "paypal-product-manager-interview",
+    "paypal-security-engineer-interview",
+    "pepsico-program-manager-interview",
+    "plaid-machine-learning-engineer-interview"
+   ],
+   "total": 1492,
+   "remaining": 30
   }
  ]
 }
