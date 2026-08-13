@@ -3522,6 +3522,23 @@
    ],
    "total": 1475,
    "remaining": 47
+  },
+  {
+   "date": "2026-08-13T06:54:57+00:00",
+   "count": 9,
+   "slugs": [
+    "mastercard-data-scientist-interview",
+    "matrix42-gmbh-product-manager-interview",
+    "medtronic-business-analyst-interview",
+    "meesho-product-manager-interview",
+    "navi-product-manager-interview",
+    "nextracker-program-manager-interview",
+    "nvidia-product-manager-interview",
+    "one-call-product-manager-interview",
+    "one-call-software-engineer-interview"
+   ],
+   "total": 1484,
+   "remaining": 38
   }
  ]
 }
