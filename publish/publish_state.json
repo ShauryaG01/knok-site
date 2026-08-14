@@ -1,11 +1,5 @@
 {
- "queue": [
-  "vegapay-product-manager-interview",
-  "viber-data-analyst-interview",
-  "viber-software-engineer-interview",
-  "visa-solutions-engineer-interview",
-  "webmd-program-manager-interview"
- ],
+ "queue": [],
  "published": [
   "knok-vs-naukri",
   "best-job-search-tools-india-2026",
@@ -1523,7 +1517,12 @@
   "the-convergence-foundation-program-manager-interview",
   "uipath-devops-engineer-interview",
   "unboxrobotics-product-manager-interview",
-  "vapi-solutions-engineer-interview"
+  "vapi-solutions-engineer-interview",
+  "vegapay-product-manager-interview",
+  "viber-data-analyst-interview",
+  "viber-software-engineer-interview",
+  "visa-solutions-engineer-interview",
+  "webmd-program-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
