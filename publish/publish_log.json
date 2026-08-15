@@ -3748,6 +3748,23 @@
    ],
    "total": 1589,
    "remaining": 82
+  },
+  {
+   "date": "2026-08-15T10:42:47+00:00",
+   "count": 9,
+   "slugs": [
+    "paytm-data-engineer-interview",
+    "paytm-qa-engineer-interview",
+    "pinecone-software-engineer-interview",
+    "pinterest-engineering-manager-interview",
+    "pure-storage-devops-engineer-interview",
+    "pure-storage-frontend-engineer-interview",
+    "pure-storage-machine-learning-engineer-interview",
+    "pure-storage-security-engineer-interview",
+    "replit-data-scientist-interview"
+   ],
+   "total": 1598,
+   "remaining": 73
   }
  ]
 }
