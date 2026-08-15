@@ -3765,6 +3765,22 @@
    ],
    "total": 1598,
    "remaining": 73
+  },
+  {
+   "date": "2026-08-15T13:20:13+00:00",
+   "count": 8,
+   "slugs": [
+    "replit-security-engineer-interview",
+    "riot-games-data-engineer-interview",
+    "riot-games-engineering-manager-interview",
+    "rippling-software-engineer-interview",
+    "robinhood-data-scientist-interview",
+    "rockstargames-product-manager-interview",
+    "rockstargames-security-engineer-interview",
+    "roku-program-manager-interview"
+   ],
+   "total": 1606,
+   "remaining": 65
   }
  ]
 }
