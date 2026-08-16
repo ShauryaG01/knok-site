@@ -1,14 +1,5 @@
 {
  "queue": [
-  "intel-program-manager-interview",
-  "intel-solutions-engineer-interview",
-  "itilite-software-engineer-interview",
-  "kpmg-india-business-analyst-interview",
-  "kpmg-india-devops-engineer-interview",
-  "kpmg-india-machine-learning-engineer-interview",
-  "kpmg-india-software-engineer-interview",
-  "lateral-apac-machine-learning-engineer-interview",
-  "lateral-apac-software-engineer-interview",
   "leena-ai-software-engineer-interview",
   "morningstar-data-scientist-interview",
   "morningstar-engineering-manager-interview",
@@ -1721,7 +1712,16 @@
   "hpe-qa-engineer-interview",
   "imagine-learning-software-engineer-interview",
   "impactanalytics-engineering-manager-interview",
-  "intel-engineering-manager-interview"
+  "intel-engineering-manager-interview",
+  "intel-program-manager-interview",
+  "intel-solutions-engineer-interview",
+  "itilite-software-engineer-interview",
+  "kpmg-india-business-analyst-interview",
+  "kpmg-india-devops-engineer-interview",
+  "kpmg-india-machine-learning-engineer-interview",
+  "kpmg-india-software-engineer-interview",
+  "lateral-apac-machine-learning-engineer-interview",
+  "lateral-apac-software-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
