@@ -1,12 +1,5 @@
 {
  "queue": [
-  "deloitte-data-scientist-interview",
-  "deloitte-devops-engineer-interview",
-  "deloitte-frontend-engineer-interview",
-  "deloitte-security-engineer-interview",
-  "dimensional-tech-inc-cloud-engineer-interview",
-  "dimensional-tech-inc-devops-engineer-interview",
-  "dimensional-tech-inc-frontend-engineer-interview",
   "dimensional-tech-inc-security-engineer-interview",
   "dimensional-tech-inc-software-engineer-interview",
   "dropbox-devops-engineer-interview",
@@ -1721,7 +1714,14 @@
   "commit-data-engineer-interview",
   "contentful-program-manager-interview",
   "ctc-software-engineer-interview",
-  "deloitte-data-analyst-interview"
+  "deloitte-data-analyst-interview",
+  "deloitte-data-scientist-interview",
+  "deloitte-devops-engineer-interview",
+  "deloitte-frontend-engineer-interview",
+  "deloitte-security-engineer-interview",
+  "dimensional-tech-inc-cloud-engineer-interview",
+  "dimensional-tech-inc-devops-engineer-interview",
+  "dimensional-tech-inc-frontend-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
