@@ -1,13 +1,5 @@
 {
  "queue": [
-  "views-frontend-engineer-interview",
-  "whatfix101-frontend-engineer-interview",
-  "acceldata-qa-engineer-interview",
-  "acceldata-solutions-engineer-interview",
-  "analyticallc-data-engineer-interview",
-  "arista-networks-software-engineer-interview",
-  "artech-llc-data-analyst-interview",
-  "artech-llc-devops-engineer-interview",
   "artech-llc-qa-engineer-interview",
   "artech-llc-security-engineer-interview",
   "bounce-data-scientist-interview",
@@ -1771,7 +1763,15 @@
   "tech-aalto-pte-ltd-data-scientist-interview",
   "tech-aalto-pte-ltd-machine-learning-engineer-interview",
   "tech-aalto-pte-ltd-product-designer-interview",
-  "tech-aalto-pte-ltd-qa-engineer-interview"
+  "tech-aalto-pte-ltd-qa-engineer-interview",
+  "views-frontend-engineer-interview",
+  "whatfix101-frontend-engineer-interview",
+  "acceldata-qa-engineer-interview",
+  "acceldata-solutions-engineer-interview",
+  "analyticallc-data-engineer-interview",
+  "arista-networks-software-engineer-interview",
+  "artech-llc-data-analyst-interview",
+  "artech-llc-devops-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
