@@ -1,13 +1,5 @@
 {
  "queue": [
-  "sygnia-security-engineer-interview",
-  "sygnia-software-engineer-interview",
-  "talent-r-engineering-manager-interview",
-  "tech-aalto-pte-ltd-data-architect-interview",
-  "tech-aalto-pte-ltd-data-scientist-interview",
-  "tech-aalto-pte-ltd-machine-learning-engineer-interview",
-  "tech-aalto-pte-ltd-product-designer-interview",
-  "tech-aalto-pte-ltd-qa-engineer-interview",
   "views-frontend-engineer-interview",
   "whatfix101-frontend-engineer-interview",
   "acceldata-qa-engineer-interview",
@@ -1771,7 +1763,15 @@
   "razorpay-frontend-engineer-interview",
   "razorpay-security-engineer-interview",
   "shippypro-software-engineer-interview",
-  "sunbit-devops-engineer-interview"
+  "sunbit-devops-engineer-interview",
+  "sygnia-security-engineer-interview",
+  "sygnia-software-engineer-interview",
+  "talent-r-engineering-manager-interview",
+  "tech-aalto-pte-ltd-data-architect-interview",
+  "tech-aalto-pte-ltd-data-scientist-interview",
+  "tech-aalto-pte-ltd-machine-learning-engineer-interview",
+  "tech-aalto-pte-ltd-product-designer-interview",
+  "tech-aalto-pte-ltd-qa-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
