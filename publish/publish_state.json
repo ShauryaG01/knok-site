@@ -1,13 +1,5 @@
 {
  "queue": [
-  "careers-software-engineer-interview",
-  "ceva-data-analyst-interview",
-  "circleci-software-engineer-interview",
-  "clear-engineering-manager-interview",
-  "commit-data-engineer-interview",
-  "contentful-program-manager-interview",
-  "ctc-software-engineer-interview",
-  "deloitte-data-analyst-interview",
   "deloitte-data-scientist-interview",
   "deloitte-devops-engineer-interview",
   "deloitte-frontend-engineer-interview",
@@ -1721,7 +1713,15 @@
   "ally-financial-security-engineer-interview",
   "atomicwork-software-engineer-interview",
   "career-maker-consultant-bpc-mobile-engineer-interview",
-  "career-maker-consultant-bpc-product-designer-interview"
+  "career-maker-consultant-bpc-product-designer-interview",
+  "careers-software-engineer-interview",
+  "ceva-data-analyst-interview",
+  "circleci-software-engineer-interview",
+  "clear-engineering-manager-interview",
+  "commit-data-engineer-interview",
+  "contentful-program-manager-interview",
+  "ctc-software-engineer-interview",
+  "deloitte-data-analyst-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
