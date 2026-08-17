@@ -1,12 +1,5 @@
 {
  "queue": [
-  "loxo-software-engineer-interview",
-  "nova-ltd-engineering-manager-interview",
-  "nova-ltd-software-engineer-interview",
-  "razorpay-frontend-engineer-interview",
-  "razorpay-security-engineer-interview",
-  "shippypro-software-engineer-interview",
-  "sunbit-devops-engineer-interview",
   "sygnia-security-engineer-interview",
   "sygnia-software-engineer-interview",
   "talent-r-engineering-manager-interview",
@@ -1771,7 +1764,14 @@
   "island-devops-engineer-interview",
   "island-frontend-engineer-interview",
   "island-solutions-engineer-interview",
-  "jla-resourcing-devops-engineer-interview"
+  "jla-resourcing-devops-engineer-interview",
+  "loxo-software-engineer-interview",
+  "nova-ltd-engineering-manager-interview",
+  "nova-ltd-software-engineer-interview",
+  "razorpay-frontend-engineer-interview",
+  "razorpay-security-engineer-interview",
+  "shippypro-software-engineer-interview",
+  "sunbit-devops-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
