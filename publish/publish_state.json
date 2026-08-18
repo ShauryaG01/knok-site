@@ -1,14 +1,5 @@
 {
  "queue": [
-  "drivetrain-qa-engineer-interview",
-  "fireworksai-software-engineer-interview",
-  "gsk-data-scientist-interview",
-  "hackerrank-data-scientist-interview",
-  "hackerrank-engineering-manager-interview",
-  "idfc-first-bank-data-analyst-interview",
-  "idfc-first-bank-data-scientist-interview",
-  "imc-data-scientist-interview",
-  "imc-machine-learning-engineer-interview",
   "jane-street-data-engineer-interview",
   "jll-data-engineer-interview",
   "jll-software-engineer-interview",
@@ -1771,7 +1762,16 @@
   "cashkaro-product-designer-interview",
   "checkr-data-engineer-interview",
   "checkr-engineering-manager-interview",
-  "devrev-product-designer-interview"
+  "devrev-product-designer-interview",
+  "drivetrain-qa-engineer-interview",
+  "fireworksai-software-engineer-interview",
+  "gsk-data-scientist-interview",
+  "hackerrank-data-scientist-interview",
+  "hackerrank-engineering-manager-interview",
+  "idfc-first-bank-data-analyst-interview",
+  "idfc-first-bank-data-scientist-interview",
+  "imc-data-scientist-interview",
+  "imc-machine-learning-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
