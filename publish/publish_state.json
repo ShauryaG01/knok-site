@@ -1,14 +1,5 @@
 {
  "queue": [
-  "fis-global-security-engineer-interview",
-  "fujitsu-security-engineer-interview",
-  "hcl-technologies-devops-engineer-interview",
-  "hcl-technologies-platform-engineer-interview",
-  "huru-devops-engineer-interview",
-  "impetus-technologies-data-engineer-interview",
-  "indium-data-analyst-interview",
-  "itech-machine-learning-engineer-interview",
-  "klimb-io-frontend-engineer-interview",
   "koch-engineering-manager-interview",
   "koch-qa-engineer-interview",
   "koch-solutions-engineer-interview",
@@ -1821,7 +1812,16 @@
   "dexcare-devops-engineer-interview",
   "disprz-qa-engineer-interview",
   "eclerx-program-manager-interview",
-  "fampay-engineering-manager-interview"
+  "fampay-engineering-manager-interview",
+  "fis-global-security-engineer-interview",
+  "fujitsu-security-engineer-interview",
+  "hcl-technologies-devops-engineer-interview",
+  "hcl-technologies-platform-engineer-interview",
+  "huru-devops-engineer-interview",
+  "impetus-technologies-data-engineer-interview",
+  "indium-data-analyst-interview",
+  "itech-machine-learning-engineer-interview",
+  "klimb-io-frontend-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
