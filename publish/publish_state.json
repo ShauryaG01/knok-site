@@ -1,14 +1,5 @@
 {
  "queue": [
-  "artech-llc-qa-engineer-interview",
-  "artech-llc-security-engineer-interview",
-  "bounce-data-scientist-interview",
-  "capital-one-software-engineer-interview",
-  "capri-global-capital-data-scientist-interview",
-  "cashkaro-product-designer-interview",
-  "checkr-data-engineer-interview",
-  "checkr-engineering-manager-interview",
-  "devrev-product-designer-interview",
   "drivetrain-qa-engineer-interview",
   "fireworksai-software-engineer-interview",
   "gsk-data-scientist-interview",
@@ -1771,7 +1762,16 @@
   "analyticallc-data-engineer-interview",
   "arista-networks-software-engineer-interview",
   "artech-llc-data-analyst-interview",
-  "artech-llc-devops-engineer-interview"
+  "artech-llc-devops-engineer-interview",
+  "artech-llc-qa-engineer-interview",
+  "artech-llc-security-engineer-interview",
+  "bounce-data-scientist-interview",
+  "capital-one-software-engineer-interview",
+  "capri-global-capital-data-scientist-interview",
+  "cashkaro-product-designer-interview",
+  "checkr-data-engineer-interview",
+  "checkr-engineering-manager-interview",
+  "devrev-product-designer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
