@@ -1,14 +1,5 @@
 {
  "queue": [
-  "andromeda-devops-engineer-interview",
-  "appsforbharat-engineering-manager-interview",
-  "arizeai-machine-learning-engineer-interview",
-  "cerecore-data-engineer-interview",
-  "codevalue-devops-engineer-interview",
-  "dexcare-devops-engineer-interview",
-  "disprz-qa-engineer-interview",
-  "eclerx-program-manager-interview",
-  "fampay-engineering-manager-interview",
   "fis-global-security-engineer-interview",
   "fujitsu-security-engineer-interview",
   "hcl-technologies-devops-engineer-interview",
@@ -1821,7 +1812,16 @@
   "thoughtworks-machine-learning-engineer-interview",
   "tripadvisor-product-designer-interview",
   "vercel-security-engineer-interview",
-  "worldquant-data-engineer-interview"
+  "worldquant-data-engineer-interview",
+  "andromeda-devops-engineer-interview",
+  "appsforbharat-engineering-manager-interview",
+  "arizeai-machine-learning-engineer-interview",
+  "cerecore-data-engineer-interview",
+  "codevalue-devops-engineer-interview",
+  "dexcare-devops-engineer-interview",
+  "disprz-qa-engineer-interview",
+  "eclerx-program-manager-interview",
+  "fampay-engineering-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
