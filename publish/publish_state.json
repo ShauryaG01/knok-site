@@ -1,15 +1,5 @@
 {
  "queue": [
-  "myntra-engineering-manager-interview",
-  "nablon-ai-machine-learning-engineer-interview",
-  "parspec-machine-learning-engineer-interview",
-  "pitch-frontend-engineer-interview",
-  "prismforce-business-analyst-interview",
-  "roko-labs-devops-engineer-interview",
-  "roko-labs-machine-learning-engineer-interview",
-  "sequoia-connect-mobile-engineer-interview",
-  "sequoia-connect-qa-engineer-interview",
-  "serving-skill-business-analyst-interview",
   "signzy-devops-engineer-interview",
   "skeps-program-manager-interview",
   "skylarkdrones-machine-learning-engineer-interview",
@@ -1821,7 +1811,17 @@
   "manifest-devops-engineer-interview",
   "marsh-mclennan-business-analyst-interview",
   "mattermost-security-engineer-interview",
-  "miq-devops-engineer-interview"
+  "miq-devops-engineer-interview",
+  "myntra-engineering-manager-interview",
+  "nablon-ai-machine-learning-engineer-interview",
+  "parspec-machine-learning-engineer-interview",
+  "pitch-frontend-engineer-interview",
+  "prismforce-business-analyst-interview",
+  "roko-labs-devops-engineer-interview",
+  "roko-labs-machine-learning-engineer-interview",
+  "sequoia-connect-mobile-engineer-interview",
+  "sequoia-connect-qa-engineer-interview",
+  "serving-skill-business-analyst-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
