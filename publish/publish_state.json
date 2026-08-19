@@ -1,14 +1,5 @@
 {
  "queue": [
-  "how-to-get-hired-at-henkel",
-  "how-to-get-hired-at-huron",
-  "how-to-get-hired-at-imanage",
-  "how-to-get-hired-at-internetbrands",
-  "how-to-get-hired-at-jfrog",
-  "how-to-get-hired-at-jll",
-  "how-to-get-hired-at-khatabook",
-  "how-to-get-hired-at-medtronic",
-  "how-to-get-hired-at-oolka",
   "how-to-get-hired-at-parloa",
   "how-to-get-hired-at-pwc",
   "how-to-get-hired-at-qualcomm",
@@ -1881,7 +1872,16 @@
   "how-to-get-hired-at-commvault",
   "how-to-get-hired-at-elevenlabs",
   "how-to-get-hired-at-emerson-electric",
-  "how-to-get-hired-at-fireworksai"
+  "how-to-get-hired-at-fireworksai",
+  "how-to-get-hired-at-henkel",
+  "how-to-get-hired-at-huron",
+  "how-to-get-hired-at-imanage",
+  "how-to-get-hired-at-internetbrands",
+  "how-to-get-hired-at-jfrog",
+  "how-to-get-hired-at-jll",
+  "how-to-get-hired-at-khatabook",
+  "how-to-get-hired-at-medtronic",
+  "how-to-get-hired-at-oolka"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
