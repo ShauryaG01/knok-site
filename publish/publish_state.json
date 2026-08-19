@@ -1,15 +1,5 @@
 {
  "queue": [
-  "how-to-get-hired-at-autodesk",
-  "how-to-get-hired-at-blackstone",
-  "how-to-get-hired-at-careers",
-  "how-to-get-hired-at-cellebrite",
-  "how-to-get-hired-at-coderabbit",
-  "how-to-get-hired-at-cognyte",
-  "how-to-get-hired-at-commvault",
-  "how-to-get-hired-at-elevenlabs",
-  "how-to-get-hired-at-emerson-electric",
-  "how-to-get-hired-at-fireworksai",
   "how-to-get-hired-at-henkel",
   "how-to-get-hired-at-huron",
   "how-to-get-hired-at-imanage",
@@ -1881,7 +1871,17 @@
   "how-to-get-hired-at-abra",
   "how-to-get-hired-at-accionlabs",
   "how-to-get-hired-at-agrim",
-  "how-to-get-hired-at-aivarinnovations"
+  "how-to-get-hired-at-aivarinnovations",
+  "how-to-get-hired-at-autodesk",
+  "how-to-get-hired-at-blackstone",
+  "how-to-get-hired-at-careers",
+  "how-to-get-hired-at-cellebrite",
+  "how-to-get-hired-at-coderabbit",
+  "how-to-get-hired-at-cognyte",
+  "how-to-get-hired-at-commvault",
+  "how-to-get-hired-at-elevenlabs",
+  "how-to-get-hired-at-emerson-electric",
+  "how-to-get-hired-at-fireworksai"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
