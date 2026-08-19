@@ -1,15 +1,5 @@
 {
  "queue": [
-  "how-to-get-hired-at-parloa",
-  "how-to-get-hired-at-pwc",
-  "how-to-get-hired-at-qualcomm",
-  "how-to-get-hired-at-sardine",
-  "how-to-get-hired-at-scaleops",
-  "how-to-get-hired-at-sequoia-connect",
-  "how-to-get-hired-at-solarsquare",
-  "how-to-get-hired-at-speak",
-  "how-to-get-hired-at-supabase",
-  "how-to-get-hired-at-vegapay",
   "how-to-get-hired-at-webengage",
   "how-to-get-hired-at-werken-bij-belsimpel",
   "how-to-get-hired-at-willis-towers-watson",
@@ -1881,7 +1871,17 @@
   "how-to-get-hired-at-jll",
   "how-to-get-hired-at-khatabook",
   "how-to-get-hired-at-medtronic",
-  "how-to-get-hired-at-oolka"
+  "how-to-get-hired-at-oolka",
+  "how-to-get-hired-at-parloa",
+  "how-to-get-hired-at-pwc",
+  "how-to-get-hired-at-qualcomm",
+  "how-to-get-hired-at-sardine",
+  "how-to-get-hired-at-scaleops",
+  "how-to-get-hired-at-sequoia-connect",
+  "how-to-get-hired-at-solarsquare",
+  "how-to-get-hired-at-speak",
+  "how-to-get-hired-at-supabase",
+  "how-to-get-hired-at-vegapay"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }

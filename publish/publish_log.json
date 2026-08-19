@@ -4246,6 +4246,24 @@
    ],
    "total": 1847,
    "remaining": 33
+  },
+  {
+   "date": "2026-08-19T15:56:03+00:00",
+   "count": 10,
+   "slugs": [
+    "how-to-get-hired-at-parloa",
+    "how-to-get-hired-at-pwc",
+    "how-to-get-hired-at-qualcomm",
+    "how-to-get-hired-at-sardine",
+    "how-to-get-hired-at-scaleops",
+    "how-to-get-hired-at-sequoia-connect",
+    "how-to-get-hired-at-solarsquare",
+    "how-to-get-hired-at-speak",
+    "how-to-get-hired-at-supabase",
+    "how-to-get-hired-at-vegapay"
+   ],
+   "total": 1857,
+   "remaining": 23
   }
  ]
 }
