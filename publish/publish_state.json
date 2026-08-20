@@ -1,14 +1,5 @@
 {
  "queue": [
-  "how-to-get-hired-at-infinidat",
-  "how-to-get-hired-at-koch",
-  "how-to-get-hired-at-lateral-apac",
-  "how-to-get-hired-at-launch-recruitment",
-  "how-to-get-hired-at-marsh-mclennan",
-  "how-to-get-hired-at-modal",
-  "how-to-get-hired-at-n8n",
-  "how-to-get-hired-at-netapp",
-  "how-to-get-hired-at-outreach",
   "how-to-get-hired-at-outsidecapital",
   "how-to-get-hired-at-popclub",
   "how-to-get-hired-at-ryde-technologies-llc",
@@ -1924,7 +1915,16 @@
   "how-to-get-hired-at-firstadvantage",
   "how-to-get-hired-at-freshdesk",
   "how-to-get-hired-at-hugging-face",
-  "how-to-get-hired-at-indianic"
+  "how-to-get-hired-at-indianic",
+  "how-to-get-hired-at-infinidat",
+  "how-to-get-hired-at-koch",
+  "how-to-get-hired-at-lateral-apac",
+  "how-to-get-hired-at-launch-recruitment",
+  "how-to-get-hired-at-marsh-mclennan",
+  "how-to-get-hired-at-modal",
+  "how-to-get-hired-at-n8n",
+  "how-to-get-hired-at-netapp",
+  "how-to-get-hired-at-outreach"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
