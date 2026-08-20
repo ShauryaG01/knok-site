@@ -1,14 +1,5 @@
 {
  "queue": [
-  "top-companies-hiring-business-analysts-hyderabad",
-  "top-companies-hiring-business-analysts-mumbai",
-  "top-companies-hiring-business-analysts-pune",
-  "top-companies-hiring-ios-engineers-delhi",
-  "top-companies-hiring-machine-learning-engineers-hyderabad",
-  "top-companies-hiring-mobile-engineers-bangalore",
-  "top-companies-hiring-platform-engineers-bangalore",
-  "top-companies-hiring-program-managers-hyderabad",
-  "top-companies-hiring-program-managers-mumbai",
   "top-companies-hiring-program-managers-pune",
   "top-companies-hiring-solutions-engineers-delhi",
   "top-companies-hiring-solutions-engineers-mumbai",
@@ -1881,7 +1872,16 @@
   "mobile-engineer-salary-bangalore",
   "program-manager-salary-mumbai",
   "solutions-engineer-salary-delhi",
-  "top-companies-hiring-android-engineers-bangalore"
+  "top-companies-hiring-android-engineers-bangalore",
+  "top-companies-hiring-business-analysts-hyderabad",
+  "top-companies-hiring-business-analysts-mumbai",
+  "top-companies-hiring-business-analysts-pune",
+  "top-companies-hiring-ios-engineers-delhi",
+  "top-companies-hiring-machine-learning-engineers-hyderabad",
+  "top-companies-hiring-mobile-engineers-bangalore",
+  "top-companies-hiring-platform-engineers-bangalore",
+  "top-companies-hiring-program-managers-hyderabad",
+  "top-companies-hiring-program-managers-mumbai"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }

@@ -4281,6 +4281,23 @@
    ],
    "total": 1866,
    "remaining": 14
+  },
+  {
+   "date": "2026-08-20T05:13:45+00:00",
+   "count": 9,
+   "slugs": [
+    "top-companies-hiring-business-analysts-hyderabad",
+    "top-companies-hiring-business-analysts-mumbai",
+    "top-companies-hiring-business-analysts-pune",
+    "top-companies-hiring-ios-engineers-delhi",
+    "top-companies-hiring-machine-learning-engineers-hyderabad",
+    "top-companies-hiring-mobile-engineers-bangalore",
+    "top-companies-hiring-platform-engineers-bangalore",
+    "top-companies-hiring-program-managers-hyderabad",
+    "top-companies-hiring-program-managers-mumbai"
+   ],
+   "total": 1875,
+   "remaining": 5
   }
  ]
 }
