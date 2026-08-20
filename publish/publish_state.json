@@ -1,14 +1,5 @@
 {
  "queue": [
-  "how-to-get-hired-at-outsidecapital",
-  "how-to-get-hired-at-popclub",
-  "how-to-get-hired-at-ryde-technologies-llc",
-  "how-to-get-hired-at-signzy",
-  "how-to-get-hired-at-stage",
-  "how-to-get-hired-at-state-street",
-  "how-to-get-hired-at-sumo-logic",
-  "how-to-get-hired-at-swimlane",
-  "how-to-get-hired-at-truefoundry",
   "how-to-get-hired-at-turing",
   "how-to-get-hired-at-typeface",
   "how-to-get-hired-at-uber"
@@ -1924,7 +1915,16 @@
   "how-to-get-hired-at-modal",
   "how-to-get-hired-at-n8n",
   "how-to-get-hired-at-netapp",
-  "how-to-get-hired-at-outreach"
+  "how-to-get-hired-at-outreach",
+  "how-to-get-hired-at-outsidecapital",
+  "how-to-get-hired-at-popclub",
+  "how-to-get-hired-at-ryde-technologies-llc",
+  "how-to-get-hired-at-signzy",
+  "how-to-get-hired-at-stage",
+  "how-to-get-hired-at-state-street",
+  "how-to-get-hired-at-sumo-logic",
+  "how-to-get-hired-at-swimlane",
+  "how-to-get-hired-at-truefoundry"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
