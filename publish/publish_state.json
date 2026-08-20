@@ -1,14 +1,5 @@
 {
  "queue": [
-  "how-to-get-hired-at-cloudsek",
-  "how-to-get-hired-at-dream",
-  "how-to-get-hired-at-ecolab",
-  "how-to-get-hired-at-engie",
-  "how-to-get-hired-at-esper",
-  "how-to-get-hired-at-firstadvantage",
-  "how-to-get-hired-at-freshdesk",
-  "how-to-get-hired-at-hugging-face",
-  "how-to-get-hired-at-indianic",
   "how-to-get-hired-at-infinidat",
   "how-to-get-hired-at-koch",
   "how-to-get-hired-at-lateral-apac",
@@ -1924,7 +1915,16 @@
   "how-to-get-hired-at-bms",
   "how-to-get-hired-at-bright-data",
   "how-to-get-hired-at-capri-global-capital",
-  "how-to-get-hired-at-cashkaro"
+  "how-to-get-hired-at-cashkaro",
+  "how-to-get-hired-at-cloudsek",
+  "how-to-get-hired-at-dream",
+  "how-to-get-hired-at-ecolab",
+  "how-to-get-hired-at-engie",
+  "how-to-get-hired-at-esper",
+  "how-to-get-hired-at-firstadvantage",
+  "how-to-get-hired-at-freshdesk",
+  "how-to-get-hired-at-hugging-face",
+  "how-to-get-hired-at-indianic"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
