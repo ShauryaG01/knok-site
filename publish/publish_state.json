@@ -1,14 +1,5 @@
 {
  "queue": [
-  "how-to-get-hired-at-atomicwork",
-  "how-to-get-hired-at-avathon",
-  "how-to-get-hired-at-bcg",
-  "how-to-get-hired-at-berg-group",
-  "how-to-get-hired-at-big-assets-infra",
-  "how-to-get-hired-at-bms",
-  "how-to-get-hired-at-bright-data",
-  "how-to-get-hired-at-capri-global-capital",
-  "how-to-get-hired-at-cashkaro",
   "how-to-get-hired-at-cloudsek",
   "how-to-get-hired-at-dream",
   "how-to-get-hired-at-ecolab",
@@ -1924,7 +1915,16 @@
   "how-to-get-hired-at-allied-global-its",
   "how-to-get-hired-at-analyticallc",
   "how-to-get-hired-at-arizeai",
-  "how-to-get-hired-at-aspora"
+  "how-to-get-hired-at-aspora",
+  "how-to-get-hired-at-atomicwork",
+  "how-to-get-hired-at-avathon",
+  "how-to-get-hired-at-bcg",
+  "how-to-get-hired-at-berg-group",
+  "how-to-get-hired-at-big-assets-infra",
+  "how-to-get-hired-at-bms",
+  "how-to-get-hired-at-bright-data",
+  "how-to-get-hired-at-capri-global-capital",
+  "how-to-get-hired-at-cashkaro"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
