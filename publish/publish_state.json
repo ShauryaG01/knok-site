@@ -1,14 +1,5 @@
 {
  "queue": [
-  "how-to-get-hired-at-webengage",
-  "how-to-get-hired-at-werken-bij-belsimpel",
-  "how-to-get-hired-at-willis-towers-watson",
-  "ios-engineer-salary-delhi",
-  "machine-learning-engineer-salary-hyderabad",
-  "mobile-engineer-salary-bangalore",
-  "program-manager-salary-mumbai",
-  "solutions-engineer-salary-delhi",
-  "top-companies-hiring-android-engineers-bangalore",
   "top-companies-hiring-business-analysts-hyderabad",
   "top-companies-hiring-business-analysts-mumbai",
   "top-companies-hiring-business-analysts-pune",
@@ -1881,7 +1872,16 @@
   "how-to-get-hired-at-solarsquare",
   "how-to-get-hired-at-speak",
   "how-to-get-hired-at-supabase",
-  "how-to-get-hired-at-vegapay"
+  "how-to-get-hired-at-vegapay",
+  "how-to-get-hired-at-webengage",
+  "how-to-get-hired-at-werken-bij-belsimpel",
+  "how-to-get-hired-at-willis-towers-watson",
+  "ios-engineer-salary-delhi",
+  "machine-learning-engineer-salary-hyderabad",
+  "mobile-engineer-salary-bangalore",
+  "program-manager-salary-mumbai",
+  "solutions-engineer-salary-delhi",
+  "top-companies-hiring-android-engineers-bangalore"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
