@@ -1,9 +1,5 @@
 {
- "queue": [
-  "how-to-get-hired-at-turing",
-  "how-to-get-hired-at-typeface",
-  "how-to-get-hired-at-uber"
- ],
+ "queue": [],
  "published": [
   "knok-vs-naukri",
   "best-job-search-tools-india-2026",
@@ -1924,7 +1920,10 @@
   "how-to-get-hired-at-state-street",
   "how-to-get-hired-at-sumo-logic",
   "how-to-get-hired-at-swimlane",
-  "how-to-get-hired-at-truefoundry"
+  "how-to-get-hired-at-truefoundry",
+  "how-to-get-hired-at-turing",
+  "how-to-get-hired-at-typeface",
+  "how-to-get-hired-at-uber"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
