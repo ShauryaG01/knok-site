@@ -1,13 +1,5 @@
 {
  "queue": [
-  "how-to-get-hired-at-lenskart",
-  "how-to-get-hired-at-linear",
-  "how-to-get-hired-at-sunbit",
-  "how-to-get-hired-at-verifone",
-  "how-to-get-hired-at-zendev",
-  "legora-engineering-manager-interview",
-  "legora-product-designer-interview",
-  "legora-program-manager-interview",
   "linear-product-designer-interview",
   "linear-product-manager-interview",
   "meesho-software-engineer-interview",
@@ -1983,7 +1975,15 @@
   "how-to-get-hired-at-all-generation-tech",
   "how-to-get-hired-at-cloudbees",
   "how-to-get-hired-at-hevodata",
-  "how-to-get-hired-at-lemon-io"
+  "how-to-get-hired-at-lemon-io",
+  "how-to-get-hired-at-lenskart",
+  "how-to-get-hired-at-linear",
+  "how-to-get-hired-at-sunbit",
+  "how-to-get-hired-at-verifone",
+  "how-to-get-hired-at-zendev",
+  "legora-engineering-manager-interview",
+  "legora-product-designer-interview",
+  "legora-program-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
