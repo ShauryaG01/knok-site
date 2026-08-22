@@ -4,6 +4,8 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    - cron: '17 * * * *'
 permissions:
   contents: read
   pages: write
@@ -19,6 +21,10 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+      - name: Refresh Knok map hiring snapshot
+        run: |
+          python3 scripts/refresh_map_snapshot.py || echo "Live refresh unavailable; publishing the last verified snapshot."
+          test -s output/map/data/all-roles.json
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

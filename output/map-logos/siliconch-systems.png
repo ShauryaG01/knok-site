@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İstanbul Escort Koruma Hizmeti</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        h1 {
+            color: white;
+        }
+        nav {
+            background-color: #444;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 2em;
+            margin-top: 2em; /* space for the header */
+        }
+        h2 {
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+            margin: 1em 0;
+        }
+        .services, .districts {
+            margin-top: 2em;
+        }
+        .service-item, .district-item {
+            background-color: white;
+            padding: 1em;
+            margin-bottom: 1em;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .district-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px 5px 0 0;
+        }
+        @media (min-width: 768px) {
+            .district-item img {
+                width: 50%;
+                height: auto;
+            }
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: relative;
+            clear: both;
+            margin-top: 2em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>İstanbul Escort Koruma Hizmeti</h1>
+    </header>
+    <nav>
+        <a href="#hizmetlerimiz">Hizmetlerimiz</a>
+        <a href="#profesyonel-koruma">Profesyonel Koruma</a>
+        <a href="#gizlilik-guvenlik">Gizlilik ve Güvenlik</a>
+        <a href="#24-7-hizmet">24/7 Hizmet</a>
+        <a href="#ekstra-hizmetler">Ekstra Hizmetler</a>
+        <a href="#semtler">İstanbul'un Semtleri</a>
+    </nav>
+    <div class="container">
+        <section id="hizmetlerimiz">
+            <h2>Hizmetlerimiz</h2>
+            <p>İstanbul'da güvenli ve profesyonel escort koruma hizmeti sunuyoruz. Güvenliğiniz bizim önceliğimizdir. Müşterilerimizin güvenliğini sağlamak için her zaman en iyi çözümleri sunuyoruz ve beklentilerinizi karşılamak için çalışıyoruz.</p>
+            <p>Her müşteri bizim için özeldir ve özel ihtiyaçlarına göre kişiselleştirilmiş koruma hizmetleri sunuyoruz. Güvenliğiniz için tam bir çözüm sunuyoruz; her türlü risk ve tehlikeye karşı en üst düzeyde korunmanızı sağlıyoruz.</p>
+            <p>Profesyonel ekibimiz, her türlü durumda sizi koruyacak bilgi ve deneyime sahiptir. İstanbul'da sağladığımız koruma hizmetleri, sizin ve sevdiklerinizin güvenliğini en üst düzeyde sağlamak için tasarlanmıştır. Kapsamlı koruma hizmetlerimiz hakkında daha fazla bilgi almak için bizimle iletişime geçin.</p>
+            <p>Hizmetlerimiz, etkinliklerde güvenlik sağlamaktan kişisel korumaya kadar geniş bir yelpazeyi kapsar. Özel koruma planlarımız, sizin özel ihtiyaçlarınıza göre şekillendirilir ve en yüksek standartlarda hizmet sunar.</p>
+        </section>
+        <section id="profesyonel-koruma" class="services">
+            <div class="service-item">
+                <h3>Profesyonel Koruma</h3>
+                <p>Tecrübeli ve eğitimli koruma görevlilerimiz ile güvenliğinizi sağlıyoruz. Size özel koruma planları oluşturuyoruz. Koruma ekibimiz, olası tüm tehditlere karşı hazırlıklıdır ve güvenliğinizi sağlamak için en iyi yöntemleri kullanır.</p>
+                <p>Koruma hizmetlerimiz, kişisel güvenliğinizin yanı sıra etkinliklerde ve organizasyonlarda da güvenliği sağlamak için idealdir. Her türlü durum için gerekli olan tüm önlemleri alıyoruz. Profesyonel koruma hizmetlerimiz hakkında daha fazla bilgi almak için bize ulaşın.</p>
+            </div>
+        </section>
+        <section id="gizlilik-guvenlik" class="services">
+            <div class="service-item">
+                <h3>Gizlilik ve Güvenlik</h3>
+                <p>Tüm hizmetlerimizde gizliliğe ve güvenliğe önem veriyoruz. Kişisel bilgileriniz kesinlikle üçüncü şahıslarla paylaşılmaz. Gizliliğiniz bizim için çok önemlidir ve tüm işlemlerimizde en yüksek gizlilik standartlarını uygularız.</p>
+                <p>Hizmetlerimiz, sadece güvenliğinizi sağlamakla kalmaz, aynı zamanda gizliliğinizi de korur. Her türlü bilgi ve detay, en üst düzeyde gizlilikle ele alınır. Güvenliğiniz ve gizliliğiniz için bize güvenebilirsiniz.</p>
+            </div>
+        </section>
+        <section id="24-7-hizmet" class="services">
+            <div class="service-item">
+                <h3>24/7 Hizmet</h3>
+                <p>Her an yanınızda olmaya hazırız. Günün her saati hizmet sunuyoruz ve acil durumlarda hızlıca yanınızdayız. 7/24 hizmet anlayışımız ile günün her saatinde yanınızda olup, güvenliğinizi sağlıyoruz.</p>
+                <p>Acil durumlar için özel eğitim almış ekibimiz, hızlı ve etkili çözümler sunarak her türlü tehdide karşı hazırdır. Güvenliğiniz için kesintisiz hizmet sunuyoruz. 24/7 hizmetlerimiz hakkında daha fazla bilgi için bizimle iletişime geçin.</p>
+            </div>
+        </section>
+        <section id="ekstra-hizmetler" class="services">
+            <div class="service-item">
+                <h3>Ekstra Hizmetler</h3>
+                <p>Özel şoför, VIP araç kiralama, etkinlik güvenliği gibi ekstra hizmetler de sunuyoruz. Size özel hizmet paketlerimizle güvenli ve konforlu bir deneyim yaşamanızı sağlıyoruz.</p>
+                <p>Ekstra hizmetlerimiz hakkında daha fazla bilgi almak ve size özel çözümlerimizi öğrenmek için bizimle iletişime geçin. Her türlü ihtiyacınıza yönelik kapsamlı çözümler sunuyoruz.</p>
+            </div>
+        </section>
+        <section id="semtler" class="districts">
+            <h2>İstanbul'un Semtleri</h2>
+            <div class="district-item">
+                <img src="https://altayguvenlik.com/wp-content/uploads/2016/06/Silahli-Escort-Hizmetleri.jpg" alt="Beyoğlu">
+                <h3>Beyoğlu</h3>
+                <p>İstanbul'un en hareketli ve popüler semtlerinden biri olan Beyoğlu, tarihi ve kültürel zenginlikleriyle dikkat çeker. Burada sağladığımız koruma hizmetleri ile güvenliğinizi en üst düzeyde sağlıyoruz. Beyoğlu, tarihi dokusu ve modern yapısıyla her zaman ilgi odağı olmuştur. İstiklal Caddesi'nden Galata Kulesi'ne kadar birçok önemli noktayı içinde barındıran Beyoğlu, sanat galerileri, tiyatrolar ve müzeleri ile kültürel bir merkezdir. Gece hayatının da merkezi olan bu semtte güvenliğinizi sağlamak için profesyonel hizmetler sunmaktayız.</p>
+            </div>
+            <div class="district-item">
+                <img src="https://www.cnkakademi.com/view/uploads/hizmet/611f89e87c72f162945687215.jpg" alt="Beşiktaş">
+                <h3>Beşiktaş</h3>
+                <p>Beşiktaş, boğazın eşsiz manzarası ve canlı atmosferi ile bilinir. Bu bölgede sunduğumuz koruma hizmetleri ile huzur ve güvenliği sağlıyoruz. Beşiktaş, aynı zamanda önemli iş merkezlerine ev sahipliği yapar ve bu nedenle yoğun bir nüfus ve trafikle karşılaşabilirsiniz. Tarihi yapıları, üniversiteleri ve sahil şeridi ile Beşiktaş, hem yerli hem de yabancı turistlerin ilgisini çeker. Beşiktaş'ta sunduğumuz koruma hizmetleri ile hem günlük hayatınızda hem de özel etkinliklerinizde yanınızdayız.</p>
+            </div>
+            <div class="district-item">
+                <img src="https://www.afcguvenlik.com.tr/wp-content/uploads/2018/09/VIP-Security-1024x682.jpg" alt="Kadıköy">
+                <h3>Kadıköy</h3>
+                <p>Anadolu Yakası'nın merkezi olan Kadıköy, kültürel etkinlikleri ve renkli yaşamı ile ünlüdür. Kadıköy'deki koruma hizmetlerimizle güvenliğinizi garanti altına alıyoruz. Kadıköy, özellikle genç nüfusun yoğun olarak yaşadığı bir semttir ve barları, kafeleri, restoranları ile 24 saat yaşayan bir bölgedir. Moda Sahili, Bağdat Caddesi gibi popüler yerleri ile Kadıköy, aynı zamanda sanatın ve kültürün merkezi konumundadır. Kadıköy'de sunduğumuz koruma hizmetleri ile hem sosyal yaşamınızda hem de iş hayatınızda güvenliğinizi sağlıyoruz.</p>
+            </div>
+            <div class="district-item">
+                <img src="https://ozelguvenliksirketleriankara.com/wp-content/uploads/2021/03/yakin-koruma.jpg" alt="Şişli">
+                <h3>Şişli</h3>
+                <p>İş ve alışveriş merkezleri ile öne çıkan Şişli, her an hareketli ve canlıdır. Şişli'de sunduğumuz koruma hizmetleri ile güvenli bir yaşam sunuyoruz. Şişli, İstanbul'un önemli ticaret ve finans merkezlerinden biridir ve birçok plazaya, alışveriş merkezine ve lüks rezidansa ev sahipliği yapar. Şişli, aynı zamanda tarihi mekanları ve kültürel etkinlikleri ile de dikkat çeker. Her gün binlerce insanın ziyaret ettiği bu bölgede, güvenliğinizi sağlamak için profesyonel koruma hizmetleri sunuyoruz. Özel etkinliklerinizde, alışverişlerinizde ve günlük yaşamınızda Şişli'deki koruma hizmetlerimiz ile yanınızdayız.</p>
+            </div>
+            <div class="district-item">
+                <img src="https://yakinkorumaistanbul.com/wp-content/uploads/2021/02/yakin-koruma.jpg" alt="Üsküdar">
+                <h3>Üsküdar</h3>
+                <p>Boğazın karşı kıyısında yer alan Üsküdar, tarihi dokusu ve sakin yaşamı ile bilinir. Üsküdar'da sağladığımız koruma hizmetleri ile huzurunuzu koruyoruz. Üsküdar, tarihi camileri, çeşmeleri ve konakları ile İstanbul'un tarihi zenginliklerinin merkezlerinden biridir. Ayrıca, boğaz manzaralı yürüyüş yolları ve kafeleri ile Üsküdar, hem tarihi hem de modern yaşamı bir arada sunar. Üsküdar'daki koruma hizmetlerimizle, bu huzurlu ve sakin semtte güvenliğinizi en üst düzeyde sağlıyoruz. Hem günlük yaşamınızda hem de özel etkinliklerinizde Üsküdar'da yanınızdayız.</p>
+            </div>
+            <div class="district-item">
+                <img src="https://antalfa.com.tr/images/services/9448684884899-712-vip-koruma.jpg" alt="Fatih">
+                <h3>Fatih</h3>
+                <p>İstanbul'un tarihi yarımadası olan Fatih, birçok tarihi yapıya ev sahipliği yapar. Fatih'teki koruma hizmetlerimiz ile tarihi atmosferde güvenliğinizi sağlıyoruz. Fatih, Sultanahmet Camii, Ayasofya, Topkapı Sarayı gibi dünyaca ünlü tarihi eserlerin bulunduğu bir semttir ve her yıl milyonlarca turist tarafından ziyaret edilir. Tarihi dokusu ve kültürel zenginlikleri ile Fatih, İstanbul'un en önemli semtlerinden biridir. Bu yoğun ve hareketli bölgede sunduğumuz koruma hizmetleri ile güvenliğinizi sağlıyor ve tarihi atmosferde huzurla dolaşmanızı sağlıyoruz.</p>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 İstanbul Escort Koruma Hizmeti. Tüm hakları saklıdır.<br> Taklitler aslını yüceltir. <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="74061b1b00440c4d40341319151d185a171b19">[email&#160;protected]</a>  <br><span id="email"></span></p>
+    </footer>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var host = window.location.hostname;
+            if (host.startsWith("www.")) {
+                host = host.substring(4);
+            }
+            var email = "iletisim@" + host;
+            document.getElementById("email").textContent = email;
+        });
+    </script>
+</body>
+</html>

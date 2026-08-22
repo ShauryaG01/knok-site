@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ripplr</title>
+  <link rel="stylesheet" href="src/css/index.css?v=1" />
+  <link rel="stylesheet" href="src/css/index-tab-forms.css?v=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+</head>
+
+<body>
+  <nav class="navibar navibar-fixed-top">
+    <div class="menu-container">
+      <header class="header">
+        <div class="nav-container">
+          <div class="ib logo-container">
+            <a href="/"><img src="src/image/home.png" alt="home" /> </a>
+          </div>
+          <div class="ib navigations">
+            <ul>
+              <li class="active"><a href="/">Home </a></li>
+              <li><a href="about-us.html">About Us </a></li>
+              <li class="dropdown">
+                <a>Services</a>
+                <ul class="dropdown-content">
+                  <li>
+                    <a href="distribution-service.html">Distribution</a>
+                  </li>
+                  <li><a href="logistics-services.html">Logistics</a></li>
+                </ul>
+              </li>
+              <li><a href="culture.html">Culture</a></li>
+              <li><a href="careers.html">Careers</a></li>
+              <li class="contact-us">
+                <a href="index.html#enquirenow">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <a href="javascript:void(0);" class="hamburg" onclick="openHumbug()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </header>
+    </div>
+  </nav>
+  <div id="myLinks" class="ham-links">
+    <a href="/">Home</a>
+    <a href="about-us.html">About Us</a>
+    <a href="distribution-service.html">Distribution Service</a>
+    <a href="logistics-services.html">Logistics Service</a>
+    <a href="culture.html">Culture</a>
+    <a href="careers.html">Career</a>
+    <a href="index.html#enquirenow">Contact</a>
+  </div>
+  <section class="section-1">
+    <div class="section-container">
+      <div class="section-1-row">
+        <div class="future-distribution">
+          <div class="section-1-heading">
+            Join us in shaping the future <br />
+            of Distribution and Logistics
+          </div>
+          <p class="section-1-desc">
+            Building India’s largest digital first distribution platform.
+          </p>
+          <br />
+          <br />
+          <div class="in-enquire-now">
+            <!-- <a class="actionBtn" href="#enquirenow">Enquire Now</a> -->
+            <img src="src/image/home-5-icons.svg" alt="My Happy SVG" />
+          </div>
+        </div>
+        <div class="future-distribution-image">
+          <img src="src/image/distribution-eco-system.svg" alt="My Happy SVG" />
+        </div>
+      </div>
+    </div>
+    <!-- Home Form Starts Here -->
+    <div id="home-tab-forms">
+      <div class="tab-containers" id="enquirenow">
+        <nav>
+          <div class="nav nav-tabs ripplr-d" id="nav-tab" role="tablist">
+            <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
+              type="button" role="tab" aria-controls="nav-home" aria-selected="true">
+              Distribution
+            </button>
+            <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
+              type="button" role="tab" aria-controls="nav-profile" aria-selected="false">
+              Logistics
+            </button>
+          </div>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+            <form class="requires-validation new-inline-forms" novalidate id="distribution">
+              <div class="form-row">
+                <input type="text" id="full_name" required class="form-control" placeholder="Full Name*" />
+                <input type="number" class="form-control" id="mobile_number"
+                  onKeyPress="if(this.value.length==10) return false;" required placeholder="Mobile No*" />
+              </div>
+              <div class="form-row">
+                <input type="email" class="form-control" id="email" placeholder="Email" />
+                <input type="message" class="form-control" id="message" required placeholder="Brand Name*" />
+              </div>
+              <button type="submit" class="btn action-btn btn-default btn-submit">
+                Submit
+              </button>
+            </form>
+          </div>
+          <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+            <form class="requires-validation new-inline-forms" novalidate id="logistics">
+              <div class="form-row">
+                <input type="text" id="l_full_name" required onkeydown="return /[a-z]/i.test(event.key)" maxlength="32"
+                  class="form-control" placeholder="Full Name*" />
+                <input type="number" class="form-control" id="l_mobile_number"
+                  onKeyPress="if(this.value.length==10) return false;" required placeholder="Mobile No*" />
+              </div>
+              <div class="form-row">
+                <input type="text" id="l_from" required class="form-control" placeholder="From *"
+                  onkeydown="return /[a-z]/i.test(event.key)" maxlength="32" />
+                <input type="text" id="l_to" required class="form-control" placeholder="To *"
+                  onkeydown="return /[a-z]/i.test(event.key)" />
+              </div>
+              <div class="form-row">
+                <select class="form-select" required id="l_product_type" aria-label="Default select example"
+                  placeholder="Product Type*">
+                  <option selected disabled value="">Select type</option>
+                  <option value="Document">Document</option>
+                  <option value="FMCG">FMCG</option>
+                  <option value="Logistic">Apparel</option>
+                  <option value="Electronics">Electronics</option>
+                  <option value="Food">Food</option>
+                  <option value="Furniture">Furniture</option>
+                  <option value="Others">Others</option>
+                </select>
+                <input type="number" min="1" max="9999" id="l_weight"
+                  onKeyPress="if(this.value.length==4) return false;" required class="form-control"
+                  placeholder="Weight (in Kg)*" />
+              </div>
+              <div class="form-row">
+                <select class="form-select" required id="l_company" aria-label="Default select example"
+                  placeholder="Company**">
+                  <option selected disabled value="">Select Company</option>
+                  <option value="Document">Company</option>
+                  <option value="FMCG">Individual</option>
+                </select>
+              </div>
+              <button type="submit" class="btn action-btn btn-default btn-submit">
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Home Form Ends Here -->
+  </section>
+  <section class="section-2">
+    <div class="reveal active">
+      <!-- <div class="section-container" style="position: relative">
+        <div class="section-stats">
+          <div class="stats-container">
+            <div class="stats-main">
+              <div class="stats-count">600+</div>
+              <div class="stats-desc">Man Power</div>
+            </div>
+            <div class="stats-main">
+              <div class="stats-count">2,00,000+ <span>Sq.ft </span></div>
+              <div class="stats-desc">Warehouse Space</div>
+            </div>
+            <div class="stats-main">
+              <div class="stats-count">2,00,000+ <span>Sq.ft </span></div>
+              <div class="stats-desc">Warehouse Space</div>
+            </div>
+            <div class="stats-main">
+              <div class="stats-count">12+</div>
+              <div class="stats-desc">Cities</div>
+            </div>
+            <div class="stats-main">
+              <div class="stats-count 25">25+</div>
+              <div class="stats-desc">Brands</div>
+            </div>
+            <div class="stats-main">
+              <div class="stats-count">80000+</div>
+              <div class="stats-desc">Retailer</div>
+            </div>
+            <div class="stats-main">
+              <div class="stats-count">3,00,000+</div>
+              <div class="stats-desc">Orders Processed</div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <section class="section-4 ">
+        <div class="section-container ">
+          <div class="section-4-heading">Industry Focus</div>
+          <div class="group-distri-image">
+            <img src="src/image/industry_focus.svg" alt="My Happy SVG" />
+          </div>
+        </div>
+      </section>
+      <section class="section-4a reveal active">
+        <div class="section-container">
+          <div class="section-4-heading">Industry Focus</div>
+          <ul>
+            <li>
+              <span> 1</span> FMCG - Order fulfillment, Warehousing, Logistics,
+              Collections, Analytics
+            </li>
+            <li>
+              <span> 2</span> Dairy,Meat & Seafood - Refrigeration, Storage,
+              Inventory, Logistics
+            </li>
+            <li>
+              <span> 3</span> White Goods - Logistics, Storage, Tracking,
+              Compliance
+            </li>
+            <li>
+              <span> 4</span> E-Commerce - Warehousing, Logistics, Tracking,
+              Invoicing
+            </li>
+            <li>
+              <span> 5</span> B2B/B2C Retailers - End-to-end Supply Chain
+              Solutioning
+            </li>
+            <li>
+              <span> 6</span> Perishables - Logistics, Storage, Tracking,
+              Compliance
+            </li>
+          </ul>
+        </div>
+      </section>
+      <div class="section-container reveal active">
+        <div class="section-2-heading">
+          Determined to built India’s first
+          <br />
+          Plug and Play Distribution Model
+        </div>
+        <div class="group-distri-image">
+          <img src="src/image/section2group.svg" alt="My Happy SVG" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-3">
+    <div class="reveal active">
+      <div class="section-container ">
+        <div class="section-2-heading ">Our Distribution Services</div>
+        <div class="section-3-row">
+          <div class="onboard-list">
+            <div class="onboarding-data">
+              <ul>
+                <li>Brand Onboarding</li>
+                <li>Supplier Onboarding</li>
+                <li>Warehouse Onboarding</li>
+                <li>Store Onboarding (Web, Excel Upload, and Salesman App )</li>
+              </ul>
+              <div class="">
+                <img src="src/image/brandgroup.svg" alt="My Happy SVG" />
+              </div>
+            </div>
+            <div class="product-data">
+              <ul>
+                <li>Product Management</li>
+                <li>Price Management</li>
+                <li>Special Rate Card Management</li>
+                <li>Scheme Management</li>
+              </ul>
+              <div class="">
+                <img src="src/image/prodduct_dist.svg" alt="My Happy SVG" />
+              </div>
+            </div>
+            <div class="procurement-data">
+              <ul>
+                <li>Purchase order Management</li>
+                <li>Goods Receive Note Management</li>
+                <li>Purchase Return Management</li>
+                <li>Debit Note Management</li>
+              </ul>
+              <div class="">
+                <img src="src/image/procurement_dist.svg" alt="My Happy SVG" />
+              </div>
+            </div>
+            <div class="last-mile-data">
+              <ul>
+                <li>Vehicle Dispatch Process</li>
+                <li>
+                  Delivery App (Delivered, Partial Delivery, Order Cancellation,
+                  Delivery Attempt, Payment Collections)
+                </li>
+                <li>Delivery Return Management</li>
+              </ul>
+              <div class="">
+                <img src="src/image/last-mile.svg" alt="My Happy SVG" />
+              </div>
+            </div>
+            <div class="payment-data">
+              <ul>
+                <li>Payment Collections</li>
+                <li>Outstanding</li>
+                <li>Payment Settlement</li>
+              </ul>
+              <br />
+
+              <div class="">
+                <img src="src/image/payment.svg" alt="My Happy SVG" />
+              </div>
+            </div>
+          </div>
+          <div class="distribution-service-logistic distribution-service">
+            <div class="onboarding active">Onboarding Management</div>
+            <div class="distribution-product">Product Scheme Management</div>
+            <div class="distribution-procurement">Procurement</div>
+            <div class="distribution-last-mile">Last Mile</div>
+            <div class="distribution-payment">Payment Management</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-3">
+    <div class="section-container reveal active">
+      <div class="section-2-heading">Our Logistic Services</div>
+      <div class="section-3-row">
+        <div class="distribution-service-logistic logistics-service">
+          <div class="active surface">Surface Transport</div>
+          <div class="warehouse">Warehouse Management</div>
+          <div class="freight">Air Freight</div>
+          <div class="tracking">Live Tracking</div>
+          <div class="feet">End-to-End Fleet Management</div>
+        </div>
+        <div class="onboard-list">
+          <div class="surface-data">
+            <ul>
+              <li>Fleet Management</li>
+              <li>Alert Monitoring</li>
+              <li>Live Tracking</li>
+              <li>Invoice Generation</li>
+              <li>Last Mile (B2B and B2C)</li>
+            </ul>
+            <br />
+            <div class="">
+              <img src="src/image/surface.svg" alt="My Happy SVG" />
+            </div>
+          </div>
+          <div class="warehouse-data">
+            <ul>
+              <li>Order Fulfilment</li>
+              <li>Inventory Management</li>
+              <li>Logistics and Transportation</li>
+              <li>Man Power and Quality Control</li>
+              <li>Technology and Automation</li>
+            </ul>
+            <br />
+            <div class="">
+              <img src="src/image/warehouse-l.svg" alt="My Happy SVG" />
+            </div>
+          </div>
+          <div class="freight-data">
+            <ul>
+              <li>Cargo Handling</li>
+              <li>Documentation and Compliance</li>
+              <li>End-to-End Goods Handling</li>
+              <li>Last Mile</li>
+              <li>Customised Handling</li>
+            </ul>
+            <br />
+            <div class="">
+              <img src="src/image/freight.svg" alt="My Happy SVG" />
+            </div>
+          </div>
+          <div class="tracking-data">
+            <ul>
+              <li>Real-Time Visibility</li>
+              <li>Dashboard and Reports</li>
+              <li>Data Insights</li>
+              <li>Event Notification and Alerts</li>
+              <li>Temperature Controlled Monitoring</li>
+            </ul>
+            <br />
+            <div class="">
+              <img src="src/image/tracking.svg" alt="My Happy SVG" />
+            </div>
+          </div>
+          <div class="feet-data">
+            <ul>
+              <li>Vehicle Management</li>
+              <li>Vendor and Driver Management</li>
+              <li>Cost Efficient</li>
+              <li>Reports, Invoices and Tax Compliance</li>
+              <li>GPS, FASTag and Sim Based Tracking</li>
+            </ul>
+            <br />
+            <div class="">
+              <img src="src/image/fleet.svg" alt="My Happy SVG" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- <section class="section-5">
+        <div class="section-container"> 
+            <div class="section-5-heading"> 
+                What Brand Says About Us
+            </div>
+           <div class="brand-reviews">
+                <div class="brand-container">
+                    <img src="src/image/uni_brand.svg" alt="">
+                    <div class="flex-disp">
+                        <img src = "src/image/star-solid.svg" alt="My Happy SVG"/>
+                        <img src = "src/image/star-solid.svg" alt="My Happy SVG"/>
+                        <img src = "src/image/star-solid.svg" alt="My Happy SVG"/>
+                        <img src = "src/image/star-solid.svg" alt="My Happy SVG"/>
+                    </div>
+                    <div class="brand-comments">
+                        Best Distribution service and updates the inventory and
+                        collection on time to make the process easy and smooth,
+                        we would love to continue and expanbd our business with them.
+                    </div>
+                </div>
+                <div class="brand-container">
+                    <img src="src/image/dabur_brand.svg" alt="">
+                    <div class="flex-disp">
+                        <img src = "src/image/star-solid.svg" alt="My Happy SVG"/>
+                        <img src = "src/image/star-solid.svg" alt="My Happy SVG"/>
+                        <img src = "src/image/star-solid.svg" alt="My Happy SVG"/>
+                        <img src = "src/image/star-solid.svg" alt="My Happy SVG"/>
+                    </div>
+                    <div class="brand-comments">
+                        Best Distribution service and updates the inventory and
+                        collection on time to make the process easy and smooth,
+                        we would love to continue and expanbd our business with them.
+                    </div>
+                </div>
+           </div>
+        </div>
+    </section> -->
+  <section class="section-5">
+    <div class="section-container reveal active">
+      <div class="section-5-heading">Latest News</div>
+      <div class="brand-reviews">
+        <div class="brand-container news">
+          <div class="latest-news">
+            <a target="_blank"
+              href="https://inc42.com/buzz/distribution-logistics-startup-ripplr-bags-40-mn-funding-for-pan-india-growth/">
+              <div class="lastest-news-container">
+                <div>
+                  <img src="src/image/bikaji-foods.png" alt="bikaji" />
+                </div>
+                <div class="news-desc">
+                  Distribution & Logistics Startup Ripplr Bags $40 Mn Funding
+                  For Pan-India Growth
+                </div>
+              </div>
+            </a>
+            <a target="_blank"
+              href="https://economictimes.indiatimes.com/tech/funding/fmcg-distribution-and-logistics-startup-ripplr-raises-40-million-led-by-fireside-ventures/articleshow/100138451.cms">
+              <div class="lastest-news-container">
+                <div><img src="src/image/Zephyr.jpg" alt="Zephyr" /></div>
+                <div class="news-desc">
+                  Distribution & Logistics startup Ripplr raises $40 million
+                  in funding led by Fireside Ventures
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- <div class="brand-container">
+                  <img src="src/image/dabur_brand.svg" alt="">
+                  <div class="flex-disp">
+                      <img src = "src/image/star-solid.svg" alt="My Happy SVG"/>
+                      <img src = "src/image/star-solid.svg" alt="My Happy SVG"/>
+                      <img src = "src/image/star-solid.svg" alt="My Happy SVG"/>
+                      <img src = "src/image/star-solid.svg" alt="My Happy SVG"/>
+                  </div>
+                  <div class="brand-comments">
+                      Best Distribution service and updates the inventory and
+                      collection on time to make the process easy and smooth,
+                      we would love to continue and expanbd our business with them.
+                  </div>
+              </div> -->
+      </div>
+    </div>
+  </section>
+  <!-- Old form section -->
+  <footer class="footer-section">
+    <div class="footer-border">
+      <div class="footer-container">
+        <div class="footer-adress-section">
+          <div class="footer-address">
+            <h3>Address</h3>
+            <div>
+              Intelligent Retail Pvt Ltd
+              <br />
+              G Floor, 413/C,
+              <br />
+              15th Cross Rd, Muneswara Nagar, Sector 6,
+              <br />
+              HSR Layout, Bengaluru, Karnataka-560102
+            </div>
+            <div>
+              Location: <a style="color: #d29657;" href="https://maps.app.goo.gl/icwtrtFbhLfqHALu9" target="_blank"
+                rel="noopener noreferrer">
+                View on Google Maps
+              </a>
+            </div>
+          </div>
+          <div class="links-to-pages1">
+            <ul>
+              <li><a href="/">Home </a></li>
+              <li><a href="about-us.html">About Us </a></li>
+              <li><a href="environmental-social-and-governance.html"> ESG</a></li>
+              <li><a href="#enquirenow"> Contact</a></li>
+              <!-- <li>Distribution Service </li>
+                <li>Logistics Service </li> -->
+            </ul>
+          </div>
+          <div class="links-to-pages1">
+            <ul>
+              <li>
+                <a href="distribution-service.html">Distribution Service </a>
+              </li>
+              <li>
+                <a href="logistics-services.html">Logistics Service </a>
+              </li>
+              <li><a href="culture.html">Culture</a></li>
+              <li><a href="careers.html"> Careers </a></li>
+            </ul>
+          </div>
+          <div class="connect-with">
+            <h4>Connect with Us on</h4>
+            <a href="https://www.linkedin.com/company/intelligent-retail-pvt-ltd/">
+              <img src="src/image/linkedin.svg" alt="linkedin" />
+            </a>
+            <a href="https://www.facebook.com/people/Ripplr/100063832101175/">
+              <img src="src/image/facebook.svg" alt="facebook" />
+            </a>
+            <br /><br />
+            <div>
+              <a class="actionBtn" href="#enquirenow">Enquire Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="line-border-footer"></div>
+      <div class="footer-container-terms">
+        <ul>
+          <li><a href="/privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="/terms-and-conditions.html">Terms & Conditions</a></li>
+          <!-- <li>Data privacy Notification</li>
+            <li>Brand Protection</li>
+            <li>Cookies Policy</li> -->
+        </ul>
+        <p class="copyright">
+          Copyright © 2025 Intelligent Retail Pvt. Ltd. All rights reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+    integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+    integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"
+    integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145820173-1"></script>
+  <!-- <script> !function (w, d, s, ...args) {
+      var div = d.createElement('div');
+      div.id = 'aichatbot';
+      d.body.appendChild(div);
+      w.chatbotConfig = args;
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s);
+      j.defer = true;
+      j.type = 'module';
+      j.src = 'https://aichatbot.sendbird.com/index.js';
+      f.parentNode.insertBefore(j, f);
+    }(window, document, 'script', 'CAD5687F-B874-4DB3-8941-3858DDC3D58B', 'onboarding_bot', {
+      apiHost: 'https://api-cf-ap-8.sendbird.com'
+      ,
+    }); </script> -->
+  <script> !function (w, d, s, ...args) {
+      var div = d.createElement('div');
+      div.id = 'aichatbot';
+      d.body.appendChild(div);
+      w.chatbotConfig = args;
+      var f = d.getElementsByTagName(s)[0], j = d.createElement(s); j.defer = true; j.type = 'module';
+      j.src = 'https://aichatbot.sendbird.com/index.js';
+      f.parentNode.insertBefore(j, f);
+    }(window, document, 'script', 'E9F84DE2-4247-4E74-A948-09CE2D29B47C', 'onboarding_bot', {
+      apiHost: 'https://api-cf-ap-8.sendbird.com'
+      ,
+    }); </script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      window.dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "UA-145820173-1");
+  </script>
+  <script src="src/js/api.js"></script>
+  <script src="src/js/common.js"></script>
+  <script src="src/js/index.js"></script>
+</body>
+
+</html>

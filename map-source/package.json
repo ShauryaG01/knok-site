@@ -1,0 +1,40 @@
+{
+  "name": "career-ops-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "build:staging": "node scripts/staging-env.mjs",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest --runInBand",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "maplibre-gl": "^5.24.0",
+    "next": "15.5.21",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "6.6.3",
+    "@testing-library/react": "16.2.0",
+    "@types/jest": "29.5.14",
+    "@types/node": "22.13.1",
+    "@types/react": "19.0.8",
+    "@types/react-dom": "19.0.3",
+    "autoprefixer": "10.4.20",
+    "jest": "29.7.0",
+    "jest-environment-jsdom": "29.7.0",
+    "postcss": "8.5.25",
+    "tailwindcss": "3.4.17",
+    "typescript": "5.7.3"
+  },
+  "overrides": {
+    "brace-expansion": "5.0.9",
+    "postcss": "8.5.25",
+    "sharp": "0.35.3"
+  }
+}
