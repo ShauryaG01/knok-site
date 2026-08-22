@@ -285,9 +285,13 @@ function logoCandidates(company: BengaluruCompany) {
   } catch {
     // Invalid source websites are rejected by the dataset generator.
   }
-  // The product logo endpoint is a useful final recovery source, but it must
-  // never hold up the verified-domain fallbacks when the API is cold or down.
-  candidates.push(`${API_BASE}/api/company-logo/${encodeURIComponent(company.id)}?external_only=true`);
+  // The product logo endpoint is a useful final recovery source for the
+  // authenticated application. The public static map deliberately has no
+  // RackNerd dependency, so its downloaded and verified-domain candidates are
+  // the complete fallback chain.
+  if (!MAP_STATIC_DATA_BASE) {
+    candidates.push(`${API_BASE}/api/company-logo/${encodeURIComponent(company.id)}?external_only=true`);
+  }
   return [...new Set(candidates)];
 }
 
