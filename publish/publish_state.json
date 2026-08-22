@@ -1,13 +1,5 @@
 {
  "queue": [
-  "how-to-get-hired-at-happylocate",
-  "how-to-get-hired-at-hotelogix",
-  "how-to-get-hired-at-prismhr",
-  "how-to-get-hired-at-uveye",
-  "imc-data-engineer-interview",
-  "imc-devops-engineer-interview",
-  "instacart-data-analyst-interview",
-  "instacart-qa-engineer-interview",
   "jane-street-engineering-manager-interview",
   "jane-street-frontend-engineer-interview",
   "jane-street-product-manager-interview",
@@ -2042,7 +2034,15 @@
   "how-to-get-hired-at-eclerx-services",
   "how-to-get-hired-at-eloelo",
   "how-to-get-hired-at-exotel",
-  "how-to-get-hired-at-fastly"
+  "how-to-get-hired-at-fastly",
+  "how-to-get-hired-at-happylocate",
+  "how-to-get-hired-at-hotelogix",
+  "how-to-get-hired-at-prismhr",
+  "how-to-get-hired-at-uveye",
+  "imc-data-engineer-interview",
+  "imc-devops-engineer-interview",
+  "instacart-data-analyst-interview",
+  "instacart-qa-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
