@@ -1,13 +1,5 @@
 {
  "queue": [
-  "gitlab-program-manager-interview",
-  "gitlab-security-engineer-interview",
-  "glean-qa-engineer-interview",
-  "how-to-get-hired-at-auditoria-ai",
-  "how-to-get-hired-at-eclerx-services",
-  "how-to-get-hired-at-eloelo",
-  "how-to-get-hired-at-exotel",
-  "how-to-get-hired-at-fastly",
   "how-to-get-hired-at-happylocate",
   "how-to-get-hired-at-hotelogix",
   "how-to-get-hired-at-prismhr",
@@ -2042,7 +2034,15 @@
   "databricks-product-manager-interview",
   "datadog-ui-ux-designer-interview",
   "epicgames-software-engineer-interview",
-  "gitlab-product-designer-interview"
+  "gitlab-product-designer-interview",
+  "gitlab-program-manager-interview",
+  "gitlab-security-engineer-interview",
+  "glean-qa-engineer-interview",
+  "how-to-get-hired-at-auditoria-ai",
+  "how-to-get-hired-at-eclerx-services",
+  "how-to-get-hired-at-eloelo",
+  "how-to-get-hired-at-exotel",
+  "how-to-get-hired-at-fastly"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
