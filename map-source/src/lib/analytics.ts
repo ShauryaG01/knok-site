@@ -15,6 +15,7 @@ const SESSION_KEY = "knok-analytics-session";
 const QUEUE_KEY = "knok-analytics-queue-v3";
 const SESSION_TIMEOUT_MS = 30 * 60 * 1000;
 const MAX_QUEUE_SIZE = 100;
+const PUBLIC_ANALYTICS_EVENT = "knok:public-analytics";
 
 export type AnalyticsEvent =
   | "signup"
@@ -296,6 +297,13 @@ export function track(event: AnalyticsEvent, properties: Record<string, unknown>
     properties: safeProperties(event, properties),
   };
   enqueue(queued);
+  window.dispatchEvent(new CustomEvent(PUBLIC_ANALYTICS_EVENT, {
+    detail: {
+      event: queued.event,
+      route: queued.route,
+      properties: queued.properties,
+    },
+  }));
   void flushAnalyticsQueue();
 }
 

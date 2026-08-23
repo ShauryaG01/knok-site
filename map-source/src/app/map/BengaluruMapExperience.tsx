@@ -1345,7 +1345,7 @@ export default function BengaluruMapExperience({ data }: { data: BengaluruMapDat
         <label className={styles.searchField}>
           <Search />
           <span className={styles.visuallyHidden}>Search companies, sectors or neighbourhoods</span>
-          <input value={search} onChange={(event) => setSearch(event.target.value)} placeholder={hiringOnly ? allRolesSelected ? "Search hiring companies" : `Search ${role} companies` : "Search companies, sectors or locations"} />
+          <input data-clarity-mask="true" value={search} onChange={(event) => setSearch(event.target.value)} placeholder={hiringOnly ? allRolesSelected ? "Search hiring companies" : `Search ${role} companies` : "Search companies, sectors or locations"} />
           {search ? <button type="button" onClick={() => setSearch("")} aria-label="Clear search"><X /></button> : null}
         </label>
 

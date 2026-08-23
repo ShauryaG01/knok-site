@@ -9,8 +9,17 @@ The public build is compiled with:
 ```sh
 NEXT_PUBLIC_MAP_STATIC_DATA_BASE=/map/data \
 NEXT_PUBLIC_PRODUCT_ORIGIN=https://hey.knok.work \
+NEXT_PUBLIC_GA_MEASUREMENT_ID=G-PPJ6D8NBTQ \
+NEXT_PUBLIC_CLARITY_PROJECT_ID=xjnqobcrqk \
+NEXT_PUBLIC_POSTHOG_PROJECT_TOKEN=<public-ingestion-token> \
+NEXT_PUBLIC_POSTHOG_HOST=https://us.i.posthog.com \
 npm run build
 ```
+
+The public map uses basic consent mode. Google Analytics 4, PostHog and
+Microsoft Clarity load only after a visitor allows optional analytics. The map
+sends an explicit allowlist of product events; PostHog autocapture and replay
+are disabled, while Clarity inputs are masked.
 
 `scripts/refresh_map_snapshot.py` refreshes the role snapshots without
 rebuilding the application. GitHub Actions publishes those snapshots and the

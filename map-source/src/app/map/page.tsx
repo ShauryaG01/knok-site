@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import BengaluruMapExperience, { type BengaluruMapData } from "./BengaluruMapExperience";
+import { PublicMapAnalytics } from "./PublicMapAnalytics";
 import mapData from "@/map-content/bengaluruMap.json";
 
 export const metadata: Metadata = {
@@ -17,5 +18,11 @@ export const metadata: Metadata = {
 };
 
 export default function MapPage() {
-  return <BengaluruMapExperience data={mapData as BengaluruMapData} />;
+  const data = mapData as BengaluruMapData;
+  return (
+    <>
+      <PublicMapAnalytics totalCompanies={data.companies.length} />
+      <BengaluruMapExperience data={data} />
+    </>
+  );
 }
