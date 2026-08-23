@@ -61,6 +61,10 @@ export type AnalyticsEvent =
   | "map_navigation_clicked"
   | "map_share_clicked"
   | "map_feedback_clicked"
+  | "map_alert_prompt_opened"
+  | "map_alert_prompt_dismissed"
+  | "map_alert_submitted"
+  | "map_alert_failed"
   | "action_error";
 
 const EVENT_PROPERTIES: Record<AnalyticsEvent, ReadonlySet<string>> = {
@@ -107,6 +111,10 @@ const EVENT_PROPERTIES: Record<AnalyticsEvent, ReadonlySet<string>> = {
   map_navigation_clicked: new Set(["destination", "role"]),
   map_share_clicked: new Set(["city", "view", "filters_count"]),
   map_feedback_clicked: new Set(["mode"]),
+  map_alert_prompt_opened: new Set(["trigger", "role_present"]),
+  map_alert_prompt_dismissed: new Set(["trigger", "completed"]),
+  map_alert_submitted: new Set(["trigger", "role_present"]),
+  map_alert_failed: new Set(["trigger", "error_code"]),
   action_error: new Set(["action", "status", "error_code"]),
 };
 

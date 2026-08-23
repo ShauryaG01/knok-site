@@ -33,6 +33,7 @@ import { KnokLogo } from "@/components/KnokLogo";
 import { API_BASE } from "@/lib/apiBase";
 import { track, trackOnce } from "@/lib/analytics";
 import { clusterRadiusForZoom, clusterTierForZoom, companyKey, companyMatchesSearch, dispersedMarkerOffsets, groupProjectedCompanies, jobsForCompany } from "./mapModel";
+import { MapJobAlertPrompt } from "./MapJobAlertPrompt";
 import styles from "./map.module.css";
 
 type CompanyKind = "startup" | "vc" | "employer";
@@ -1489,6 +1490,12 @@ export default function BengaluruMapExperience({ data }: { data: BengaluruMapDat
       <a className={styles.feedbackButton} href={FEEDBACK_URL} target="_blank" rel="noreferrer" aria-label="Request or share feedback" onClick={() => track("map_feedback_clicked", { mode: hiringOnly ? "hiring" : "explore" })}>
         <span className={styles.feedbackIcon}><MessageCircle /></span><span className={styles.feedbackCopy}>Feedback</span>
       </a>
+
+      <MapJobAlertPrompt
+        roleTarget={role === ALL_ROLES ? "" : role}
+        searchQuery={search}
+        engaged={Boolean(selectedId || hiringOnly || search.trim() || activeFilterCount)}
+      />
 
       <footer className={styles.footer}>
         <span>Independent research beta · company facts require ongoing verification</span>
