@@ -24,7 +24,9 @@ const POSTHOG_PROJECT_TOKEN = process.env.NEXT_PUBLIC_POSTHOG_PROJECT_TOKEN || "
 const POSTHOG_HOST = (process.env.NEXT_PUBLIC_POSTHOG_HOST || "https://us.i.posthog.com").replace(/\/$/, "");
 
 let initialization: Promise<void> | null = null;
+let posthogInitialization: Promise<void> | null = null;
 let posthogClient: PostHog | null = null;
+const pendingPostHogEvents: PublicAnalyticsDetail[] = [];
 let enabled = false;
 let capturedPagePath = "";
 
@@ -41,7 +43,11 @@ function appendScript(id: string, src: string): void {
 function initializeGoogleAnalytics(): void {
   if (!GA_MEASUREMENT_ID) return;
   window.dataLayer = window.dataLayer || [];
-  window.gtag = window.gtag || ((...args: unknown[]) => window.dataLayer?.push(args));
+  // Google Tag's command processor expects the native `arguments` object.
+  // Queuing a normal array looks equivalent but silently prevents collection.
+  window.gtag = window.gtag || function gtag(..._args: unknown[]) {
+    window.dataLayer?.push(arguments);
+  };
   window.gtag("consent", "default", {
     ad_storage: "denied",
     ad_user_data: "denied",
@@ -95,15 +101,45 @@ async function initializePostHog(): Promise<void> {
   posthogClient = posthog;
 }
 
+function capturePostHog(detail: PublicAnalyticsDetail): void {
+  if (!posthogClient) {
+    if (POSTHOG_PROJECT_TOKEN) pendingPostHogEvents.push(detail);
+    return;
+  }
+
+  const pagePath = detail.route || window.location.pathname;
+  const pageUrl = `${window.location.origin}${pagePath}`;
+  const properties = { ...detail.properties, page_path: pagePath };
+  if (detail.event === "page_view") {
+    posthogClient.capture("$pageview", { $current_url: pageUrl, ...properties });
+  } else {
+    posthogClient.capture(detail.event, properties);
+  }
+}
+
+function startPostHog(): void {
+  if (posthogInitialization) return;
+  posthogInitialization = initializePostHog()
+    .then(() => {
+      pendingPostHogEvents.splice(0).forEach(capturePostHog);
+    })
+    .catch(() => {
+      // GA and Clarity must remain operational if the optional PostHog bundle
+      // is blocked or temporarily unavailable.
+      pendingPostHogEvents.length = 0;
+    });
+}
+
 export function initializePublicAnalytics(): Promise<void> {
   if (typeof window === "undefined") return Promise.resolve();
   enabled = true;
   if (!initialization) {
-    initialization = (async () => {
-      initializeGoogleAnalytics();
-      initializeClarity();
-      await initializePostHog();
-    })();
+    initializeGoogleAnalytics();
+    initializeClarity();
+    startPostHog();
+    // GA and Clarity initialize synchronously. Do not make their first events
+    // wait for a dynamically imported third-party provider.
+    initialization = Promise.resolve();
   }
   return initialization;
 }
@@ -138,10 +174,9 @@ export function capturePublicAnalytics(detail: PublicAnalyticsDetail): void {
       page_path: pagePath,
       page_title: document.title,
     });
-    posthogClient?.capture("$pageview", { $current_url: pageUrl, ...properties });
   } else {
     window.gtag?.("event", detail.event, properties);
-    posthogClient?.capture(detail.event, properties);
   }
+  capturePostHog(detail);
   window.clarity?.("event", detail.event);
 }
