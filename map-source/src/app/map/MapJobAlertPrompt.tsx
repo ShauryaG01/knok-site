@@ -67,10 +67,6 @@ export function MapJobAlertPrompt({
     let timer: number;
     const tryOpen = () => {
       if (cancelled) return;
-      if (document.querySelector('[aria-label="Analytics preferences"]')) {
-        timer = window.setTimeout(tryOpen, 5_000);
-        return;
-      }
       setTrigger("automatic");
       openedAt.current = Date.now();
       setOpen(true);
