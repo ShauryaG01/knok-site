@@ -31,8 +31,10 @@ export function PublicMapAnalytics({ totalCompanies }: { totalCompanies: number 
     };
     window.addEventListener(PUBLIC_ANALYTICS_EVENT, onAnalytics);
 
-    const existing = storedChoice();
-    if (existing === "accepted") {
+    // The map no longer presents a choice banner. Keep an explicit historic
+    // opt-out intact, but enable the configured product analytics for every
+    // other visitor so GA4, Clarity, PostHog and the event stream all agree.
+    if (storedChoice() !== "declined") {
       setAnalyticsConsent(true);
       void initializePublicAnalytics().then(() => {
         track("page_view");

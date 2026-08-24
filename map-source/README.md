@@ -16,10 +16,13 @@ NEXT_PUBLIC_POSTHOG_HOST=https://us.i.posthog.com \
 npm run build
 ```
 
-The public map uses basic consent mode. Google Analytics 4, PostHog and
-Microsoft Clarity load only after a visitor allows optional analytics. The map
-sends an explicit allowlist of product events; PostHog autocapture and replay
-are disabled, while Clarity inputs are masked.
+The public map measures visitors by default: Google Analytics 4, PostHog and
+Microsoft Clarity start for every visitor unless a stored opt-out
+(`knok-analytics-consent = "0"` or the legacy declined flag) is present. There
+is no consent banner. The map sends an explicit allowlist of product events;
+PostHog autocapture and replay are disabled, Clarity inputs are masked, and GA
+ad storage/signals stay denied. The job-alert prompt is currently unmounted
+(component retained in source for later reinstatement).
 
 `scripts/refresh_map_snapshot.py` refreshes the role snapshots without
 rebuilding the application. GitHub Actions publishes those snapshots and the
