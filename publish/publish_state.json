@@ -1,13 +1,5 @@
 {
  "queue": [
-  "affirm-solutions-engineer-interview",
-  "agoda-data-analyst-interview",
-  "agoda-program-manager-interview",
-  "agoda-security-engineer-interview",
-  "agoda-ui-ux-designer-interview",
-  "agrim-product-manager-interview",
-  "airbnb-data-engineer-interview",
-  "airbnb-devops-engineer-interview",
   "airbnb-ios-engineer-interview",
   "airbnb-platform-engineer-interview",
   "airtable-frontend-engineer-interview",
@@ -3363,7 +3355,15 @@
   "adobe-systems-machine-learning-engineer-interview",
   "adyen-android-engineer-interview",
   "affirm-engineering-manager-interview",
-  "affirm-product-designer-interview"
+  "affirm-product-designer-interview",
+  "affirm-solutions-engineer-interview",
+  "agoda-data-analyst-interview",
+  "agoda-program-manager-interview",
+  "agoda-security-engineer-interview",
+  "agoda-ui-ux-designer-interview",
+  "agrim-product-manager-interview",
+  "airbnb-data-engineer-interview",
+  "airbnb-devops-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
