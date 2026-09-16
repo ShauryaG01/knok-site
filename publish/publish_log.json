@@ -7284,6 +7284,24 @@
    ],
    "total": 2119,
    "remaining": 1303
+  },
+  {
+   "date": "2026-09-16T05:15:09+00:00",
+   "count": 10,
+   "slugs": [
+    "baseten-platform-engineer-interview",
+    "baseten-program-manager-interview",
+    "baseten-security-engineer-interview",
+    "bayrock-labs-frontend-engineer-interview",
+    "bayrock-labs-machine-learning-engineer-interview",
+    "bcg-data-architect-interview",
+    "bcg-platform-engineer-interview",
+    "bcg-security-engineer-interview",
+    "berg-group-data-scientist-interview",
+    "berg-group-devops-engineer-interview"
+   ],
+   "total": 2129,
+   "remaining": 1293
   }
  ]
 }
