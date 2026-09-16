@@ -1,15 +1,5 @@
 {
  "queue": [
-  "blue-yonder-software-engineer-interview",
-  "bms-data-engineer-interview",
-  "bms-data-scientist-interview",
-  "bms-qa-engineer-interview",
-  "bms-software-engineer-interview",
-  "bmw-techworks-india-business-analyst-interview",
-  "bmw-techworks-india-data-analyst-interview",
-  "bmw-techworks-india-data-scientist-interview",
-  "bmw-techworks-india-engineering-manager-interview",
-  "bolna-product-manager-interview",
   "boomi-security-engineer-interview",
   "boschgroup-data-architect-interview",
   "bounteous-x-accolite-software-engineer-interview",
@@ -3483,7 +3473,17 @@
   "block-qa-engineer-interview",
   "bloomberg-business-analyst-interview",
   "bloomberg-data-engineer-interview",
-  "bloomberg-security-engineer-interview"
+  "bloomberg-security-engineer-interview",
+  "blue-yonder-software-engineer-interview",
+  "bms-data-engineer-interview",
+  "bms-data-scientist-interview",
+  "bms-qa-engineer-interview",
+  "bms-software-engineer-interview",
+  "bmw-techworks-india-business-analyst-interview",
+  "bmw-techworks-india-data-analyst-interview",
+  "bmw-techworks-india-data-scientist-interview",
+  "bmw-techworks-india-engineering-manager-interview",
+  "bolna-product-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
