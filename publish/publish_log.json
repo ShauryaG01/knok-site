@@ -7267,6 +7267,23 @@
    ],
    "total": 2110,
    "remaining": 1312
+  },
+  {
+   "date": "2026-09-16T03:40:22+00:00",
+   "count": 9,
+   "slugs": [
+    "auditoria-ai-product-manager-interview",
+    "autodesk-product-manager-interview",
+    "autodesk-software-engineer-interview",
+    "avathon-product-manager-interview",
+    "ave-promagne-solutions-engineer-interview",
+    "bajaj-finance-software-engineer-interview",
+    "bangalore-fluid-system-components-solutions-engineer-interview",
+    "baseten-data-engineer-interview",
+    "baseten-frontend-engineer-interview"
+   ],
+   "total": 2119,
+   "remaining": 1303
   }
  ]
 }
