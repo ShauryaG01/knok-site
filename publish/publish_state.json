@@ -1,14 +1,5 @@
 {
  "queue": [
-  "clari-product-manager-interview",
-  "claroty-solutions-engineer-interview",
-  "classplus-product-manager-interview",
-  "clear-product-manager-interview",
-  "clear-security-engineer-interview",
-  "clickhouse-data-engineer-interview",
-  "clickhouse-data-scientist-interview",
-  "clickhouse-frontend-engineer-interview",
-  "clickhouse-product-designer-interview",
   "clickhouse-program-manager-interview",
   "climate-natural-spices-program-manager-interview",
   "cloudflare-security-engineer-interview",
@@ -3543,7 +3534,16 @@
   "chime-program-manager-interview",
   "cigna-cloud-engineer-interview",
   "cimet-product-manager-interview",
-  "ciroos-platform-engineer-interview"
+  "ciroos-platform-engineer-interview",
+  "clari-product-manager-interview",
+  "claroty-solutions-engineer-interview",
+  "classplus-product-manager-interview",
+  "clear-product-manager-interview",
+  "clear-security-engineer-interview",
+  "clickhouse-data-engineer-interview",
+  "clickhouse-data-scientist-interview",
+  "clickhouse-frontend-engineer-interview",
+  "clickhouse-product-designer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
