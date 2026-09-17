@@ -1,14 +1,5 @@
 {
  "queue": [
-  "cfgi-security-engineer-interview",
-  "cgi-business-analyst-interview",
-  "cgi-software-engineer-interview",
-  "channable-engineering-manager-interview",
-  "channable-frontend-engineer-interview",
-  "checkmarx-data-engineer-interview",
-  "checkmarx-devops-engineer-interview",
-  "checkmarx-program-manager-interview",
-  "checkmarx-solutions-engineer-interview",
   "checkr-product-designer-interview",
   "checkr-product-manager-interview",
   "chime-engineering-manager-interview",
@@ -3543,7 +3534,16 @@
   "cerebras-engineering-manager-interview",
   "cerebras-qa-engineer-interview",
   "ceva-engineering-manager-interview",
-  "ceva-solutions-engineer-interview"
+  "ceva-solutions-engineer-interview",
+  "cfgi-security-engineer-interview",
+  "cgi-business-analyst-interview",
+  "cgi-software-engineer-interview",
+  "channable-engineering-manager-interview",
+  "channable-frontend-engineer-interview",
+  "checkmarx-data-engineer-interview",
+  "checkmarx-devops-engineer-interview",
+  "checkmarx-program-manager-interview",
+  "checkmarx-solutions-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
