@@ -1,14 +1,5 @@
 {
  "queue": [
-  "clickhouse-program-manager-interview",
-  "climate-natural-spices-program-manager-interview",
-  "cloudflare-security-engineer-interview",
-  "cloudsek-product-manager-interview",
-  "coderabbit-security-engineer-interview",
-  "coders-brain-program-manager-interview",
-  "codesignal-software-engineer-interview",
-  "cognite-software-engineer-interview",
-  "cognizant-qa-engineer-interview",
   "cognyte-frontend-engineer-interview",
   "cognyte-product-manager-interview",
   "cohere-data-engineer-interview",
@@ -3543,7 +3534,16 @@
   "clickhouse-data-engineer-interview",
   "clickhouse-data-scientist-interview",
   "clickhouse-frontend-engineer-interview",
-  "clickhouse-product-designer-interview"
+  "clickhouse-product-designer-interview",
+  "clickhouse-program-manager-interview",
+  "climate-natural-spices-program-manager-interview",
+  "cloudflare-security-engineer-interview",
+  "cloudsek-product-manager-interview",
+  "coderabbit-security-engineer-interview",
+  "coders-brain-program-manager-interview",
+  "codesignal-software-engineer-interview",
+  "cognite-software-engineer-interview",
+  "cognizant-qa-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
