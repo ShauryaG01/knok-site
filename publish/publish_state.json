@@ -1,14 +1,5 @@
 {
  "queue": [
-  "careers-engineering-manager-interview",
-  "careers-machine-learning-engineer-interview",
-  "careers-product-designer-interview",
-  "careers-product-manager-interview",
-  "cashfree-devops-engineer-interview",
-  "cashfree-software-engineer-interview",
-  "cashkaro-frontend-engineer-interview",
-  "cashkaro-product-manager-interview",
-  "cbx1-software-engineer-interview",
   "cellebrite-business-analyst-interview",
   "cellebrite-devops-engineer-interview",
   "cellebrite-security-engineer-interview",
@@ -3483,7 +3474,16 @@
   "capri-global-capital-data-analyst-interview",
   "capri-global-capital-platform-engineer-interview",
   "career-maker-consultant-bpc-engineering-manager-interview",
-  "career-maker-consultant-bpc-product-manager-interview"
+  "career-maker-consultant-bpc-product-manager-interview",
+  "careers-engineering-manager-interview",
+  "careers-machine-learning-engineer-interview",
+  "careers-product-designer-interview",
+  "careers-product-manager-interview",
+  "cashfree-devops-engineer-interview",
+  "cashfree-software-engineer-interview",
+  "cashkaro-frontend-engineer-interview",
+  "cashkaro-product-manager-interview",
+  "cbx1-software-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }

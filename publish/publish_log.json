@@ -7405,6 +7405,23 @@
    ],
    "total": 2184,
    "remaining": 1298
+  },
+  {
+   "date": "2026-09-17T05:12:33+00:00",
+   "count": 9,
+   "slugs": [
+    "careers-engineering-manager-interview",
+    "careers-machine-learning-engineer-interview",
+    "careers-product-designer-interview",
+    "careers-product-manager-interview",
+    "cashfree-devops-engineer-interview",
+    "cashfree-software-engineer-interview",
+    "cashkaro-frontend-engineer-interview",
+    "cashkaro-product-manager-interview",
+    "cbx1-software-engineer-interview"
+   ],
+   "total": 2193,
+   "remaining": 1289
   }
  ]
 }
