@@ -1,14 +1,5 @@
 {
  "queue": [
-  "burgeon-it-services-business-analyst-interview",
-  "buystars-software-engineer-interview",
-  "byte-lab-software-engineer-interview",
-  "caizin-software-engineer-interview",
-  "camcom-software-engineer-interview",
-  "capri-global-capital-data-analyst-interview",
-  "capri-global-capital-platform-engineer-interview",
-  "career-maker-consultant-bpc-engineering-manager-interview",
-  "career-maker-consultant-bpc-product-manager-interview",
   "careers-engineering-manager-interview",
   "careers-machine-learning-engineer-interview",
   "careers-product-designer-interview",
@@ -3483,7 +3474,16 @@
   "bupa-devops-engineer-interview",
   "bupa-engineering-manager-interview",
   "bupa-machine-learning-engineer-interview",
-  "bureau-product-manager-interview"
+  "bureau-product-manager-interview",
+  "burgeon-it-services-business-analyst-interview",
+  "buystars-software-engineer-interview",
+  "byte-lab-software-engineer-interview",
+  "caizin-software-engineer-interview",
+  "camcom-software-engineer-interview",
+  "capri-global-capital-data-analyst-interview",
+  "capri-global-capital-platform-engineer-interview",
+  "career-maker-consultant-bpc-engineering-manager-interview",
+  "career-maker-consultant-bpc-product-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
