@@ -7560,6 +7560,24 @@
    ],
    "total": 2267,
    "remaining": 1335
+  },
+  {
+   "date": "2026-09-18T08:29:12+00:00",
+   "count": 10,
+   "slugs": [
+    "crusoe-product-manager-interview",
+    "crusoe-solutions-engineer-interview",
+    "curran-daly-associates-data-engineer-interview",
+    "curran-daly-associates-qa-engineer-interview",
+    "cursor-data-analyst-interview",
+    "cursor-data-scientist-interview",
+    "cursor-platform-engineer-interview",
+    "cursor-program-manager-interview",
+    "cyera-data-scientist-interview",
+    "cyera-devops-engineer-interview"
+   ],
+   "total": 2277,
+   "remaining": 1325
   }
  ]
 }
