@@ -1,14 +1,5 @@
 {
  "queue": [
-  "exotel-product-manager-interview",
-  "exotel-solutions-engineer-interview",
-  "experian-program-manager-interview",
-  "figma-data-engineer-interview",
-  "figma-machine-learning-engineer-interview",
-  "figma-platform-engineer-interview",
-  "figma-security-engineer-interview",
-  "fireworksai-data-scientist-interview",
-  "fireworksai-machine-learning-engineer-interview",
   "fireworksai-platform-engineer-interview",
   "fireworksai-product-manager-interview",
   "fireworksai-security-engineer-interview",
@@ -3663,7 +3654,16 @@
   "esper-engineering-manager-interview",
   "esper-program-manager-interview",
   "esper-solutions-engineer-interview",
-  "exl-service-data-architect-interview"
+  "exl-service-data-architect-interview",
+  "exotel-product-manager-interview",
+  "exotel-solutions-engineer-interview",
+  "experian-program-manager-interview",
+  "figma-data-engineer-interview",
+  "figma-machine-learning-engineer-interview",
+  "figma-platform-engineer-interview",
+  "figma-security-engineer-interview",
+  "fireworksai-data-scientist-interview",
+  "fireworksai-machine-learning-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
