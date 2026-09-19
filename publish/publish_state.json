@@ -1,15 +1,5 @@
 {
  "queue": [
-  "fireworksai-platform-engineer-interview",
-  "fireworksai-product-manager-interview",
-  "fireworksai-security-engineer-interview",
-  "fis-global-business-analyst-interview",
-  "fis-global-software-engineer-interview",
-  "five9-program-manager-interview",
-  "fiverr-product-manager-interview",
-  "fiverr-software-engineer-interview",
-  "flexport-data-analyst-interview",
-  "flexport-engineering-manager-interview",
   "flexport-security-engineer-interview",
   "flipkart-engineering-manager-interview",
   "ford-machine-learning-engineer-interview",
@@ -3663,7 +3653,17 @@
   "figma-platform-engineer-interview",
   "figma-security-engineer-interview",
   "fireworksai-data-scientist-interview",
-  "fireworksai-machine-learning-engineer-interview"
+  "fireworksai-machine-learning-engineer-interview",
+  "fireworksai-platform-engineer-interview",
+  "fireworksai-product-manager-interview",
+  "fireworksai-security-engineer-interview",
+  "fis-global-business-analyst-interview",
+  "fis-global-software-engineer-interview",
+  "five9-program-manager-interview",
+  "fiverr-product-manager-interview",
+  "fiverr-software-engineer-interview",
+  "flexport-data-analyst-interview",
+  "flexport-engineering-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
