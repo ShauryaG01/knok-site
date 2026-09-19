@@ -7701,6 +7701,23 @@
    ],
    "total": 2344,
    "remaining": 1318
+  },
+  {
+   "date": "2026-09-19T10:46:13+00:00",
+   "count": 9,
+   "slugs": [
+    "epic-software-machine-learning-engineer-interview",
+    "epicgames-security-engineer-interview",
+    "epicgames-solutions-engineer-interview",
+    "equixly-data-scientist-interview",
+    "eridu-ai-software-engineer-interview",
+    "esper-engineering-manager-interview",
+    "esper-program-manager-interview",
+    "esper-solutions-engineer-interview",
+    "exl-service-data-architect-interview"
+   ],
+   "total": 2353,
+   "remaining": 1309
   }
  ]
 }
