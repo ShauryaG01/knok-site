@@ -7849,6 +7849,22 @@
    ],
    "total": 2420,
    "remaining": 1302
+  },
+  {
+   "date": "2026-09-20T15:56:28+00:00",
+   "count": 8,
+   "slugs": [
+    "guidewire-software-program-manager-interview",
+    "gulvain-partners-qa-engineer-interview",
+    "gulvain-partners-solutions-engineer-interview",
+    "gusto-machine-learning-engineer-interview",
+    "hackajob-security-engineer-interview",
+    "happiest-minds-technologies-program-manager-interview",
+    "happylocate-software-engineer-interview",
+    "harvey-platform-engineer-interview"
+   ],
+   "total": 2428,
+   "remaining": 1294
   }
  ]
 }
