@@ -1,13 +1,5 @@
 {
  "queue": [
-  "glean-security-engineer-interview",
-  "goldman-sachs-data-engineer-interview",
-  "goldman-sachs-data-scientist-interview",
-  "goldman-sachs-devops-engineer-interview",
-  "goldman-sachs-machine-learning-engineer-interview",
-  "goldman-sachs-mobile-engineer-interview",
-  "gonoise-product-designer-interview",
-  "gozing-business-analyst-interview",
   "grab-platform-engineer-interview",
   "grassik-search-product-manager-interview",
   "grayquest-product-manager-interview",
@@ -3723,7 +3715,15 @@
   "glance-product-designer-interview",
   "glean-devops-engineer-interview",
   "glean-frontend-engineer-interview",
-  "glean-product-designer-interview"
+  "glean-product-designer-interview",
+  "glean-security-engineer-interview",
+  "goldman-sachs-data-engineer-interview",
+  "goldman-sachs-data-scientist-interview",
+  "goldman-sachs-devops-engineer-interview",
+  "goldman-sachs-machine-learning-engineer-interview",
+  "goldman-sachs-mobile-engineer-interview",
+  "gonoise-product-designer-interview",
+  "gozing-business-analyst-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
