@@ -1,15 +1,5 @@
 {
  "queue": [
-  "how-to-get-hired-at-claroty",
-  "how-to-get-hired-at-classplus",
-  "how-to-get-hired-at-clickpost",
-  "how-to-get-hired-at-cloudanix",
-  "how-to-get-hired-at-codevalue",
-  "how-to-get-hired-at-cognite",
-  "how-to-get-hired-at-cognizant",
-  "how-to-get-hired-at-concordusa",
-  "how-to-get-hired-at-consensys",
-  "how-to-get-hired-at-convegenius",
   "how-to-get-hired-at-crewkarma",
   "how-to-get-hired-at-ctc",
   "how-to-get-hired-at-curran-daly-associates",
@@ -3782,7 +3772,17 @@
   "how-to-get-hired-at-cgi",
   "how-to-get-hired-at-channable",
   "how-to-get-hired-at-circleci",
-  "how-to-get-hired-at-clarity"
+  "how-to-get-hired-at-clarity",
+  "how-to-get-hired-at-claroty",
+  "how-to-get-hired-at-classplus",
+  "how-to-get-hired-at-clickpost",
+  "how-to-get-hired-at-cloudanix",
+  "how-to-get-hired-at-codevalue",
+  "how-to-get-hired-at-cognite",
+  "how-to-get-hired-at-cognizant",
+  "how-to-get-hired-at-concordusa",
+  "how-to-get-hired-at-consensys",
+  "how-to-get-hired-at-convegenius"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
