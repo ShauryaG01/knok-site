@@ -1,14 +1,5 @@
 {
  "queue": [
-  "hiringblaze-product-manager-interview",
-  "honeywell-product-manager-interview",
-  "honeywell-qa-engineer-interview",
-  "hotelogix-product-manager-interview",
-  "hotelogix-qa-engineer-interview",
-  "housing-engineering-manager-interview",
-  "housing-ios-engineer-interview",
-  "how-to-get-hired-at-abb",
-  "how-to-get-hired-at-adani-group",
   "how-to-get-hired-at-aditya-birla-group",
   "how-to-get-hired-at-adobe-systems",
   "how-to-get-hired-at-alaan",
@@ -3723,7 +3714,16 @@
   "hevodata-solutions-engineer-interview",
   "hexaware-technologies-cloud-engineer-interview",
   "hexaware-technologies-qa-engineer-interview",
-  "hexaware-technologies-solutions-engineer-interview"
+  "hexaware-technologies-solutions-engineer-interview",
+  "hiringblaze-product-manager-interview",
+  "honeywell-product-manager-interview",
+  "honeywell-qa-engineer-interview",
+  "hotelogix-product-manager-interview",
+  "hotelogix-qa-engineer-interview",
+  "housing-engineering-manager-interview",
+  "housing-ios-engineer-interview",
+  "how-to-get-hired-at-abb",
+  "how-to-get-hired-at-adani-group"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
