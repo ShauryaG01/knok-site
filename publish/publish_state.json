@@ -1,15 +1,5 @@
 {
  "queue": [
-  "how-to-get-hired-at-gsk",
-  "how-to-get-hired-at-guesty",
-  "how-to-get-hired-at-guideline",
-  "how-to-get-hired-at-haptik",
-  "how-to-get-hired-at-healthifyme",
-  "how-to-get-hired-at-helion-energy",
-  "how-to-get-hired-at-highradius",
-  "how-to-get-hired-at-homebase",
-  "how-to-get-hired-at-hr-lobby",
-  "how-to-get-hired-at-idfc-first-bank",
   "how-to-get-hired-at-idfy",
   "how-to-get-hired-at-imagine-learning",
   "how-to-get-hired-at-impetus-technologies",
@@ -3841,7 +3831,17 @@
   "how-to-get-hired-at-fujitsu",
   "how-to-get-hired-at-glance",
   "how-to-get-hired-at-gonoise",
-  "how-to-get-hired-at-greytip"
+  "how-to-get-hired-at-greytip",
+  "how-to-get-hired-at-gsk",
+  "how-to-get-hired-at-guesty",
+  "how-to-get-hired-at-guideline",
+  "how-to-get-hired-at-haptik",
+  "how-to-get-hired-at-healthifyme",
+  "how-to-get-hired-at-helion-energy",
+  "how-to-get-hired-at-highradius",
+  "how-to-get-hired-at-homebase",
+  "how-to-get-hired-at-hr-lobby",
+  "how-to-get-hired-at-idfc-first-bank"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
