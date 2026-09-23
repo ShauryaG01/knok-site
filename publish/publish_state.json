@@ -1,12 +1,5 @@
 {
  "queue": [
-  "how-to-get-hired-at-matrix-global",
-  "how-to-get-hired-at-matrix42-gmbh",
-  "how-to-get-hired-at-mattermost",
-  "how-to-get-hired-at-mediasmart",
-  "how-to-get-hired-at-medison-pharma",
-  "how-to-get-hired-at-meraki-labs",
-  "how-to-get-hired-at-mindtickle",
   "how-to-get-hired-at-miq",
   "how-to-get-hired-at-mirvac",
   "how-to-get-hired-at-mobikwik",
@@ -3841,7 +3834,14 @@
   "how-to-get-hired-at-logicladder",
   "how-to-get-hired-at-luxoft",
   "how-to-get-hired-at-manatal-co-ltd",
-  "how-to-get-hired-at-manifest"
+  "how-to-get-hired-at-manifest",
+  "how-to-get-hired-at-matrix-global",
+  "how-to-get-hired-at-matrix42-gmbh",
+  "how-to-get-hired-at-mattermost",
+  "how-to-get-hired-at-mediasmart",
+  "how-to-get-hired-at-medison-pharma",
+  "how-to-get-hired-at-meraki-labs",
+  "how-to-get-hired-at-mindtickle"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
