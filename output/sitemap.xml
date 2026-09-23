@@ -713,7 +713,7 @@
   <url><loc>https://knok.work/blog/deloitte-software-engineer-interview.html</loc><lastmod>2026-09-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/delta-software-engineer-interview.html</loc><lastmod>2026-09-18</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/deutsche-telekom-digital-labs-data-architect-interview.html</loc><lastmod>2026-09-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knok.work/blog/deutsche-telekom-digital-labs-data-engineer-interview.html</loc><lastmod>2026-09-22</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/deutsche-telekom-digital-labs-data-engineer-interview.html</loc><lastmod>2026-09-23</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/deutsche-telekom-digital-labs-engineering-manager-interview.html</loc><lastmod>2026-09-18</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/deutsche-telekom-digital-labs-frontend-engineer-interview.html</loc><lastmod>2026-09-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/deutsche-telekom-digital-labs-ios-engineer-interview.html</loc><lastmod>2026-09-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
@@ -1449,13 +1449,21 @@
   <url><loc>https://knok.work/blog/how-to-get-hired-at-mercury.html</loc><lastmod>2026-09-23</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/how-to-get-hired-at-microsoft.html</loc><lastmod>2026-09-23</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/how-to-get-hired-at-mindtickle.html</loc><lastmod>2026-09-23</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knok.work/blog/how-to-get-hired-at-mistral.html</loc><lastmod>2026-09-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knok.work/blog/how-to-get-hired-at-mixpanel.html</loc><lastmod>2026-09-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knok.work/blog/how-to-get-hired-at-modal.html</loc><lastmod>2026-09-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knok.work/blog/how-to-get-hired-at-mongodb.html</loc><lastmod>2026-09-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knok.work/blog/how-to-get-hired-at-morganstanley.html</loc><lastmod>2026-09-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knok.work/blog/how-to-get-hired-at-morningstar.html</loc><lastmod>2026-09-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knok.work/blog/how-to-get-hired-at-mvst.html</loc><lastmod>2026-09-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/how-to-get-hired-at-miq.html</loc><lastmod>2026-09-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/how-to-get-hired-at-mirvac.html</loc><lastmod>2026-09-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/how-to-get-hired-at-mistral.html</loc><lastmod>2026-09-23</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/how-to-get-hired-at-mixpanel.html</loc><lastmod>2026-09-23</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/how-to-get-hired-at-mobikwik.html</loc><lastmod>2026-09-23</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/how-to-get-hired-at-modal.html</loc><lastmod>2026-09-23</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/how-to-get-hired-at-moengage.html</loc><lastmod>2026-09-23</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/how-to-get-hired-at-mongodb.html</loc><lastmod>2026-09-23</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/how-to-get-hired-at-morganstanley.html</loc><lastmod>2026-09-23</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/how-to-get-hired-at-morningstar.html</loc><lastmod>2026-09-23</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/how-to-get-hired-at-mosaro.html</loc><lastmod>2026-09-23</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/how-to-get-hired-at-moveworks.html</loc><lastmod>2026-09-12</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/how-to-get-hired-at-mufgub.html</loc><lastmod>2026-09-23</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/how-to-get-hired-at-mvst.html</loc><lastmod>2026-09-23</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/how-to-get-hired-at-myntra.html</loc><lastmod>2026-09-23</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/how-to-get-hired-at-n8n.html</loc><lastmod>2026-09-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/how-to-get-hired-at-name.html</loc><lastmod>2026-09-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/how-to-get-hired-at-navi.html</loc><lastmod>2026-09-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
@@ -1805,7 +1813,7 @@
   <url><loc>https://knok.work/blog/mercury-software-engineer-interview.html</loc><lastmod>2026-09-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/microsoft-engineering-manager-interview.html</loc><lastmod>2026-09-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/microsoft-software-engineer-interview.html</loc><lastmod>2026-09-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knok.work/blog/miq-devops-engineer-interview.html</loc><lastmod>2026-09-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/miq-devops-engineer-interview.html</loc><lastmod>2026-09-23</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/mistral-data-scientist-interview.html</loc><lastmod>2026-09-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/mistral-devops-engineer-interview.html</loc><lastmod>2026-09-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/mistral-engineering-manager-interview.html</loc><lastmod>2026-09-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
@@ -1816,7 +1824,7 @@
   <url><loc>https://knok.work/blog/mistral-software-engineer-interview.html</loc><lastmod>2026-09-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/mixpanel-software-engineer-interview.html</loc><lastmod>2026-09-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/mixpanel-solutions-engineer-interview.html</loc><lastmod>2026-09-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knok.work/blog/mobikwik-software-engineer-interview.html</loc><lastmod>2026-09-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/mobikwik-software-engineer-interview.html</loc><lastmod>2026-09-23</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/mobile-engineer-interview-questions-india.html</loc><lastmod>2026-09-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/mobile-engineer-salary-bangalore.html</loc><lastmod>2026-09-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/mobile-engineer-salary-india-2026.html</loc><lastmod>2026-09-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
@@ -1835,10 +1843,10 @@
   <url><loc>https://knok.work/blog/morningstar-machine-learning-engineer-interview.html</loc><lastmod>2026-09-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/morningstar-software-engineer-interview.html</loc><lastmod>2026-09-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/most-in-demand-tech-roles-in-india-2026.html</loc><lastmod>2026-09-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knok.work/blog/moveworks-software-engineer-interview.html</loc><lastmod>2026-09-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knok.work/blog/mufgub-business-analyst-interview.html</loc><lastmod>2026-09-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/moveworks-software-engineer-interview.html</loc><lastmod>2026-09-23</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/mufgub-business-analyst-interview.html</loc><lastmod>2026-09-23</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/mvst-software-engineer-interview.html</loc><lastmod>2026-09-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knok.work/blog/myntra-engineering-manager-interview.html</loc><lastmod>2026-09-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/myntra-engineering-manager-interview.html</loc><lastmod>2026-09-23</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/nablon-ai-machine-learning-engineer-interview.html</loc><lastmod>2026-09-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/name-software-engineer-interview.html</loc><lastmod>2026-09-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/nasdaq-software-engineer-interview.html</loc><lastmod>2026-09-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
