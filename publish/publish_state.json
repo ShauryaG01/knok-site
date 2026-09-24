@@ -1,14 +1,5 @@
 {
  "queue": [
-  "htecgroup-data-engineer-interview",
-  "hugging-face-data-scientist-interview",
-  "hugging-face-machine-learning-engineer-interview",
-  "hugging-face-software-engineer-interview",
-  "huron-cloud-engineer-interview",
-  "huron-product-manager-interview",
-  "huron-qa-engineer-interview",
-  "hyperface-software-engineer-interview",
-  "hyreo-devops-engineer-interview",
   "hyreo-ui-ux-designer-interview",
   "ibm-qa-engineer-interview",
   "ideas2it-technologies-data-engineer-interview",
@@ -3900,7 +3891,16 @@
   "how-to-get-hired-at-winzo",
   "how-to-get-hired-at-zentrades",
   "how-to-get-hired-at-zepto",
-  "how-to-get-hired-at-zluri"
+  "how-to-get-hired-at-zluri",
+  "htecgroup-data-engineer-interview",
+  "hugging-face-data-scientist-interview",
+  "hugging-face-machine-learning-engineer-interview",
+  "hugging-face-software-engineer-interview",
+  "huron-cloud-engineer-interview",
+  "huron-product-manager-interview",
+  "huron-qa-engineer-interview",
+  "hyperface-software-engineer-interview",
+  "hyreo-devops-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
