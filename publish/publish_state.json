@@ -1,13 +1,5 @@
 {
  "queue": [
-  "how-to-get-hired-at-twin-health",
-  "how-to-get-hired-at-unacademy",
-  "how-to-get-hired-at-unboxrobotics",
-  "how-to-get-hired-at-urban-harvest",
-  "how-to-get-hired-at-usefulbi",
-  "how-to-get-hired-at-vapi",
-  "how-to-get-hired-at-vega",
-  "how-to-get-hired-at-vinova",
   "how-to-get-hired-at-vishal-mega-mart",
   "how-to-get-hired-at-vodafone",
   "how-to-get-hired-at-voodoo",
@@ -3900,7 +3892,15 @@
   "how-to-get-hired-at-travclan",
   "how-to-get-hired-at-trimble",
   "how-to-get-hired-at-trinet",
-  "how-to-get-hired-at-turno"
+  "how-to-get-hired-at-turno",
+  "how-to-get-hired-at-twin-health",
+  "how-to-get-hired-at-unacademy",
+  "how-to-get-hired-at-unboxrobotics",
+  "how-to-get-hired-at-urban-harvest",
+  "how-to-get-hired-at-usefulbi",
+  "how-to-get-hired-at-vapi",
+  "how-to-get-hired-at-vega",
+  "how-to-get-hired-at-vinova"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
