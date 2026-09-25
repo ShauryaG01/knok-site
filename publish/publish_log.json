@@ -8380,6 +8380,22 @@
    ],
    "total": 2695,
    "remaining": 1323
+  },
+  {
+   "date": "2026-09-25T08:30:18+00:00",
+   "count": 8,
+   "slugs": [
+    "infinidat-engineering-manager-interview",
+    "infinidat-qa-engineer-interview",
+    "infosys-machine-learning-engineer-interview",
+    "inmobi-security-engineer-interview",
+    "inmobi-software-engineer-interview",
+    "innominds-software-software-engineer-interview",
+    "innovaccer-product-designer-interview",
+    "instacart-android-engineer-interview"
+   ],
+   "total": 2703,
+   "remaining": 1315
   }
  ]
 }

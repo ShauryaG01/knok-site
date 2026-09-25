@@ -1,13 +1,5 @@
 {
  "queue": [
-  "infinidat-engineering-manager-interview",
-  "infinidat-qa-engineer-interview",
-  "infosys-machine-learning-engineer-interview",
-  "inmobi-security-engineer-interview",
-  "inmobi-software-engineer-interview",
-  "innominds-software-software-engineer-interview",
-  "innovaccer-product-designer-interview",
-  "instacart-android-engineer-interview",
   "instacart-ios-engineer-interview",
   "intangles-product-designer-interview",
   "intangles-software-engineer-interview",
@@ -4019,7 +4011,15 @@
   "indianic-mobile-engineer-interview",
   "indianic-product-designer-interview",
   "indianic-software-engineer-interview",
-  "industrybuying-frontend-engineer-interview"
+  "industrybuying-frontend-engineer-interview",
+  "infinidat-engineering-manager-interview",
+  "infinidat-qa-engineer-interview",
+  "infosys-machine-learning-engineer-interview",
+  "inmobi-security-engineer-interview",
+  "inmobi-software-engineer-interview",
+  "innominds-software-software-engineer-interview",
+  "innovaccer-product-designer-interview",
+  "instacart-android-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
