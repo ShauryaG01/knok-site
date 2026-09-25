@@ -1,13 +1,5 @@
 {
  "queue": [
-  "jpmorgan-chase-machine-learning-engineer-interview",
-  "jumio-software-engineer-interview",
-  "jupiter-product-manager-interview",
-  "jupiter-security-engineer-interview",
-  "kaar-tech-program-manager-interview",
-  "kayhut-data-engineer-interview",
-  "keka-hr-software-engineer-interview",
-  "khatabook-business-analyst-interview",
   "khatabook-data-scientist-interview",
   "khatabook-engineering-manager-interview",
   "khatabook-qa-engineer-interview",
@@ -4019,7 +4011,15 @@
   "jane-street-program-manager-interview",
   "jane-street-solutions-engineer-interview",
   "jobs-capital-business-analyst-interview",
-  "jpmorgan-chase-data-analyst-interview"
+  "jpmorgan-chase-data-analyst-interview",
+  "jpmorgan-chase-machine-learning-engineer-interview",
+  "jumio-software-engineer-interview",
+  "jupiter-product-manager-interview",
+  "jupiter-security-engineer-interview",
+  "kaar-tech-program-manager-interview",
+  "kayhut-data-engineer-interview",
+  "keka-hr-software-engineer-interview",
+  "khatabook-business-analyst-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
