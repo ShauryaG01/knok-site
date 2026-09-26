@@ -1,15 +1,5 @@
 {
  "queue": [
-  "luxoft-business-analyst-interview",
-  "luxoft-frontend-engineer-interview",
-  "luxoft-software-engineer-interview",
-  "lyft-data-engineer-interview",
-  "lyft-product-designer-interview",
-  "macecareers-business-analyst-interview",
-  "manatal-co-ltd-platform-engineer-interview",
-  "manatal-co-ltd-software-engineer-interview",
-  "manifest-product-manager-interview",
-  "marqeta-security-engineer-interview",
   "marsh-mclennan-data-engineer-interview",
   "marsh-mclennan-platform-engineer-interview",
   "marsh-mclennan-qa-engineer-interview",
@@ -4077,7 +4067,17 @@
   "lseg-data-engineer-interview",
   "lseg-engineering-manager-interview",
   "lseg-platform-engineer-interview",
-  "lumiq-ai-data-engineer-interview"
+  "lumiq-ai-data-engineer-interview",
+  "luxoft-business-analyst-interview",
+  "luxoft-frontend-engineer-interview",
+  "luxoft-software-engineer-interview",
+  "lyft-data-engineer-interview",
+  "lyft-product-designer-interview",
+  "macecareers-business-analyst-interview",
+  "manatal-co-ltd-platform-engineer-interview",
+  "manatal-co-ltd-software-engineer-interview",
+  "manifest-product-manager-interview",
+  "marqeta-security-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
