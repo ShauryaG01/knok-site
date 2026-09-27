@@ -1,15 +1,5 @@
 {
  "queue": [
-  "mercor-machine-learning-engineer-interview",
-  "mercor-security-engineer-interview",
-  "mercor-ui-ux-designer-interview",
-  "mercury-engineering-manager-interview",
-  "mercury-frontend-engineer-interview",
-  "mercury-machine-learning-engineer-interview",
-  "mercury-program-manager-interview",
-  "mercury-ui-ux-designer-interview",
-  "microsoft-data-scientist-interview",
-  "microsoft-program-manager-interview",
   "mihup-program-manager-interview",
   "mindtickle-product-manager-interview",
   "mindtickle-program-manager-interview",
@@ -4077,7 +4067,17 @@
   "meragi-ui-ux-designer-interview",
   "meraki-labs-machine-learning-engineer-interview",
   "merck-kgaa-devops-engineer-interview",
-  "mercor-engineering-manager-interview"
+  "mercor-engineering-manager-interview",
+  "mercor-machine-learning-engineer-interview",
+  "mercor-security-engineer-interview",
+  "mercor-ui-ux-designer-interview",
+  "mercury-engineering-manager-interview",
+  "mercury-frontend-engineer-interview",
+  "mercury-machine-learning-engineer-interview",
+  "mercury-program-manager-interview",
+  "mercury-ui-ux-designer-interview",
+  "microsoft-data-scientist-interview",
+  "microsoft-program-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
