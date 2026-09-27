@@ -1470,10 +1470,10 @@
   <url><loc>https://knok.work/blog/how-to-get-hired-at-nasdaq.html</loc><lastmod>2026-09-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/how-to-get-hired-at-navi.html</loc><lastmod>2026-09-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/how-to-get-hired-at-neosoft-technologies.html</loc><lastmod>2026-09-12</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knok.work/blog/how-to-get-hired-at-nerdy.html</loc><lastmod>2026-09-23</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knok.work/blog/how-to-get-hired-at-netapp.html</loc><lastmod>2026-09-23</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knok.work/blog/how-to-get-hired-at-netlify.html</loc><lastmod>2026-09-23</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knok.work/blog/how-to-get-hired-at-new-relic.html</loc><lastmod>2026-09-23</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/how-to-get-hired-at-nerdy.html</loc><lastmod>2026-09-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/how-to-get-hired-at-netapp.html</loc><lastmod>2026-09-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/how-to-get-hired-at-netlify.html</loc><lastmod>2026-09-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/how-to-get-hired-at-new-relic.html</loc><lastmod>2026-09-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/how-to-get-hired-at-nice.html</loc><lastmod>2026-09-23</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/how-to-get-hired-at-nielsen.html</loc><lastmod>2026-09-23</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/how-to-get-hired-at-nium.html</loc><lastmod>2026-09-12</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
@@ -2123,11 +2123,20 @@
   <url><loc>https://knok.work/blog/navi-product-designer-interview.html</loc><lastmod>2026-09-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/navi-product-manager-interview.html</loc><lastmod>2026-09-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/navi-security-engineer-interview.html</loc><lastmod>2026-09-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knok.work/blog/neosoft-technologies-software-engineer-interview.html</loc><lastmod>2026-09-23</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knok.work/blog/nerdy-software-engineer-interview.html</loc><lastmod>2026-09-23</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knok.work/blog/netapp-software-engineer-interview.html</loc><lastmod>2026-09-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knok.work/blog/new-relic-product-manager-interview.html</loc><lastmod>2026-09-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knok.work/blog/new-relic-software-engineer-interview.html</loc><lastmod>2026-09-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/navi-software-engineer-interview.html</loc><lastmod>2026-08-24</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/navi-ui-ux-designer-interview.html</loc><lastmod>2026-09-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/neosoft-technologies-software-engineer-interview.html</loc><lastmod>2026-09-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/nerdy-security-engineer-interview.html</loc><lastmod>2026-09-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/nerdy-software-engineer-interview.html</loc><lastmod>2026-09-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/netafim-qa-engineer-interview.html</loc><lastmod>2026-09-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/netapp-data-analyst-interview.html</loc><lastmod>2026-09-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/netapp-product-manager-interview.html</loc><lastmod>2026-09-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/netapp-software-engineer-interview.html</loc><lastmod>2026-09-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/netlify-product-manager-interview.html</loc><lastmod>2026-09-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/new-relic-frontend-engineer-interview.html</loc><lastmod>2026-09-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/new-relic-product-manager-interview.html</loc><lastmod>2026-09-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/new-relic-software-engineer-interview.html</loc><lastmod>2026-09-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/new-relic-solutions-engineer-interview.html</loc><lastmod>2026-09-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/nexthink-software-engineer-interview.html</loc><lastmod>2026-09-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/nextracker-program-manager-interview.html</loc><lastmod>2026-09-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/nice-business-analyst-interview.html</loc><lastmod>2026-09-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>

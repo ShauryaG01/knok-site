@@ -1,14 +1,5 @@
 {
  "queue": [
-  "navi-software-engineer-interview",
-  "navi-ui-ux-designer-interview",
-  "nerdy-security-engineer-interview",
-  "netafim-qa-engineer-interview",
-  "netapp-data-analyst-interview",
-  "netapp-product-manager-interview",
-  "netlify-product-manager-interview",
-  "new-relic-frontend-engineer-interview",
-  "new-relic-solutions-engineer-interview",
   "nibe-engineering-manager-interview",
   "nice-cloud-engineer-interview",
   "nielsen-product-manager-interview",
@@ -4136,7 +4127,16 @@
   "navi-frontend-engineer-interview",
   "navi-machine-learning-engineer-interview",
   "navi-product-designer-interview",
-  "navi-security-engineer-interview"
+  "navi-security-engineer-interview",
+  "navi-software-engineer-interview",
+  "navi-ui-ux-designer-interview",
+  "nerdy-security-engineer-interview",
+  "netafim-qa-engineer-interview",
+  "netapp-data-analyst-interview",
+  "netapp-product-manager-interview",
+  "netlify-product-manager-interview",
+  "new-relic-frontend-engineer-interview",
+  "new-relic-solutions-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
