@@ -1,15 +1,5 @@
 {
  "queue": [
-  "mihup-program-manager-interview",
-  "mindtickle-product-manager-interview",
-  "mindtickle-program-manager-interview",
-  "mirus-opportunities-business-analyst-interview",
-  "mistral-frontend-engineer-interview",
-  "mistral-platform-engineer-interview",
-  "mistral-product-designer-interview",
-  "mixpanel-engineering-manager-interview",
-  "mobikwik-product-designer-interview",
-  "mobikwik-ui-ux-designer-interview",
   "modal-engineering-manager-interview",
   "modal-frontend-engineer-interview",
   "modal-platform-engineer-interview",
@@ -4077,7 +4067,17 @@
   "mercury-program-manager-interview",
   "mercury-ui-ux-designer-interview",
   "microsoft-data-scientist-interview",
-  "microsoft-program-manager-interview"
+  "microsoft-program-manager-interview",
+  "mihup-program-manager-interview",
+  "mindtickle-product-manager-interview",
+  "mindtickle-program-manager-interview",
+  "mirus-opportunities-business-analyst-interview",
+  "mistral-frontend-engineer-interview",
+  "mistral-platform-engineer-interview",
+  "mistral-product-designer-interview",
+  "mixpanel-engineering-manager-interview",
+  "mobikwik-product-designer-interview",
+  "mobikwik-ui-ux-designer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
