@@ -1,14 +1,5 @@
 {
  "queue": [
-  "national-institute-for-smart-government-nisg-engineering-manager-interview",
-  "natwest-digitalx-business-analyst-interview",
-  "navi-data-analyst-interview",
-  "navi-devops-engineer-interview",
-  "navi-engineering-manager-interview",
-  "navi-frontend-engineer-interview",
-  "navi-machine-learning-engineer-interview",
-  "navi-product-designer-interview",
-  "navi-security-engineer-interview",
   "navi-software-engineer-interview",
   "navi-ui-ux-designer-interview",
   "nerdy-security-engineer-interview",
@@ -4136,7 +4127,16 @@
   "name-product-manager-interview",
   "narayana-health-nh-product-manager-interview",
   "nasdaq-business-analyst-interview",
-  "nasdaq-machine-learning-engineer-interview"
+  "nasdaq-machine-learning-engineer-interview",
+  "national-institute-for-smart-government-nisg-engineering-manager-interview",
+  "natwest-digitalx-business-analyst-interview",
+  "navi-data-analyst-interview",
+  "navi-devops-engineer-interview",
+  "navi-engineering-manager-interview",
+  "navi-frontend-engineer-interview",
+  "navi-machine-learning-engineer-interview",
+  "navi-product-designer-interview",
+  "navi-security-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
