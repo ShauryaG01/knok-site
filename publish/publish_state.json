@@ -1,15 +1,5 @@
 {
  "queue": [
-  "nutrabay-data-engineer-interview",
-  "nutribray-healthcare-product-manager-interview",
-  "nvidia-business-analyst-interview",
-  "nvidia-data-analyst-interview",
-  "nvidia-data-scientist-interview",
-  "nvidia-security-engineer-interview",
-  "nxtwave-solutions-engineer-interview",
-  "oaktree-program-manager-interview",
-  "observe-ai-data-scientist-interview",
-  "observe-ai-machine-learning-engineer-interview",
   "okta-data-analyst-interview",
   "okta-data-engineer-interview",
   "okx-data-analyst-interview",
@@ -4136,7 +4126,17 @@
   "nutanix-engineering-manager-interview",
   "nutanix-product-manager-interview",
   "nutanix-qa-engineer-interview",
-  "nutanix-software-engineer-interview"
+  "nutanix-software-engineer-interview",
+  "nutrabay-data-engineer-interview",
+  "nutribray-healthcare-product-manager-interview",
+  "nvidia-business-analyst-interview",
+  "nvidia-data-analyst-interview",
+  "nvidia-data-scientist-interview",
+  "nvidia-security-engineer-interview",
+  "nxtwave-solutions-engineer-interview",
+  "oaktree-program-manager-interview",
+  "observe-ai-data-scientist-interview",
+  "observe-ai-machine-learning-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }

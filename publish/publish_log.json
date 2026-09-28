@@ -8709,6 +8709,24 @@
    ],
    "total": 2872,
    "remaining": 1263
+  },
+  {
+   "date": "2026-09-28T05:17:46+00:00",
+   "count": 10,
+   "slugs": [
+    "nutrabay-data-engineer-interview",
+    "nutribray-healthcare-product-manager-interview",
+    "nvidia-business-analyst-interview",
+    "nvidia-data-analyst-interview",
+    "nvidia-data-scientist-interview",
+    "nvidia-security-engineer-interview",
+    "nxtwave-solutions-engineer-interview",
+    "oaktree-program-manager-interview",
+    "observe-ai-data-scientist-interview",
+    "observe-ai-machine-learning-engineer-interview"
+   ],
+   "total": 2882,
+   "remaining": 1253
   }
  ]
 }
