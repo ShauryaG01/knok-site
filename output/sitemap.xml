@@ -1511,9 +1511,9 @@
   <url><loc>https://knok.work/blog/how-to-get-hired-at-persistence.html</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/how-to-get-hired-at-phonepe.html</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/how-to-get-hired-at-pinecone.html</loc><lastmod>2026-09-12</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knok.work/blog/how-to-get-hired-at-pinterest.html</loc><lastmod>2026-09-23</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knok.work/blog/how-to-get-hired-at-pitch.html</loc><lastmod>2026-09-23</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knok.work/blog/how-to-get-hired-at-plaid.html</loc><lastmod>2026-09-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/how-to-get-hired-at-pinterest.html</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/how-to-get-hired-at-pitch.html</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/how-to-get-hired-at-plaid.html</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/how-to-get-hired-at-planetscale.html</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/how-to-get-hired-at-pocketfm.html</loc><lastmod>2026-09-23</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/how-to-get-hired-at-popclub.html</loc><lastmod>2026-09-23</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
@@ -2320,25 +2320,35 @@
   <url><loc>https://knok.work/blog/phonepe-engineering-manager-interview.html</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/phonepe-mobile-engineer-interview.html</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/phonepe-product-manager-interview.html</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/phonepe-security-engineer-interview.html</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/phonepe-software-engineer-interview.html</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knok.work/blog/pinecone-software-engineer-interview.html</loc><lastmod>2026-09-23</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knok.work/blog/pinterest-data-scientist-interview.html</loc><lastmod>2026-09-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/pinecone-software-engineer-interview.html</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/pinterest-data-scientist-interview.html</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/pinterest-devops-engineer-interview.html</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/pinterest-engineering-manager-interview.html</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/pinterest-machine-learning-engineer-interview.html</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knok.work/blog/pinterest-product-designer-interview.html</loc><lastmod>2026-09-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/pinterest-product-designer-interview.html</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/pinterest-product-manager-interview.html</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/pinterest-program-manager-interview.html</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knok.work/blog/pinterest-software-engineer-interview.html</loc><lastmod>2026-09-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knok.work/blog/pitch-frontend-engineer-interview.html</loc><lastmod>2026-09-23</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knok.work/blog/plaid-data-scientist-interview.html</loc><lastmod>2026-09-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knok.work/blog/plaid-engineering-manager-interview.html</loc><lastmod>2026-09-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knok.work/blog/plaid-machine-learning-engineer-interview.html</loc><lastmod>2026-09-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knok.work/blog/plaid-product-manager-interview.html</loc><lastmod>2026-09-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knok.work/blog/plaid-program-manager-interview.html</loc><lastmod>2026-09-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knok.work/blog/plaid-security-engineer-interview.html</loc><lastmod>2026-09-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knok.work/blog/plaid-software-engineer-interview.html</loc><lastmod>2026-09-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knok.work/blog/plaid-solutions-engineer-interview.html</loc><lastmod>2026-09-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knok.work/blog/planetscale-software-engineer-interview.html</loc><lastmod>2026-09-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/pinterest-qa-engineer-interview.html</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/pinterest-security-engineer-interview.html</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/pinterest-software-engineer-interview.html</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/pinterest-solutions-engineer-interview.html</loc><lastmod>2026-08-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/pitch-frontend-engineer-interview.html</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/pitch-software-engineer-interview.html</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/plaid-business-analyst-interview.html</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/plaid-data-engineer-interview.html</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/plaid-data-scientist-interview.html</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/plaid-devops-engineer-interview.html</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/plaid-engineering-manager-interview.html</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/plaid-machine-learning-engineer-interview.html</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/plaid-product-manager-interview.html</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/plaid-program-manager-interview.html</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/plaid-security-engineer-interview.html</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/plaid-software-engineer-interview.html</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/plaid-solutions-engineer-interview.html</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/planetscale-software-engineer-interview.html</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/planetscale-solutions-engineer-interview.html</loc><lastmod>2026-09-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/platform-engineer-salary-bangalore.html</loc><lastmod>2026-09-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/platform-engineer-salary-india-2026.html</loc><lastmod>2026-09-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/platform-engineer-skills-and-roadmap-india.html</loc><lastmod>2026-09-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
