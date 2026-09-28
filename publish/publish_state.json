@@ -1,15 +1,5 @@
 {
  "queue": [
-  "nue-io-engineering-manager-interview",
-  "nue-io-software-engineer-interview",
-  "nurix-data-scientist-interview",
-  "nurix-machine-learning-engineer-interview",
-  "nutanix-data-analyst-interview",
-  "nutanix-data-architect-interview",
-  "nutanix-engineering-manager-interview",
-  "nutanix-product-manager-interview",
-  "nutanix-qa-engineer-interview",
-  "nutanix-software-engineer-interview",
   "nutrabay-data-engineer-interview",
   "nutribray-healthcare-product-manager-interview",
   "nvidia-business-analyst-interview",
@@ -4136,7 +4126,17 @@
   "notion-data-engineer-interview",
   "notion-product-designer-interview",
   "notion-product-manager-interview",
-  "nro-program-manager-interview"
+  "nro-program-manager-interview",
+  "nue-io-engineering-manager-interview",
+  "nue-io-software-engineer-interview",
+  "nurix-data-scientist-interview",
+  "nurix-machine-learning-engineer-interview",
+  "nutanix-data-analyst-interview",
+  "nutanix-data-architect-interview",
+  "nutanix-engineering-manager-interview",
+  "nutanix-product-manager-interview",
+  "nutanix-qa-engineer-interview",
+  "nutanix-software-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
