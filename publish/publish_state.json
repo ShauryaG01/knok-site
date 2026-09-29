@@ -1,13 +1,5 @@
 {
  "queue": [
-  "rapido-devops-engineer-interview",
-  "rapyd-data-analyst-interview",
-  "rapyd-devops-engineer-interview",
-  "razorpay-data-engineer-interview",
-  "razorpay-data-scientist-interview",
-  "razorpay-devops-engineer-interview",
-  "razorpay-engineering-manager-interview",
-  "razorpay-machine-learning-engineer-interview",
   "razorpay-program-manager-interview",
   "reddit-data-engineer-interview",
   "reddit-frontend-engineer-interview",
@@ -4255,7 +4247,15 @@
   "quicksell-solutions-engineer-interview",
   "radiant-digital-devops-engineer-interview",
   "ramp-product-designer-interview",
-  "ramp-talent-product-manager-interview"
+  "ramp-talent-product-manager-interview",
+  "rapido-devops-engineer-interview",
+  "rapyd-data-analyst-interview",
+  "rapyd-devops-engineer-interview",
+  "razorpay-data-engineer-interview",
+  "razorpay-data-scientist-interview",
+  "razorpay-devops-engineer-interview",
+  "razorpay-engineering-manager-interview",
+  "razorpay-machine-learning-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }

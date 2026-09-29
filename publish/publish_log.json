@@ -8916,6 +8916,22 @@
    ],
    "total": 2983,
    "remaining": 1271
+  },
+  {
+   "date": "2026-09-29T15:53:51+00:00",
+   "count": 8,
+   "slugs": [
+    "rapido-devops-engineer-interview",
+    "rapyd-data-analyst-interview",
+    "rapyd-devops-engineer-interview",
+    "razorpay-data-engineer-interview",
+    "razorpay-data-scientist-interview",
+    "razorpay-devops-engineer-interview",
+    "razorpay-engineering-manager-interview",
+    "razorpay-machine-learning-engineer-interview"
+   ],
+   "total": 2991,
+   "remaining": 1263
   }
  ]
 }
