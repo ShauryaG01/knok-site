@@ -1,14 +1,5 @@
 {
  "queue": [
-  "pwc-data-analyst-interview",
-  "pwc-devops-engineer-interview",
-  "pwc-engineering-manager-interview",
-  "pwc-machine-learning-engineer-interview",
-  "pwc-product-manager-interview",
-  "qinetiq-us-data-analyst-interview",
-  "qualcomm-data-scientist-interview",
-  "qualcomm-product-manager-interview",
-  "qualcomm-program-manager-interview",
   "qualcomm-qa-engineer-interview",
   "qualcomm-security-engineer-interview",
   "qualcomm-software-engineer-interview",
@@ -4255,7 +4246,16 @@
   "pubmatic-security-engineer-interview",
   "pulsepoint-data-analyst-interview",
   "pulsepoint-devops-engineer-interview",
-  "pwc-business-analyst-interview"
+  "pwc-business-analyst-interview",
+  "pwc-data-analyst-interview",
+  "pwc-devops-engineer-interview",
+  "pwc-engineering-manager-interview",
+  "pwc-machine-learning-engineer-interview",
+  "pwc-product-manager-interview",
+  "qinetiq-us-data-analyst-interview",
+  "qualcomm-data-scientist-interview",
+  "qualcomm-product-manager-interview",
+  "qualcomm-program-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }

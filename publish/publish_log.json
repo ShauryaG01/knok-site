@@ -8882,6 +8882,23 @@
    ],
    "total": 2965,
    "remaining": 1289
+  },
+  {
+   "date": "2026-09-29T10:46:54+00:00",
+   "count": 9,
+   "slugs": [
+    "pwc-data-analyst-interview",
+    "pwc-devops-engineer-interview",
+    "pwc-engineering-manager-interview",
+    "pwc-machine-learning-engineer-interview",
+    "pwc-product-manager-interview",
+    "qinetiq-us-data-analyst-interview",
+    "qualcomm-data-scientist-interview",
+    "qualcomm-product-manager-interview",
+    "qualcomm-program-manager-interview"
+   ],
+   "total": 2974,
+   "remaining": 1280
   }
  ]
 }
