@@ -1,14 +1,5 @@
 {
  "queue": [
-  "postman-platform-engineer-interview",
-  "postman-program-manager-interview",
-  "postman-security-engineer-interview",
-  "prediktive-machine-learning-engineer-interview",
-  "prediktive-product-designer-interview",
-  "prediktive-qa-engineer-interview",
-  "prismforce-data-scientist-interview",
-  "prismhr-product-manager-interview",
-  "prismhr-program-manager-interview",
   "prismhr-software-engineer-interview",
   "productdynamix-data-analyst-interview",
   "productdynamix-data-scientist-interview",
@@ -4196,7 +4187,16 @@
   "postman-data-engineer-interview",
   "postman-devops-engineer-interview",
   "postman-engineering-manager-interview",
-  "postman-frontend-engineer-interview"
+  "postman-frontend-engineer-interview",
+  "postman-platform-engineer-interview",
+  "postman-program-manager-interview",
+  "postman-security-engineer-interview",
+  "prediktive-machine-learning-engineer-interview",
+  "prediktive-product-designer-interview",
+  "prediktive-qa-engineer-interview",
+  "prismforce-data-scientist-interview",
+  "prismhr-product-manager-interview",
+  "prismhr-program-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
