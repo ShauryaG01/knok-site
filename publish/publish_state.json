@@ -1,14 +1,5 @@
 {
  "queue": [
-  "razorpay-program-manager-interview",
-  "reddit-data-engineer-interview",
-  "reddit-frontend-engineer-interview",
-  "reddit-ios-engineer-interview",
-  "reddit-security-engineer-interview",
-  "relecura-software-engineer-interview",
-  "remark-software-engineer-interview",
-  "remotestar-team-android-engineer-interview",
-  "remotestar-team-data-scientist-interview",
   "remotestar-team-devops-engineer-interview",
   "remotestar-team-engineering-manager-interview",
   "remotestar-team-ios-engineer-interview",
@@ -4255,7 +4246,16 @@
   "razorpay-data-scientist-interview",
   "razorpay-devops-engineer-interview",
   "razorpay-engineering-manager-interview",
-  "razorpay-machine-learning-engineer-interview"
+  "razorpay-machine-learning-engineer-interview",
+  "razorpay-program-manager-interview",
+  "reddit-data-engineer-interview",
+  "reddit-frontend-engineer-interview",
+  "reddit-ios-engineer-interview",
+  "reddit-security-engineer-interview",
+  "relecura-software-engineer-interview",
+  "remark-software-engineer-interview",
+  "remotestar-team-android-engineer-interview",
+  "remotestar-team-data-scientist-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
