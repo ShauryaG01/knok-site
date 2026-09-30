@@ -1,14 +1,5 @@
 {
  "queue": [
-  "samsara-product-designer-interview",
-  "samsara-security-engineer-interview",
-  "samsung-software-engineer-interview",
-  "sanas-product-designer-interview",
-  "sanity-solutions-engineer-interview",
-  "sardine-data-engineer-interview",
-  "sardine-devops-engineer-interview",
-  "sarlaaviation-software-engineer-interview",
-  "sarvam-data-engineer-interview",
   "sarvam-platform-engineer-interview",
   "sarvam-product-designer-interview",
   "sarvam-security-engineer-interview",
@@ -4315,7 +4306,16 @@
   "safe-fleet-product-manager-interview",
   "samsara-data-architect-interview",
   "samsara-engineering-manager-interview",
-  "samsara-mobile-engineer-interview"
+  "samsara-mobile-engineer-interview",
+  "samsara-product-designer-interview",
+  "samsara-security-engineer-interview",
+  "samsung-software-engineer-interview",
+  "sanas-product-designer-interview",
+  "sanity-solutions-engineer-interview",
+  "sardine-data-engineer-interview",
+  "sardine-devops-engineer-interview",
+  "sarlaaviation-software-engineer-interview",
+  "sarvam-data-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
