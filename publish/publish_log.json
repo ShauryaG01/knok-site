@@ -8998,6 +8998,22 @@
    ],
    "total": 3025,
    "remaining": 1289
+  },
+  {
+   "date": "2026-09-30T10:46:42+00:00",
+   "count": 8,
+   "slugs": [
+    "roku-product-designer-interview",
+    "rozana-qa-engineer-interview",
+    "rubrik-data-scientist-interview",
+    "rubrik-engineering-manager-interview",
+    "rubrik-machine-learning-engineer-interview",
+    "rubrik-product-designer-interview",
+    "rubrik-program-manager-interview",
+    "rubrik-security-engineer-interview"
+   ],
+   "total": 3033,
+   "remaining": 1281
   }
  ]
 }
