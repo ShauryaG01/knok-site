@@ -8982,6 +8982,22 @@
    ],
    "total": 3017,
    "remaining": 1297
+  },
+  {
+   "date": "2026-09-30T08:29:32+00:00",
+   "count": 8,
+   "slugs": [
+    "robinhood-data-engineer-interview",
+    "robinhood-program-manager-interview",
+    "robinhood-ui-ux-designer-interview",
+    "roche-business-analyst-interview",
+    "rockstargames-devops-engineer-interview",
+    "rockstargames-machine-learning-engineer-interview",
+    "rockstargames-platform-engineer-interview",
+    "rockstargames-product-designer-interview"
+   ],
+   "total": 3025,
+   "remaining": 1289
   }
  ]
 }
