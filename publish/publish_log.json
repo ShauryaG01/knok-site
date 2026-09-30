@@ -8966,6 +8966,22 @@
    ],
    "total": 3009,
    "remaining": 1245
+  },
+  {
+   "date": "2026-09-30T06:52:17+00:00",
+   "count": 8,
+   "slugs": [
+    "riot-games-product-designer-interview",
+    "riot-games-program-manager-interview",
+    "ripple-data-engineer-interview",
+    "ripple-data-scientist-interview",
+    "rippling-engineering-manager-interview",
+    "ritually-software-engineer-interview",
+    "robinhood-business-analyst-interview",
+    "robinhood-cloud-engineer-interview"
+   ],
+   "total": 3017,
+   "remaining": 1297
   }
  ]
 }
