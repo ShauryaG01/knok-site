@@ -1,14 +1,5 @@
 {
  "queue": [
-  "sigmoid-engineering-manager-interview",
-  "sign3-software-engineer-interview",
-  "singular-product-manager-interview",
-  "sk-defence-uk-ltd-qa-engineer-interview",
-  "skd-se-qa-engineer-interview",
-  "skeps-engineering-manager-interview",
-  "skyfall-ai-software-engineer-interview",
-  "slice-engineering-manager-interview",
-  "slice-product-manager-interview",
   "smartsheet-data-scientist-interview",
   "smartsheet-program-manager-interview",
   "smartsheet-security-engineer-interview",
@@ -4374,7 +4365,16 @@
   "shuru-devops-engineer-interview",
   "sierra-devops-engineer-interview",
   "sierra-frontend-engineer-interview",
-  "sierra-product-designer-interview"
+  "sierra-product-designer-interview",
+  "sigmoid-engineering-manager-interview",
+  "sign3-software-engineer-interview",
+  "singular-product-manager-interview",
+  "sk-defence-uk-ltd-qa-engineer-interview",
+  "skd-se-qa-engineer-interview",
+  "skeps-engineering-manager-interview",
+  "skyfall-ai-software-engineer-interview",
+  "slice-engineering-manager-interview",
+  "slice-product-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
