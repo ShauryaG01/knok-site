@@ -1,14 +1,5 @@
 {
  "queue": [
-  "sofi-data-engineer-interview",
-  "sofi-security-engineer-interview",
-  "solarsquare-data-analyst-interview",
-  "solarsquare-energy-product-manager-interview",
-  "speak-data-scientist-interview",
-  "speak-machine-learning-engineer-interview",
-  "spector-ai-software-engineer-interview",
-  "speechmatics-data-scientist-interview",
-  "speechmatics-machine-learning-engineer-interview",
   "speechmatics-product-manager-interview",
   "spinny-product-manager-interview",
   "spinny-program-manager-interview",
@@ -4374,7 +4365,16 @@
   "snapdeal-software-engineer-interview",
   "snapsheet-devops-engineer-interview",
   "snowflake-data-architect-interview",
-  "snowflake-security-engineer-interview"
+  "snowflake-security-engineer-interview",
+  "sofi-data-engineer-interview",
+  "sofi-security-engineer-interview",
+  "solarsquare-data-analyst-interview",
+  "solarsquare-energy-product-manager-interview",
+  "speak-data-scientist-interview",
+  "speak-machine-learning-engineer-interview",
+  "spector-ai-software-engineer-interview",
+  "speechmatics-data-scientist-interview",
+  "speechmatics-machine-learning-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
