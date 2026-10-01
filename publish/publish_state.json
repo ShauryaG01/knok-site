@@ -1,13 +1,5 @@
 {
  "queue": [
-  "scale-ai-product-designer-interview",
-  "scaleops-devops-engineer-interview",
-  "scaleops-product-manager-interview",
-  "scaleops-software-engineer-interview",
-  "scaleops-solutions-engineer-interview",
-  "scapia-product-manager-interview",
-  "scispace-product-manager-interview",
-  "scope-retail-systems-software-engineer-interview",
   "scopely-software-engineer-interview",
   "seek-product-manager-interview",
   "seek-software-engineer-interview",
@@ -4315,7 +4307,15 @@
   "saviynt-product-manager-interview",
   "saviynt-security-engineer-interview",
   "scale-ai-data-engineer-interview",
-  "scale-ai-data-scientist-interview"
+  "scale-ai-data-scientist-interview",
+  "scale-ai-product-designer-interview",
+  "scaleops-devops-engineer-interview",
+  "scaleops-product-manager-interview",
+  "scaleops-software-engineer-interview",
+  "scaleops-solutions-engineer-interview",
+  "scapia-product-manager-interview",
+  "scispace-product-manager-interview",
+  "scope-retail-systems-software-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
