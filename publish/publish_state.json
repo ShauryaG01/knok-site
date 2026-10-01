@@ -1,13 +1,5 @@
 {
  "queue": [
-  "sarvam-platform-engineer-interview",
-  "sarvam-product-designer-interview",
-  "sarvam-security-engineer-interview",
-  "saviynt-engineering-manager-interview",
-  "saviynt-product-manager-interview",
-  "saviynt-security-engineer-interview",
-  "scale-ai-data-engineer-interview",
-  "scale-ai-data-scientist-interview",
   "scale-ai-product-designer-interview",
   "scaleops-devops-engineer-interview",
   "scaleops-product-manager-interview",
@@ -4315,7 +4307,15 @@
   "sardine-data-engineer-interview",
   "sardine-devops-engineer-interview",
   "sarlaaviation-software-engineer-interview",
-  "sarvam-data-engineer-interview"
+  "sarvam-data-engineer-interview",
+  "sarvam-platform-engineer-interview",
+  "sarvam-product-designer-interview",
+  "sarvam-security-engineer-interview",
+  "saviynt-engineering-manager-interview",
+  "saviynt-product-manager-interview",
+  "saviynt-security-engineer-interview",
+  "scale-ai-data-engineer-interview",
+  "scale-ai-data-scientist-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }

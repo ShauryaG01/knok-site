@@ -9048,6 +9048,22 @@
    ],
    "total": 3051,
    "remaining": 1263
+  },
+  {
+   "date": "2026-10-01T03:40:50+00:00",
+   "count": 8,
+   "slugs": [
+    "sarvam-platform-engineer-interview",
+    "sarvam-product-designer-interview",
+    "sarvam-security-engineer-interview",
+    "saviynt-engineering-manager-interview",
+    "saviynt-product-manager-interview",
+    "saviynt-security-engineer-interview",
+    "scale-ai-data-engineer-interview",
+    "scale-ai-data-scientist-interview"
+   ],
+   "total": 3059,
+   "remaining": 1255
   }
  ]
 }
