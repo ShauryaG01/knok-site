@@ -1,14 +1,5 @@
 {
  "queue": [
-  "sequoia-connect-frontend-engineer-interview",
-  "sequoia-connect-program-manager-interview",
-  "sett-software-engineer-interview",
-  "sg2-recruiting-data-engineer-interview",
-  "shipsy-software-engineer-interview",
-  "shuru-devops-engineer-interview",
-  "sierra-devops-engineer-interview",
-  "sierra-frontend-engineer-interview",
-  "sierra-product-designer-interview",
   "sigmoid-engineering-manager-interview",
   "sign3-software-engineer-interview",
   "singular-product-manager-interview",
@@ -4374,7 +4365,16 @@
   "sentry-program-manager-interview",
   "sequoia-connect-cloud-engineer-interview",
   "sequoia-connect-data-engineer-interview",
-  "sequoia-connect-devops-engineer-interview"
+  "sequoia-connect-devops-engineer-interview",
+  "sequoia-connect-frontend-engineer-interview",
+  "sequoia-connect-program-manager-interview",
+  "sett-software-engineer-interview",
+  "sg2-recruiting-data-engineer-interview",
+  "shipsy-software-engineer-interview",
+  "shuru-devops-engineer-interview",
+  "sierra-devops-engineer-interview",
+  "sierra-frontend-engineer-interview",
+  "sierra-product-designer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
