@@ -1,14 +1,5 @@
 {
  "queue": [
-  "smartsheet-data-scientist-interview",
-  "smartsheet-program-manager-interview",
-  "smartsheet-security-engineer-interview",
-  "smartsheet-solutions-engineer-interview",
-  "sminq-mobile-engineer-interview",
-  "snapdeal-software-engineer-interview",
-  "snapsheet-devops-engineer-interview",
-  "snowflake-data-architect-interview",
-  "snowflake-security-engineer-interview",
   "sofi-data-engineer-interview",
   "sofi-security-engineer-interview",
   "solarsquare-data-analyst-interview",
@@ -4374,7 +4365,16 @@
   "skeps-engineering-manager-interview",
   "skyfall-ai-software-engineer-interview",
   "slice-engineering-manager-interview",
-  "slice-product-manager-interview"
+  "slice-product-manager-interview",
+  "smartsheet-data-scientist-interview",
+  "smartsheet-program-manager-interview",
+  "smartsheet-security-engineer-interview",
+  "smartsheet-solutions-engineer-interview",
+  "sminq-mobile-engineer-interview",
+  "snapdeal-software-engineer-interview",
+  "snapsheet-devops-engineer-interview",
+  "snowflake-data-architect-interview",
+  "snowflake-security-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
