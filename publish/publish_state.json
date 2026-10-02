@@ -1,14 +1,5 @@
 {
  "queue": [
-  "swimlane-devops-engineer-interview",
-  "swimlane-software-engineer-interview",
-  "swimlane-solutions-engineer-interview",
-  "symetra-product-manager-interview",
-  "synopsys-devops-engineer-interview",
-  "synopsys-product-manager-interview",
-  "synthesia-data-scientist-interview",
-  "synthesia-devops-engineer-interview",
-  "synthesia-machine-learning-engineer-interview",
   "synthesia-security-engineer-interview",
   "sysaid-technologies-machine-learning-engineer-interview",
   "t-mobile-software-engineer-interview",
@@ -4434,7 +4425,16 @@
   "supabase-devops-engineer-interview",
   "supabase-security-engineer-interview",
   "swiggy-business-analyst-interview",
-  "swiggy-engineering-manager-interview"
+  "swiggy-engineering-manager-interview",
+  "swimlane-devops-engineer-interview",
+  "swimlane-software-engineer-interview",
+  "swimlane-solutions-engineer-interview",
+  "symetra-product-manager-interview",
+  "synopsys-devops-engineer-interview",
+  "synopsys-product-manager-interview",
+  "synthesia-data-scientist-interview",
+  "synthesia-devops-engineer-interview",
+  "synthesia-machine-learning-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }

@@ -9229,6 +9229,23 @@
    ],
    "total": 3144,
    "remaining": 1289
+  },
+  {
+   "date": "2026-10-02T10:44:18+00:00",
+   "count": 9,
+   "slugs": [
+    "swimlane-devops-engineer-interview",
+    "swimlane-software-engineer-interview",
+    "swimlane-solutions-engineer-interview",
+    "symetra-product-manager-interview",
+    "synopsys-devops-engineer-interview",
+    "synopsys-product-manager-interview",
+    "synthesia-data-scientist-interview",
+    "synthesia-devops-engineer-interview",
+    "synthesia-machine-learning-engineer-interview"
+   ],
+   "total": 3153,
+   "remaining": 1280
   }
  ]
 }
