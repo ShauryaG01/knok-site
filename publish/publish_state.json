@@ -1,13 +1,5 @@
 {
  "queue": [
-  "spotify-product-designer-interview",
-  "spotify-security-engineer-interview",
-  "spotify-solutions-engineer-interview",
-  "squarespace-frontend-engineer-interview",
-  "squarespace-product-manager-interview",
-  "squarespace-program-manager-interview",
-  "stage-security-engineer-interview",
-  "stark-qa-engineer-interview",
   "state-street-program-manager-interview",
   "steno-software-engineer-interview",
   "strategic-employment-data-analyst-interview",
@@ -4374,7 +4366,15 @@
   "spotdraft-product-manager-interview",
   "spotdraft-software-engineer-interview",
   "spotify-android-engineer-interview",
-  "spotify-frontend-engineer-interview"
+  "spotify-frontend-engineer-interview",
+  "spotify-product-designer-interview",
+  "spotify-security-engineer-interview",
+  "spotify-solutions-engineer-interview",
+  "squarespace-frontend-engineer-interview",
+  "squarespace-product-manager-interview",
+  "squarespace-program-manager-interview",
+  "stage-security-engineer-interview",
+  "stark-qa-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
