@@ -1,13 +1,5 @@
 {
  "queue": [
-  "speechmatics-product-manager-interview",
-  "spinny-product-manager-interview",
-  "spinny-program-manager-interview",
-  "spotdraft-devops-engineer-interview",
-  "spotdraft-product-manager-interview",
-  "spotdraft-software-engineer-interview",
-  "spotify-android-engineer-interview",
-  "spotify-frontend-engineer-interview",
   "spotify-product-designer-interview",
   "spotify-security-engineer-interview",
   "spotify-solutions-engineer-interview",
@@ -4374,7 +4366,15 @@
   "speak-machine-learning-engineer-interview",
   "spector-ai-software-engineer-interview",
   "speechmatics-data-scientist-interview",
-  "speechmatics-machine-learning-engineer-interview"
+  "speechmatics-machine-learning-engineer-interview",
+  "speechmatics-product-manager-interview",
+  "spinny-product-manager-interview",
+  "spinny-program-manager-interview",
+  "spotdraft-devops-engineer-interview",
+  "spotdraft-product-manager-interview",
+  "spotdraft-software-engineer-interview",
+  "spotify-android-engineer-interview",
+  "spotify-frontend-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
