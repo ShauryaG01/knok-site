@@ -9381,6 +9381,23 @@
    ],
    "total": 3224,
    "remaining": 1268
+  },
+  {
+   "date": "2026-10-03T15:58:47+00:00",
+   "count": 9,
+   "slugs": [
+    "vast-data-frontend-engineer-interview",
+    "vast-data-machine-learning-engineer-interview",
+    "vast-data-program-manager-interview",
+    "veeva-frontend-engineer-interview",
+    "veeva-solutions-engineer-interview",
+    "vega-product-designer-interview",
+    "vega-software-engineer-interview",
+    "vega-solutions-engineer-interview",
+    "vegapay-data-engineer-interview"
+   ],
+   "total": 3233,
+   "remaining": 1259
   }
  ]
 }
