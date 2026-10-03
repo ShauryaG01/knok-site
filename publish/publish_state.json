@@ -1,14 +1,5 @@
 {
  "queue": [
-  "uber-machine-learning-engineer-interview",
-  "uber-product-designer-interview",
-  "uber-program-manager-interview",
-  "uber-software-engineer-interview",
-  "ukg-program-manager-interview",
-  "unacademy-data-analyst-interview",
-  "unacademy-software-engineer-interview",
-  "upgrad-engineering-manager-interview",
-  "upgrad-product-designer-interview",
   "upgrad-program-manager-interview",
   "uptimeai-data-scientist-interview",
   "usefulbi-software-engineer-interview",
@@ -4493,7 +4484,16 @@
   "typeface-data-scientist-interview",
   "typeface-machine-learning-engineer-interview",
   "typeface-software-engineer-interview",
-  "uber-data-scientist-interview"
+  "uber-data-scientist-interview",
+  "uber-machine-learning-engineer-interview",
+  "uber-product-designer-interview",
+  "uber-program-manager-interview",
+  "uber-software-engineer-interview",
+  "ukg-program-manager-interview",
+  "unacademy-data-analyst-interview",
+  "unacademy-software-engineer-interview",
+  "upgrad-engineering-manager-interview",
+  "upgrad-product-designer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }

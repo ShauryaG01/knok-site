@@ -9347,6 +9347,23 @@
    ],
    "total": 3206,
    "remaining": 1286
+  },
+  {
+   "date": "2026-10-03T10:43:33+00:00",
+   "count": 9,
+   "slugs": [
+    "uber-machine-learning-engineer-interview",
+    "uber-product-designer-interview",
+    "uber-program-manager-interview",
+    "uber-software-engineer-interview",
+    "ukg-program-manager-interview",
+    "unacademy-data-analyst-interview",
+    "unacademy-software-engineer-interview",
+    "upgrad-engineering-manager-interview",
+    "upgrad-product-designer-interview"
+   ],
+   "total": 3215,
+   "remaining": 1277
   }
  ]
 }
