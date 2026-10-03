@@ -1,14 +1,5 @@
 {
  "queue": [
-  "upgrad-program-manager-interview",
-  "uptimeai-data-scientist-interview",
-  "usefulbi-software-engineer-interview",
-  "usv-pharma-product-manager-interview",
-  "uveye-machine-learning-engineer-interview",
-  "uveye-product-manager-interview",
-  "uveye-software-engineer-interview",
-  "vast-data-data-analyst-interview",
-  "vast-data-devops-engineer-interview",
   "vast-data-frontend-engineer-interview",
   "vast-data-machine-learning-engineer-interview",
   "vast-data-program-manager-interview",
@@ -4493,7 +4484,16 @@
   "unacademy-data-analyst-interview",
   "unacademy-software-engineer-interview",
   "upgrad-engineering-manager-interview",
-  "upgrad-product-designer-interview"
+  "upgrad-product-designer-interview",
+  "upgrad-program-manager-interview",
+  "uptimeai-data-scientist-interview",
+  "usefulbi-software-engineer-interview",
+  "usv-pharma-product-manager-interview",
+  "uveye-machine-learning-engineer-interview",
+  "uveye-product-manager-interview",
+  "uveye-software-engineer-interview",
+  "vast-data-data-analyst-interview",
+  "vast-data-devops-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
