@@ -1,15 +1,5 @@
 {
  "queue": [
-  "zomato-frontend-engineer-interview",
-  "zomato-ios-engineer-interview",
-  "zomato-machine-learning-engineer-interview",
-  "zoominfo-data-engineer-interview",
-  "zoominfo-data-scientist-interview",
-  "zoominfo-solutions-engineer-interview",
-  "zscaler-platform-engineer-interview",
-  "rapsys-technologies-business-analyst-interview",
-  "recrutify-consultants-business-analyst-interview",
-  "shavish-group-solutions-engineer-interview",
   "techgroup-america-inc-business-analyst-interview",
   "techvaria-business-analyst-interview",
   "bounce-product-designer-interview",
@@ -4493,7 +4483,17 @@
   "zluri-software-engineer-interview",
   "zolve-product-manager-interview",
   "zomato-android-engineer-interview",
-  "zomato-data-scientist-interview"
+  "zomato-data-scientist-interview",
+  "zomato-frontend-engineer-interview",
+  "zomato-ios-engineer-interview",
+  "zomato-machine-learning-engineer-interview",
+  "zoominfo-data-engineer-interview",
+  "zoominfo-data-scientist-interview",
+  "zoominfo-solutions-engineer-interview",
+  "zscaler-platform-engineer-interview",
+  "rapsys-technologies-business-analyst-interview",
+  "recrutify-consultants-business-analyst-interview",
+  "shavish-group-solutions-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
