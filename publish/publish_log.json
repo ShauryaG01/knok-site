@@ -9468,6 +9468,23 @@
    ],
    "total": 3271,
    "remaining": 1221
+  },
+  {
+   "date": "2026-10-04T10:42:15+00:00",
+   "count": 9,
+   "slugs": [
+    "yugabyte-solutions-engineer-interview",
+    "yugen-ai-frontend-engineer-interview",
+    "zemoso-technologies-data-scientist-interview",
+    "zemoso-technologies-machine-learning-engineer-interview",
+    "zendev-frontend-engineer-interview",
+    "zensar-cloud-engineer-interview",
+    "zensar-data-scientist-interview",
+    "zensar-engineering-manager-interview",
+    "zensar-platform-engineer-interview"
+   ],
+   "total": 3280,
+   "remaining": 1212
   }
  ]
 }
