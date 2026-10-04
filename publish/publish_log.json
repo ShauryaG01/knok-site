@@ -9485,6 +9485,24 @@
    ],
    "total": 3280,
    "remaining": 1212
+  },
+  {
+   "date": "2026-10-04T13:24:19+00:00",
+   "count": 10,
+   "slugs": [
+    "zensar-program-manager-interview",
+    "zentrades-frontend-engineer-interview",
+    "zentrades-product-manager-interview",
+    "zentrades-software-engineer-interview",
+    "zepto-machine-learning-engineer-interview",
+    "zluri-product-designer-interview",
+    "zluri-software-engineer-interview",
+    "zolve-product-manager-interview",
+    "zomato-android-engineer-interview",
+    "zomato-data-scientist-interview"
+   ],
+   "total": 3290,
+   "remaining": 1202
   }
  ]
 }
