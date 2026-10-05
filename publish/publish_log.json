@@ -9521,6 +9521,23 @@
    ],
    "total": 3300,
    "remaining": 1192
+  },
+  {
+   "date": "2026-10-05T03:38:37+00:00",
+   "count": 9,
+   "slugs": [
+    "techgroup-america-inc-business-analyst-interview",
+    "techvaria-business-analyst-interview",
+    "bounce-product-designer-interview",
+    "bounce-product-manager-interview",
+    "bounce-software-engineer-interview",
+    "celonis-product-manager-interview",
+    "how-to-get-hired-at-analytics-training-hub",
+    "how-to-get-hired-at-appviewx",
+    "how-to-get-hired-at-aquaexchange"
+   ],
+   "total": 3309,
+   "remaining": 1183
   }
  ]
 }

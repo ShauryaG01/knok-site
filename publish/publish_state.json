@@ -1,14 +1,5 @@
 {
  "queue": [
-  "techgroup-america-inc-business-analyst-interview",
-  "techvaria-business-analyst-interview",
-  "bounce-product-designer-interview",
-  "bounce-product-manager-interview",
-  "bounce-software-engineer-interview",
-  "celonis-product-manager-interview",
-  "how-to-get-hired-at-analytics-training-hub",
-  "how-to-get-hired-at-appviewx",
-  "how-to-get-hired-at-aquaexchange",
   "how-to-get-hired-at-arista-networks",
   "how-to-get-hired-at-ascenda",
   "how-to-get-hired-at-astrazeneca",
@@ -4493,7 +4484,16 @@
   "zscaler-platform-engineer-interview",
   "rapsys-technologies-business-analyst-interview",
   "recrutify-consultants-business-analyst-interview",
-  "shavish-group-solutions-engineer-interview"
+  "shavish-group-solutions-engineer-interview",
+  "techgroup-america-inc-business-analyst-interview",
+  "techvaria-business-analyst-interview",
+  "bounce-product-designer-interview",
+  "bounce-product-manager-interview",
+  "bounce-software-engineer-interview",
+  "celonis-product-manager-interview",
+  "how-to-get-hired-at-analytics-training-hub",
+  "how-to-get-hired-at-appviewx",
+  "how-to-get-hired-at-aquaexchange"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
