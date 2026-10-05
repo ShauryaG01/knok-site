@@ -1,13 +1,5 @@
 {
  "queue": [
-  "how-to-get-hired-at-thz41",
-  "how-to-get-hired-at-toprankers",
-  "how-to-get-hired-at-tradelab",
-  "how-to-get-hired-at-worldbankgroup",
-  "how-to-get-hired-at-yala",
-  "how-to-get-hired-at-zemoso-technologies",
-  "lemon-io-data-scientist-interview",
-  "lemon-io-devops-engineer-interview",
   "lemon-io-product-manager-interview",
   "bureau-product-designer-interview",
   "bureau-security-engineer-interview",
@@ -4493,7 +4485,15 @@
   "how-to-get-hired-at-tata-business-hub-limited",
   "how-to-get-hired-at-telus-international",
   "how-to-get-hired-at-terra",
-  "how-to-get-hired-at-the-convergence-foundation"
+  "how-to-get-hired-at-the-convergence-foundation",
+  "how-to-get-hired-at-thz41",
+  "how-to-get-hired-at-toprankers",
+  "how-to-get-hired-at-tradelab",
+  "how-to-get-hired-at-worldbankgroup",
+  "how-to-get-hired-at-yala",
+  "how-to-get-hired-at-zemoso-technologies",
+  "lemon-io-data-scientist-interview",
+  "lemon-io-devops-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
