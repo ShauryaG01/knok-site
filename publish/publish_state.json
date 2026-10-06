@@ -1,15 +1,5 @@
 {
  "queue": [
-  "uipath-business-analyst-interview",
-  "uipath-product-designer-interview",
-  "algotest-product-manager-interview",
-  "aqua-product-manager-interview",
-  "artisan-product-manager-interview",
-  "atlys-engineering-manager-interview",
-  "atob-product-manager-interview",
-  "boldvoice-product-manager-interview",
-  "boschgroup-cloud-engineer-interview",
-  "broccoli-ai-product-manager-interview",
   "captainfresh-frontend-engineer-interview",
   "captainfresh-product-manager-interview",
   "clarity-data-engineer-interview",
@@ -4673,7 +4663,17 @@
   "suno-ios-engineer-interview",
   "suno-machine-learning-engineer-interview",
   "suno-product-designer-interview",
-  "suno-security-engineer-interview"
+  "suno-security-engineer-interview",
+  "uipath-business-analyst-interview",
+  "uipath-product-designer-interview",
+  "algotest-product-manager-interview",
+  "aqua-product-manager-interview",
+  "artisan-product-manager-interview",
+  "atlys-engineering-manager-interview",
+  "atob-product-manager-interview",
+  "boldvoice-product-manager-interview",
+  "boschgroup-cloud-engineer-interview",
+  "broccoli-ai-product-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }

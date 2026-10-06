@@ -9745,6 +9745,24 @@
    ],
    "total": 3420,
    "remaining": 1252
+  },
+  {
+   "date": "2026-10-06T15:58:22+00:00",
+   "count": 10,
+   "slugs": [
+    "uipath-business-analyst-interview",
+    "uipath-product-designer-interview",
+    "algotest-product-manager-interview",
+    "aqua-product-manager-interview",
+    "artisan-product-manager-interview",
+    "atlys-engineering-manager-interview",
+    "atob-product-manager-interview",
+    "boldvoice-product-manager-interview",
+    "boschgroup-cloud-engineer-interview",
+    "broccoli-ai-product-manager-interview"
+   ],
+   "total": 3430,
+   "remaining": 1242
   }
  ]
 }
