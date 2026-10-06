@@ -1,15 +1,5 @@
 {
  "queue": [
-  "n8n-solutions-engineer-interview",
-  "netapp-business-analyst-interview",
-  "netapp-program-manager-interview",
-  "pencil-product-designer-interview",
-  "render-product-manager-interview",
-  "render-solutions-engineer-interview",
-  "sanity-data-analyst-interview",
-  "sanity-devops-engineer-interview",
-  "sanity-product-manager-interview",
-  "singular-software-engineer-interview",
   "singular-solutions-engineer-interview",
   "speak-android-engineer-interview",
   "speak-engineering-manager-interview",
@@ -4673,7 +4663,17 @@
   "n8n-product-designer-interview",
   "n8n-product-manager-interview",
   "n8n-security-engineer-interview",
-  "n8n-software-engineer-interview"
+  "n8n-software-engineer-interview",
+  "n8n-solutions-engineer-interview",
+  "netapp-business-analyst-interview",
+  "netapp-program-manager-interview",
+  "pencil-product-designer-interview",
+  "render-product-manager-interview",
+  "render-solutions-engineer-interview",
+  "sanity-data-analyst-interview",
+  "sanity-devops-engineer-interview",
+  "sanity-product-manager-interview",
+  "singular-software-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
