@@ -1,12 +1,5 @@
 {
  "queue": [
-  "captainfresh-frontend-engineer-interview",
-  "captainfresh-product-manager-interview",
-  "clarity-data-engineer-interview",
-  "clarity-engineering-manager-interview",
-  "clarity-machine-learning-engineer-interview",
-  "clarity-product-manager-interview",
-  "clarity-software-engineer-interview",
   "clipboard-product-manager-interview",
   "clipboard-program-manager-interview",
   "conduit-product-manager-interview",
@@ -4673,7 +4666,14 @@
   "atob-product-manager-interview",
   "boldvoice-product-manager-interview",
   "boschgroup-cloud-engineer-interview",
-  "broccoli-ai-product-manager-interview"
+  "broccoli-ai-product-manager-interview",
+  "captainfresh-frontend-engineer-interview",
+  "captainfresh-product-manager-interview",
+  "clarity-data-engineer-interview",
+  "clarity-engineering-manager-interview",
+  "clarity-machine-learning-engineer-interview",
+  "clarity-product-manager-interview",
+  "clarity-software-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
