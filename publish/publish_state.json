@@ -1,12 +1,5 @@
 {
  "queue": [
-  "clipboard-product-manager-interview",
-  "clipboard-program-manager-interview",
-  "conduit-product-manager-interview",
-  "confido-product-manager-interview",
-  "deutsche-telekom-digital-labs-data-scientist-interview",
-  "doceree-product-manager-interview",
-  "ewargames-mobile-engineer-interview",
   "ewargames-product-manager-interview",
   "gosats-product-manager-interview",
   "grab-mobile-engineer-interview",
@@ -4673,7 +4666,14 @@
   "clarity-engineering-manager-interview",
   "clarity-machine-learning-engineer-interview",
   "clarity-product-manager-interview",
-  "clarity-software-engineer-interview"
+  "clarity-software-engineer-interview",
+  "clipboard-product-manager-interview",
+  "clipboard-program-manager-interview",
+  "conduit-product-manager-interview",
+  "confido-product-manager-interview",
+  "deutsche-telekom-digital-labs-data-scientist-interview",
+  "doceree-product-manager-interview",
+  "ewargames-mobile-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
