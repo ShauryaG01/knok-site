@@ -1,12 +1,5 @@
 {
  "queue": [
-  "tailor-product-manager-interview",
-  "tennr-product-manager-interview",
-  "terrakotta-product-manager-interview",
-  "the-semios-group-devops-engineer-interview",
-  "the-semios-group-qa-engineer-interview",
-  "vahan-product-manager-interview",
-  "wcube-frontend-engineer-interview",
   "wcube-product-manager-interview",
   "admedia-product-manager-interview",
   "aftershoot-product-manager-interview",
@@ -4673,7 +4666,14 @@
   "spotdraft-solutions-engineer-interview",
   "spoton-data-analyst-interview",
   "spoton-qa-engineer-interview",
-  "surebright-product-manager-interview"
+  "surebright-product-manager-interview",
+  "tailor-product-manager-interview",
+  "tennr-product-manager-interview",
+  "terrakotta-product-manager-interview",
+  "the-semios-group-devops-engineer-interview",
+  "the-semios-group-qa-engineer-interview",
+  "vahan-product-manager-interview",
+  "wcube-frontend-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
