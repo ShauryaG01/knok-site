@@ -1,15 +1,5 @@
 {
  "queue": [
-  "clari-engineering-manager-interview",
-  "cloudsek-frontend-engineer-interview",
-  "cloudsek-solutions-engineer-interview",
-  "coverstack-product-manager-interview",
-  "deutsche-telekom-digital-labs-mobile-engineer-interview",
-  "deutsche-telekom-digital-labs-platform-engineer-interview",
-  "deutsche-telekom-digital-labs-product-designer-interview",
-  "falcon-india-product-manager-interview",
-  "finkraft-product-manager-interview",
-  "gomechanic-product-manager-interview",
   "google-devops-engineer-interview",
   "google-product-manager-interview",
   "google-software-engineer-interview",
@@ -4673,7 +4663,17 @@
   "big-assets-infra-android-engineer-interview",
   "big-assets-infra-engineering-manager-interview",
   "big-assets-infra-product-manager-interview",
-  "big-assets-infra-qa-engineer-interview"
+  "big-assets-infra-qa-engineer-interview",
+  "clari-engineering-manager-interview",
+  "cloudsek-frontend-engineer-interview",
+  "cloudsek-solutions-engineer-interview",
+  "coverstack-product-manager-interview",
+  "deutsche-telekom-digital-labs-mobile-engineer-interview",
+  "deutsche-telekom-digital-labs-platform-engineer-interview",
+  "deutsche-telekom-digital-labs-product-designer-interview",
+  "falcon-india-product-manager-interview",
+  "finkraft-product-manager-interview",
+  "gomechanic-product-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
