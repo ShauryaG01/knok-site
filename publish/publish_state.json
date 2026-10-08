@@ -1,15 +1,5 @@
 {
  "queue": [
-  "kutumb-android-engineer-interview",
-  "kutumb-product-manager-interview",
-  "marvel-placements-product-manager-interview",
-  "mihup-product-manager-interview",
-  "mobius-knowledge-services-product-manager-interview",
-  "moonfrog-labs-devops-engineer-interview",
-  "moonfrog-labs-product-manager-interview",
-  "moonfrog-labs-software-engineer-interview",
-  "myhq-ui-ux-designer-interview",
-  "scispace-machine-learning-engineer-interview",
   "simplotel-product-manager-interview",
   "skeps-data-analyst-interview",
   "skeps-product-manager-interview",
@@ -4673,7 +4663,17 @@
   "hiver-product-manager-interview",
   "intellectt-product-manager-interview",
   "iserveu-product-manager-interview",
-  "jiosaavn-product-manager-interview"
+  "jiosaavn-product-manager-interview",
+  "kutumb-android-engineer-interview",
+  "kutumb-product-manager-interview",
+  "marvel-placements-product-manager-interview",
+  "mihup-product-manager-interview",
+  "mobius-knowledge-services-product-manager-interview",
+  "moonfrog-labs-devops-engineer-interview",
+  "moonfrog-labs-product-manager-interview",
+  "moonfrog-labs-software-engineer-interview",
+  "myhq-ui-ux-designer-interview",
+  "scispace-machine-learning-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
