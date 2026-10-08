@@ -1,14 +1,5 @@
 {
  "queue": [
-  "google-devops-engineer-interview",
-  "google-product-manager-interview",
-  "google-software-engineer-interview",
-  "highlevel-frontend-engineer-interview",
-  "hiver-frontend-engineer-interview",
-  "hiver-product-manager-interview",
-  "intellectt-product-manager-interview",
-  "iserveu-product-manager-interview",
-  "jiosaavn-product-manager-interview",
   "kutumb-android-engineer-interview",
   "kutumb-product-manager-interview",
   "marvel-placements-product-manager-interview",
@@ -4673,7 +4664,16 @@
   "deutsche-telekom-digital-labs-product-designer-interview",
   "falcon-india-product-manager-interview",
   "finkraft-product-manager-interview",
-  "gomechanic-product-manager-interview"
+  "gomechanic-product-manager-interview",
+  "google-devops-engineer-interview",
+  "google-product-manager-interview",
+  "google-software-engineer-interview",
+  "highlevel-frontend-engineer-interview",
+  "hiver-frontend-engineer-interview",
+  "hiver-product-manager-interview",
+  "intellectt-product-manager-interview",
+  "iserveu-product-manager-interview",
+  "jiosaavn-product-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
