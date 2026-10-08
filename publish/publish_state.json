@@ -1,15 +1,5 @@
 {
  "queue": [
-  "wcube-product-manager-interview",
-  "admedia-product-manager-interview",
-  "aftershoot-product-manager-interview",
-  "airties-india-product-manager-interview",
-  "aliqan-technologies-devops-engineer-interview",
-  "aliqan-technologies-product-manager-interview",
-  "allianz-data-engineer-interview",
-  "allianz-frontend-engineer-interview",
-  "allianz-product-manager-interview",
-  "amazon-data-engineer-interview",
   "amazon-program-manager-interview",
   "american-express-product-manager-interview",
   "ampcus-product-manager-interview",
@@ -4673,7 +4663,17 @@
   "the-semios-group-devops-engineer-interview",
   "the-semios-group-qa-engineer-interview",
   "vahan-product-manager-interview",
-  "wcube-frontend-engineer-interview"
+  "wcube-frontend-engineer-interview",
+  "wcube-product-manager-interview",
+  "admedia-product-manager-interview",
+  "aftershoot-product-manager-interview",
+  "airties-india-product-manager-interview",
+  "aliqan-technologies-devops-engineer-interview",
+  "aliqan-technologies-product-manager-interview",
+  "allianz-data-engineer-interview",
+  "allianz-frontend-engineer-interview",
+  "allianz-product-manager-interview",
+  "amazon-data-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
