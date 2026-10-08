@@ -9958,6 +9958,23 @@
    ],
    "total": 3529,
    "remaining": 1143
+  },
+  {
+   "date": "2026-10-08T13:22:21+00:00",
+   "count": 9,
+   "slugs": [
+    "simplotel-product-manager-interview",
+    "skeps-data-analyst-interview",
+    "skeps-product-manager-interview",
+    "skyleaf-consultants-business-analyst-interview",
+    "skyleaf-consultants-product-manager-interview",
+    "tamasha-product-manager-interview",
+    "techmagnate-product-manager-interview",
+    "urban-harvest-frontend-engineer-interview",
+    "urban-harvest-product-manager-interview"
+   ],
+   "total": 3538,
+   "remaining": 1134
   }
  ]
 }

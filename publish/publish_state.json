@@ -1,14 +1,5 @@
 {
  "queue": [
-  "simplotel-product-manager-interview",
-  "skeps-data-analyst-interview",
-  "skeps-product-manager-interview",
-  "skyleaf-consultants-business-analyst-interview",
-  "skyleaf-consultants-product-manager-interview",
-  "tamasha-product-manager-interview",
-  "techmagnate-product-manager-interview",
-  "urban-harvest-frontend-engineer-interview",
-  "urban-harvest-product-manager-interview",
   "urban-harvest-qa-engineer-interview",
   "urban-harvest-software-engineer-interview",
   "verse-innovation-product-manager-interview",
@@ -4673,7 +4664,16 @@
   "moonfrog-labs-product-manager-interview",
   "moonfrog-labs-software-engineer-interview",
   "myhq-ui-ux-designer-interview",
-  "scispace-machine-learning-engineer-interview"
+  "scispace-machine-learning-engineer-interview",
+  "simplotel-product-manager-interview",
+  "skeps-data-analyst-interview",
+  "skeps-product-manager-interview",
+  "skyleaf-consultants-business-analyst-interview",
+  "skyleaf-consultants-product-manager-interview",
+  "tamasha-product-manager-interview",
+  "techmagnate-product-manager-interview",
+  "urban-harvest-frontend-engineer-interview",
+  "urban-harvest-product-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
