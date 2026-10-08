@@ -1,14 +1,5 @@
 {
  "queue": [
-  "amazon-program-manager-interview",
-  "american-express-product-manager-interview",
-  "ampcus-product-manager-interview",
-  "arintra-engineering-manager-interview",
-  "au-small-finance-bank-limited-product-manager-interview",
-  "big-assets-infra-android-engineer-interview",
-  "big-assets-infra-engineering-manager-interview",
-  "big-assets-infra-product-manager-interview",
-  "big-assets-infra-qa-engineer-interview",
   "clari-engineering-manager-interview",
   "cloudsek-frontend-engineer-interview",
   "cloudsek-solutions-engineer-interview",
@@ -4673,7 +4664,16 @@
   "allianz-data-engineer-interview",
   "allianz-frontend-engineer-interview",
   "allianz-product-manager-interview",
-  "amazon-data-engineer-interview"
+  "amazon-data-engineer-interview",
+  "amazon-program-manager-interview",
+  "american-express-product-manager-interview",
+  "ampcus-product-manager-interview",
+  "arintra-engineering-manager-interview",
+  "au-small-finance-bank-limited-product-manager-interview",
+  "big-assets-infra-android-engineer-interview",
+  "big-assets-infra-engineering-manager-interview",
+  "big-assets-infra-product-manager-interview",
+  "big-assets-infra-qa-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }

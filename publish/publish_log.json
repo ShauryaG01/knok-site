@@ -9888,6 +9888,23 @@
    ],
    "total": 3491,
    "remaining": 1181
+  },
+  {
+   "date": "2026-10-08T05:16:35+00:00",
+   "count": 9,
+   "slugs": [
+    "amazon-program-manager-interview",
+    "american-express-product-manager-interview",
+    "ampcus-product-manager-interview",
+    "arintra-engineering-manager-interview",
+    "au-small-finance-bank-limited-product-manager-interview",
+    "big-assets-infra-android-engineer-interview",
+    "big-assets-infra-engineering-manager-interview",
+    "big-assets-infra-product-manager-interview",
+    "big-assets-infra-qa-engineer-interview"
+   ],
+   "total": 3500,
+   "remaining": 1172
   }
  ]
 }
