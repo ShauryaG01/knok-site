@@ -1,14 +1,5 @@
 {
  "queue": [
-  "urban-harvest-qa-engineer-interview",
-  "urban-harvest-software-engineer-interview",
-  "verse-innovation-product-manager-interview",
-  "xhire-one-product-manager-interview",
-  "assetplus-product-manager-interview",
-  "bg-consultants-product-manager-interview",
-  "bulwark-software-research-business-analyst-interview",
-  "bulwark-software-research-program-manager-interview",
-  "crewkarma-data-engineer-interview",
   "crewkarma-product-designer-interview",
   "dbs-bank-business-analyst-interview",
   "dbs-bank-product-manager-interview",
@@ -4673,7 +4664,16 @@
   "tamasha-product-manager-interview",
   "techmagnate-product-manager-interview",
   "urban-harvest-frontend-engineer-interview",
-  "urban-harvest-product-manager-interview"
+  "urban-harvest-product-manager-interview",
+  "urban-harvest-qa-engineer-interview",
+  "urban-harvest-software-engineer-interview",
+  "verse-innovation-product-manager-interview",
+  "xhire-one-product-manager-interview",
+  "assetplus-product-manager-interview",
+  "bg-consultants-product-manager-interview",
+  "bulwark-software-research-business-analyst-interview",
+  "bulwark-software-research-program-manager-interview",
+  "crewkarma-data-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
