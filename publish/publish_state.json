@@ -1,14 +1,5 @@
 {
  "queue": [
-  "zilo-product-designer-interview",
-  "zilo-product-manager-interview",
-  "zilo-ui-ux-designer-interview",
-  "agrim-data-analyst-interview",
-  "agrim-data-engineer-interview",
-  "agrim-data-scientist-interview",
-  "aivarinnovations-product-manager-interview",
-  "anarock-machine-learning-engineer-interview",
-  "anarock-product-manager-interview",
   "bharatnxt-data-analyst-interview",
   "bharatnxt-mobile-engineer-interview",
   "clickpost-data-scientist-interview",
@@ -4673,7 +4664,16 @@
   "testsigma-software-engineer-interview",
   "vegapay-devops-engineer-interview",
   "vegapay-machine-learning-engineer-interview",
-  "vegapay-security-engineer-interview"
+  "vegapay-security-engineer-interview",
+  "zilo-product-designer-interview",
+  "zilo-product-manager-interview",
+  "zilo-ui-ux-designer-interview",
+  "agrim-data-analyst-interview",
+  "agrim-data-engineer-interview",
+  "agrim-data-scientist-interview",
+  "aivarinnovations-product-manager-interview",
+  "anarock-machine-learning-engineer-interview",
+  "anarock-product-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
