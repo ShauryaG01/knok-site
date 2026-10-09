@@ -1,13 +1,5 @@
 {
  "queue": [
-  "procol-product-manager-interview",
-  "procol-qa-engineer-interview",
-  "procol-software-engineer-interview",
-  "respo-financial-capital-product-manager-interview",
-  "shashwath-solution-product-manager-interview",
-  "solarsquare-business-analyst-interview",
-  "solarsquare-data-engineer-interview",
-  "solarsquare-engineering-manager-interview",
   "solarsquare-mobile-engineer-interview",
   "solarsquare-product-designer-interview",
   "solarsquare-program-manager-interview",
@@ -4673,7 +4665,15 @@
   "optum-program-manager-interview",
   "prismforce-engineering-manager-interview",
   "prismforce-product-manager-interview",
-  "prismforce-qa-engineer-interview"
+  "prismforce-qa-engineer-interview",
+  "procol-product-manager-interview",
+  "procol-qa-engineer-interview",
+  "procol-software-engineer-interview",
+  "respo-financial-capital-product-manager-interview",
+  "shashwath-solution-product-manager-interview",
+  "solarsquare-business-analyst-interview",
+  "solarsquare-data-engineer-interview",
+  "solarsquare-engineering-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
