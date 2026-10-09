@@ -1,13 +1,5 @@
 {
  "queue": [
-  "crewkarma-product-designer-interview",
-  "dbs-bank-business-analyst-interview",
-  "dbs-bank-product-manager-interview",
-  "hikaho-system-product-manager-interview",
-  "hirezy-ai-business-analyst-interview",
-  "hirezy-ai-product-manager-interview",
-  "infiniteuptime-product-manager-interview",
-  "jp-morgan-chase-product-manager-interview",
   "jp-morgan-chase-program-manager-interview",
   "ketto-product-manager-interview",
   "kpb-consultants-product-manager-interview",
@@ -4673,7 +4665,15 @@
   "bg-consultants-product-manager-interview",
   "bulwark-software-research-business-analyst-interview",
   "bulwark-software-research-program-manager-interview",
-  "crewkarma-data-engineer-interview"
+  "crewkarma-data-engineer-interview",
+  "crewkarma-product-designer-interview",
+  "dbs-bank-business-analyst-interview",
+  "dbs-bank-product-manager-interview",
+  "hikaho-system-product-manager-interview",
+  "hirezy-ai-business-analyst-interview",
+  "hirezy-ai-product-manager-interview",
+  "infiniteuptime-product-manager-interview",
+  "jp-morgan-chase-product-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }

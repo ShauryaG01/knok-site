@@ -9992,6 +9992,22 @@
    ],
    "total": 3547,
    "remaining": 1125
+  },
+  {
+   "date": "2026-10-09T03:39:36+00:00",
+   "count": 8,
+   "slugs": [
+    "crewkarma-product-designer-interview",
+    "dbs-bank-business-analyst-interview",
+    "dbs-bank-product-manager-interview",
+    "hikaho-system-product-manager-interview",
+    "hirezy-ai-business-analyst-interview",
+    "hirezy-ai-product-manager-interview",
+    "infiniteuptime-product-manager-interview",
+    "jp-morgan-chase-product-manager-interview"
+   ],
+   "total": 3555,
+   "remaining": 1117
   }
  ]
 }
