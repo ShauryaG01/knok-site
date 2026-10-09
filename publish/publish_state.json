@@ -1,14 +1,5 @@
 {
  "queue": [
-  "jp-morgan-chase-program-manager-interview",
-  "ketto-product-manager-interview",
-  "kpb-consultants-product-manager-interview",
-  "mastercard-business-analyst-interview",
-  "mastercard-data-engineer-interview",
-  "mastercard-solutions-engineer-interview",
-  "nexus-point-product-manager-interview",
-  "niyo-ui-ux-designer-interview",
-  "north-star-hr-consultants-product-manager-interview",
   "onsitego-product-manager-interview",
   "optum-cloud-engineer-interview",
   "optum-data-analyst-interview",
@@ -4673,7 +4664,16 @@
   "hirezy-ai-business-analyst-interview",
   "hirezy-ai-product-manager-interview",
   "infiniteuptime-product-manager-interview",
-  "jp-morgan-chase-product-manager-interview"
+  "jp-morgan-chase-product-manager-interview",
+  "jp-morgan-chase-program-manager-interview",
+  "ketto-product-manager-interview",
+  "kpb-consultants-product-manager-interview",
+  "mastercard-business-analyst-interview",
+  "mastercard-data-engineer-interview",
+  "mastercard-solutions-engineer-interview",
+  "nexus-point-product-manager-interview",
+  "niyo-ui-ux-designer-interview",
+  "north-star-hr-consultants-product-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
