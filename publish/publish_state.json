@@ -1,14 +1,5 @@
 {
  "queue": [
-  "impactanalytics-mobile-engineer-interview",
-  "impactanalytics-qa-engineer-interview",
-  "inito-data-analyst-interview",
-  "inito-data-engineer-interview",
-  "inito-data-scientist-interview",
-  "inito-product-manager-interview",
-  "inito-program-manager-interview",
-  "inito-software-engineer-interview",
-  "popclub-data-analyst-interview",
   "popclub-qa-engineer-interview",
   "popclub-software-engineer-interview",
   "satsure-devops-engineer-interview",
@@ -4673,7 +4664,16 @@
   "fairdealmarket-product-designer-interview",
   "fairdealmarket-software-engineer-interview",
   "hack2skill-product-manager-interview",
-  "impactanalytics-data-scientist-interview"
+  "impactanalytics-data-scientist-interview",
+  "impactanalytics-mobile-engineer-interview",
+  "impactanalytics-qa-engineer-interview",
+  "inito-data-analyst-interview",
+  "inito-data-engineer-interview",
+  "inito-data-scientist-interview",
+  "inito-product-manager-interview",
+  "inito-program-manager-interview",
+  "inito-software-engineer-interview",
+  "popclub-data-analyst-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
