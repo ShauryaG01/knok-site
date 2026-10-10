@@ -1,15 +1,5 @@
 {
  "queue": [
-  "aivarinnovations-software-engineer-interview",
-  "bharatpe-product-manager-interview",
-  "bharatpe-software-engineer-interview",
-  "carefi-frontend-engineer-interview",
-  "carefi-product-manager-interview",
-  "cashkaro-android-engineer-interview",
-  "cashkaro-mobile-engineer-interview",
-  "cashkaro-qa-engineer-interview",
-  "digiboxx-product-manager-interview",
-  "dpdzero-product-manager-interview",
   "dpdzero-software-engineer-interview",
   "drinkprime-business-analyst-interview",
   "drinkprime-product-manager-interview",
@@ -4673,7 +4663,17 @@
   "zocket-product-manager-interview",
   "zocket-solutions-engineer-interview",
   "aivarinnovations-devops-engineer-interview",
-  "aivarinnovations-frontend-engineer-interview"
+  "aivarinnovations-frontend-engineer-interview",
+  "aivarinnovations-software-engineer-interview",
+  "bharatpe-product-manager-interview",
+  "bharatpe-software-engineer-interview",
+  "carefi-frontend-engineer-interview",
+  "carefi-product-manager-interview",
+  "cashkaro-android-engineer-interview",
+  "cashkaro-mobile-engineer-interview",
+  "cashkaro-qa-engineer-interview",
+  "digiboxx-product-manager-interview",
+  "dpdzero-product-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
