@@ -1,15 +1,5 @@
 {
  "queue": [
-  "wishlink-devops-engineer-interview",
-  "wishlink-frontend-engineer-interview",
-  "wishlink-product-manager-interview",
-  "zippee-product-manager-interview",
-  "zippee-program-manager-interview",
-  "zippee-qa-engineer-interview",
-  "zocket-product-manager-interview",
-  "zocket-solutions-engineer-interview",
-  "aivarinnovations-devops-engineer-interview",
-  "aivarinnovations-frontend-engineer-interview",
   "aivarinnovations-software-engineer-interview",
   "bharatpe-product-manager-interview",
   "bharatpe-software-engineer-interview",
@@ -4673,7 +4663,17 @@
   "voiro-product-manager-interview",
   "vyaparapp-product-manager-interview",
   "vyaparapp-program-manager-interview",
-  "vyaparapp-software-engineer-interview"
+  "vyaparapp-software-engineer-interview",
+  "wishlink-devops-engineer-interview",
+  "wishlink-frontend-engineer-interview",
+  "wishlink-product-manager-interview",
+  "zippee-product-manager-interview",
+  "zippee-program-manager-interview",
+  "zippee-qa-engineer-interview",
+  "zocket-product-manager-interview",
+  "zocket-solutions-engineer-interview",
+  "aivarinnovations-devops-engineer-interview",
+  "aivarinnovations-frontend-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
