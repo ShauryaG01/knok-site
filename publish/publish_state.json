@@ -1,14 +1,5 @@
 {
  "queue": [
-  "bharatnxt-data-analyst-interview",
-  "bharatnxt-mobile-engineer-interview",
-  "clickpost-data-scientist-interview",
-  "clickpost-software-engineer-interview",
-  "disprz-product-manager-interview",
-  "eloelo-business-analyst-interview",
-  "eloelo-data-engineer-interview",
-  "eloelo-machine-learning-engineer-interview",
-  "eloelo-product-designer-interview",
   "eloelo-product-manager-interview",
   "eloelo-program-manager-interview",
   "eloelo-qa-engineer-interview",
@@ -4673,7 +4664,16 @@
   "agrim-data-scientist-interview",
   "aivarinnovations-product-manager-interview",
   "anarock-machine-learning-engineer-interview",
-  "anarock-product-manager-interview"
+  "anarock-product-manager-interview",
+  "bharatnxt-data-analyst-interview",
+  "bharatnxt-mobile-engineer-interview",
+  "clickpost-data-scientist-interview",
+  "clickpost-software-engineer-interview",
+  "disprz-product-manager-interview",
+  "eloelo-business-analyst-interview",
+  "eloelo-data-engineer-interview",
+  "eloelo-machine-learning-engineer-interview",
+  "eloelo-product-designer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
