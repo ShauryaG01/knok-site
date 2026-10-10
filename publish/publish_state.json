@@ -1,14 +1,5 @@
 {
  "queue": [
-  "eloelo-product-manager-interview",
-  "eloelo-program-manager-interview",
-  "eloelo-qa-engineer-interview",
-  "fairdealmarket-data-analyst-interview",
-  "fairdealmarket-data-engineer-interview",
-  "fairdealmarket-product-designer-interview",
-  "fairdealmarket-software-engineer-interview",
-  "hack2skill-product-manager-interview",
-  "impactanalytics-data-scientist-interview",
   "impactanalytics-mobile-engineer-interview",
   "impactanalytics-qa-engineer-interview",
   "inito-data-analyst-interview",
@@ -4673,7 +4664,16 @@
   "eloelo-business-analyst-interview",
   "eloelo-data-engineer-interview",
   "eloelo-machine-learning-engineer-interview",
-  "eloelo-product-designer-interview"
+  "eloelo-product-designer-interview",
+  "eloelo-product-manager-interview",
+  "eloelo-program-manager-interview",
+  "eloelo-qa-engineer-interview",
+  "fairdealmarket-data-analyst-interview",
+  "fairdealmarket-data-engineer-interview",
+  "fairdealmarket-product-designer-interview",
+  "fairdealmarket-software-engineer-interview",
+  "hack2skill-product-manager-interview",
+  "impactanalytics-data-scientist-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
