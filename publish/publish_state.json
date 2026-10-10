@@ -1,14 +1,5 @@
 {
  "queue": [
-  "popclub-qa-engineer-interview",
-  "popclub-software-engineer-interview",
-  "satsure-devops-engineer-interview",
-  "satsure-product-manager-interview",
-  "satsure-qa-engineer-interview",
-  "satsure-solutions-engineer-interview",
-  "silverpush-frontend-engineer-interview",
-  "silverpush-product-manager-interview",
-  "smartcoin-program-manager-interview",
   "tartanhq-frontend-engineer-interview",
   "turno-data-scientist-interview",
   "turno-machine-learning-engineer-interview",
@@ -4673,7 +4664,16 @@
   "inito-product-manager-interview",
   "inito-program-manager-interview",
   "inito-software-engineer-interview",
-  "popclub-data-analyst-interview"
+  "popclub-data-analyst-interview",
+  "popclub-qa-engineer-interview",
+  "popclub-software-engineer-interview",
+  "satsure-devops-engineer-interview",
+  "satsure-product-manager-interview",
+  "satsure-qa-engineer-interview",
+  "satsure-solutions-engineer-interview",
+  "silverpush-frontend-engineer-interview",
+  "silverpush-product-manager-interview",
+  "smartcoin-program-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
