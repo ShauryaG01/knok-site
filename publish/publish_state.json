@@ -1,15 +1,5 @@
 {
  "queue": [
-  "tartanhq-frontend-engineer-interview",
-  "turno-data-scientist-interview",
-  "turno-machine-learning-engineer-interview",
-  "turno-product-manager-interview",
-  "unboxrobotics-engineering-manager-interview",
-  "unboxrobotics-software-engineer-interview",
-  "voiro-product-manager-interview",
-  "vyaparapp-product-manager-interview",
-  "vyaparapp-program-manager-interview",
-  "vyaparapp-software-engineer-interview",
   "wishlink-devops-engineer-interview",
   "wishlink-frontend-engineer-interview",
   "wishlink-product-manager-interview",
@@ -4673,7 +4663,17 @@
   "satsure-solutions-engineer-interview",
   "silverpush-frontend-engineer-interview",
   "silverpush-product-manager-interview",
-  "smartcoin-program-manager-interview"
+  "smartcoin-program-manager-interview",
+  "tartanhq-frontend-engineer-interview",
+  "turno-data-scientist-interview",
+  "turno-machine-learning-engineer-interview",
+  "turno-product-manager-interview",
+  "unboxrobotics-engineering-manager-interview",
+  "unboxrobotics-software-engineer-interview",
+  "voiro-product-manager-interview",
+  "vyaparapp-product-manager-interview",
+  "vyaparapp-program-manager-interview",
+  "vyaparapp-software-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
