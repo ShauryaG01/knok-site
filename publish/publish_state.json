@@ -1,14 +1,5 @@
 {
  "queue": [
-  "cisco-data-engineer-interview",
-  "cisco-data-scientist-interview",
-  "cisco-machine-learning-engineer-interview",
-  "cisco-qa-engineer-interview",
-  "creditvidya-product-manager-interview",
-  "exl-service-cloud-engineer-interview",
-  "exl-service-engineering-manager-interview",
-  "exl-service-platform-engineer-interview",
-  "exl-service-product-manager-interview",
   "exl-service-security-engineer-interview",
   "exl-service-solutions-engineer-interview",
   "ford-motor-company-data-analyst-interview",
@@ -4793,7 +4784,16 @@
   "blackstone-engineering-manager-interview",
   "blackstone-program-manager-interview",
   "blackstone-security-engineer-interview",
-  "cisco-cloud-engineer-interview"
+  "cisco-cloud-engineer-interview",
+  "cisco-data-engineer-interview",
+  "cisco-data-scientist-interview",
+  "cisco-machine-learning-engineer-interview",
+  "cisco-qa-engineer-interview",
+  "creditvidya-product-manager-interview",
+  "exl-service-cloud-engineer-interview",
+  "exl-service-engineering-manager-interview",
+  "exl-service-platform-engineer-interview",
+  "exl-service-product-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
