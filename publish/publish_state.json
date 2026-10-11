@@ -1,14 +1,5 @@
 {
  "queue": [
-  "zetwerk-product-manager-interview",
-  "zetwerk-program-manager-interview",
-  "zetwerk-software-engineer-interview",
-  "autodesk-data-analyst-interview",
-  "autodesk-data-engineer-interview",
-  "blackstone-engineering-manager-interview",
-  "blackstone-program-manager-interview",
-  "blackstone-security-engineer-interview",
-  "cisco-cloud-engineer-interview",
   "cisco-data-engineer-interview",
   "cisco-data-scientist-interview",
   "cisco-machine-learning-engineer-interview",
@@ -4793,7 +4784,16 @@
   "travclan-devops-engineer-interview",
   "travclan-product-manager-interview",
   "travclan-software-engineer-interview",
-  "zentrades-engineering-manager-interview"
+  "zentrades-engineering-manager-interview",
+  "zetwerk-product-manager-interview",
+  "zetwerk-program-manager-interview",
+  "zetwerk-software-engineer-interview",
+  "autodesk-data-analyst-interview",
+  "autodesk-data-engineer-interview",
+  "blackstone-engineering-manager-interview",
+  "blackstone-program-manager-interview",
+  "blackstone-security-engineer-interview",
+  "cisco-cloud-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }

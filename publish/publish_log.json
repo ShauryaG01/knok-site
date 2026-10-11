@@ -10316,6 +10316,23 @@
    ],
    "total": 3719,
    "remaining": 1073
+  },
+  {
+   "date": "2026-10-11T13:21:04+00:00",
+   "count": 9,
+   "slugs": [
+    "zetwerk-product-manager-interview",
+    "zetwerk-program-manager-interview",
+    "zetwerk-software-engineer-interview",
+    "autodesk-data-analyst-interview",
+    "autodesk-data-engineer-interview",
+    "blackstone-engineering-manager-interview",
+    "blackstone-program-manager-interview",
+    "blackstone-security-engineer-interview",
+    "cisco-cloud-engineer-interview"
+   ],
+   "total": 3728,
+   "remaining": 1064
   }
  ]
 }
