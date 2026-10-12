@@ -1,13 +1,5 @@
 {
  "queue": [
-  "agoda-devops-engineer-interview",
-  "agoda-machine-learning-engineer-interview",
-  "agoda-product-designer-interview",
-  "agoda-solutions-engineer-interview",
-  "agora-finance-product-designer-interview",
-  "agora-finance-product-manager-interview",
-  "auditoria-ai-engineering-manager-interview",
-  "auditoria-ai-frontend-engineer-interview",
   "auditoria-ai-machine-learning-engineer-interview",
   "birdeye-data-engineer-interview",
   "birdeye-product-manager-interview",
@@ -4793,7 +4785,15 @@
   "visa-platform-engineer-interview",
   "visa-program-manager-interview",
   "visa-security-engineer-interview",
-  "agoda-data-engineer-interview"
+  "agoda-data-engineer-interview",
+  "agoda-devops-engineer-interview",
+  "agoda-machine-learning-engineer-interview",
+  "agoda-product-designer-interview",
+  "agoda-solutions-engineer-interview",
+  "agora-finance-product-designer-interview",
+  "agora-finance-product-manager-interview",
+  "auditoria-ai-engineering-manager-interview",
+  "auditoria-ai-frontend-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
