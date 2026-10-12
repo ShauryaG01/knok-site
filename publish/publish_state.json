@@ -1,13 +1,5 @@
 {
  "queue": [
-  "paypal-program-manager-interview",
-  "questalliance-data-engineer-interview",
-  "visa-devops-engineer-interview",
-  "visa-frontend-engineer-interview",
-  "visa-platform-engineer-interview",
-  "visa-program-manager-interview",
-  "visa-security-engineer-interview",
-  "agoda-data-engineer-interview",
   "agoda-devops-engineer-interview",
   "agoda-machine-learning-engineer-interview",
   "agoda-product-designer-interview",
@@ -4793,7 +4785,15 @@
   "logicladder-product-manager-interview",
   "lseg-data-scientist-interview",
   "lseg-frontend-engineer-interview",
-  "ntrs-product-manager-interview"
+  "ntrs-product-manager-interview",
+  "paypal-program-manager-interview",
+  "questalliance-data-engineer-interview",
+  "visa-devops-engineer-interview",
+  "visa-frontend-engineer-interview",
+  "visa-platform-engineer-interview",
+  "visa-program-manager-interview",
+  "visa-security-engineer-interview",
+  "agoda-data-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
