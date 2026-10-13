@@ -1,14 +1,5 @@
 {
  "queue": [
-  "auditoria-ai-machine-learning-engineer-interview",
-  "birdeye-data-engineer-interview",
-  "birdeye-product-manager-interview",
-  "birdeye-security-engineer-interview",
-  "birdeye-solutions-engineer-interview",
-  "bolna-data-scientist-interview",
-  "bolna-machine-learning-engineer-interview",
-  "bolna-solutions-engineer-interview",
-  "dealeron-product-designer-interview",
   "dealeron-software-engineer-interview",
   "firstadvantage-data-analyst-interview",
   "firstadvantage-data-scientist-interview",
@@ -4793,7 +4784,16 @@
   "agora-finance-product-designer-interview",
   "agora-finance-product-manager-interview",
   "auditoria-ai-engineering-manager-interview",
-  "auditoria-ai-frontend-engineer-interview"
+  "auditoria-ai-frontend-engineer-interview",
+  "auditoria-ai-machine-learning-engineer-interview",
+  "birdeye-data-engineer-interview",
+  "birdeye-product-manager-interview",
+  "birdeye-security-engineer-interview",
+  "birdeye-solutions-engineer-interview",
+  "bolna-data-scientist-interview",
+  "bolna-machine-learning-engineer-interview",
+  "bolna-solutions-engineer-interview",
+  "dealeron-product-designer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
