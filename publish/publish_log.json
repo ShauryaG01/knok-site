@@ -10476,6 +10476,24 @@
    ],
    "total": 3799,
    "remaining": 993
+  },
+  {
+   "date": "2026-10-13T05:14:28+00:00",
+   "count": 10,
+   "slugs": [
+    "dealeron-software-engineer-interview",
+    "firstadvantage-data-analyst-interview",
+    "firstadvantage-data-scientist-interview",
+    "firstadvantage-devops-engineer-interview",
+    "firstadvantage-machine-learning-engineer-interview",
+    "firstadvantage-product-manager-interview",
+    "firstadvantage-qa-engineer-interview",
+    "franconnect-product-designer-interview",
+    "franconnect-product-manager-interview",
+    "heartbeat-ai-gmbh-cloud-engineer-interview"
+   ],
+   "total": 3809,
+   "remaining": 983
   }
  ]
 }
