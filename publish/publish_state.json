@@ -1,14 +1,5 @@
 {
  "queue": [
-  "mybeacon-product-manager-interview",
-  "mybeacon-qa-engineer-interview",
-  "narmi-machine-learning-engineer-interview",
-  "narmi-product-manager-interview",
-  "narmi-software-engineer-interview",
-  "nue-io-devops-engineer-interview",
-  "nue-io-frontend-engineer-interview",
-  "nue-io-product-manager-interview",
-  "procurement-partners-product-manager-interview",
   "procurement-partners-software-engineer-interview",
   "skd-se-cloud-engineer-interview",
   "skd-se-devops-engineer-interview",
@@ -4793,7 +4784,16 @@
   "imanage-frontend-engineer-interview",
   "imanage-program-manager-interview",
   "imanage-solutions-engineer-interview",
-  "matrix42-gmbh-software-engineer-interview"
+  "matrix42-gmbh-software-engineer-interview",
+  "mybeacon-product-manager-interview",
+  "mybeacon-qa-engineer-interview",
+  "narmi-machine-learning-engineer-interview",
+  "narmi-product-manager-interview",
+  "narmi-software-engineer-interview",
+  "nue-io-devops-engineer-interview",
+  "nue-io-frontend-engineer-interview",
+  "nue-io-product-manager-interview",
+  "procurement-partners-product-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
