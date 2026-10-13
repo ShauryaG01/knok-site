@@ -10494,6 +10494,23 @@
    ],
    "total": 3809,
    "remaining": 983
+  },
+  {
+   "date": "2026-10-13T06:56:02+00:00",
+   "count": 9,
+   "slugs": [
+    "heartbeat-ai-gmbh-data-analyst-interview",
+    "heartbeat-ai-gmbh-data-engineer-interview",
+    "heartbeat-ai-gmbh-devops-engineer-interview",
+    "heartbeat-ai-gmbh-engineering-manager-interview",
+    "heartbeat-ai-gmbh-platform-engineer-interview",
+    "imanage-frontend-engineer-interview",
+    "imanage-program-manager-interview",
+    "imanage-solutions-engineer-interview",
+    "matrix42-gmbh-software-engineer-interview"
+   ],
+   "total": 3818,
+   "remaining": 974
   }
  ]
 }
