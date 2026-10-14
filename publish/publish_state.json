@@ -1,13 +1,5 @@
 {
  "queue": [
-  "cardekho-product-designer-interview",
-  "cardekho-product-manager-interview",
-  "cardekho-ui-ux-designer-interview",
-  "careers-security-engineer-interview",
-  "cendyn-cloud-engineer-interview",
-  "cendyn-platform-engineer-interview",
-  "cendyn-product-manager-interview",
-  "cendyn-security-engineer-interview",
   "cendyn-solutions-engineer-interview",
   "checkmarx-data-analyst-interview",
   "checkmarx-software-engineer-interview",
@@ -4793,7 +4785,15 @@
   "berg-group-machine-learning-engineer-interview",
   "berg-group-product-manager-interview",
   "berg-group-software-engineer-interview",
-  "cardekho-android-engineer-interview"
+  "cardekho-android-engineer-interview",
+  "cardekho-product-designer-interview",
+  "cardekho-product-manager-interview",
+  "cardekho-ui-ux-designer-interview",
+  "careers-security-engineer-interview",
+  "cendyn-cloud-engineer-interview",
+  "cendyn-platform-engineer-interview",
+  "cendyn-product-manager-interview",
+  "cendyn-security-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }

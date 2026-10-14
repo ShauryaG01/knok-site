@@ -10677,6 +10677,22 @@
    ],
    "total": 3904,
    "remaining": 888
+  },
+  {
+   "date": "2026-10-14T15:53:04+00:00",
+   "count": 8,
+   "slugs": [
+    "cardekho-product-designer-interview",
+    "cardekho-product-manager-interview",
+    "cardekho-ui-ux-designer-interview",
+    "careers-security-engineer-interview",
+    "cendyn-cloud-engineer-interview",
+    "cendyn-platform-engineer-interview",
+    "cendyn-product-manager-interview",
+    "cendyn-security-engineer-interview"
+   ],
+   "total": 3912,
+   "remaining": 880
   }
  ]
 }
