@@ -10597,6 +10597,22 @@
    ],
    "total": 3864,
    "remaining": 928
+  },
+  {
+   "date": "2026-10-14T05:17:55+00:00",
+   "count": 8,
+   "slugs": [
+    "gsk-security-engineer-interview",
+    "gsk-software-engineer-interview",
+    "henkel-business-analyst-interview",
+    "henkel-engineering-manager-interview",
+    "henkel-machine-learning-engineer-interview",
+    "henkel-platform-engineer-interview",
+    "henkel-product-manager-interview",
+    "henkel-security-engineer-interview"
+   ],
+   "total": 3872,
+   "remaining": 920
   }
  ]
 }
