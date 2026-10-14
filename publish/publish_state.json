@@ -1,13 +1,5 @@
 {
  "queue": [
-  "sigma-infosolutions-limited-product-manager-interview",
-  "sigma-infosolutions-limited-qa-engineer-interview",
-  "sigma-infosolutions-limited-software-engineer-interview",
-  "snapsheet-product-manager-interview",
-  "symetra-program-manager-interview",
-  "talenthackers-devops-engineer-interview",
-  "talenthackers-ios-engineer-interview",
-  "talenthackers-product-manager-interview",
   "warner-bros-discovery-devops-engineer-interview",
   "warner-bros-discovery-frontend-engineer-interview",
   "warner-bros-discovery-program-manager-interview",
@@ -4793,7 +4785,15 @@
   "prismhr-qa-engineer-interview",
   "purplle-com-business-analyst-interview",
   "purplle-com-product-manager-interview",
-  "purplle-com-software-engineer-interview"
+  "purplle-com-software-engineer-interview",
+  "sigma-infosolutions-limited-product-manager-interview",
+  "sigma-infosolutions-limited-qa-engineer-interview",
+  "sigma-infosolutions-limited-software-engineer-interview",
+  "snapsheet-product-manager-interview",
+  "symetra-program-manager-interview",
+  "talenthackers-devops-engineer-interview",
+  "talenthackers-ios-engineer-interview",
+  "talenthackers-product-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
