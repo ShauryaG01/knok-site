@@ -1,13 +1,5 @@
 {
  "queue": [
-  "peoplestrong-security-engineer-interview",
-  "peoplestrong-software-engineer-interview",
-  "prismhr-data-scientist-interview",
-  "prismhr-machine-learning-engineer-interview",
-  "prismhr-qa-engineer-interview",
-  "purplle-com-business-analyst-interview",
-  "purplle-com-product-manager-interview",
-  "purplle-com-software-engineer-interview",
   "sigma-infosolutions-limited-product-manager-interview",
   "sigma-infosolutions-limited-qa-engineer-interview",
   "sigma-infosolutions-limited-software-engineer-interview",
@@ -4793,7 +4785,15 @@
   "morningstar-business-analyst-interview",
   "morningstar-devops-engineer-interview",
   "morningstar-product-designer-interview",
-  "peoplestrong-product-manager-interview"
+  "peoplestrong-product-manager-interview",
+  "peoplestrong-security-engineer-interview",
+  "peoplestrong-software-engineer-interview",
+  "prismhr-data-scientist-interview",
+  "prismhr-machine-learning-engineer-interview",
+  "prismhr-qa-engineer-interview",
+  "purplle-com-business-analyst-interview",
+  "purplle-com-product-manager-interview",
+  "purplle-com-software-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
