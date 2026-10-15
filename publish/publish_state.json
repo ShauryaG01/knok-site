@@ -1,14 +1,5 @@
 {
  "queue": [
-  "commit-engineering-manager-interview",
-  "commit-frontend-engineer-interview",
-  "dream-devops-engineer-interview",
-  "dream-machine-learning-engineer-interview",
-  "dream-program-manager-interview",
-  "dream-qa-engineer-interview",
-  "dream-security-engineer-interview",
-  "drivenets-frontend-engineer-interview",
-  "drivenets-qa-engineer-interview",
   "embat-engineering-manager-interview",
   "embat-frontend-engineer-interview",
   "embat-product-manager-interview",
@@ -4793,7 +4784,16 @@
   "classplus-ios-engineer-interview",
   "classplus-qa-engineer-interview",
   "classplus-software-engineer-interview",
-  "commit-data-scientist-interview"
+  "commit-data-scientist-interview",
+  "commit-engineering-manager-interview",
+  "commit-frontend-engineer-interview",
+  "dream-devops-engineer-interview",
+  "dream-machine-learning-engineer-interview",
+  "dream-program-manager-interview",
+  "dream-qa-engineer-interview",
+  "dream-security-engineer-interview",
+  "drivenets-frontend-engineer-interview",
+  "drivenets-qa-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
