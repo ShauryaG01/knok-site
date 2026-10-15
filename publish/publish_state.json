@@ -1,14 +1,5 @@
 {
  "queue": [
-  "cendyn-solutions-engineer-interview",
-  "checkmarx-data-analyst-interview",
-  "checkmarx-software-engineer-interview",
-  "classplus-android-engineer-interview",
-  "classplus-frontend-engineer-interview",
-  "classplus-ios-engineer-interview",
-  "classplus-qa-engineer-interview",
-  "classplus-software-engineer-interview",
-  "commit-data-scientist-interview",
   "commit-engineering-manager-interview",
   "commit-frontend-engineer-interview",
   "dream-devops-engineer-interview",
@@ -4793,7 +4784,16 @@
   "cendyn-cloud-engineer-interview",
   "cendyn-platform-engineer-interview",
   "cendyn-product-manager-interview",
-  "cendyn-security-engineer-interview"
+  "cendyn-security-engineer-interview",
+  "cendyn-solutions-engineer-interview",
+  "checkmarx-data-analyst-interview",
+  "checkmarx-software-engineer-interview",
+  "classplus-android-engineer-interview",
+  "classplus-frontend-engineer-interview",
+  "classplus-ios-engineer-interview",
+  "classplus-qa-engineer-interview",
+  "classplus-software-engineer-interview",
+  "commit-data-scientist-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
