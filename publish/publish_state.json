@@ -1,15 +1,5 @@
 {
  "queue": [
-  "lybrate-ui-ux-designer-interview",
-  "medison-pharma-data-engineer-interview",
-  "moengage-data-architect-interview",
-  "moengage-product-manager-interview",
-  "refinery89-data-scientist-interview",
-  "refinery89-product-manager-interview",
-  "sequoia-connect-android-engineer-interview",
-  "sequoia-connect-business-analyst-interview",
-  "sequoia-connect-data-analyst-interview",
-  "sequoia-connect-ios-engineer-interview",
   "sequoia-connect-machine-learning-engineer-interview",
   "sequoia-connect-product-designer-interview",
   "sequoia-connect-product-manager-interview",
@@ -4793,7 +4783,17 @@
   "lendingkart-mobile-engineer-interview",
   "lendingkart-qa-engineer-interview",
   "lybrate-product-designer-interview",
-  "lybrate-product-manager-interview"
+  "lybrate-product-manager-interview",
+  "lybrate-ui-ux-designer-interview",
+  "medison-pharma-data-engineer-interview",
+  "moengage-data-architect-interview",
+  "moengage-product-manager-interview",
+  "refinery89-data-scientist-interview",
+  "refinery89-product-manager-interview",
+  "sequoia-connect-android-engineer-interview",
+  "sequoia-connect-business-analyst-interview",
+  "sequoia-connect-data-analyst-interview",
+  "sequoia-connect-ios-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
