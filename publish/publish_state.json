@@ -1,13 +1,5 @@
 {
  "queue": [
-  "bright-data-data-analyst-interview",
-  "bright-data-frontend-engineer-interview",
-  "bright-data-machine-learning-engineer-interview",
-  "bright-data-product-manager-interview",
-  "bright-data-security-engineer-interview",
-  "cognyte-data-engineer-interview",
-  "coralogix-frontend-engineer-interview",
-  "coralogix-product-designer-interview",
   "cyera-data-engineer-interview",
   "cyera-engineering-manager-interview",
   "cyera-platform-engineer-interview",
@@ -4793,7 +4785,15 @@
   "werken-bij-belsimpel-product-designer-interview",
   "whatfix101-product-designer-interview",
   "bloomberg-data-analyst-interview",
-  "bloomberg-engineering-manager-interview"
+  "bloomberg-engineering-manager-interview",
+  "bright-data-data-analyst-interview",
+  "bright-data-frontend-engineer-interview",
+  "bright-data-machine-learning-engineer-interview",
+  "bright-data-product-manager-interview",
+  "bright-data-security-engineer-interview",
+  "cognyte-data-engineer-interview",
+  "coralogix-frontend-engineer-interview",
+  "coralogix-product-designer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
