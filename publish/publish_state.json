@@ -1,14 +1,5 @@
 {
  "queue": [
-  "webengage-product-manager-interview",
-  "webengage-qa-engineer-interview",
-  "webengage-security-engineer-interview",
-  "werken-bij-belsimpel-business-analyst-interview",
-  "werken-bij-belsimpel-engineering-manager-interview",
-  "werken-bij-belsimpel-product-designer-interview",
-  "whatfix101-product-designer-interview",
-  "bloomberg-data-analyst-interview",
-  "bloomberg-engineering-manager-interview",
   "bright-data-data-analyst-interview",
   "bright-data-frontend-engineer-interview",
   "bright-data-machine-learning-engineer-interview",
@@ -4793,7 +4784,16 @@
   "vast-data-product-designer-interview",
   "vast-data-product-manager-interview",
   "webengage-data-engineer-interview",
-  "webengage-frontend-engineer-interview"
+  "webengage-frontend-engineer-interview",
+  "webengage-product-manager-interview",
+  "webengage-qa-engineer-interview",
+  "webengage-security-engineer-interview",
+  "werken-bij-belsimpel-business-analyst-interview",
+  "werken-bij-belsimpel-engineering-manager-interview",
+  "werken-bij-belsimpel-product-designer-interview",
+  "whatfix101-product-designer-interview",
+  "bloomberg-data-analyst-interview",
+  "bloomberg-engineering-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
