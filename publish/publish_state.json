@@ -1,14 +1,5 @@
 {
  "queue": [
-  "sequoia-connect-machine-learning-engineer-interview",
-  "sequoia-connect-product-designer-interview",
-  "sequoia-connect-product-manager-interview",
-  "sequoia-connect-security-engineer-interview",
-  "sequoia-connect-software-engineer-interview",
-  "shippypro-product-manager-interview",
-  "solaredge-data-analyst-interview",
-  "solaredge-data-engineer-interview",
-  "solaredge-frontend-engineer-interview",
   "solaredge-machine-learning-engineer-interview",
   "solaredge-product-manager-interview",
   "team8-data-analyst-interview",
@@ -4793,7 +4784,16 @@
   "sequoia-connect-android-engineer-interview",
   "sequoia-connect-business-analyst-interview",
   "sequoia-connect-data-analyst-interview",
-  "sequoia-connect-ios-engineer-interview"
+  "sequoia-connect-ios-engineer-interview",
+  "sequoia-connect-machine-learning-engineer-interview",
+  "sequoia-connect-product-designer-interview",
+  "sequoia-connect-product-manager-interview",
+  "sequoia-connect-security-engineer-interview",
+  "sequoia-connect-software-engineer-interview",
+  "shippypro-product-manager-interview",
+  "solaredge-data-analyst-interview",
+  "solaredge-data-engineer-interview",
+  "solaredge-frontend-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
