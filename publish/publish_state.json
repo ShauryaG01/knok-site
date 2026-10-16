@@ -1,13 +1,5 @@
 {
  "queue": [
-  "team8-solutions-engineer-interview",
-  "thoughtly-product-manager-interview",
-  "thoughtly-software-engineer-interview",
-  "timesinternet-android-engineer-interview",
-  "timesinternet-ios-engineer-interview",
-  "timesinternet-product-designer-interview",
-  "timesinternet-product-manager-interview",
-  "tiqets-product-manager-interview",
   "toppr-product-manager-interview",
   "toppr-software-engineer-interview",
   "uveye-business-analyst-interview",
@@ -4793,7 +4785,15 @@
   "team8-devops-engineer-interview",
   "team8-engineering-manager-interview",
   "team8-product-designer-interview",
-  "team8-security-engineer-interview"
+  "team8-security-engineer-interview",
+  "team8-solutions-engineer-interview",
+  "thoughtly-product-manager-interview",
+  "thoughtly-software-engineer-interview",
+  "timesinternet-android-engineer-interview",
+  "timesinternet-ios-engineer-interview",
+  "timesinternet-product-designer-interview",
+  "timesinternet-product-manager-interview",
+  "tiqets-product-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
