@@ -10863,6 +10863,23 @@
    ],
    "total": 4002,
    "remaining": 790
+  },
+  {
+   "date": "2026-10-16T08:31:45+00:00",
+   "count": 9,
+   "slugs": [
+    "toppr-product-manager-interview",
+    "toppr-software-engineer-interview",
+    "uveye-business-analyst-interview",
+    "uveye-data-engineer-interview",
+    "uveye-program-manager-interview",
+    "vast-data-product-designer-interview",
+    "vast-data-product-manager-interview",
+    "webengage-data-engineer-interview",
+    "webengage-frontend-engineer-interview"
+   ],
+   "total": 4011,
+   "remaining": 781
   }
  ]
 }
