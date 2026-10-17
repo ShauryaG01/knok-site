@@ -1,14 +1,5 @@
 {
  "queue": [
-  "skai-engineering-manager-interview",
-  "superplay-product-designer-interview",
-  "superplay-product-manager-interview",
-  "superplay-qa-engineer-interview",
-  "superplay-ui-ux-designer-interview",
-  "sygnia-product-manager-interview",
-  "vega-machine-learning-engineer-interview",
-  "vega-product-manager-interview",
-  "viber-data-engineer-interview",
   "viber-engineering-manager-interview",
   "viber-ios-engineer-interview",
   "viber-product-designer-interview",
@@ -4793,7 +4784,16 @@
   "safe-fleet-engineering-manager-interview",
   "scaleops-frontend-engineer-interview",
   "scaleops-machine-learning-engineer-interview",
-  "scaleops-product-designer-interview"
+  "scaleops-product-designer-interview",
+  "skai-engineering-manager-interview",
+  "superplay-product-designer-interview",
+  "superplay-product-manager-interview",
+  "superplay-qa-engineer-interview",
+  "superplay-ui-ux-designer-interview",
+  "sygnia-product-manager-interview",
+  "vega-machine-learning-engineer-interview",
+  "vega-product-manager-interview",
+  "viber-data-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
