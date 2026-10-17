@@ -1,14 +1,5 @@
 {
  "queue": [
-  "dimensional-tech-inc-data-engineer-interview",
-  "dimensional-tech-inc-machine-learning-engineer-interview",
-  "dimensional-tech-inc-qa-engineer-interview",
-  "ebas-group-product-manager-interview",
-  "executive-talent-ltd-data-analyst-interview",
-  "executive-talent-ltd-product-designer-interview",
-  "executive-talent-ltd-product-manager-interview",
-  "hornbychapman-ltd-product-manager-interview",
-  "mosaro-data-scientist-interview",
   "mosaro-machine-learning-engineer-interview",
   "mosaro-product-manager-interview",
   "mosaro-software-engineer-interview",
@@ -4793,7 +4784,16 @@
   "career-maker-consultant-bpc-frontend-engineer-interview",
   "career-maker-consultant-bpc-platform-engineer-interview",
   "career-maker-consultant-bpc-security-engineer-interview",
-  "career-maker-consultant-bpc-ui-ux-designer-interview"
+  "career-maker-consultant-bpc-ui-ux-designer-interview",
+  "dimensional-tech-inc-data-engineer-interview",
+  "dimensional-tech-inc-machine-learning-engineer-interview",
+  "dimensional-tech-inc-qa-engineer-interview",
+  "ebas-group-product-manager-interview",
+  "executive-talent-ltd-data-analyst-interview",
+  "executive-talent-ltd-product-designer-interview",
+  "executive-talent-ltd-product-manager-interview",
+  "hornbychapman-ltd-product-manager-interview",
+  "mosaro-data-scientist-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
