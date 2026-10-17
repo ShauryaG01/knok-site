@@ -1,13 +1,5 @@
 {
  "queue": [
-  "guideline-engineering-manager-interview",
-  "guideline-qa-engineer-interview",
-  "guideline-software-engineer-interview",
-  "incredibuild-devops-engineer-interview",
-  "incredibuild-product-manager-interview",
-  "incredibuild-solutions-engineer-interview",
-  "linx-security-frontend-engineer-interview",
-  "linx-security-machine-learning-engineer-interview",
   "linx-security-security-engineer-interview",
   "linx-security-solutions-engineer-interview",
   "pango-ios-engineer-interview",
@@ -4793,7 +4785,15 @@
   "cyera-security-engineer-interview",
   "drivenets-machine-learning-engineer-interview",
   "drivenets-platform-engineer-interview",
-  "guideline-devops-engineer-interview"
+  "guideline-devops-engineer-interview",
+  "guideline-engineering-manager-interview",
+  "guideline-qa-engineer-interview",
+  "guideline-software-engineer-interview",
+  "incredibuild-devops-engineer-interview",
+  "incredibuild-product-manager-interview",
+  "incredibuild-solutions-engineer-interview",
+  "linx-security-frontend-engineer-interview",
+  "linx-security-machine-learning-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
