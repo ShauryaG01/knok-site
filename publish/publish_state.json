@@ -1,13 +1,5 @@
 {
  "queue": [
-  "bloomberg-platform-engineer-interview",
-  "bloomberg-solutions-engineer-interview",
-  "career-maker-consultant-bpc-data-analyst-interview",
-  "career-maker-consultant-bpc-devops-engineer-interview",
-  "career-maker-consultant-bpc-frontend-engineer-interview",
-  "career-maker-consultant-bpc-platform-engineer-interview",
-  "career-maker-consultant-bpc-security-engineer-interview",
-  "career-maker-consultant-bpc-ui-ux-designer-interview",
   "dimensional-tech-inc-data-engineer-interview",
   "dimensional-tech-inc-machine-learning-engineer-interview",
   "dimensional-tech-inc-qa-engineer-interview",
@@ -4793,7 +4785,15 @@
   "abc-worldwide-data-analyst-interview",
   "abc-worldwide-product-manager-interview",
   "abc-worldwide-software-engineer-interview",
-  "ally-financial-devops-engineer-interview"
+  "ally-financial-devops-engineer-interview",
+  "bloomberg-platform-engineer-interview",
+  "bloomberg-solutions-engineer-interview",
+  "career-maker-consultant-bpc-data-analyst-interview",
+  "career-maker-consultant-bpc-devops-engineer-interview",
+  "career-maker-consultant-bpc-frontend-engineer-interview",
+  "career-maker-consultant-bpc-platform-engineer-interview",
+  "career-maker-consultant-bpc-security-engineer-interview",
+  "career-maker-consultant-bpc-ui-ux-designer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
