@@ -10963,6 +10963,22 @@
    ],
    "total": 4054,
    "remaining": 738
+  },
+  {
+   "date": "2026-10-17T06:55:53+00:00",
+   "count": 8,
+   "slugs": [
+    "proteantecs-devops-engineer-interview",
+    "proteantecs-engineering-manager-interview",
+    "proteantecs-software-engineer-interview",
+    "safe-fleet-business-analyst-interview",
+    "safe-fleet-engineering-manager-interview",
+    "scaleops-frontend-engineer-interview",
+    "scaleops-machine-learning-engineer-interview",
+    "scaleops-product-designer-interview"
+   ],
+   "total": 4062,
+   "remaining": 730
   }
  ]
 }
