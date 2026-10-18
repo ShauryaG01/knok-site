@@ -1,12 +1,5 @@
 {
  "queue": [
-  "strategic-employment-solutions-engineer-interview",
-  "talent-r-android-engineer-interview",
-  "talent-r-data-architect-interview",
-  "talent-r-machine-learning-engineer-interview",
-  "talent-r-product-designer-interview",
-  "talent-r-product-manager-interview",
-  "talent-r-qa-engineer-interview",
   "talent-r-solutions-engineer-interview",
   "talentsource-android-engineer-interview",
   "talentsource-business-analyst-interview",
@@ -4793,7 +4786,14 @@
   "strategic-employment-machine-learning-engineer-interview",
   "strategic-employment-platform-engineer-interview",
   "strategic-employment-product-manager-interview",
-  "strategic-employment-program-manager-interview"
+  "strategic-employment-program-manager-interview",
+  "strategic-employment-solutions-engineer-interview",
+  "talent-r-android-engineer-interview",
+  "talent-r-data-architect-interview",
+  "talent-r-machine-learning-engineer-interview",
+  "talent-r-product-designer-interview",
+  "talent-r-product-manager-interview",
+  "talent-r-qa-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
