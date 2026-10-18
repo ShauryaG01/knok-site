@@ -1,13 +1,5 @@
 {
  "queue": [
-  "talent-r-solutions-engineer-interview",
-  "talentsource-android-engineer-interview",
-  "talentsource-business-analyst-interview",
-  "talentsource-data-analyst-interview",
-  "talentsource-program-manager-interview",
-  "views-product-designer-interview",
-  "views-product-manager-interview",
-  "ab-inbev-android-engineer-interview",
   "ab-inbev-frontend-engineer-interview",
   "ab-inbev-machine-learning-engineer-interview",
   "ab-inbev-qa-engineer-interview",
@@ -4793,7 +4785,15 @@
   "talent-r-machine-learning-engineer-interview",
   "talent-r-product-designer-interview",
   "talent-r-product-manager-interview",
-  "talent-r-qa-engineer-interview"
+  "talent-r-qa-engineer-interview",
+  "talent-r-solutions-engineer-interview",
+  "talentsource-android-engineer-interview",
+  "talentsource-business-analyst-interview",
+  "talentsource-data-analyst-interview",
+  "talentsource-program-manager-interview",
+  "views-product-designer-interview",
+  "views-product-manager-interview",
+  "ab-inbev-android-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
