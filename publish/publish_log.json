@@ -11078,6 +11078,22 @@
    ],
    "total": 4113,
    "remaining": 679
+  },
+  {
+   "date": "2026-10-18T06:51:45+00:00",
+   "count": 8,
+   "slugs": [
+    "strategic-employment-business-analyst-interview",
+    "strategic-employment-cloud-engineer-interview",
+    "strategic-employment-data-scientist-interview",
+    "strategic-employment-engineering-manager-interview",
+    "strategic-employment-machine-learning-engineer-interview",
+    "strategic-employment-platform-engineer-interview",
+    "strategic-employment-product-manager-interview",
+    "strategic-employment-program-manager-interview"
+   ],
+   "total": 4121,
+   "remaining": 671
   }
  ]
 }

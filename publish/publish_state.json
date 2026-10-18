@@ -1,13 +1,5 @@
 {
  "queue": [
-  "strategic-employment-business-analyst-interview",
-  "strategic-employment-cloud-engineer-interview",
-  "strategic-employment-data-scientist-interview",
-  "strategic-employment-engineering-manager-interview",
-  "strategic-employment-machine-learning-engineer-interview",
-  "strategic-employment-platform-engineer-interview",
-  "strategic-employment-product-manager-interview",
-  "strategic-employment-program-manager-interview",
   "strategic-employment-solutions-engineer-interview",
   "talent-r-android-engineer-interview",
   "talent-r-data-architect-interview",
@@ -4793,7 +4785,15 @@
   "professional-recruiters-data-architect-interview",
   "professional-recruiters-engineering-manager-interview",
   "professional-recruiters-platform-engineer-interview",
-  "professional-recruiters-product-designer-interview"
+  "professional-recruiters-product-designer-interview",
+  "strategic-employment-business-analyst-interview",
+  "strategic-employment-cloud-engineer-interview",
+  "strategic-employment-data-scientist-interview",
+  "strategic-employment-engineering-manager-interview",
+  "strategic-employment-machine-learning-engineer-interview",
+  "strategic-employment-platform-engineer-interview",
+  "strategic-employment-product-manager-interview",
+  "strategic-employment-program-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
