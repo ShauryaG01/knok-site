@@ -1,13 +1,5 @@
 {
  "queue": [
-  "affirm-qa-engineer-interview",
-  "anaplan-data-analyst-interview",
-  "anaplan-engineering-manager-interview",
-  "anaplan-security-engineer-interview",
-  "appsflyer-cloud-engineer-interview",
-  "appsflyer-data-engineer-interview",
-  "appsflyer-security-engineer-interview",
-  "arizeai-product-manager-interview",
   "asana-devops-engineer-interview",
   "asana-product-designer-interview",
   "atomicwork-frontend-engineer-interview",
@@ -4793,7 +4785,15 @@
   "adyen-data-analyst-interview",
   "adyen-data-engineer-interview",
   "adyen-data-scientist-interview",
-  "adyen-devops-engineer-interview"
+  "adyen-devops-engineer-interview",
+  "affirm-qa-engineer-interview",
+  "anaplan-data-analyst-interview",
+  "anaplan-engineering-manager-interview",
+  "anaplan-security-engineer-interview",
+  "appsflyer-cloud-engineer-interview",
+  "appsflyer-data-engineer-interview",
+  "appsflyer-security-engineer-interview",
+  "arizeai-product-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
