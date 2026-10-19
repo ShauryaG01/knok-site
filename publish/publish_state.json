@@ -1,15 +1,5 @@
 {
  "queue": [
-  "asana-devops-engineer-interview",
-  "asana-product-designer-interview",
-  "atomicwork-frontend-engineer-interview",
-  "atomicwork-machine-learning-engineer-interview",
-  "atomicwork-product-manager-interview",
-  "atomicwork-qa-engineer-interview",
-  "atomicwork-security-engineer-interview",
-  "atomicwork-ui-ux-designer-interview",
-  "avathon-data-engineer-interview",
-  "avathon-data-scientist-interview",
   "avathon-devops-engineer-interview",
   "bill-data-analyst-interview",
   "bill-data-engineer-interview",
@@ -4793,7 +4783,17 @@
   "appsflyer-cloud-engineer-interview",
   "appsflyer-data-engineer-interview",
   "appsflyer-security-engineer-interview",
-  "arizeai-product-manager-interview"
+  "arizeai-product-manager-interview",
+  "asana-devops-engineer-interview",
+  "asana-product-designer-interview",
+  "atomicwork-frontend-engineer-interview",
+  "atomicwork-machine-learning-engineer-interview",
+  "atomicwork-product-manager-interview",
+  "atomicwork-qa-engineer-interview",
+  "atomicwork-security-engineer-interview",
+  "atomicwork-ui-ux-designer-interview",
+  "avathon-data-engineer-interview",
+  "avathon-data-scientist-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
