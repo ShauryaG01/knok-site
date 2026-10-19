@@ -1,14 +1,5 @@
 {
  "queue": [
-  "druva-data-scientist-interview",
-  "druva-machine-learning-engineer-interview",
-  "druva-product-manager-interview",
-  "elastic-data-engineer-interview",
-  "elastic-devops-engineer-interview",
-  "elastic-platform-engineer-interview",
-  "fastly-data-engineer-interview",
-  "fastly-devops-engineer-interview",
-  "fastly-product-manager-interview",
   "fastly-program-manager-interview",
   "fastly-software-engineer-interview",
   "five9-data-engineer-interview",
@@ -4793,7 +4784,16 @@
   "coreweave-solutions-engineer-interview",
   "coreweave-ui-ux-designer-interview",
   "dropbox-data-scientist-interview",
-  "dropbox-frontend-engineer-interview"
+  "dropbox-frontend-engineer-interview",
+  "druva-data-scientist-interview",
+  "druva-machine-learning-engineer-interview",
+  "druva-product-manager-interview",
+  "elastic-data-engineer-interview",
+  "elastic-devops-engineer-interview",
+  "elastic-platform-engineer-interview",
+  "fastly-data-engineer-interview",
+  "fastly-devops-engineer-interview",
+  "fastly-product-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }

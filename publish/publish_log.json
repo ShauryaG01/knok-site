@@ -11261,6 +11261,23 @@
    ],
    "total": 4208,
    "remaining": 584
+  },
+  {
+   "date": "2026-10-19T15:55:35+00:00",
+   "count": 9,
+   "slugs": [
+    "druva-data-scientist-interview",
+    "druva-machine-learning-engineer-interview",
+    "druva-product-manager-interview",
+    "elastic-data-engineer-interview",
+    "elastic-devops-engineer-interview",
+    "elastic-platform-engineer-interview",
+    "fastly-data-engineer-interview",
+    "fastly-devops-engineer-interview",
+    "fastly-product-manager-interview"
+   ],
+   "total": 4217,
+   "remaining": 575
   }
  ]
 }
