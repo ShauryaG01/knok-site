@@ -1,14 +1,5 @@
 {
  "queue": [
-  "avathon-devops-engineer-interview",
-  "bill-data-analyst-interview",
-  "bill-data-engineer-interview",
-  "bill-product-designer-interview",
-  "bill-software-engineer-interview",
-  "block-data-engineer-interview",
-  "box-data-engineer-interview",
-  "box-frontend-engineer-interview",
-  "box-program-manager-interview",
   "braze-devops-engineer-interview",
   "braze-security-engineer-interview",
   "chime-data-analyst-interview",
@@ -4793,7 +4784,16 @@
   "atomicwork-security-engineer-interview",
   "atomicwork-ui-ux-designer-interview",
   "avathon-data-engineer-interview",
-  "avathon-data-scientist-interview"
+  "avathon-data-scientist-interview",
+  "avathon-devops-engineer-interview",
+  "bill-data-analyst-interview",
+  "bill-data-engineer-interview",
+  "bill-product-designer-interview",
+  "bill-software-engineer-interview",
+  "block-data-engineer-interview",
+  "box-data-engineer-interview",
+  "box-frontend-engineer-interview",
+  "box-program-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
