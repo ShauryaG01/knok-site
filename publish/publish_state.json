@@ -1,15 +1,5 @@
 {
  "queue": [
-  "braze-devops-engineer-interview",
-  "braze-security-engineer-interview",
-  "chime-data-analyst-interview",
-  "chime-data-engineer-interview",
-  "chime-platform-engineer-interview",
-  "circleci-data-scientist-interview",
-  "circleci-product-designer-interview",
-  "circleci-product-manager-interview",
-  "circleci-solutions-engineer-interview",
-  "clear-ios-engineer-interview",
   "commvault-cloud-engineer-interview",
   "commvault-software-engineer-interview",
   "fortis-games-product-manager-interview",
@@ -4793,7 +4783,17 @@
   "block-data-engineer-interview",
   "box-data-engineer-interview",
   "box-frontend-engineer-interview",
-  "box-program-manager-interview"
+  "box-program-manager-interview",
+  "braze-devops-engineer-interview",
+  "braze-security-engineer-interview",
+  "chime-data-analyst-interview",
+  "chime-data-engineer-interview",
+  "chime-platform-engineer-interview",
+  "circleci-data-scientist-interview",
+  "circleci-product-designer-interview",
+  "circleci-product-manager-interview",
+  "circleci-solutions-engineer-interview",
+  "clear-ios-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
