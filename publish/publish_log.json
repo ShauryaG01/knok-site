@@ -11355,6 +11355,21 @@
    ],
    "total": 4254,
    "remaining": 538
+  },
+  {
+   "date": "2026-10-20T13:19:18+00:00",
+   "count": 7,
+   "slugs": [
+    "jfrog-qa-engineer-interview",
+    "jfrog-security-engineer-interview",
+    "jfrog-solutions-engineer-interview",
+    "lyft-android-engineer-interview",
+    "lyft-frontend-engineer-interview",
+    "lyft-qa-engineer-interview",
+    "lyft-security-engineer-interview"
+   ],
+   "total": 4261,
+   "remaining": 531
   }
  ]
 }
