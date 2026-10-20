@@ -1,12 +1,5 @@
 {
  "queue": [
-  "fastly-program-manager-interview",
-  "fastly-software-engineer-interview",
-  "five9-data-engineer-interview",
-  "five9-platform-engineer-interview",
-  "five9-product-designer-interview",
-  "g-p-data-scientist-interview",
-  "glance-product-manager-interview",
   "glance-security-engineer-interview",
   "glance-ui-ux-designer-interview",
   "gusto-engineering-manager-interview",
@@ -4793,7 +4786,14 @@
   "elastic-platform-engineer-interview",
   "fastly-data-engineer-interview",
   "fastly-devops-engineer-interview",
-  "fastly-product-manager-interview"
+  "fastly-product-manager-interview",
+  "fastly-program-manager-interview",
+  "fastly-software-engineer-interview",
+  "five9-data-engineer-interview",
+  "five9-platform-engineer-interview",
+  "five9-product-designer-interview",
+  "g-p-data-scientist-interview",
+  "glance-product-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
