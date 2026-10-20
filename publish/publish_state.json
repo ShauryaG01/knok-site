@@ -1,13 +1,5 @@
 {
  "queue": [
-  "glance-security-engineer-interview",
-  "glance-ui-ux-designer-interview",
-  "gusto-engineering-manager-interview",
-  "gusto-frontend-engineer-interview",
-  "gusto-platform-engineer-interview",
-  "gusto-program-manager-interview",
-  "gusto-security-engineer-interview",
-  "hackerrank-data-engineer-interview",
   "hackerrank-devops-engineer-interview",
   "hackerrank-frontend-engineer-interview",
   "hackerrank-product-designer-interview",
@@ -4793,7 +4785,15 @@
   "five9-platform-engineer-interview",
   "five9-product-designer-interview",
   "g-p-data-scientist-interview",
-  "glance-product-manager-interview"
+  "glance-product-manager-interview",
+  "glance-security-engineer-interview",
+  "glance-ui-ux-designer-interview",
+  "gusto-engineering-manager-interview",
+  "gusto-frontend-engineer-interview",
+  "gusto-platform-engineer-interview",
+  "gusto-program-manager-interview",
+  "gusto-security-engineer-interview",
+  "hackerrank-data-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
