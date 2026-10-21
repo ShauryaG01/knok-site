@@ -1,14 +1,5 @@
 {
  "queue": [
-  "nice-data-engineer-interview",
-  "nice-engineering-manager-interview",
-  "nice-machine-learning-engineer-interview",
-  "nice-platform-engineer-interview",
-  "nice-product-designer-interview",
-  "nice-qa-engineer-interview",
-  "okta-frontend-engineer-interview",
-  "okta-machine-learning-engineer-interview",
-  "okx-mobile-engineer-interview",
   "okx-security-engineer-interview",
   "okx-ui-ux-designer-interview",
   "parloa-data-engineer-interview",
@@ -4793,7 +4784,16 @@
   "mixpanel-security-engineer-interview",
   "mongodb-data-engineer-interview",
   "mongodb-platform-engineer-interview",
-  "new-relic-data-scientist-interview"
+  "new-relic-data-scientist-interview",
+  "nice-data-engineer-interview",
+  "nice-engineering-manager-interview",
+  "nice-machine-learning-engineer-interview",
+  "nice-platform-engineer-interview",
+  "nice-product-designer-interview",
+  "nice-qa-engineer-interview",
+  "okta-frontend-engineer-interview",
+  "okta-machine-learning-engineer-interview",
+  "okx-mobile-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
