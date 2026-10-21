@@ -632,6 +632,7 @@
   <url><loc>https://knok.work/blog/checkr-machine-learning-engineer-interview.html</loc><lastmod>2026-10-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/checkr-product-designer-interview.html</loc><lastmod>2026-10-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/checkr-product-manager-interview.html</loc><lastmod>2026-10-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/checkr-qa-engineer-interview.html</loc><lastmod>2026-10-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/checkr-software-engineer-interview.html</loc><lastmod>2026-10-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/chime-data-analyst-interview.html</loc><lastmod>2026-10-15</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/chime-data-engineer-interview.html</loc><lastmod>2026-10-15</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
@@ -830,11 +831,14 @@
   <url><loc>https://knok.work/blog/corteva-data-engineer-interview.html</loc><lastmod>2026-10-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/costar-software-engineer-interview.html</loc><lastmod>2026-10-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/costco-wholesale-software-engineer-interview.html</loc><lastmod>2026-10-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/coupa-business-analyst-interview.html</loc><lastmod>2026-10-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/coupa-data-scientist-interview.html</loc><lastmod>2026-10-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/coupa-devops-engineer-interview.html</loc><lastmod>2026-10-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/coupa-machine-learning-engineer-interview.html</loc><lastmod>2026-10-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/coupa-platform-engineer-interview.html</loc><lastmod>2026-10-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/coupa-product-designer-interview.html</loc><lastmod>2026-10-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/coupa-product-manager-interview.html</loc><lastmod>2026-10-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/coupa-program-manager-interview.html</loc><lastmod>2026-10-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/coupa-software-engineer-interview.html</loc><lastmod>2026-10-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/coupang-software-engineer-interview.html</loc><lastmod>2026-10-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/coverstack-product-manager-interview.html</loc><lastmod>2026-10-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
@@ -1182,6 +1186,10 @@
   <url><loc>https://knok.work/blog/fairdealmarket-software-engineer-interview.html</loc><lastmod>2026-10-20</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/falcon-india-product-manager-interview.html</loc><lastmod>2026-10-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/fampay-engineering-manager-interview.html</loc><lastmod>2026-10-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/fampay-platform-engineer-interview.html</loc><lastmod>2026-10-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/fampay-product-manager-interview.html</loc><lastmod>2026-10-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/fampay-program-manager-interview.html</loc><lastmod>2026-10-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/fampay-ui-ux-designer-interview.html</loc><lastmod>2026-10-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/fastly-data-engineer-interview.html</loc><lastmod>2026-10-20</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/fastly-devops-engineer-interview.html</loc><lastmod>2026-10-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/fastly-product-manager-interview.html</loc><lastmod>2026-10-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
@@ -1197,6 +1205,7 @@
   <url><loc>https://knok.work/blog/figma-program-manager-interview.html</loc><lastmod>2026-10-19</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/figma-security-engineer-interview.html</loc><lastmod>2026-09-20</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/figma-software-engineer-interview.html</loc><lastmod>2026-09-19</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://knok.work/blog/findem-product-manager-interview.html</loc><lastmod>2026-10-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/finkraft-product-manager-interview.html</loc><lastmod>2026-10-13</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/fireworksai-data-scientist-interview.html</loc><lastmod>2026-10-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://knok.work/blog/fireworksai-machine-learning-engineer-interview.html</loc><lastmod>2026-10-13</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
