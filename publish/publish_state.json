@@ -1,14 +1,5 @@
 {
  "queue": [
-  "hevodata-data-analyst-interview",
-  "hevodata-engineering-manager-interview",
-  "hevodata-frontend-engineer-interview",
-  "hevodata-product-manager-interview",
-  "hevodata-program-manager-interview",
-  "hevodata-software-engineer-interview",
-  "hevodata-ui-ux-designer-interview",
-  "hyreo-frontend-engineer-interview",
-  "hyreo-machine-learning-engineer-interview",
   "hyreo-qa-engineer-interview",
   "mindtickle-software-engineer-interview",
   "mindtickle-solutions-engineer-interview",
@@ -4793,7 +4784,16 @@
   "fampay-product-manager-interview",
   "fampay-program-manager-interview",
   "fampay-ui-ux-designer-interview",
-  "findem-product-manager-interview"
+  "findem-product-manager-interview",
+  "hevodata-data-analyst-interview",
+  "hevodata-engineering-manager-interview",
+  "hevodata-frontend-engineer-interview",
+  "hevodata-product-manager-interview",
+  "hevodata-program-manager-interview",
+  "hevodata-software-engineer-interview",
+  "hevodata-ui-ux-designer-interview",
+  "hyreo-frontend-engineer-interview",
+  "hyreo-machine-learning-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
