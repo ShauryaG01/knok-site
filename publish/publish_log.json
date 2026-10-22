@@ -11607,6 +11607,23 @@
    ],
    "total": 4386,
    "remaining": 406
+  },
+  {
+   "date": "2026-10-22T15:55:05+00:00",
+   "count": 9,
+   "slugs": [
+    "guesty-data-analyst-interview",
+    "guesty-program-manager-interview",
+    "gushwork-product-manager-interview",
+    "gushwork-program-manager-interview",
+    "gushwork-software-engineer-interview",
+    "hcl-technologies-data-architect-interview",
+    "hcl-technologies-data-scientist-interview",
+    "hcl-technologies-product-designer-interview",
+    "hcl-technologies-product-manager-interview"
+   ],
+   "total": 4395,
+   "remaining": 397
   }
  ]
 }
