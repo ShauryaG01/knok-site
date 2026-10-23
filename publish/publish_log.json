@@ -11720,6 +11720,22 @@
    ],
    "total": 4443,
    "remaining": 349
+  },
+  {
+   "date": "2026-10-23T15:55:31+00:00",
+   "count": 8,
+   "slugs": [
+    "claroty-software-engineer-interview",
+    "flipkart-business-analyst-interview",
+    "flipkart-data-scientist-interview",
+    "flipkart-machine-learning-engineer-interview",
+    "flipkart-qa-engineer-interview",
+    "ge-vernova-product-manager-interview",
+    "godrej-industries-product-manager-interview",
+    "gokwik-devops-engineer-interview"
+   ],
+   "total": 4451,
+   "remaining": 341
   }
  ]
 }

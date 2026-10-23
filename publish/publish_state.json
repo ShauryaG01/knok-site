@@ -1,13 +1,5 @@
 {
  "queue": [
-  "claroty-software-engineer-interview",
-  "flipkart-business-analyst-interview",
-  "flipkart-data-scientist-interview",
-  "flipkart-machine-learning-engineer-interview",
-  "flipkart-qa-engineer-interview",
-  "ge-vernova-product-manager-interview",
-  "godrej-industries-product-manager-interview",
-  "gokwik-devops-engineer-interview",
   "gokwik-product-manager-interview",
   "ixigo-engineering-manager-interview",
   "ixigo-product-manager-interview",
@@ -4793,7 +4785,15 @@
   "birla-pivot-product-manager-interview",
   "cashe-product-manager-interview",
   "cimpress-product-manager-interview",
-  "claroty-product-manager-interview"
+  "claroty-product-manager-interview",
+  "claroty-software-engineer-interview",
+  "flipkart-business-analyst-interview",
+  "flipkart-data-scientist-interview",
+  "flipkart-machine-learning-engineer-interview",
+  "flipkart-qa-engineer-interview",
+  "ge-vernova-product-manager-interview",
+  "godrej-industries-product-manager-interview",
+  "gokwik-devops-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
