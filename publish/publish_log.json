@@ -11672,6 +11672,22 @@
    ],
    "total": 4419,
    "remaining": 373
+  },
+  {
+   "date": "2026-10-23T08:26:18+00:00",
+   "count": 8,
+   "slugs": [
+    "peoplebox-ai-product-manager-interview",
+    "right-head-hr-consultants-product-manager-interview",
+    "saviynt-cloud-engineer-interview",
+    "saviynt-data-engineer-interview",
+    "saviynt-product-designer-interview",
+    "solarsquare-energy-data-engineer-interview",
+    "solarsquare-energy-machine-learning-engineer-interview",
+    "solarsquare-energy-program-manager-interview"
+   ],
+   "total": 4427,
+   "remaining": 365
   }
  ]
 }
