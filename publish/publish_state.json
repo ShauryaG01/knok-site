@@ -1,13 +1,5 @@
 {
  "queue": [
-  "alaan-product-designer-interview",
-  "alaan-product-manager-interview",
-  "alaan-security-engineer-interview",
-  "alaan-software-engineer-interview",
-  "birla-pivot-product-manager-interview",
-  "cashe-product-manager-interview",
-  "cimpress-product-manager-interview",
-  "claroty-product-manager-interview",
   "claroty-software-engineer-interview",
   "flipkart-business-analyst-interview",
   "flipkart-data-scientist-interview",
@@ -4793,7 +4785,15 @@
   "workspan-product-manager-interview",
   "zageno-product-manager-interview",
   "alaan-devops-engineer-interview",
-  "alaan-frontend-engineer-interview"
+  "alaan-frontend-engineer-interview",
+  "alaan-product-designer-interview",
+  "alaan-product-manager-interview",
+  "alaan-security-engineer-interview",
+  "alaan-software-engineer-interview",
+  "birla-pivot-product-manager-interview",
+  "cashe-product-manager-interview",
+  "cimpress-product-manager-interview",
+  "claroty-product-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
