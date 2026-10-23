@@ -11688,6 +11688,22 @@
    ],
    "total": 4427,
    "remaining": 365
+  },
+  {
+   "date": "2026-10-23T10:48:14+00:00",
+   "count": 8,
+   "slugs": [
+    "univest-product-manager-interview",
+    "veeva-engineering-manager-interview",
+    "veeva-qa-engineer-interview",
+    "veeva-security-engineer-interview",
+    "workspan-product-manager-interview",
+    "zageno-product-manager-interview",
+    "alaan-devops-engineer-interview",
+    "alaan-frontend-engineer-interview"
+   ],
+   "total": 4435,
+   "remaining": 357
   }
  ]
 }
