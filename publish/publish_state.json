@@ -1,13 +1,5 @@
 {
  "queue": [
-  "name-machine-learning-engineer-interview",
-  "name-program-manager-interview",
-  "name-qa-engineer-interview",
-  "name-solutions-engineer-interview",
-  "nium-data-analyst-interview",
-  "nium-data-engineer-interview",
-  "nium-security-engineer-interview",
-  "nium-software-engineer-interview",
   "nurix-devops-engineer-interview",
   "outreach-data-scientist-interview",
   "outreach-devops-engineer-interview",
@@ -4793,7 +4785,15 @@
   "koch-platform-engineer-interview",
   "koch-product-manager-interview",
   "kotak-mahindra-bank-business-analyst-interview",
-  "kotak-mahindra-bank-data-scientist-interview"
+  "kotak-mahindra-bank-data-scientist-interview",
+  "name-machine-learning-engineer-interview",
+  "name-program-manager-interview",
+  "name-qa-engineer-interview",
+  "name-solutions-engineer-interview",
+  "nium-data-analyst-interview",
+  "nium-data-engineer-interview",
+  "nium-security-engineer-interview",
+  "nium-software-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
