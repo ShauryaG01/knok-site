@@ -1,13 +1,5 @@
 {
  "queue": [
-  "hcl-technologies-program-manager-interview",
-  "hcl-technologies-software-engineer-interview",
-  "incred-financial-services-qa-engineer-interview",
-  "koch-data-engineer-interview",
-  "koch-platform-engineer-interview",
-  "koch-product-manager-interview",
-  "kotak-mahindra-bank-business-analyst-interview",
-  "kotak-mahindra-bank-data-scientist-interview",
   "name-machine-learning-engineer-interview",
   "name-program-manager-interview",
   "name-qa-engineer-interview",
@@ -4793,7 +4785,15 @@
   "hcl-technologies-data-architect-interview",
   "hcl-technologies-data-scientist-interview",
   "hcl-technologies-product-designer-interview",
-  "hcl-technologies-product-manager-interview"
+  "hcl-technologies-product-manager-interview",
+  "hcl-technologies-program-manager-interview",
+  "hcl-technologies-software-engineer-interview",
+  "incred-financial-services-qa-engineer-interview",
+  "koch-data-engineer-interview",
+  "koch-platform-engineer-interview",
+  "koch-product-manager-interview",
+  "kotak-mahindra-bank-business-analyst-interview",
+  "kotak-mahindra-bank-data-scientist-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
