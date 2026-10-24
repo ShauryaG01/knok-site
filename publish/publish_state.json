@@ -1,13 +1,5 @@
 {
  "queue": [
-  "nexocean-product-manager-interview",
-  "nisum-data-engineer-interview",
-  "nisum-product-manager-interview",
-  "oneshot-ai-machine-learning-engineer-interview",
-  "oneshot-ai-product-manager-interview",
-  "oneshot-ai-qa-engineer-interview",
-  "oneshot-ai-software-engineer-interview",
-  "oracle-data-engineer-interview",
   "oracle-engineering-manager-interview",
   "oracle-frontend-engineer-interview",
   "oracle-platform-engineer-interview",
@@ -4793,7 +4785,15 @@
   "microsoft-product-manager-interview",
   "moveworks-data-scientist-interview",
   "moveworks-machine-learning-engineer-interview",
-  "moveworks-product-manager-interview"
+  "moveworks-product-manager-interview",
+  "nexocean-product-manager-interview",
+  "nisum-data-engineer-interview",
+  "nisum-product-manager-interview",
+  "oneshot-ai-machine-learning-engineer-interview",
+  "oneshot-ai-product-manager-interview",
+  "oneshot-ai-qa-engineer-interview",
+  "oneshot-ai-software-engineer-interview",
+  "oracle-data-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
