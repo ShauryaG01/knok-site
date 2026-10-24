@@ -11736,6 +11736,22 @@
    ],
    "total": 4451,
    "remaining": 341
+  },
+  {
+   "date": "2026-10-24T03:38:31+00:00",
+   "count": 8,
+   "slugs": [
+    "gokwik-product-manager-interview",
+    "ixigo-engineering-manager-interview",
+    "ixigo-product-manager-interview",
+    "mappy-global-resources-product-manager-interview",
+    "microsoft-product-manager-interview",
+    "moveworks-data-scientist-interview",
+    "moveworks-machine-learning-engineer-interview",
+    "moveworks-product-manager-interview"
+   ],
+   "total": 4459,
+   "remaining": 333
   }
  ]
 }

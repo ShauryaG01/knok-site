@@ -1,13 +1,5 @@
 {
  "queue": [
-  "gokwik-product-manager-interview",
-  "ixigo-engineering-manager-interview",
-  "ixigo-product-manager-interview",
-  "mappy-global-resources-product-manager-interview",
-  "microsoft-product-manager-interview",
-  "moveworks-data-scientist-interview",
-  "moveworks-machine-learning-engineer-interview",
-  "moveworks-product-manager-interview",
   "nexocean-product-manager-interview",
   "nisum-data-engineer-interview",
   "nisum-product-manager-interview",
@@ -4793,7 +4785,15 @@
   "flipkart-qa-engineer-interview",
   "ge-vernova-product-manager-interview",
   "godrej-industries-product-manager-interview",
-  "gokwik-devops-engineer-interview"
+  "gokwik-devops-engineer-interview",
+  "gokwik-product-manager-interview",
+  "ixigo-engineering-manager-interview",
+  "ixigo-product-manager-interview",
+  "mappy-global-resources-product-manager-interview",
+  "microsoft-product-manager-interview",
+  "moveworks-data-scientist-interview",
+  "moveworks-machine-learning-engineer-interview",
+  "moveworks-product-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
