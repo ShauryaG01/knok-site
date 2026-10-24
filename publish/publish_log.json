@@ -11799,6 +11799,22 @@
    ],
    "total": 4482,
    "remaining": 310
+  },
+  {
+   "date": "2026-10-24T10:49:51+00:00",
+   "count": 8,
+   "slugs": [
+    "synopsys-engineering-manager-interview",
+    "synopsys-machine-learning-engineer-interview",
+    "synopsys-product-designer-interview",
+    "synopsys-program-manager-interview",
+    "synopsys-security-engineer-interview",
+    "synopsys-solutions-engineer-interview",
+    "trinet-business-analyst-interview",
+    "trinet-data-analyst-interview"
+   ],
+   "total": 4490,
+   "remaining": 302
   }
  ]
 }

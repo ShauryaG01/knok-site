@@ -1,13 +1,5 @@
 {
  "queue": [
-  "synopsys-engineering-manager-interview",
-  "synopsys-machine-learning-engineer-interview",
-  "synopsys-product-designer-interview",
-  "synopsys-program-manager-interview",
-  "synopsys-security-engineer-interview",
-  "synopsys-solutions-engineer-interview",
-  "trinet-business-analyst-interview",
-  "trinet-data-analyst-interview",
   "trinet-security-engineer-interview",
   "valarr-product-manager-interview",
   "abbvie-product-manager-interview",
@@ -4793,7 +4785,15 @@
   "snapmint-credit-advisory-product-manager-interview",
   "solarsquare-energy-solutions-engineer-interview",
   "starbucks-product-manager-interview",
-  "starbucks-qa-engineer-interview"
+  "starbucks-qa-engineer-interview",
+  "synopsys-engineering-manager-interview",
+  "synopsys-machine-learning-engineer-interview",
+  "synopsys-product-designer-interview",
+  "synopsys-program-manager-interview",
+  "synopsys-security-engineer-interview",
+  "synopsys-solutions-engineer-interview",
+  "trinet-business-analyst-interview",
+  "trinet-data-analyst-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
