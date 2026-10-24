@@ -1,13 +1,5 @@
 {
  "queue": [
-  "sapient-publicissapient-product-manager-interview",
-  "se2-digital-service-llp-product-manager-interview",
-  "skillventory-product-manager-interview",
-  "snapmint-credit-advisory-data-analyst-interview",
-  "snapmint-credit-advisory-product-manager-interview",
-  "solarsquare-energy-solutions-engineer-interview",
-  "starbucks-product-manager-interview",
-  "starbucks-qa-engineer-interview",
   "synopsys-engineering-manager-interview",
   "synopsys-machine-learning-engineer-interview",
   "synopsys-product-designer-interview",
@@ -4793,7 +4785,15 @@
   "oracle-qa-engineer-interview",
   "premas-life-sciences-product-manager-interview",
   "ptc-product-manager-interview",
-  "ptc-program-manager-interview"
+  "ptc-program-manager-interview",
+  "sapient-publicissapient-product-manager-interview",
+  "se2-digital-service-llp-product-manager-interview",
+  "skillventory-product-manager-interview",
+  "snapmint-credit-advisory-data-analyst-interview",
+  "snapmint-credit-advisory-product-manager-interview",
+  "solarsquare-energy-solutions-engineer-interview",
+  "starbucks-product-manager-interview",
+  "starbucks-qa-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
