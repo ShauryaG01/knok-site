@@ -1,12 +1,5 @@
 {
  "queue": [
-  "abra-product-manager-interview",
-  "abra-qa-engineer-interview",
-  "accionlabs-data-architect-interview",
-  "accionlabs-engineering-manager-interview",
-  "accionlabs-ios-engineer-interview",
-  "accionlabs-product-designer-interview",
-  "accionlabs-program-manager-interview",
   "andela-data-analyst-interview",
   "andela-product-designer-interview",
   "andela-software-engineer-interview",
@@ -4793,7 +4786,14 @@
   "abra-engineering-manager-interview",
   "abra-frontend-engineer-interview",
   "abra-machine-learning-engineer-interview",
-  "abra-mobile-engineer-interview"
+  "abra-mobile-engineer-interview",
+  "abra-product-manager-interview",
+  "abra-qa-engineer-interview",
+  "accionlabs-data-architect-interview",
+  "accionlabs-engineering-manager-interview",
+  "accionlabs-ios-engineer-interview",
+  "accionlabs-product-designer-interview",
+  "accionlabs-program-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
