@@ -1,12 +1,5 @@
 {
  "queue": [
-  "oracle-engineering-manager-interview",
-  "oracle-frontend-engineer-interview",
-  "oracle-platform-engineer-interview",
-  "oracle-qa-engineer-interview",
-  "premas-life-sciences-product-manager-interview",
-  "ptc-product-manager-interview",
-  "ptc-program-manager-interview",
   "sapient-publicissapient-product-manager-interview",
   "se2-digital-service-llp-product-manager-interview",
   "skillventory-product-manager-interview",
@@ -4793,7 +4786,14 @@
   "oneshot-ai-product-manager-interview",
   "oneshot-ai-qa-engineer-interview",
   "oneshot-ai-software-engineer-interview",
-  "oracle-data-engineer-interview"
+  "oracle-data-engineer-interview",
+  "oracle-engineering-manager-interview",
+  "oracle-frontend-engineer-interview",
+  "oracle-platform-engineer-interview",
+  "oracle-qa-engineer-interview",
+  "premas-life-sciences-product-manager-interview",
+  "ptc-product-manager-interview",
+  "ptc-program-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }

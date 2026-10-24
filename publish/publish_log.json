@@ -11768,6 +11768,21 @@
    ],
    "total": 4467,
    "remaining": 325
+  },
+  {
+   "date": "2026-10-24T06:52:32+00:00",
+   "count": 7,
+   "slugs": [
+    "oracle-engineering-manager-interview",
+    "oracle-frontend-engineer-interview",
+    "oracle-platform-engineer-interview",
+    "oracle-qa-engineer-interview",
+    "premas-life-sciences-product-manager-interview",
+    "ptc-product-manager-interview",
+    "ptc-program-manager-interview"
+   ],
+   "total": 4474,
+   "remaining": 318
   }
  ]
 }
