@@ -1,14 +1,5 @@
 {
  "queue": [
-  "aspora-ios-engineer-interview",
-  "aspora-product-designer-interview",
-  "aspora-qa-engineer-interview",
-  "assembly-software-engineer-interview",
-  "ava-labs-product-designer-interview",
-  "bigbasket-com-engineering-manager-interview",
-  "bigbasket-com-product-manager-interview",
-  "blue-machines-ai-devops-engineer-interview",
-  "blue-machines-ai-engineering-manager-interview",
   "blue-machines-ai-frontend-engineer-interview",
   "blue-machines-ai-product-manager-interview",
   "blue-machines-ai-software-engineer-interview",
@@ -4793,7 +4784,16 @@
   "artech-llc-platform-engineer-interview",
   "artech-llc-solutions-engineer-interview",
   "aspora-android-engineer-interview",
-  "aspora-devops-engineer-interview"
+  "aspora-devops-engineer-interview",
+  "aspora-ios-engineer-interview",
+  "aspora-product-designer-interview",
+  "aspora-qa-engineer-interview",
+  "assembly-software-engineer-interview",
+  "ava-labs-product-designer-interview",
+  "bigbasket-com-engineering-manager-interview",
+  "bigbasket-com-product-manager-interview",
+  "blue-machines-ai-devops-engineer-interview",
+  "blue-machines-ai-engineering-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
