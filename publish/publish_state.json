@@ -1,13 +1,5 @@
 {
  "queue": [
-  "andela-data-analyst-interview",
-  "andela-product-designer-interview",
-  "andela-software-engineer-interview",
-  "andela-solutions-engineer-interview",
-  "andromeda-software-engineer-interview",
-  "andromeda-solutions-engineer-interview",
-  "apeiro-data-engineer-interview",
-  "apeiro-product-manager-interview",
   "armory-software-engineer-interview",
   "armour-corporate-services-product-manager-interview",
   "artech-llc-cloud-engineer-interview",
@@ -4793,7 +4785,15 @@
   "accionlabs-engineering-manager-interview",
   "accionlabs-ios-engineer-interview",
   "accionlabs-product-designer-interview",
-  "accionlabs-program-manager-interview"
+  "accionlabs-program-manager-interview",
+  "andela-data-analyst-interview",
+  "andela-product-designer-interview",
+  "andela-software-engineer-interview",
+  "andela-solutions-engineer-interview",
+  "andromeda-software-engineer-interview",
+  "andromeda-solutions-engineer-interview",
+  "apeiro-data-engineer-interview",
+  "apeiro-product-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
