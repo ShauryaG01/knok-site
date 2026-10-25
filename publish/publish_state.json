@@ -1,14 +1,5 @@
 {
  "queue": [
-  "capital-one-product-manager-interview",
-  "careforce-product-manager-interview",
-  "cellebrite-data-engineer-interview",
-  "cellebrite-engineering-manager-interview",
-  "cellebrite-machine-learning-engineer-interview",
-  "cellebrite-product-manager-interview",
-  "channable-machine-learning-engineer-interview",
-  "cohort-data-engineer-interview",
-  "cohort-software-engineer-interview",
   "cosmos-software-engineer-interview",
   "coursera-data-scientist-interview",
   "coursera-product-manager-interview",
@@ -4793,7 +4784,16 @@
   "bobcard-devops-engineer-interview",
   "bobcard-product-manager-interview",
   "browserbase-engineering-manager-interview",
-  "browserbase-product-designer-interview"
+  "browserbase-product-designer-interview",
+  "capital-one-product-manager-interview",
+  "careforce-product-manager-interview",
+  "cellebrite-data-engineer-interview",
+  "cellebrite-engineering-manager-interview",
+  "cellebrite-machine-learning-engineer-interview",
+  "cellebrite-product-manager-interview",
+  "channable-machine-learning-engineer-interview",
+  "cohort-data-engineer-interview",
+  "cohort-software-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
