@@ -1,13 +1,5 @@
 {
  "queue": [
-  "cosmos-software-engineer-interview",
-  "coursera-data-scientist-interview",
-  "coursera-product-manager-interview",
-  "crediwatch-software-engineer-interview",
-  "dainik-bhaskar-group-product-manager-interview",
-  "dovetail-devops-engineer-interview",
-  "dovetail-engineering-manager-interview",
-  "dovetail-software-engineer-interview",
   "drw-data-engineer-interview",
   "emerson-electric-engineering-manager-interview",
   "emerson-electric-product-manager-interview",
@@ -4793,7 +4785,15 @@
   "cellebrite-product-manager-interview",
   "channable-machine-learning-engineer-interview",
   "cohort-data-engineer-interview",
-  "cohort-software-engineer-interview"
+  "cohort-software-engineer-interview",
+  "cosmos-software-engineer-interview",
+  "coursera-data-scientist-interview",
+  "coursera-product-manager-interview",
+  "crediwatch-software-engineer-interview",
+  "dainik-bhaskar-group-product-manager-interview",
+  "dovetail-devops-engineer-interview",
+  "dovetail-engineering-manager-interview",
+  "dovetail-software-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
