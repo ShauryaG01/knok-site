@@ -1,14 +1,5 @@
 {
  "queue": [
-  "innovaccer-data-analyst-interview",
-  "innovaccer-engineering-manager-interview",
-  "innovaccer-qa-engineer-interview",
-  "innovaccer-software-engineer-interview",
-  "interviewbit-software-engineer-interview",
-  "kaizen-software-engineer-interview",
-  "kiwi-platform-engineer-interview",
-  "laksh-consultants-product-manager-interview",
-  "lamresearch-product-manager-interview",
   "lamresearch-program-manager-interview",
   "lamresearch-software-engineer-interview",
   "leap-data-engineer-interview",
@@ -4793,7 +4784,16 @@
   "how-to-get-hired-at-myhq",
   "hrd-house-product-manager-interview",
   "hsbc-business-analyst-interview",
-  "hsbc-product-manager-interview"
+  "hsbc-product-manager-interview",
+  "innovaccer-data-analyst-interview",
+  "innovaccer-engineering-manager-interview",
+  "innovaccer-qa-engineer-interview",
+  "innovaccer-software-engineer-interview",
+  "interviewbit-software-engineer-interview",
+  "kaizen-software-engineer-interview",
+  "kiwi-platform-engineer-interview",
+  "laksh-consultants-product-manager-interview",
+  "lamresearch-product-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
