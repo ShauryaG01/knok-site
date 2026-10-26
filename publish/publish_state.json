@@ -1,14 +1,5 @@
 {
  "queue": [
-  "goodscore-product-manager-interview",
-  "growfin-ai-product-manager-interview",
-  "gullak-frontend-engineer-interview",
-  "gullak-product-manager-interview",
-  "hashone-careers-product-manager-interview",
-  "how-to-get-hired-at-myhq",
-  "hrd-house-product-manager-interview",
-  "hsbc-business-analyst-interview",
-  "hsbc-product-manager-interview",
   "innovaccer-data-analyst-interview",
   "innovaccer-engineering-manager-interview",
   "innovaccer-qa-engineer-interview",
@@ -4793,7 +4784,16 @@
   "glossgenius-product-designer-interview",
   "glossgenius-software-engineer-interview",
   "goodscore-frontend-engineer-interview",
-  "goodscore-product-designer-interview"
+  "goodscore-product-designer-interview",
+  "goodscore-product-manager-interview",
+  "growfin-ai-product-manager-interview",
+  "gullak-frontend-engineer-interview",
+  "gullak-product-manager-interview",
+  "hashone-careers-product-manager-interview",
+  "how-to-get-hired-at-myhq",
+  "hrd-house-product-manager-interview",
+  "hsbc-business-analyst-interview",
+  "hsbc-product-manager-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
