@@ -1,12 +1,5 @@
 {
  "queue": [
-  "vapi-engineering-manager-interview",
-  "vectorshift-product-manager-interview",
-  "vetic-product-manager-interview",
-  "vetic-program-manager-interview",
-  "vogo-product-manager-interview",
-  "wells-fargo-product-manager-interview",
-  "wells-fargo-security-engineer-interview",
   "windmill-software-engineer-interview",
   "wondrx-software-engineer-interview",
   "zapier-software-engineer-interview",
@@ -4793,7 +4786,14 @@
   "ukg-data-engineer-interview",
   "ukg-devops-engineer-interview",
   "ukg-machine-learning-engineer-interview",
-  "vapi-devops-engineer-interview"
+  "vapi-devops-engineer-interview",
+  "vapi-engineering-manager-interview",
+  "vectorshift-product-manager-interview",
+  "vetic-product-manager-interview",
+  "vetic-program-manager-interview",
+  "vogo-product-manager-interview",
+  "wells-fargo-product-manager-interview",
+  "wells-fargo-security-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
