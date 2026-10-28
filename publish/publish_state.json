@@ -1,12 +1,5 @@
 {
  "queue": [
-  "intangles-qa-engineer-interview",
-  "intangles-ui-ux-designer-interview",
-  "itilite-devops-engineer-interview",
-  "itilite-security-engineer-interview",
-  "keka-hr-security-engineer-interview",
-  "kickdrum-engineering-manager-interview",
-  "kickdrum-software-engineer-interview",
   "kla-engineering-manager-interview",
   "knabfinance-software-engineer-interview",
   "knorish-frontend-engineer-interview",
@@ -4793,7 +4786,14 @@
   "infilect-qa-engineer-interview",
   "infilect-software-engineer-interview",
   "infosys-devops-engineer-interview",
-  "intangles-data-analyst-interview"
+  "intangles-data-analyst-interview",
+  "intangles-qa-engineer-interview",
+  "intangles-ui-ux-designer-interview",
+  "itilite-devops-engineer-interview",
+  "itilite-security-engineer-interview",
+  "keka-hr-security-engineer-interview",
+  "kickdrum-engineering-manager-interview",
+  "kickdrum-software-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
