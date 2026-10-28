@@ -1,12 +1,5 @@
 {
  "queue": [
-  "haptik-machine-learning-engineer-interview",
-  "haptik-program-manager-interview",
-  "hbk-devops-engineer-interview",
-  "hbk-software-engineer-interview",
-  "hdfc-credila-financial-services-software-engineer-interview",
-  "hyperface-frontend-engineer-interview",
-  "imagine-learning-frontend-engineer-interview",
   "imagine-learning-machine-learning-engineer-interview",
   "imagine-learning-security-engineer-interview",
   "infilect-engineering-manager-interview",
@@ -4793,7 +4786,14 @@
   "explara-product-designer-interview",
   "explara-software-engineer-interview",
   "hackerearth-frontend-engineer-interview",
-  "haptik-devops-engineer-interview"
+  "haptik-devops-engineer-interview",
+  "haptik-machine-learning-engineer-interview",
+  "haptik-program-manager-interview",
+  "hbk-devops-engineer-interview",
+  "hbk-software-engineer-interview",
+  "hdfc-credila-financial-services-software-engineer-interview",
+  "hyperface-frontend-engineer-interview",
+  "imagine-learning-frontend-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
