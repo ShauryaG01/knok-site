@@ -12280,6 +12280,22 @@
    ],
    "total": 4723,
    "remaining": 69
+  },
+  {
+   "date": "2026-10-28T15:58:10+00:00",
+   "count": 8,
+   "slugs": [
+    "kla-engineering-manager-interview",
+    "knabfinance-software-engineer-interview",
+    "knorish-frontend-engineer-interview",
+    "knorish-software-engineer-interview",
+    "leena-ai-machine-learning-engineer-interview",
+    "leena-ai-product-designer-interview",
+    "locus-qa-engineer-interview",
+    "locus-security-engineer-interview"
+   ],
+   "total": 4731,
+   "remaining": 61
   }
  ]
 }
