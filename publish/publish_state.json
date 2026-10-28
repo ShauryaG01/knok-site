@@ -1,13 +1,5 @@
 {
  "queue": [
-  "detecttechnologies-software-engineer-interview",
-  "divisions-maintenance-group-engineering-manager-interview",
-  "eastencher-software-software-engineer-interview",
-  "eiris-software-engineer-interview",
-  "explara-product-designer-interview",
-  "explara-software-engineer-interview",
-  "hackerearth-frontend-engineer-interview",
-  "haptik-devops-engineer-interview",
   "haptik-machine-learning-engineer-interview",
   "haptik-program-manager-interview",
   "hbk-devops-engineer-interview",
@@ -4793,7 +4785,15 @@
   "coindcx-software-engineer-interview",
   "convegenius-data-engineer-interview",
   "convegenius-machine-learning-engineer-interview",
-  "convegenius-qa-engineer-interview"
+  "convegenius-qa-engineer-interview",
+  "detecttechnologies-software-engineer-interview",
+  "divisions-maintenance-group-engineering-manager-interview",
+  "eastencher-software-software-engineer-interview",
+  "eiris-software-engineer-interview",
+  "explara-product-designer-interview",
+  "explara-software-engineer-interview",
+  "hackerearth-frontend-engineer-interview",
+  "haptik-devops-engineer-interview"
  ],
  "launch_date": "2026-07-08T08:49:55+00:00"
 }
