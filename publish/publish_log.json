@@ -12249,6 +12249,22 @@
    ],
    "total": 4708,
    "remaining": 84
+  },
+  {
+   "date": "2026-10-28T10:48:45+00:00",
+   "count": 8,
+   "slugs": [
+    "imagine-learning-machine-learning-engineer-interview",
+    "imagine-learning-security-engineer-interview",
+    "infilect-engineering-manager-interview",
+    "infilect-ios-engineer-interview",
+    "infilect-qa-engineer-interview",
+    "infilect-software-engineer-interview",
+    "infosys-devops-engineer-interview",
+    "intangles-data-analyst-interview"
+   ],
+   "total": 4716,
+   "remaining": 76
   }
  ]
 }
