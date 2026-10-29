@@ -12296,6 +12296,21 @@
    ],
    "total": 4731,
    "remaining": 61
+  },
+  {
+   "date": "2026-10-29T03:39:06+00:00",
+   "count": 7,
+   "slugs": [
+    "locus-software-engineer-interview",
+    "locus-solutions-engineer-interview",
+    "loop-subscriptions-software-engineer-interview",
+    "lucio-software-engineer-interview",
+    "matchmove-pay-engineering-manager-interview",
+    "materialdepot-program-manager-interview",
+    "materialdepot-software-engineer-interview"
+   ],
+   "total": 4738,
+   "remaining": 54
   }
  ]
 }
